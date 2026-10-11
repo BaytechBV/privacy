@@ -107,3 +107,45 @@ if __name__ == "__main__":
         s = open(f"{slug}/index.html").read()
         assert CONTACT in s and "Apple" in s, slug
     print("ok", list(APPS))
+
+
+# --- Support pages: <slug>/support/ (App Store "Support URL"). Independent per app, like the privacy pages.
+S = {
+    "en": dict(h="Support", contact="Questions or problems? Email us at <a href='mailto:{c}'>{c}</a>. We usually reply within 2 business days.",
+               faq="Frequently asked questions",
+               q=[("How do I restore my purchase?", "Open Settings in the app and tap “Restore purchases”. Use the same Apple ID you bought with."),
+                  ("Does the full version work on my other devices?", "Yes. The one-time purchase is linked to your Apple ID. Restore it on each device."),
+                  ("How do I get a refund?", "Refunds are handled by Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+                  ("Where is my progress stored?", "Only on your device. Deleting the app deletes your progress.")],
+               priv="Privacy Policy"),
+    "de": dict(h="Support", contact="Fragen oder Probleme? Schreib uns an <a href='mailto:{c}'>{c}</a>. Wir antworten meist innerhalb von 2 Werktagen.",
+               faq="Häufige Fragen",
+               q=[("Wie stelle ich meinen Kauf wieder her?", "Öffne in der App die Einstellungen und tippe auf „Käufe wiederherstellen“. Verwende dieselbe Apple-ID wie beim Kauf."),
+                  ("Gilt die Vollversion auch auf meinen anderen Geräten?", "Ja. Der einmalige Kauf ist an deine Apple-ID gebunden. Stelle ihn auf jedem Gerät wieder her."),
+                  ("Wie bekomme ich eine Erstattung?", "Erstattungen laufen über Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+                  ("Wo wird mein Fortschritt gespeichert?", "Nur auf deinem Gerät. Wenn du die App löschst, wird auch dein Fortschritt gelöscht.")],
+               priv="Datenschutzerklärung"),
+    "nl": dict(h="Support", contact="Vragen of problemen? Mail ons via <a href='mailto:{c}'>{c}</a>. We antwoorden meestal binnen 2 werkdagen.",
+               faq="Veelgestelde vragen",
+               q=[("Hoe herstel ik mijn aankoop?", "Open Instellingen in de app en tik op ‘Aankopen herstellen’. Gebruik dezelfde Apple ID als bij de aankoop."),
+                  ("Werkt de volledige versie ook op mijn andere apparaten?", "Ja. De eenmalige aankoop is gekoppeld aan je Apple ID. Herstel hem op elk apparaat."),
+                  ("Hoe krijg ik mijn geld terug?", "Terugbetalingen lopen via Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+                  ("Waar wordt mijn voortgang opgeslagen?", "Alleen op je apparaat. Als je de app verwijdert, is je voortgang ook weg.")],
+               priv="Privacybeleid"),
+}
+
+for slug, (name, langs, _) in APPS.items():
+    os.makedirs(f"{slug}/support", exist_ok=True)
+    secs = []
+    for l in langs:
+        s = S[l]
+        qa = "".join(f"<h3>{q}</h3><p>{a}</p>" for q, a in s["q"])
+        secs.append(f"<section id='{l}' lang='{l}'><h1>{s['h']} – {name}</h1><p>{s['contact'].format(c=CONTACT)}</p>"
+                    f"<h2>{s['faq']}</h2>{qa}<p><a href='../'>{s['priv']}</a></p></section>")
+    nav = "".join(f"<a href='#{l}'>{l.upper()}</a>" for l in langs)
+    with open(f"{slug}/support/index.html", "w") as f:
+        f.write(f"<!doctype html><html lang='{langs[0]}'><head><meta charset='utf-8'>"
+                f"<meta name='viewport' content='width=device-width,initial-scale=1'><title>{name} – Support</title>"
+                f"<style>{CSS}h3{{font-size:1em;margin-bottom:0}}</style></head><body><nav>{nav}</nav>{'<hr>'.join(secs)}</body></html>")
+    assert CONTACT in open(f"{slug}/support/index.html").read(), slug
+print("support ok")
