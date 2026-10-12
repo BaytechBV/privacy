@@ -1,0 +1,87 @@
+# Generates one landing page per app at <slug>/app/ (App Store "Marketing URL").
+# Text comes from each app's ios/AppStore/metadata.json (same copy as the store listing), so re-run after metadata changes:
+#   python3 landing.py ~/Documents/Projects/baytech
+import html, json, os, re, subprocess, sys
+
+from build import APPS, CSS
+
+SRC = sys.argv[1] if len(sys.argv) > 1 else "../baytech"
+BASE = "https://baytechbv.github.io/privacy"
+IDS = {"inburgering-examen": 6821393432, "vca-examen": 6821394093, "sachkunde-34a": 6821394411,
+       "fischereischein": 6821394685, "golf-platzreife": 6821395142}
+SHOTS = 3  # first N store screenshots (the ASO order puts the strongest first)
+# Store button text and support link label per localization.
+L = {"de": ("Im App Store laden", "Support"), "nl": ("Download in de App Store", "Support"),
+     "en": ("Download on the App Store", "Support"), "tr": ("App Store'dan indir", "Destek"),
+     "pl": ("Pobierz z App Store", "Pomoc"), "ar": ("التنزيل من App Store", "الدعم")}
+
+LCSS = CSS + """body{overflow-wrap:anywhere}.lead{font-size:1.15em;color:var(--mu);margin-top:0}
+.btn{display:inline-block;background:var(--fg);color:var(--bg);text-decoration:none;padding:10px 18px;border-radius:10px;font-weight:600}
+.shots{display:flex;gap:12px;overflow-x:auto;margin:24px 0;padding-bottom:8px}
+.shots img{width:200px;height:auto;border-radius:16px;flex:none;border:1px solid rgba(128,128,128,.25)}
+h2{font-size:.95em;letter-spacing:.04em}ul{padding-inline-start:1.2em}footer{margin-top:40px}"""
+
+
+def desc_html(text):
+    out = []
+    for para in text.strip().split("\n\n"):
+        lines = para.split("\n")
+        if re.search(r"https?://", para):  # trailing privacy/EULA lines: keep, linked
+            out.append("<p class='mu'>" + "<br>".join(re.sub(r"(https?://\S+)", r"<a href='\1'>\1</a>", html.escape(x, quote=False))
+                                                     for x in lines) + "</p>")
+            continue
+        if len(lines) > 1 and lines[0] == lines[0].upper() and re.search(r"[A-ZÄÖÜİ]", lines[0]):
+            out.append(f"<h2>{html.escape(lines[0])}</h2>")
+            lines = lines[1:]
+        items = [x[2:] for x in lines if x[:2] in ("- ", "• ")]
+        if items and len(items) == len(lines):
+            out.append("<ul>" + "".join(f"<li>{html.escape(x)}</li>" for x in items) + "</ul>")
+        else:
+            out.append("<p>" + "<br>".join(html.escape(x) for x in lines) + "</p>")
+    return "".join(out)
+
+
+def shots(slug, loc, fallback):
+    src = f"{SRC}/{slug}/ios/AppStore/screenshots/{loc}"
+    if not os.path.isdir(src):
+        return fallback
+    os.makedirs(f"{slug}/app", exist_ok=True)
+    names = []
+    for i, f in enumerate(sorted(os.listdir(src))[:SHOTS], 1):
+        name = f"{loc}-{i}.jpg"
+        subprocess.run(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "75", "--resampleWidth", "600",
+                        f"{src}/{f}", "--out", f"{slug}/app/{name}"], check=True, capture_output=True)
+        names.append(name)
+    return names
+
+
+for slug, (_, langs, _) in APPS.items():
+    meta = json.load(open(f"{SRC}/{slug}/ios/AppStore/metadata.json"))
+    locs = list(meta)  # metadata order = primary first
+    store = f"https://apps.apple.com/app/id{IDS[slug]}"
+    first = shots(slug, locs[0], [])
+    secs, nav = [], []
+    for loc in locs:
+        m, lang = meta[loc], loc[:2]
+        btn, sup = L[lang]
+        imgs = "".join(f"<img src='{n}' alt='{html.escape(m['name'])} – Screenshot {i}' loading='lazy' width='600' height='1304'>"
+                       for i, n in enumerate(shots(slug, loc, first), 1))
+        rtl = " dir='rtl'" if lang == "ar" else ""
+        secs.append(f"<section id='{lang}' lang='{lang}'{rtl}><h1>{html.escape(m['name'])}</h1>"
+                    f"<p class='lead'>{html.escape(m['subtitle'])}</p><p><a class='btn' href='{store}'>{btn}</a></p>"
+                    f"<div class='shots'>{imgs}</div>{desc_html(m['description'])}"
+                    f"<footer><a href='../support/'>{sup}</a></footer></section>")
+        nav.append(f"<a href='#{lang}'>{lang.upper()}</a>")
+    p = meta[locs[0]]
+    title = html.escape(f"{p['name']} – {p['subtitle']}")
+    with open(f"{slug}/app/index.html", "w") as f:
+        f.write(f"<!doctype html><html lang='{locs[0][:2]}'><head><meta charset='utf-8'>"
+                f"<meta name='viewport' content='width=device-width,initial-scale=1'><title>{title}</title>"
+                f"<meta name='description' content='{html.escape(p['promotionalText'])}'>"
+                f"<meta name='apple-itunes-app' content='app-id={IDS[slug]}'>"
+                f"<link rel='canonical' href='{BASE}/{slug}/app/'>"
+                f"<meta property='og:title' content='{title}'><meta property='og:image' content='{BASE}/{slug}/app/{first[0]}'>"
+                f"<style>{LCSS}</style></head><body><nav>{''.join(nav)}</nav>{'<hr>'.join(secs)}</body></html>")
+    s = open(f"{slug}/app/index.html").read()
+    assert f"id{IDS[slug]}" in s and f"privacy/{slug}/" in s and "../support/" in s and ".jpg" in s, slug
+    print("ok", slug, locs, len(s) // 1024, "KB")
