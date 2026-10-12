@@ -56,7 +56,7 @@ T = {
 # Per-app extras (keyed by language). Keep app-specific facts here so pages can diverge later.
 APPS = {
     "inburgering-examen": ("Inburgering Examen", ["nl", "en"], {}),
-    "vca-examen": ("VCA Examen – Basis & VOL", ["nl", "en"], {
+    "vca-examen": ("VeiligExamen – Basis & VOL", ["nl", "en"], {
         "nl": ("Voorlezen", "De voorleesfunctie gebruikt de spraakfunctie van iOS op je apparaat. Er wordt geen audio opgenomen of verstuurd."),
         "en": ("Read aloud", "The read-aloud feature uses the on-device iOS speech engine. No audio is recorded or sent anywhere."),
     }),
