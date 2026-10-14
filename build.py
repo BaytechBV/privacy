@@ -29,7 +29,8 @@ T = {
         rate="Ratings", rate_t="The app may ask you to rate it using Apple's standard rating dialog. Ratings are handled by Apple.",
         del_="Deleting your data", del_t="Deleting the app removes all data it stored on your device.",
         rights="Your rights", rights_t="If you have questions about this policy or your data, contact us at the address above. "
-               "You may object to the usage statistics at any time (Art. 21 GDPR); deleting the app also deletes the app-instance ID. "
+               "You can switch the usage statistics off at any time in the app's settings (“Send usage statistics”); from then on no events are sent (Art. 21 GDPR). "
+               "Deleting the app also deletes the app-instance ID. "
                "Because the statistics are not linked to your identity, we cannot identify your data in them.",
         chg="Changes", chg_t="We may update this policy. The date above shows the latest version."),
     "de": dict(
@@ -55,7 +56,8 @@ T = {
         rate="Bewertungen", rate_t="Die App kann dich über den Standarddialog von Apple um eine Bewertung bitten. Bewertungen verarbeitet Apple.",
         del_="Daten löschen", del_t="Wenn du die App löschst, werden alle von ihr auf deinem Gerät gespeicherten Daten entfernt.",
         rights="Deine Rechte", rights_t="Bei Fragen zu dieser Erklärung oder zu deinen Daten (Art. 15–21 DSGVO) wende dich an die obige Adresse. "
-               "Du kannst der Nutzungsstatistik jederzeit widersprechen (Art. 21 DSGVO); mit dem Löschen der App wird auch die App-Instanz-ID gelöscht. "
+               "Du kannst die Nutzungsstatistik jederzeit in den Einstellungen der App ausschalten („Nutzungsstatistik senden“); danach werden keine Ereignisse mehr gesendet (Art. 21 DSGVO). "
+               "Mit dem Löschen der App wird auch die App-Instanz-ID gelöscht. "
                "Da die Statistik nicht mit deiner Identität verknüpft ist, können wir deine Daten darin nicht zuordnen.",
         chg="Änderungen", chg_t="Wir können diese Erklärung anpassen. Das Datum oben zeigt die aktuelle Fassung."),
     "nl": dict(
@@ -81,7 +83,8 @@ T = {
         rate="Beoordelingen", rate_t="De app kan je via het standaardvenster van Apple om een beoordeling vragen. Beoordelingen worden door Apple verwerkt.",
         del_="Gegevens verwijderen", del_t="Als je de app verwijdert, worden alle gegevens die de app op je apparaat heeft opgeslagen verwijderd.",
         rights="Je rechten", rights_t="Heb je vragen over dit beleid of je gegevens (AVG)? Neem contact op via het adres hierboven. "
-               "Je kunt op elk moment bezwaar maken tegen de gebruiksstatistieken (art. 21 AVG); als je de app verwijdert, wordt ook de app-instantie-ID verwijderd. "
+               "Je kunt de gebruiksstatistieken op elk moment uitzetten in de instellingen van de app (‘Gebruiksstatistieken versturen’); daarna worden geen gebeurtenissen meer verstuurd (art. 21 AVG). "
+               "Als je de app verwijdert, wordt ook de app-instantie-ID verwijderd. "
                "Omdat de statistieken niet aan je identiteit zijn gekoppeld, kunnen wij jouw gegevens daarin niet herkennen.",
         chg="Wijzigingen", chg_t="We kunnen dit beleid aanpassen. De datum hierboven toont de nieuwste versie."),
 }
