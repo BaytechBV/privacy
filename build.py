@@ -3,53 +3,86 @@ import os
 
 CONTACT = "utqsall@gmail.com"
 OWNER = "Mustafa Utku Bayık"
-UPDATED = "2026-10-11"
+UPDATED = "2026-10-14"
 
 T = {
     "en": dict(
         h="Privacy Policy", upd="Last updated", who="Who we are",
         who_t=f"This app is published by {OWNER}. Contact: <a href='mailto:{CONTACT}'>{CONTACT}</a>.",
         data="What data the app processes",
-        data_t="The app does not require an account and does not collect, store on servers or share any personal data. "
-               "Your learning progress, settings and exam results are stored only on your device.",
-        no="No tracking, analytics or ads",
-        no_t="The app contains no advertising, no analytics or crash-reporting SDKs and does not track you across apps or websites.",
+        data_t="The app does not require an account. Your learning progress, settings and exam results are stored only on your device. "
+               "The only data that leaves your device is the anonymous usage statistics described below.",
+        no="Usage statistics (Google Analytics for Firebase)",
+        no_t="To find out which parts of the app are used and where it can be improved, the app sends anonymous usage events to "
+             "Google Analytics for Firebase (Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Ireland): which screens you open, "
+             "which buttons you tap, when a practice round or mock exam starts and ends (with the score as a range, e.g. “70–84%”), "
+             "and purchase steps. The Firebase SDK also records technical data such as app version, iOS version, device model, "
+             "country/region (derived from the IP address, which is not stored) and a random app-instance ID that is reset when you delete the app. "
+             "No name, e-mail address, question or answer text, or other content you enter is sent. The data is not linked to your identity. "
+             "The app does not use the advertising identifier (IDFA), shows no ads and does not track you across apps or websites. "
+             "Legal basis: our legitimate interest in improving the app (Art. 6(1)(f) GDPR). Google may process data in the USA; "
+             "Google LLC is certified under the EU-US Data Privacy Framework. Event data is deleted after 2 months. "
+             "See <a href='https://policies.google.com/privacy'>Google's Privacy Policy</a> and "
+             "<a href='https://firebase.google.com/support/privacy'>Privacy and Security in Firebase</a>.",
         buy="Purchases", buy_t="The one-time in-app purchase is handled entirely by Apple via the App Store. We do not receive your payment details. "
                "See <a href='https://www.apple.com/legal/privacy/'>Apple's Privacy Policy</a>.",
         rate="Ratings", rate_t="The app may ask you to rate it using Apple's standard rating dialog. Ratings are handled by Apple.",
         del_="Deleting your data", del_t="Deleting the app removes all data it stored on your device.",
         rights="Your rights", rights_t="If you have questions about this policy or your data, contact us at the address above. "
-               "Since we hold no personal data about you, there is nothing for us to access, correct or delete.",
+               "You may object to the usage statistics at any time (Art. 21 GDPR); deleting the app also deletes the app-instance ID. "
+               "Because the statistics are not linked to your identity, we cannot identify your data in them.",
         chg="Changes", chg_t="We may update this policy. The date above shows the latest version."),
     "de": dict(
         h="Datenschutzerklärung", upd="Stand", who="Verantwortlicher",
         who_t=f"Diese App wird von {OWNER} veröffentlicht. Kontakt: <a href='mailto:{CONTACT}'>{CONTACT}</a>.",
         data="Welche Daten die App verarbeitet",
-        data_t="Die App benötigt kein Konto und erhebt, speichert auf Servern oder teilt keine personenbezogenen Daten. "
-               "Lernfortschritt, Einstellungen und Prüfungsergebnisse werden ausschließlich auf deinem Gerät gespeichert.",
-        no="Kein Tracking, keine Analyse, keine Werbung",
-        no_t="Die App enthält keine Werbung, keine Analyse- oder Absturzberichts-SDKs und verfolgt dich nicht über Apps oder Websites hinweg.",
+        data_t="Die App benötigt kein Konto. Lernfortschritt, Einstellungen und Prüfungsergebnisse werden ausschließlich auf deinem Gerät gespeichert. "
+               "Dein Gerät verlassen nur die unten beschriebenen anonymen Nutzungsstatistiken.",
+        no="Nutzungsstatistik (Google Analytics for Firebase)",
+        no_t="Um zu erfahren, welche Teile der App genutzt werden und wo wir sie verbessern können, sendet die App anonyme Nutzungsereignisse an "
+             "Google Analytics for Firebase (Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Irland): welche Bildschirme du öffnest, "
+             "welche Schaltflächen du antippst, wann eine Übungsrunde oder Prüfungssimulation beginnt und endet (mit dem Ergebnis als Spanne, z. B. „70–84 %“) "
+             "sowie Kaufschritte. Das Firebase-SDK erfasst außerdem technische Daten wie App-Version, iOS-Version, Gerätemodell, "
+             "Land/Region (aus der IP-Adresse abgeleitet, die nicht gespeichert wird) und eine zufällige App-Instanz-ID, die beim Löschen der App zurückgesetzt wird. "
+             "Name, E-Mail-Adresse, Frage- oder Antworttexte und andere Inhalte, die du eingibst, werden nicht übertragen. Die Daten werden nicht mit deiner Identität verknüpft. "
+             "Die App nutzt keine Werbe-ID (IDFA), zeigt keine Werbung und verfolgt dich nicht über Apps oder Websites hinweg. "
+             "Rechtsgrundlage: unser berechtigtes Interesse an der Verbesserung der App (Art. 6 Abs. 1 lit. f DSGVO). Google kann Daten in den USA verarbeiten; "
+             "Google LLC ist nach dem EU-US Data Privacy Framework zertifiziert. Ereignisdaten werden nach 2 Monaten gelöscht. "
+             "Siehe <a href='https://policies.google.com/privacy?hl=de'>Datenschutzerklärung von Google</a> und "
+             "<a href='https://firebase.google.com/support/privacy'>Datenschutz und Sicherheit in Firebase</a>.",
         buy="Käufe", buy_t="Der einmalige In-App-Kauf wird vollständig von Apple über den App Store abgewickelt. Wir erhalten keine Zahlungsdaten. "
                "Siehe <a href='https://www.apple.com/de/legal/privacy/'>Datenschutzrichtlinie von Apple</a>.",
         rate="Bewertungen", rate_t="Die App kann dich über den Standarddialog von Apple um eine Bewertung bitten. Bewertungen verarbeitet Apple.",
         del_="Daten löschen", del_t="Wenn du die App löschst, werden alle von ihr auf deinem Gerät gespeicherten Daten entfernt.",
         rights="Deine Rechte", rights_t="Bei Fragen zu dieser Erklärung oder zu deinen Daten (Art. 15–21 DSGVO) wende dich an die obige Adresse. "
-               "Da wir keine personenbezogenen Daten über dich speichern, gibt es nichts, worüber wir Auskunft geben oder was wir berichtigen oder löschen müssten.",
+               "Du kannst der Nutzungsstatistik jederzeit widersprechen (Art. 21 DSGVO); mit dem Löschen der App wird auch die App-Instanz-ID gelöscht. "
+               "Da die Statistik nicht mit deiner Identität verknüpft ist, können wir deine Daten darin nicht zuordnen.",
         chg="Änderungen", chg_t="Wir können diese Erklärung anpassen. Das Datum oben zeigt die aktuelle Fassung."),
     "nl": dict(
         h="Privacybeleid", upd="Laatst bijgewerkt", who="Wie wij zijn",
         who_t=f"Deze app wordt uitgegeven door {OWNER}. Contact: <a href='mailto:{CONTACT}'>{CONTACT}</a>.",
         data="Welke gegevens de app verwerkt",
-        data_t="De app heeft geen account nodig en verzamelt, bewaart op servers of deelt geen persoonsgegevens. "
-               "Je voortgang, instellingen en examenresultaten worden alleen op je apparaat opgeslagen.",
-        no="Geen tracking, analyse of advertenties",
-        no_t="De app bevat geen advertenties, geen analyse- of crashrapportage-SDK's en volgt je niet via andere apps of websites.",
+        data_t="De app heeft geen account nodig. Je voortgang, instellingen en examenresultaten worden alleen op je apparaat opgeslagen. "
+               "Alleen de hieronder beschreven anonieme gebruiksstatistieken verlaten je apparaat.",
+        no="Gebruiksstatistieken (Google Analytics for Firebase)",
+        no_t="Om te zien welke onderdelen van de app worden gebruikt en wat beter kan, stuurt de app anonieme gebruiksgebeurtenissen naar "
+             "Google Analytics for Firebase (Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Ierland): welke schermen je opent, "
+             "op welke knoppen je tikt, wanneer een oefenronde of proefexamen begint en eindigt (met de score als bereik, bijv. ‘70–84%’) "
+             "en aankoopstappen. De Firebase-SDK legt ook technische gegevens vast zoals appversie, iOS-versie, apparaatmodel, "
+             "land/regio (afgeleid van het IP-adres, dat niet wordt bewaard) en een willekeurige app-instantie-ID die opnieuw wordt ingesteld als je de app verwijdert. "
+             "Naam, e-mailadres, vraag- of antwoordteksten en andere inhoud die je invoert worden niet verstuurd. De gegevens worden niet aan je identiteit gekoppeld. "
+             "De app gebruikt geen advertentie-ID (IDFA), toont geen advertenties en volgt je niet via andere apps of websites. "
+             "Rechtsgrond: ons gerechtvaardigd belang bij het verbeteren van de app (art. 6 lid 1 sub f AVG). Google kan gegevens in de VS verwerken; "
+             "Google LLC is gecertificeerd onder het EU-VS Data Privacy Framework. Gebeurtenisgegevens worden na 2 maanden verwijderd. "
+             "Zie het <a href='https://policies.google.com/privacy?hl=nl'>privacybeleid van Google</a> en "
+             "<a href='https://firebase.google.com/support/privacy'>Privacy and Security in Firebase</a>.",
         buy="Aankopen", buy_t="De eenmalige in-app-aankoop wordt volledig door Apple via de App Store afgehandeld. Wij ontvangen geen betaalgegevens. "
                "Zie het <a href='https://www.apple.com/nl/legal/privacy/'>privacybeleid van Apple</a>.",
         rate="Beoordelingen", rate_t="De app kan je via het standaardvenster van Apple om een beoordeling vragen. Beoordelingen worden door Apple verwerkt.",
         del_="Gegevens verwijderen", del_t="Als je de app verwijdert, worden alle gegevens die de app op je apparaat heeft opgeslagen verwijderd.",
         rights="Je rechten", rights_t="Heb je vragen over dit beleid of je gegevens (AVG)? Neem contact op via het adres hierboven. "
-               "Omdat wij geen persoonsgegevens over je bewaren, is er niets om in te zien, te corrigeren of te verwijderen.",
+               "Je kunt op elk moment bezwaar maken tegen de gebruiksstatistieken (art. 21 AVG); als je de app verwijdert, wordt ook de app-instantie-ID verwijderd. "
+               "Omdat de statistieken niet aan je identiteit zijn gekoppeld, kunnen wij jouw gegevens daarin niet herkennen.",
         chg="Wijzigingen", chg_t="We kunnen dit beleid aanpassen. De datum hierboven toont de nieuwste versie."),
 }
 
