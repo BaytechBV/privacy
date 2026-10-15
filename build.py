@@ -134,6 +134,7 @@ for slug, (name, langs, extra) in APPS.items():
                 f"<body><nav>{nav}</nav>{body}</body></html>")
 
 links = "".join(f"<li><a href='{s}/'>{n}</a></li>" for s, (n, _, _) in APPS.items())
+links += "<li><a href='statsborgerprove-no/'>Statsborgerprøven</a></li>"  # page from statsborgerprove_no.py
 with open("index.html", "w") as f:
     f.write(f"<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>"
             f"<title>Privacy Policies</title><style>{CSS}</style></head><body><h1>Privacy Policies</h1><ul>{links}</ul></body></html>")
