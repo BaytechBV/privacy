@@ -20,9 +20,9 @@ P = {
             "inviterer, via Apples CloudKit. Vi har ikke tilgang til dataene. Du kan når som helst trykke «Stopp deling»; partneren kan trykke «Forlat delingen». "
             "Se <a href='https://www.apple.com/no/legal/privacy/'>Apples personvernerklæring</a>."),
            ("Bruksstatistikk (Google Analytics for Firebase)", "For å se hvilke deler av appen som brukes, sender appen anonyme hendelser til Google Analytics for "
-            "Firebase (Google Ireland Ltd.): hvilke skjermer som åpnes, hvilke knapper som trykkes, og kjøpssteg. Hendelsene inneholder aldri helseopplysninger: "
+            "Firebase (Google Ireland Ltd.): hvilke skjermer som åpnes, hvilke knapper som trykkes, kjøpssteg og kjøpshendelser (produkt og pris). Hendelsene inneholder aldri helseopplysninger: "
             "ingen tider, rier, intervaller, termin, uke, regel, plan, bevegelser, kontakter eller annen tekst du skriver. SDK-en registrerer også tekniske data "
-            "(appversjon, iOS-versjon, enhetsmodell, land utledet fra IP-adressen, som ikke lagres) og en tilfeldig app-ID som nullstilles når du sletter appen. "
+            "(appversjon, iOS-versjon, enhetsmodell, omtrentlig plassering – land/region – som Google utleder fra IP-adressen, og tekniske installasjonsdata fra Firebase Installations) og en tilfeldig app-ID som nullstilles når du sletter appen. "
             "Ingen reklame-ID (IDFA), ingen reklame, ingen sporing. Rettslig grunnlag: berettiget interesse i å forbedre appen (GDPR art. 6(1)(f)). "
             f"Hendelsesdata slettes etter 2 måneder. Slå av under Innstillinger › «Send bruksstatistikk». Mer: {GA[0]}, {GA[1]}."),
            ("Kjøp", "Engangskjøpet håndteres helt av Apple via App Store. Vi får ikke betalingsopplysningene dine."),
@@ -41,9 +41,9 @@ P = {
             "inviterer, via Apples CloudKit. Vi har ikke adgang til dataene. Du kan når som helst trykke »Stop deling«; din partner kan trykke »Forlad delingen«. "
             "Se <a href='https://www.apple.com/dk/legal/privacy/'>Apples privatlivspolitik</a>."),
            ("Brugsstatistik (Google Analytics for Firebase)", "For at se, hvilke dele af appen der bruges, sender appen anonyme hændelser til Google Analytics for "
-            "Firebase (Google Ireland Ltd.): hvilke skærme der åbnes, hvilke knapper der trykkes på, og købstrin. Hændelserne indeholder aldrig helbredsoplysninger: "
+            "Firebase (Google Ireland Ltd.): hvilke skærme der åbnes, hvilke knapper der trykkes på, købstrin og købshændelser (produkt og pris). Hændelserne indeholder aldrig helbredsoplysninger: "
             "ingen tider, veer, intervaller, termin, uge, regel, plan, bevægelser, kontakter eller anden tekst, du skriver. SDK'et registrerer også tekniske data "
-            "(appversion, iOS-version, enhedsmodel, land udledt af IP-adressen, som ikke gemmes) og et tilfældigt app-id, der nulstilles, når du sletter appen. "
+            "(appversion, iOS-version, enhedsmodel, omtrentlig placering – land/region – som Google udleder af IP-adressen, og tekniske installationsdata fra Firebase Installations) og et tilfældigt app-id, der nulstilles, når du sletter appen. "
             "Intet reklame-id (IDFA), ingen reklamer, ingen sporing. Retsgrundlag: legitim interesse i at forbedre appen (GDPR art. 6, stk. 1, litra f). "
             f"Hændelsesdata slettes efter 2 måneder. Slå fra under Indstillinger › »Send brugsstatistik«. Mere: {GA[0]}, {GA[1]}."),
            ("Køb", "Engangskøbet håndteres helt af Apple via App Store. Vi får ikke dine betalingsoplysninger."),
@@ -62,9 +62,9 @@ P = {
             "kutsumallesi henkilölle Applen CloudKitin kautta. Meillä ei ole pääsyä tietoihin. Voit milloin tahansa painaa ”Lopeta jakaminen”; kumppani voi painaa ”Poistu jaosta”. "
             "Katso <a href='https://www.apple.com/fi/legal/privacy/'>Applen tietosuojakäytäntö</a>."),
            ("Käyttötilastot (Google Analytics for Firebase)", "Nähdäksemme, mitä sovelluksen osia käytetään, sovellus lähettää nimettömiä tapahtumia Google Analytics for "
-            "Firebaseen (Google Ireland Ltd.): mitä näyttöjä avataan, mitä painikkeita painetaan ja ostovaiheet. Tapahtumat eivät koskaan sisällä terveystietoja: "
+            "Firebaseen (Google Ireland Ltd.): mitä näyttöjä avataan, mitä painikkeita painetaan, ostovaiheet ja ostotapahtumat (tuote ja hinta). Tapahtumat eivät koskaan sisällä terveystietoja: "
             "ei aikoja, supistuksia, välejä, laskettua aikaa, viikkoa, ohjetta, toiveita, liikkeitä, yhteystietoja tai muuta kirjoittamaasi tekstiä. SDK tallentaa myös "
-            "teknisiä tietoja (sovellusversio, iOS-versio, laitemalli, IP-osoitteesta päätelty maa, IP-osoitetta ei tallenneta) ja satunnaisen sovellustunnuksen, joka "
+            "teknisiä tietoja (sovellusversio, iOS-versio, laitemalli, likimääräinen sijainti – maa/alue – jonka Google päättelee IP-osoitteesta, ja Firebase Installationsin tekniset asennustiedot) ja satunnaisen sovellustunnuksen, joka "
             "nollautuu, kun poistat sovelluksen. Ei mainostunnistetta (IDFA), ei mainoksia, ei seurantaa. Oikeusperuste: oikeutettu etu kehittää sovellusta "
             f"(GDPR 6 artiklan 1 f kohta). Tapahtumatiedot poistetaan 2 kuukauden jälkeen. Kytke pois: Asetukset › ”Lähetä käyttötilastoja”. Lisää: {GA[0]}, {GA[1]}."),
            ("Ostot", "Kertaoston käsittelee kokonaan Apple App Storen kautta. Emme saa maksutietojasi."),
@@ -83,9 +83,9 @@ P = {
             "with the person you invite, through Apple's CloudKit. We have no access to it. You can tap “Stop sharing” at any time; your partner can tap “Leave the share”. "
             "See <a href='https://www.apple.com/legal/privacy/'>Apple's Privacy Policy</a>."),
            ("Usage statistics (Google Analytics for Firebase)", "To see which parts of the app are used, the app sends anonymous events to Google Analytics for "
-            "Firebase (Google Ireland Ltd.): which screens are opened, which buttons are tapped, and purchase steps. Events never contain health information: "
+            "Firebase (Google Ireland Ltd.): which screens are opened, which buttons are tapped, purchase steps and purchase events (product and price). Events never contain health information: "
             "no times, contractions, intervals, due date, week, rule, plan, movements, contacts or any text you type. The SDK also records technical data "
-            "(app version, iOS version, device model, country derived from the IP address, which is not stored) and a random app-instance ID that is reset when you "
+            "(app version, iOS version, device model, approximate location – country/region – that Google derives from the IP address, and technical installation data from Firebase Installations) and a random app-instance ID that is reset when you "
             "delete the app. No advertising identifier (IDFA), no ads, no tracking. Legal basis: legitimate interest in improving the app (Art. 6(1)(f) GDPR). "
             f"Event data is deleted after 2 months. Switch off under Settings › “Send usage statistics”. More: {GA[0]}, {GA[1]}."),
            ("Purchases", "The one-time purchase is handled entirely by Apple via the App Store. We do not receive your payment details."),
