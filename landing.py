@@ -1,6 +1,6 @@
 # Generates one landing page per app at <slug>/app/ (App Store "Marketing URL").
 # Text comes from each app's ios/AppStore/metadata.json (same copy as the store listing), so re-run after metadata changes:
-#   python3 landing.py ~/Documents/Projects/baytech
+#   python3 landing.py ~/Documents/Projects/baytech [slug]   (slug: only that app)
 import html, json, os, re, subprocess, sys
 
 from build import APPS, CSS
@@ -8,10 +8,11 @@ from build import APPS, CSS
 SRC = sys.argv[1] if len(sys.argv) > 1 else "../baytech"
 BASE = "https://baytechbv.github.io/privacy"
 IDS = {"inburgering-examen": 6821393432, "vca-examen": 6821394093, "sachkunde-34a": 6821394411,
-       "fischereischein": 6821394685, "golf-platzreife": 6821395142}
+       "fischereischein": 6821394685, "golf-platzreife": 6821395142,
+       "duelighedsbevis-dk": 6824009361}
 SHOTS = 3  # first N store screenshots (the ASO order puts the strongest first)
 # Store button text and support link label per localization.
-L = {"de": ("Im App Store laden", "Support"), "nl": ("Download in de App Store", "Support"),
+L = {"da": ("Hent i App Store", "Support"), "de": ("Im App Store laden", "Support"), "nl": ("Download in de App Store", "Support"),
      "en": ("Download on the App Store", "Support"), "tr": ("App Store'dan indir", "Destek"),
      "pl": ("Pobierz z App Store", "Pomoc"), "ar": ("التنزيل من App Store", "الدعم")}
 
@@ -55,7 +56,10 @@ def shots(slug, loc, fallback):
     return names
 
 
+ONLY = sys.argv[2] if len(sys.argv) > 2 else None
 for slug, (_, langs, _) in APPS.items():
+    if slug not in IDS or (ONLY and slug != ONLY):  # no App Store id yet → no store button possible
+        continue
     meta = json.load(open(f"{SRC}/{slug}/ios/AppStore/metadata.json"))
     locs = list(meta)  # metadata order = primary first
     store = f"https://apps.apple.com/app/id{IDS[slug]}"
