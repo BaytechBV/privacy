@@ -103,6 +103,11 @@ APPS = {
         "de": ("Externe Links", "Gesetzesverweise öffnen öffentliche Webseiten (z. B. gesetze-im-internet.de) in deinem Browser. Dort gelten die Datenschutzbestimmungen des jeweiligen Anbieters."),
         "en": ("External links", "Legal references open public websites (e.g. gesetze-im-internet.de) in your browser. Those sites' own privacy policies apply."),
     }),
+    "klein-vaarbewijs-nl": ("Klein Vaarbewijs 1 & 2", ["nl", "en", "de"], {
+        "nl": ("Herinneringen en geluid", "De dagelijkse herinnering is een lokale melding die je iPhone zelf plant; daarvoor wordt niets verstuurd. Geluidsseinen worden op je apparaat als toon gemaakt; de app gebruikt geen microfoon."),
+        "en": ("Reminders and sound", "The daily reminder is a local notification scheduled by your iPhone; nothing is sent for it. Sound signals are generated as tones on your device; the app does not use the microphone."),
+        "de": ("Erinnerungen und Ton", "Die tägliche Erinnerung ist eine lokale Mitteilung, die dein iPhone selbst plant; dafür wird nichts gesendet. Schallsignale werden auf deinem Gerät als Ton erzeugt; die App nutzt kein Mikrofon."),
+    }),
     "fischereischein": ("Fischereischein: Angelschein", ["de", "en"], {}),
     "golf-platzreife": ("Platzreife: Golfregeln Quiz", ["de", "nl", "en"], {}),
 }
