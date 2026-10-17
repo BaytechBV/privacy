@@ -60,6 +60,33 @@ T = {
                "Mit dem Löschen der App wird auch die App-Instanz-ID gelöscht. "
                "Da die Statistik nicht mit deiner Identität verknüpft ist, können wir deine Daten darin nicht zuordnen.",
         chg="Änderungen", chg_t="Wir können diese Erklärung anpassen. Das Datum oben zeigt die aktuelle Fassung."),
+    "da": dict(
+        h="Privatlivspolitik", upd="Sidst opdateret", who="Hvem vi er",
+        who_t=f"Appen udgives af {OWNER}. Kontakt: <a href='mailto:{CONTACT}'>{CONTACT}</a>.",
+        data="Hvilke data appen behandler",
+        data_t="Appen kræver ingen konto. Dine fremskridt, indstillinger og prøveresultater gemmes kun på din enhed. "
+               "Det eneste, der forlader din enhed, er den anonyme brugsstatistik, der er beskrevet nedenfor.",
+        no="Brugsstatistik (Google Analytics for Firebase)",
+        no_t="For at se, hvilke dele af appen der bliver brugt, og hvor den kan blive bedre, sender appen anonyme brugshændelser til "
+             "Google Analytics for Firebase (Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Irland): hvilke skærme du åbner, "
+             "hvilke knapper du trykker på, hvornår en øverunde eller prøveeksamen starter og slutter (med resultatet som et interval, fx “70–84 %”) "
+             "og trin i et køb. Firebase-SDK'et registrerer også tekniske data som appversion, iOS-version, enhedsmodel, "
+             "land/region (udledt af IP-adressen, som ikke gemmes) og et tilfældigt app-instans-id, der nulstilles, når du sletter appen. "
+             "Navn, e-mailadresse, spørgsmåls- eller svartekster og andet indhold, du indtaster, sendes ikke. Dataene kobles ikke til din identitet. "
+             "Appen bruger ikke reklame-id'et (IDFA), viser ingen reklamer og sporer dig ikke på tværs af apps eller websteder. "
+             "Retsgrundlag: vores legitime interesse i at forbedre appen (GDPR art. 6, stk. 1, litra f). Google kan behandle data i USA; "
+             "Google LLC er certificeret under EU-US Data Privacy Framework. Hændelsesdata slettes efter 2 måneder. "
+             "Se <a href='https://policies.google.com/privacy?hl=da'>Googles privatlivspolitik</a> og "
+             "<a href='https://firebase.google.com/support/privacy'>Privacy and Security in Firebase</a>.",
+        buy="Køb", buy_t="Engangskøbet i appen håndteres helt af Apple via App Store. Vi modtager ikke dine betalingsoplysninger. "
+               "Se <a href='https://www.apple.com/dk/legal/privacy/'>Apples privatlivspolitik</a>.",
+        rate="Bedømmelser", rate_t="Appen kan bede dig om at bedømme den med Apples almindelige dialog. Bedømmelser håndteres af Apple.",
+        del_="Slet dine data", del_t="Når du sletter appen, slettes alle data, den har gemt på din enhed. Under Indstillinger kan du også nulstille dine fremskridt.",
+        rights="Dine rettigheder", rights_t="Har du spørgsmål om denne politik eller dine data (GDPR art. 15–21), så kontakt os på adressen ovenfor. "
+               "Du kan altid slå brugsstatistikken fra i appens indstillinger (“Send brugsstatistik”); derefter sendes ingen hændelser (GDPR art. 21). "
+               "Når du sletter appen, slettes app-instans-id'et også. "
+               "Da statistikken ikke er koblet til din identitet, kan vi ikke finde dine data i den.",
+        chg="Ændringer", chg_t="Vi kan ændre denne politik. Datoen ovenfor viser den gældende version."),
     "nl": dict(
         h="Privacybeleid", upd="Laatst bijgewerkt", who="Wie wij zijn",
         who_t=f"Deze app wordt uitgegeven door {OWNER}. Contact: <a href='mailto:{CONTACT}'>{CONTACT}</a>.",
@@ -110,6 +137,7 @@ APPS = {
     }),
     "fischereischein": ("Fischereischein: Angelschein", ["de", "en"], {}),
     "golf-platzreife": ("Platzreife: Golfregeln Quiz", ["de", "nl", "en"], {}),
+    "duelighedsbevis-dk": ("Duelighedsbevis – Teori & Test", ["da", "en", "de"], {}),
 }
 
 CSS = """:root{--bg:#fff;--fg:#1c1c1e;--mu:#6b6b70;--ac:#0a66c2}
@@ -171,6 +199,13 @@ S = {
                   ("Wie bekomme ich eine Erstattung?", "Erstattungen laufen über Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
                   ("Wo wird mein Fortschritt gespeichert?", "Nur auf deinem Gerät. Wenn du die App löschst, wird auch dein Fortschritt gelöscht.")],
                priv="Datenschutzerklärung"),
+    "da": dict(h="Support", contact="Spørgsmål eller problemer? Skriv til os på <a href='mailto:{c}'>{c}</a>. Vi svarer som regel inden for 2 hverdage.",
+               faq="Ofte stillede spørgsmål",
+               q=[("Hvordan gendanner jeg mit køb?", "Åbn Indstillinger i appen, og tryk på “Gendan køb”. Brug det samme Apple-id, som du købte med."),
+                  ("Virker den fulde version også på mine andre enheder?", "Ja. Engangskøbet er knyttet til dit Apple-id. Gendan det på hver enhed."),
+                  ("Hvordan får jeg pengene tilbage?", "Refusion håndteres af Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+                  ("Hvor gemmes mine fremskridt?", "Kun på din enhed. Sletter du appen, slettes dine fremskridt også.")],
+               priv="Privatlivspolitik"),
     "nl": dict(h="Support", contact="Vragen of problemen? Mail ons via <a href='mailto:{c}'>{c}</a>. We antwoorden meestal binnen 2 werkdagen.",
                faq="Veelgestelde vragen",
                q=[("Hoe herstel ik mijn aankoop?", "Open Instellingen in de app en tik op ‘Aankopen herstellen’. Gebruik dezelfde Apple ID als bij de aankoop."),
