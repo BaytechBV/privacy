@@ -114,6 +114,60 @@ T = {
                "Als je de app verwijdert, wordt ook de app-instantie-ID verwijderd. "
                "Omdat de statistieken niet aan je identiteit zijn gekoppeld, kunnen wij jouw gegevens daarin niet herkennen.",
         chg="Wijzigingen", chg_t="We kunnen dit beleid aanpassen. De datum hierboven toont de nieuwste versie."),
+    "fi": dict(
+        h="Tietosuojaseloste", upd="Päivitetty", who="Rekisterinpitäjä",
+        who_t=f"Sovelluksen julkaisija on {OWNER}. Yhteystiedot: <a href='mailto:{CONTACT}'>{CONTACT}</a>.",
+        data="Mitä tietoja sovellus käsittelee",
+        data_t="Sovellus ei vaadi tiliä. Edistymisesi, asetuksesi ja harjoituskokeiden tulokset tallennetaan vain laitteellesi. "
+               "Laitteelta lähtevät vain alla kuvatut nimettömät käyttötilastot.",
+        no="Käyttötilastot (Google Analytics for Firebase)",
+        no_t="Selvittääksemme, mitä sovelluksen osia käytetään ja mitä voisi parantaa, sovellus lähettää nimettömiä käyttötapahtumia "
+             "Google Analytics for Firebaseen (Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Irlanti): mitkä näkymät avaat, "
+             "mitä painikkeita painat, milloin harjoituskierros tai harjoituskoe alkaa ja päättyy (tulos vaihteluvälinä, esim. ”70–84 %”) "
+             "sekä ostovaiheet. Firebase-SDK tallentaa myös teknisiä tietoja, kuten sovelluksen ja iOS:n version, laitemallin, "
+             "maan/alueen (päätelty IP-osoitteesta, jota ei tallenneta) ja satunnaisen sovellusasennuksen tunnisteen, joka nollautuu, kun poistat sovelluksen. "
+             "Nimeä, sähköpostiosoitetta, kysymysten tai vastausten tekstiä tai muuta syöttämääsi sisältöä ei lähetetä. Tietoja ei yhdistetä henkilöllisyyteesi. "
+             "Sovellus ei käytä mainostunnistetta (IDFA), ei näytä mainoksia eikä seuraa sinua muissa sovelluksissa tai verkkosivuilla. "
+             "Oikeusperuste: oikeutettu etumme parantaa sovellusta (GDPR 6 artiklan 1 kohdan f alakohta). Google voi käsitellä tietoja Yhdysvalloissa; "
+             "Google LLC on sertifioitu EU:n ja Yhdysvaltojen välisen tietosuojakehyksen (Data Privacy Framework) mukaisesti. Tapahtumatiedot poistetaan 2 kuukauden kuluttua. "
+             "Katso <a href='https://policies.google.com/privacy?hl=fi'>Googlen tietosuojakäytäntö</a> ja "
+             "<a href='https://firebase.google.com/support/privacy'>Privacy and Security in Firebase</a>.",
+        buy="Ostot", buy_t="Kertaluonteisen sovelluksen sisäisen oston käsittelee kokonaan Apple App Storen kautta. Emme saa maksutietojasi. "
+               "Katso <a href='https://www.apple.com/fi/legal/privacy/'>Applen tietosuojakäytäntö</a>.",
+        rate="Arviot", rate_t="Sovellus voi pyytää sinua arvioimaan sen Applen tavallisella arviointi-ikkunalla. Arviot käsittelee Apple.",
+        del_="Tietojen poistaminen", del_t="Kun poistat sovelluksen, kaikki sen laitteellesi tallentamat tiedot poistuvat.",
+        rights="Oikeutesi", rights_t="Jos sinulla on kysyttävää tästä selosteesta tai tiedoistasi, ota yhteyttä yllä olevaan osoitteeseen. "
+               "Voit kytkeä käyttötilastot pois milloin tahansa sovelluksen asetuksista (”Lähetä käyttötilastoja”); sen jälkeen tapahtumia ei enää lähetetä (GDPR 21 artikla). "
+               "Sovelluksen poistaminen poistaa myös sovellusasennuksen tunnisteen. "
+               "Koska tilastoja ei yhdistetä henkilöllisyyteesi, emme pysty tunnistamaan niistä sinun tietojasi.",
+        chg="Muutokset", chg_t="Voimme päivittää tätä selostetta. Yllä oleva päivämäärä kertoo uusimman version."),
+    "sv": dict(
+        h="Integritetspolicy", upd="Uppdaterad", who="Personuppgiftsansvarig",
+        who_t=f"Appen ges ut av {OWNER}. Kontakt: <a href='mailto:{CONTACT}'>{CONTACT}</a>.",
+        data="Vilka uppgifter appen behandlar",
+        data_t="Appen kräver inget konto. Dina framsteg, inställningar och provresultat sparas bara på din enhet. "
+               "Det enda som lämnar enheten är den anonyma användningsstatistik som beskrivs nedan.",
+        no="Användningsstatistik (Google Analytics for Firebase)",
+        no_t="För att ta reda på vilka delar av appen som används och vad som kan förbättras skickar appen anonyma användningshändelser till "
+             "Google Analytics for Firebase (Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Irland): vilka vyer du öppnar, "
+             "vilka knappar du trycker på, när en övningsrunda eller ett övningsprov börjar och slutar (resultatet som intervall, t.ex. ”70–84 %”) "
+             "samt köpsteg. Firebase-SDK:n registrerar också tekniska uppgifter som app- och iOS-version, enhetsmodell, "
+             "land/region (härlett från IP-adressen, som inte sparas) och ett slumpmässigt app-instans-ID som nollställs när du raderar appen. "
+             "Namn, e-postadress, text från frågor eller svar eller annat innehåll du anger skickas inte. Uppgifterna kopplas inte till din identitet. "
+             "Appen använder inte reklam-ID (IDFA), visar ingen reklam och spårar dig inte i andra appar eller på webbplatser. "
+             "Rättslig grund: vårt berättigade intresse av att förbättra appen (artikel 6.1 f GDPR). Google kan behandla uppgifter i USA; "
+             "Google LLC är certifierat enligt EU–USA:s dataskyddsram (Data Privacy Framework). Händelsedata raderas efter 2 månader. "
+             "Se <a href='https://policies.google.com/privacy?hl=sv'>Googles integritetspolicy</a> och "
+             "<a href='https://firebase.google.com/support/privacy'>Privacy and Security in Firebase</a>.",
+        buy="Köp", buy_t="Engångsköpet i appen hanteras helt av Apple via App Store. Vi får inte dina betalningsuppgifter. "
+               "Se <a href='https://www.apple.com/se/legal/privacy/'>Apples integritetspolicy</a>.",
+        rate="Betyg", rate_t="Appen kan be dig betygsätta den med Apples vanliga betygsdialog. Betygen hanteras av Apple.",
+        del_="Radera dina uppgifter", del_t="När du raderar appen tas alla uppgifter som den sparat på din enhet bort.",
+        rights="Dina rättigheter", rights_t="Har du frågor om den här policyn eller dina uppgifter kan du kontakta oss på adressen ovan. "
+               "Du kan när som helst stänga av användningsstatistiken i appens inställningar (”Skicka användningsstatistik”); därefter skickas inga händelser (artikel 21 GDPR). "
+               "När du raderar appen raderas även app-instans-ID:t. "
+               "Eftersom statistiken inte är kopplad till din identitet kan vi inte känna igen dina uppgifter i den.",
+        chg="Ändringar", chg_t="Vi kan uppdatera den här policyn. Datumet ovan visar den senaste versionen."),
 }
 
 # Per-app extras (keyed by language). Keep app-specific facts here so pages can diverge later.
@@ -138,6 +192,11 @@ APPS = {
     "fischereischein": ("Fischereischein: Angelschein", ["de", "en"], {}),
     "golf-platzreife": ("Platzreife: Golfregeln Quiz", ["de", "nl", "en"], {}),
     "duelighedsbevis-dk": ("Duelighedsbevis – Teori & Test", ["da", "en", "de"], {}),
+    "metsastajatutkinto-fi": ("Metsästäjätutkinto 2026", ["fi", "sv", "en"], {
+        "fi": ("Metsästysajat", "Lajikorttien metsästysajat ja rauhoitustiedot ovat sovelluksen mukana; sovellus ei hae tietoja verkosta. Tarkista voimassa oleva tilanne ennen metsälle lähtöä."),
+        "sv": ("Jakttider", "Jakttiderna och fredningsuppgifterna på artkorten följer med appen; appen hämtar inga uppgifter från nätet. Kontrollera gällande läge före jakten."),
+        "en": ("Hunting seasons", "The hunting seasons and protection status on the species cards are bundled with the app; it does not fetch anything from the internet. Check the current rules before you go hunting."),
+    }),
 }
 
 CSS = """:root{--bg:#fff;--fg:#1c1c1e;--mu:#6b6b70;--ac:#0a66c2}
@@ -213,6 +272,20 @@ S = {
                   ("Hoe krijg ik mijn geld terug?", "Terugbetalingen lopen via Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
                   ("Waar wordt mijn voortgang opgeslagen?", "Alleen op je apparaat. Als je de app verwijdert, is je voortgang ook weg.")],
                priv="Privacybeleid"),
+    "fi": dict(h="Tuki", contact="Kysyttävää tai ongelmia? Lähetä sähköpostia osoitteeseen <a href='mailto:{c}'>{c}</a>. Vastaamme yleensä kahden arkipäivän kuluessa.",
+               faq="Usein kysyttyä",
+               q=[("Miten palautan ostokseni?", "Avaa sovelluksessa Asetukset ja napauta ”Palauta ostos”. Käytä samaa Apple ID:tä, jolla ostit."),
+                  ("Toimiiko täysi versio myös muilla laitteillani?", "Kyllä. Kertaosto on sidottu Apple ID:hesi. Palauta se jokaisella laitteella."),
+                  ("Miten saan rahani takaisin?", "Hyvitykset hoitaa Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+                  ("Mihin edistymiseni tallennetaan?", "Vain laitteellesi. Jos poistat sovelluksen, myös edistymisesi poistuu.")],
+               priv="Tietosuojaseloste"),
+    "sv": dict(h="Support", contact="Frågor eller problem? Mejla oss på <a href='mailto:{c}'>{c}</a>. Vi svarar oftast inom 2 arbetsdagar.",
+               faq="Vanliga frågor",
+               q=[("Hur återställer jag mitt köp?", "Öppna Inställningar i appen och tryck på ”Återställ köp”. Använd samma Apple-ID som du köpte med."),
+                  ("Fungerar fullversionen på mina andra enheter?", "Ja. Engångsköpet är kopplat till ditt Apple-ID. Återställ det på varje enhet."),
+                  ("Hur får jag pengarna tillbaka?", "Återbetalningar hanteras av Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+                  ("Var sparas mina framsteg?", "Bara på din enhet. Om du raderar appen raderas även dina framsteg.")],
+               priv="Integritetspolicy"),
 }
 
 for slug, (name, langs, _) in APPS.items():
