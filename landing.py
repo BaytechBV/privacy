@@ -11,7 +11,7 @@ IDS = {"inburgering-examen": 6821393432, "vca-examen": 6821394093, "sachkunde-34
        "fischereischein": 6821394685, "golf-platzreife": 6821395142,
        "duelighedsbevis-dk": 6824009361, "klein-vaarbewijs-nl": 6824009558,
        "lopestart-nordic": 6823956272, "metsastajatutkinto-fi": 6824063739,
-       "fodsel-nordic": 6824084037}
+       "fodsel-nordic": 6824084037, "bilbok-nordic": 6824187117}
 SHOTS = 3  # first N store screenshots (the ASO order puts the strongest first)
 # Store button text and support link label per localization.
 L = {"da": ("Hent i App Store", "Support"), "de": ("Im App Store laden", "Support"), "nl": ("Download in de App Store", "Support"),
