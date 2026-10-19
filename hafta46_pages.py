@@ -1,0 +1,237 @@
+# Week-46 apps: privacy page (<slug>/) and support page (<slug>/support/) per app, in the app's store languages.
+# Independent of build.py (does not touch index.html or other apps). Re-run: python hafta46_pages.py
+# Data described = the planned v1 build (README of each app repo): no account, data on the device, Google Analytics for
+# Firebase (FirebaseAnalyticsCore, switchable). Update together with PrivacyInfo + ASC App Privacy when the build changes (PP §3.3).
+import html, os
+
+CONTACT = "utqsall@gmail.com"
+UPDATED = "2026-10-19"
+CSS = ("body{font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;color:#111827;background:#f3f5f8}"
+       "a{color:#1d4ed8}h1{font-size:26px}h2{font-size:18px;margin-top:24px}h3{font-size:16px;margin-bottom:0}nav a{margin-right:12px}"
+       "section{border-top:1px solid #d5dae3;margin-top:32px}"
+       "@media (prefers-color-scheme:dark){body{background:#0b1530;color:#e5e9f2}a{color:#93b4ff}section{border-color:#26314f}}")
+
+# ---- shared texts per language ------------------------------------------------------------------------------------
+T = {
+ "en": dict(h="Privacy Policy", upd="Last updated", sum="Summary",
+  sum_t="{name} has no account and no server of ours. What you enter stays on your iPhone. The only data that reaches us is anonymous usage statistics, which you can switch off.",
+  data="Your data", stats="Usage statistics",
+  stats_t="We use Google Analytics for Firebase (FirebaseAnalyticsCore, without the advertising identifier), provided by Google Ireland Ltd. It collects: a random app instance ID created by the app (not the advertising ID), which screens and buttons are used and the steps of the funnel (for example {funnel}), in-app purchase events (product and price), the approximate location (country/region) that Google derives from the IP address, and technical installation data (Firebase Installations). Events never contain {never} or other text you enter. The data is not linked to you and not used for tracking or advertising; Google processes it for us and keeps it for at most 14 months. Legal basis: our legitimate interest in improving the app (Art. 6(1)(f) GDPR); Google may process data in the USA under the EU-US Data Privacy Framework. Switch it off in the app: Settings › Send usage statistics.",
+  buy="Purchases", buy_t="Purchases are handled by Apple. We receive no payment details; the app only asks Apple whether the purchase is unlocked.",
+  notif="Notifications", notif_t="Reminders are local notifications scheduled on your iPhone; nothing is sent to us.",
+  icloud="Sharing via iCloud", rights="Your rights and contact",
+  rights_t="Deleting an entry in the app removes it; deleting the app removes everything stored on your iPhone. You can object to the usage statistics at any time by switching them off (Art. 21 GDPR). Questions: <a href='mailto:{c}'>{c}</a>. Controller: Mustafa Utku Bayık (BaytechBV).",
+  sup="Support", sup_t="Questions or problems? Email us at <a href='mailto:{c}'>{c}</a>. We usually reply within 2 business days.", faq="Frequently asked questions",
+  q=[("How do I restore my purchase?", "Open Settings in the app and tap “Restore purchases”. Use the same Apple ID you bought with."),
+     ("Does the purchase work on my other devices?", "Yes. The one-time purchase is linked to your Apple ID. Restore it on each device."),
+     ("How do I get a refund?", "Refunds are handled by Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+     ("Where is my data stored?", "On your device. Deleting the app deletes it."),
+     ("How do I switch off usage statistics?", "Settings › Send usage statistics.")], priv="Privacy Policy"),
+ "fi": dict(h="Tietosuojaseloste", upd="Päivitetty", sum="Lyhyesti",
+  sum_t="{name} ei vaadi tiliä, eikä meillä ole sille palvelinta. Tallentamasi tiedot pysyvät iPhonessasi. Meille tulee vain nimetöntä käyttötilastoa, jonka voit kytkeä pois.",
+  data="Tietosi", stats="Käyttötilastot",
+  stats_t="Käytämme Google Analytics for Firebase -palvelua (FirebaseAnalyticsCore, ilman mainostunnistetta), jonka tarjoaa Google Ireland Ltd. Se kerää: sovelluksen luoman satunnaisen asennustunnuksen (ei mainostunniste), mitä näkymiä ja painikkeita käytetään ja käytön vaiheet (esimerkiksi {funnel}), sovelluksen sisäisten ostojen tapahtumat (tuote ja hinta), likimääräisen sijainnin (maa/alue), jonka Google päättelee IP-osoitteesta, sekä teknisiä asennustietoja (Firebase Installations). Tapahtumat eivät koskaan sisällä {never} tai muuta kirjoittamaasi tekstiä. Tietoja ei yhdistetä sinuun eikä käytetä seurantaan tai mainontaan; Google käsittelee ne puolestamme ja säilyttää enintään 14 kuukautta. Oikeusperuste: oikeutettu etumme kehittää sovellusta (GDPR 6 art. 1 f); Google voi käsitellä tietoja Yhdysvalloissa EU–US Data Privacy Framework -järjestelyn mukaisesti. Kytke pois sovelluksessa: Asetukset › Lähetä käyttötilastoja.",
+  buy="Ostot", buy_t="Ostot hoitaa Apple. Emme saa maksutietojasi; sovellus kysyy Applelta vain, onko osto avattu.",
+  notif="Ilmoitukset", notif_t="Muistutukset ovat iPhonessasi ajastettuja paikallisia ilmoituksia; meille ei lähetetä mitään.",
+  icloud="Jakaminen iCloudin kautta", rights="Oikeutesi ja yhteystiedot",
+  rights_t="Kun poistat merkinnän sovelluksessa, se poistuu; kun poistat sovelluksen, kaikki iPhoneen tallennettu poistuu. Voit vastustaa käyttötilastoja milloin tahansa kytkemällä ne pois (GDPR 21 art.). Kysymykset: <a href='mailto:{c}'>{c}</a>. Rekisterinpitäjä: Mustafa Utku Bayık (BaytechBV).",
+  sup="Tuki", sup_t="Kysyttävää tai ongelmia? Lähetä sähköpostia osoitteeseen <a href='mailto:{c}'>{c}</a>. Vastaamme yleensä kahden arkipäivän kuluessa.", faq="Usein kysyttyä",
+  q=[("Miten palautan ostokseni?", "Avaa sovelluksessa Asetukset ja napauta ”Palauta ostokset”. Käytä samaa Apple ID:tä, jolla ostit."),
+     ("Toimiiko osto muilla laitteillani?", "Kyllä. Kertaosto on sidottu Apple ID:hesi. Palauta se jokaisella laitteella."),
+     ("Miten saan rahani takaisin?", "Hyvitykset hoitaa Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+     ("Mihin tietoni tallennetaan?", "Laitteellesi. Sovelluksen poistaminen poistaa ne."),
+     ("Miten kytken käyttötilastot pois?", "Asetukset › Lähetä käyttötilastoja.")], priv="Tietosuojaseloste"),
+ "sv": dict(h="Integritetspolicy", upd="Senast uppdaterad", sum="Kort sagt",
+  sum_t="{name} har inget konto och ingen server hos oss. Det du lägger in stannar på din iPhone. Det enda som når oss är anonym användningsstatistik, som du kan stänga av.",
+  data="Dina uppgifter", stats="Användningsstatistik",
+  stats_t="Vi använder Google Analytics for Firebase (FirebaseAnalyticsCore, utan annonsidentifierare) från Google Ireland Ltd. Den samlar in: ett slumpmässigt installations-id som appen skapar (inte annons-id), vilka skärmar och knappar som används och stegen i flödet (till exempel {funnel}), köphändelser i appen (produkt och pris), ungefärlig plats (land/region) som Google härleder från IP-adressen, och tekniska installationsdata (Firebase Installations). Händelserna innehåller aldrig {never} eller annan text du skriver. Uppgifterna kopplas inte till dig och används inte för spårning eller reklam; Google behandlar dem åt oss och sparar dem i högst 14 månader. Rättslig grund: vårt berättigade intresse av att förbättra appen (art. 6.1 f GDPR); Google kan behandla uppgifter i USA enligt EU–US Data Privacy Framework. Stäng av i appen: Inställningar › Skicka användningsstatistik.",
+  buy="Köp", buy_t="Köp hanteras av Apple. Vi får inga betaluppgifter; appen frågar bara Apple om köpet är upplåst.",
+  notif="Aviseringar", notif_t="Påminnelser är lokala aviseringar som schemaläggs på din iPhone; inget skickas till oss.",
+  icloud="Delning via iCloud", rights="Dina rättigheter och kontakt",
+  rights_t="Raderar du en post i appen försvinner den; raderar du appen försvinner allt som sparats på din iPhone. Du kan när som helst invända mot användningsstatistiken genom att stänga av den (art. 21 GDPR). Frågor: <a href='mailto:{c}'>{c}</a>. Personuppgiftsansvarig: Mustafa Utku Bayık (BaytechBV).",
+  sup="Support", sup_t="Frågor eller problem? Mejla oss på <a href='mailto:{c}'>{c}</a>. Vi svarar oftast inom 2 arbetsdagar.", faq="Vanliga frågor",
+  q=[("Hur återställer jag mitt köp?", "Öppna Inställningar i appen och tryck på ”Återställ köp”. Använd samma Apple-ID som du köpte med."),
+     ("Fungerar köpet på mina andra enheter?", "Ja. Engångsköpet är kopplat till ditt Apple-ID. Återställ det på varje enhet."),
+     ("Hur får jag pengarna tillbaka?", "Återbetalningar hanteras av Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+     ("Var sparas mina uppgifter?", "På din enhet. Raderar du appen raderas de."),
+     ("Hur stänger jag av användningsstatistiken?", "Inställningar › Skicka användningsstatistik.")], priv="Integritetspolicy"),
+ "nb": dict(h="Personvernerklæring", upd="Sist oppdatert", sum="Kort fortalt",
+  sum_t="{name} har ingen konto og ingen server hos oss. Det du legger inn, blir på iPhonen din. Det eneste som når oss, er anonym bruksstatistikk, som du kan slå av.",
+  data="Dine opplysninger", stats="Bruksstatistikk",
+  stats_t="Vi bruker Google Analytics for Firebase (FirebaseAnalyticsCore, uten annonse-ID) fra Google Ireland Ltd. Den samler inn: en tilfeldig installasjons-ID som appen lager (ikke annonse-ID), hvilke skjermer og knapper som brukes og trinnene i flyten (for eksempel {funnel}), kjøpshendelser i appen (produkt og pris), omtrentlig posisjon (land/region) som Google utleder fra IP-adressen, og tekniske installasjonsdata (Firebase Installations). Hendelsene inneholder aldri {never} eller annen tekst du skriver. Opplysningene knyttes ikke til deg og brukes ikke til sporing eller reklame; Google behandler dem for oss og lagrer dem i høyst 14 måneder. Rettslig grunnlag: vår berettigede interesse i å forbedre appen (GDPR art. 6 nr. 1 f); Google kan behandle opplysninger i USA under EU–US Data Privacy Framework. Slå av i appen: Innstillinger › Send bruksstatistikk.",
+  buy="Kjøp", buy_t="Kjøp håndteres av Apple. Vi mottar ingen betalingsopplysninger; appen spør bare Apple om kjøpet er låst opp.",
+  notif="Varsler", notif_t="Påminnelser er lokale varsler som planlegges på iPhonen din; ingenting sendes til oss.",
+  icloud="Deling via iCloud", rights="Dine rettigheter og kontakt",
+  rights_t="Sletter du en oppføring i appen, forsvinner den; sletter du appen, forsvinner alt som er lagret på iPhonen. Du kan når som helst protestere mot bruksstatistikken ved å slå den av (GDPR art. 21). Spørsmål: <a href='mailto:{c}'>{c}</a>. Behandlingsansvarlig: Mustafa Utku Bayık (BaytechBV).",
+  sup="Støtte", sup_t="Spørsmål eller problemer? Send oss en e-post på <a href='mailto:{c}'>{c}</a>. Vi svarer som regel innen 2 virkedager.", faq="Vanlige spørsmål",
+  q=[("Hvordan gjenoppretter jeg kjøpet?", "Åpne Innstillinger i appen og trykk «Gjenopprett kjøp». Bruk samme Apple-ID som du kjøpte med."),
+     ("Virker kjøpet på de andre enhetene mine?", "Ja. Engangskjøpet er knyttet til Apple-ID-en din. Gjenopprett det på hver enhet."),
+     ("Hvordan får jeg pengene tilbake?", "Refusjon håndteres av Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+     ("Hvor lagres opplysningene mine?", "På enheten din. Sletter du appen, slettes de."),
+     ("Hvordan slår jeg av bruksstatistikken?", "Innstillinger › Send bruksstatistikk.")], priv="Personvernerklæring"),
+ "da": dict(h="Privatlivspolitik", upd="Senest opdateret", sum="Kort fortalt",
+  sum_t="{name} har ingen konto og ingen server hos os. Det, du indtaster, bliver på din iPhone. Det eneste, der når os, er anonym brugsstatistik, som du kan slå fra.",
+  data="Dine oplysninger", stats="Brugsstatistik",
+  stats_t="Vi bruger Google Analytics for Firebase (FirebaseAnalyticsCore, uden reklame-id) fra Google Ireland Ltd. Den indsamler: et tilfældigt installations-id, som appen opretter (ikke reklame-id), hvilke skærme og knapper der bruges og trinene i forløbet (for eksempel {funnel}), købshændelser i appen (produkt og pris), omtrentlig placering (land/region), som Google udleder af IP-adressen, og tekniske installationsdata (Firebase Installations). Hændelserne indeholder aldrig {never} eller anden tekst, du skriver. Oplysningerne knyttes ikke til dig og bruges ikke til sporing eller reklame; Google behandler dem for os og gemmer dem i højst 14 måneder. Retsgrundlag: vores legitime interesse i at forbedre appen (GDPR art. 6, stk. 1, litra f); Google kan behandle oplysninger i USA under EU–US Data Privacy Framework. Slå fra i appen: Indstillinger › Send brugsstatistik.",
+  buy="Køb", buy_t="Køb håndteres af Apple. Vi modtager ingen betalingsoplysninger; appen spørger kun Apple, om købet er låst op.",
+  notif="Notifikationer", notif_t="Påmindelser er lokale notifikationer, der planlægges på din iPhone; intet sendes til os.",
+  icloud="Deling via iCloud", rights="Dine rettigheder og kontakt",
+  rights_t="Sletter du en post i appen, forsvinder den; sletter du appen, forsvinder alt, der er gemt på din iPhone. Du kan når som helst gøre indsigelse mod brugsstatistikken ved at slå den fra (GDPR art. 21). Spørgsmål: <a href='mailto:{c}'>{c}</a>. Dataansvarlig: Mustafa Utku Bayık (BaytechBV).",
+  sup="Support", sup_t="Spørgsmål eller problemer? Skriv til os på <a href='mailto:{c}'>{c}</a>. Vi svarer som regel inden for 2 hverdage.", faq="Ofte stillede spørgsmål",
+  q=[("Hvordan gendanner jeg mit køb?", "Åbn Indstillinger i appen, og tryk på “Gendan køb”. Brug det samme Apple-id, som du købte med."),
+     ("Virker købet på mine andre enheder?", "Ja. Engangskøbet er knyttet til dit Apple-id. Gendan det på hver enhed."),
+     ("Hvordan får jeg pengene tilbage?", "Refusion håndteres af Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+     ("Hvor gemmes mine oplysninger?", "På din enhed. Sletter du appen, slettes de."),
+     ("Hvordan slår jeg brugsstatistikken fra?", "Indstillinger › Send brugsstatistik.")], priv="Privatlivspolitik"),
+ "nl": dict(h="Privacybeleid", upd="Laatst bijgewerkt", sum="In het kort",
+  sum_t="{name} heeft geen account en geen server van ons. Wat je invoert, blijft op je iPhone. Het enige dat ons bereikt, zijn anonieme gebruiksstatistieken, die je kunt uitzetten.",
+  data="Je gegevens", stats="Gebruiksstatistieken",
+  stats_t="We gebruiken Google Analytics for Firebase (FirebaseAnalyticsCore, zonder advertentie-ID) van Google Ireland Ltd. Het verzamelt: een willekeurige installatie-ID die de app aanmaakt (niet de advertentie-ID), welke schermen en knoppen worden gebruikt en de stappen in de app (bijvoorbeeld {funnel}), aankoopgebeurtenissen in de app (product en prijs), de globale locatie (land/regio) die Google afleidt uit het IP-adres, en technische installatiegegevens (Firebase Installations). Gebeurtenissen bevatten nooit {never} of andere tekst die je invoert. De gegevens worden niet aan jou gekoppeld en niet gebruikt voor tracking of advertenties; Google verwerkt ze voor ons en bewaart ze maximaal 14 maanden. Rechtsgrond: ons gerechtvaardigd belang om de app te verbeteren (art. 6 lid 1 sub f AVG); Google kan gegevens in de VS verwerken onder het EU-US Data Privacy Framework. Zet het uit in de app: Instellingen › Gebruiksstatistieken versturen.",
+  buy="Aankopen", buy_t="Aankopen worden door Apple afgehandeld. Wij ontvangen geen betaalgegevens; de app vraagt Apple alleen of de aankoop is ontgrendeld.",
+  notif="Meldingen", notif_t="Herinneringen zijn lokale meldingen die op je iPhone worden ingepland; er wordt niets naar ons gestuurd.",
+  icloud="Delen via iCloud", rights="Je rechten en contact",
+  rights_t="Verwijder je een item in de app, dan is het weg; verwijder je de app, dan is alles weg wat op je iPhone was opgeslagen. Je kunt op elk moment bezwaar maken tegen de gebruiksstatistieken door ze uit te zetten (art. 21 AVG). Vragen: <a href='mailto:{c}'>{c}</a>. Verwerkingsverantwoordelijke: Mustafa Utku Bayık (BaytechBV).",
+  sup="Support", sup_t="Vragen of problemen? Mail ons via <a href='mailto:{c}'>{c}</a>. We antwoorden meestal binnen 2 werkdagen.", faq="Veelgestelde vragen",
+  q=[("Hoe herstel ik mijn aankoop?", "Open Instellingen in de app en tik op ‘Aankopen herstellen’. Gebruik dezelfde Apple ID als bij de aankoop."),
+     ("Werkt de aankoop op mijn andere apparaten?", "Ja. De eenmalige aankoop is gekoppeld aan je Apple ID. Herstel hem op elk apparaat."),
+     ("Hoe krijg ik mijn geld terug?", "Terugbetalingen lopen via Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+     ("Waar worden mijn gegevens opgeslagen?", "Op je apparaat. Als je de app verwijdert, zijn ze weg."),
+     ("Hoe zet ik de gebruiksstatistieken uit?", "Instellingen › Gebruiksstatistieken versturen.")], priv="Privacybeleid"),
+ "it": dict(h="Informativa sulla privacy", upd="Ultimo aggiornamento", sum="In breve",
+  sum_t="{name} non ha account né un nostro server. Ciò che inserisci resta sul tuo iPhone. A noi arrivano solo statistiche d'uso anonime, che puoi disattivare.",
+  data="I tuoi dati", stats="Statistiche d'uso",
+  stats_t="Usiamo Google Analytics for Firebase (FirebaseAnalyticsCore, senza identificatore pubblicitario), fornito da Google Ireland Ltd. Raccoglie: un ID di installazione casuale creato dall'app (non l'ID pubblicitario), quali schermate e pulsanti vengono usati e i passaggi nell'app (per esempio {funnel}), gli eventi di acquisto in-app (prodotto e prezzo), la posizione approssimativa (paese/regione) che Google ricava dall'indirizzo IP e dati tecnici di installazione (Firebase Installations). Gli eventi non contengono mai {never} né altro testo che inserisci. I dati non sono collegati a te e non sono usati per tracciamento o pubblicità; Google li tratta per nostro conto e li conserva al massimo 14 mesi. Base giuridica: il nostro legittimo interesse a migliorare l'app (art. 6, par. 1, lett. f GDPR); Google può trattare i dati negli USA nell'ambito dell'EU-US Data Privacy Framework. Disattivale nell'app: Impostazioni › Invia statistiche d'uso.",
+  buy="Acquisti", buy_t="Gli acquisti sono gestiti da Apple. Non riceviamo dati di pagamento; l'app chiede ad Apple solo se l'acquisto è sbloccato.",
+  notif="Notifiche", notif_t="I promemoria sono notifiche locali programmate sul tuo iPhone; non ci viene inviato nulla.",
+  icloud="Condivisione tramite iCloud", rights="I tuoi diritti e contatti",
+  rights_t="Se elimini un elemento nell'app, sparisce; se elimini l'app, sparisce tutto ciò che era salvato sul tuo iPhone. Puoi opporti in qualsiasi momento alle statistiche d'uso disattivandole (art. 21 GDPR). Domande: <a href='mailto:{c}'>{c}</a>. Titolare del trattamento: Mustafa Utku Bayık (BaytechBV).",
+  sup="Assistenza", sup_t="Domande o problemi? Scrivici a <a href='mailto:{c}'>{c}</a>. Di solito rispondiamo entro 2 giorni lavorativi.", faq="Domande frequenti",
+  q=[("Come ripristino il mio acquisto?", "Apri Impostazioni nell'app e tocca «Ripristina acquisti». Usa lo stesso ID Apple con cui hai acquistato."),
+     ("L'acquisto vale anche sugli altri miei dispositivi?", "Sì. L'acquisto unico è legato al tuo ID Apple. Ripristinalo su ogni dispositivo."),
+     ("Come ottengo un rimborso?", "I rimborsi sono gestiti da Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+     ("Dove sono salvati i miei dati?", "Sul tuo dispositivo. Se elimini l'app, vengono eliminati."),
+     ("Come disattivo le statistiche d'uso?", "Impostazioni › Invia statistiche d'uso.")], priv="Informativa sulla privacy"),
+ "de": dict(h="Datenschutzerklärung", upd="Stand", sum="Kurz gesagt",
+  sum_t="{name} hat kein Konto und keinen Server bei uns. Was du eingibst, bleibt auf deinem iPhone. Bei uns kommt nur eine anonyme Nutzungsstatistik an, die du ausschalten kannst.",
+  data="Deine Daten", stats="Nutzungsstatistik",
+  stats_t="Wir nutzen Google Analytics for Firebase (FirebaseAnalyticsCore, ohne Werbe-ID) der Google Ireland Ltd. Erfasst werden: eine zufällige Installations-ID, die die App erzeugt (nicht die Werbe-ID), welche Bildschirme und Schaltflächen genutzt werden und die Schritte in der App (zum Beispiel {funnel}), Kaufereignisse in der App (Produkt und Preis), der ungefähre Standort (Land/Region), den Google aus der IP-Adresse ableitet, und technische Installationsdaten (Firebase Installations). Ereignisse enthalten nie {never} oder andere Texte, die du eingibst. Die Daten werden nicht mit dir verknüpft und nicht für Tracking oder Werbung genutzt; Google verarbeitet sie für uns und speichert sie höchstens 14 Monate. Rechtsgrundlage: unser berechtigtes Interesse an der Verbesserung der App (Art. 6 Abs. 1 lit. f DSGVO); Google kann Daten in den USA nach dem EU-US Data Privacy Framework verarbeiten. Ausschalten in der App: Einstellungen › Nutzungsstatistik senden.",
+  buy="Käufe", buy_t="Käufe wickelt Apple ab. Wir erhalten keine Zahlungsdaten; die App fragt Apple nur, ob der Kauf freigeschaltet ist.",
+  notif="Mitteilungen", notif_t="Erinnerungen sind lokale Mitteilungen, die auf deinem iPhone geplant werden; an uns wird nichts gesendet.",
+  icloud="Teilen über iCloud", rights="Deine Rechte und Kontakt",
+  rights_t="Löschst du einen Eintrag in der App, ist er weg; löschst du die App, ist alles weg, was auf deinem iPhone gespeichert war. Du kannst der Nutzungsstatistik jederzeit widersprechen, indem du sie ausschaltest (Art. 21 DSGVO). Fragen: <a href='mailto:{c}'>{c}</a>. Verantwortlicher: Mustafa Utku Bayık (BaytechBV).",
+  sup="Support", sup_t="Fragen oder Probleme? Schreib uns an <a href='mailto:{c}'>{c}</a>. Wir antworten meist innerhalb von 2 Werktagen.", faq="Häufige Fragen",
+  q=[("Wie stelle ich meinen Kauf wieder her?", "Öffne in der App die Einstellungen und tippe auf „Käufe wiederherstellen“. Verwende dieselbe Apple-ID wie beim Kauf."),
+     ("Gilt der Kauf auch auf meinen anderen Geräten?", "Ja. Der einmalige Kauf ist an deine Apple-ID gebunden. Stelle ihn auf jedem Gerät wieder her."),
+     ("Wie bekomme ich eine Erstattung?", "Erstattungen laufen über Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+     ("Wo werden meine Daten gespeichert?", "Auf deinem Gerät. Wenn du die App löschst, werden sie gelöscht."),
+     ("Wie schalte ich die Nutzungsstatistik aus?", "Einstellungen › Nutzungsstatistik senden.")], priv="Datenschutzerklärung"),
+ "fr": dict(h="Politique de confidentialité", upd="Dernière mise à jour", sum="En bref",
+  sum_t="{name} n'a ni compte ni serveur chez nous. Ce que vous saisissez reste sur votre iPhone. Seules des statistiques d'utilisation anonymes nous parviennent, et vous pouvez les désactiver.",
+  data="Vos données", stats="Statistiques d'utilisation",
+  stats_t="Nous utilisons Google Analytics for Firebase (FirebaseAnalyticsCore, sans identifiant publicitaire), fourni par Google Ireland Ltd. Il collecte : un identifiant d'installation aléatoire créé par l'app (pas l'identifiant publicitaire), les écrans et boutons utilisés et les étapes dans l'app (par exemple {funnel}), les événements d'achat intégré (produit et prix), la localisation approximative (pays/région) que Google déduit de l'adresse IP, et des données techniques d'installation (Firebase Installations). Les événements ne contiennent jamais {never} ni aucun autre texte que vous saisissez. Les données ne sont pas liées à vous et ne servent ni au suivi ni à la publicité ; Google les traite pour notre compte et les conserve au maximum 14 mois. Base juridique : notre intérêt légitime à améliorer l'app (art. 6, par. 1, f RGPD) ; Google peut traiter des données aux États-Unis dans le cadre de l'EU-US Data Privacy Framework. Désactivez-les dans l'app : Réglages › Envoyer les statistiques d'utilisation.",
+  buy="Achats", buy_t="Les achats sont gérés par Apple. Nous ne recevons aucune donnée de paiement ; l'app demande seulement à Apple si l'achat est débloqué.",
+  notif="Notifications", notif_t="Les rappels sont des notifications locales programmées sur votre iPhone ; rien ne nous est envoyé.",
+  icloud="Partage via iCloud", rights="Vos droits et contact",
+  rights_t="Si vous supprimez un élément dans l'app, il disparaît ; si vous supprimez l'app, tout ce qui était enregistré sur votre iPhone disparaît. Vous pouvez vous opposer à tout moment aux statistiques d'utilisation en les désactivant (art. 21 RGPD). Questions : <a href='mailto:{c}'>{c}</a>. Responsable du traitement : Mustafa Utku Bayık (BaytechBV).",
+  sup="Assistance", sup_t="Des questions ou un problème ? Écrivez-nous à <a href='mailto:{c}'>{c}</a>. Nous répondons généralement sous 2 jours ouvrés.", faq="Questions fréquentes",
+  q=[("Comment restaurer mon achat ?", "Ouvrez Réglages dans l'app et touchez « Restaurer les achats ». Utilisez le même identifiant Apple que pour l'achat."),
+     ("L'achat fonctionne-t-il sur mes autres appareils ?", "Oui. L'achat unique est lié à votre identifiant Apple. Restaurez-le sur chaque appareil."),
+     ("Comment obtenir un remboursement ?", "Les remboursements sont gérés par Apple : <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+     ("Où sont enregistrées mes données ?", "Sur votre appareil. Si vous supprimez l'app, elles sont supprimées."),
+     ("Comment désactiver les statistiques d'utilisation ?", "Réglages › Envoyer les statistiques d'utilisation.")], priv="Politique de confidentialité"),
+ "pl": dict(h="Polityka prywatności", upd="Ostatnia aktualizacja", sum="W skrócie",
+  sum_t="{name} nie ma konta ani naszego serwera. To, co wpisujesz, zostaje na Twoim iPhonie. Docierają do nas tylko anonimowe statystyki użycia, które możesz wyłączyć.",
+  data="Twoje dane", stats="Statystyki użycia",
+  stats_t="Korzystamy z Google Analytics for Firebase (FirebaseAnalyticsCore, bez identyfikatora reklamowego) firmy Google Ireland Ltd. Zbiera on: losowy identyfikator instalacji tworzony przez aplikację (nie identyfikator reklamowy), używane ekrany i przyciski oraz kroki w aplikacji (na przykład {funnel}), zdarzenia zakupów w aplikacji (produkt i cena), przybliżoną lokalizację (kraj/region), którą Google wyznacza z adresu IP, oraz techniczne dane instalacji (Firebase Installations). Zdarzenia nigdy nie zawierają {never} ani innego wpisanego przez Ciebie tekstu. Dane nie są powiązane z Tobą i nie służą do śledzenia ani reklamy; Google przetwarza je w naszym imieniu i przechowuje najwyżej 14 miesięcy. Podstawa prawna: nasz prawnie uzasadniony interes w ulepszaniu aplikacji (art. 6 ust. 1 lit. f RODO); Google może przetwarzać dane w USA w ramach EU-US Data Privacy Framework. Wyłącz w aplikacji: Ustawienia › Wysyłaj statystyki użycia.",
+  buy="Zakupy", buy_t="Zakupy obsługuje Apple. Nie otrzymujemy danych płatniczych; aplikacja pyta Apple tylko, czy zakup jest odblokowany.",
+  notif="Powiadomienia", notif_t="Przypomnienia to lokalne powiadomienia planowane na Twoim iPhonie; nic nie jest do nas wysyłane.",
+  icloud="Udostępnianie przez iCloud", rights="Twoje prawa i kontakt",
+  rights_t="Usunięcie wpisu w aplikacji usuwa go; usunięcie aplikacji usuwa wszystko, co było zapisane na iPhonie. W każdej chwili możesz sprzeciwić się statystykom użycia, wyłączając je (art. 21 RODO). Pytania: <a href='mailto:{c}'>{c}</a>. Administrator: Mustafa Utku Bayık (BaytechBV).",
+  sup="Pomoc", sup_t="Pytania lub problemy? Napisz do nas: <a href='mailto:{c}'>{c}</a>. Zwykle odpowiadamy w ciągu 2 dni roboczych.", faq="Najczęstsze pytania",
+  q=[("Jak przywrócić zakup?", "Otwórz Ustawienia w aplikacji i stuknij „Przywróć zakupy”. Użyj tego samego Apple ID, którym zapłaciłeś."),
+     ("Czy zakup działa na moich innych urządzeniach?", "Tak. Jednorazowy zakup jest powiązany z Twoim Apple ID. Przywróć go na każdym urządzeniu."),
+     ("Jak uzyskać zwrot pieniędzy?", "Zwroty obsługuje Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+     ("Gdzie są zapisane moje dane?", "Na Twoim urządzeniu. Usunięcie aplikacji je usuwa."),
+     ("Jak wyłączyć statystyki użycia?", "Ustawienia › Wysyłaj statystyki użycia.")], priv="Polityka prywatności"),
+}
+
+# ---- per-app texts: (stored data, funnel examples, "never" list) per language; notif = local reminders; icloud = CloudKit sharing
+EXAM = {
+ "en": ("Your answers, progress per topic, mock-exam results and settings are stored only on your iPhone. We cannot see them.", "question answered, mock exam started and finished, with the score as a range", "question or answer texts"),
+ "fi": ("Vastauksesi, edistymisesi aiheittain, koeharjoitusten tulokset ja asetukset tallennetaan vain iPhoneesi. Emme näe niitä.", "kysymykseen vastattu, koeharjoitus aloitettu ja päättynyt, tulos vaihteluvälinä", "kysymysten tai vastausten tekstejä"),
+ "sv": ("Dina svar, framsteg per ämne, resultat från övningsprov och inställningar sparas bara på din iPhone. Vi kan inte se dem.", "fråga besvarad, övningsprov startat och avslutat, med resultatet som intervall", "fråge- eller svarstexter"),
+ "nb": ("Svarene dine, fremgang per tema, resultater fra øvingsprøver og innstillinger lagres bare på iPhonen din. Vi kan ikke se dem.", "spørsmål besvart, øvingsprøve startet og avsluttet, med resultatet som intervall", "spørsmåls- eller svartekster"),
+ "da": ("Dine svar, fremskridt pr. emne, resultater fra øveprøver og indstillinger gemmes kun på din iPhone. Vi kan ikke se dem.", "spørgsmål besvaret, øveprøve startet og afsluttet, med resultatet som interval", "spørgsmåls- eller svartekster"),
+}
+APPS = {
+ "tyoturva-fi": dict(name="Työturva", langs=["fi", "sv", "en"], data=EXAM, notif={
+   "fi": "Kortin voimassaolomuistutus on iPhonessasi ajastettu paikallinen ilmoitus; kurssipäivä tallennetaan vain laitteellesi.",
+   "sv": "Påminnelsen om certifikatets giltighet är en lokal avisering på din iPhone; kursdatumet sparas bara på enheten.",
+   "en": "The card-expiry reminder is a local notification on your iPhone; the course date is stored only on the device."}),
+ "hygieniapassi-fi": dict(name="Hygieniapassi Treeni", langs=["fi", "sv", "en"], data=EXAM),
+ "truckkort-nordic": dict(name="Truckklar", langs=["sv", "nb", "da"], data=EXAM),
+ "motorsagskorkort-se": dict(name="Sågklar", langs=["sv", "en"], data=EXAM),
+ "ledigplan-nordic": dict(name="Ledigplan", langs=["sv", "nb", "da", "fi"], data={
+   "sv": ("Barn, perioder, planer, scenarier och – om du väljer att ange den – din lön sparas på din iPhone. Lönen används bara för den vägledande uppskattningen och lämnar aldrig telefonen.", "period tillagd, scenario skapat, plan delad", "lön, datum, namn"),
+   "nb": ("Barn, perioder, planer, scenarier og – hvis du velger å legge den inn – lønnen din lagres på iPhonen din. Lønnen brukes bare til det veiledende anslaget og forlater aldri telefonen.", "periode lagt til, scenario opprettet, plan delt", "lønn, datoer, navn"),
+   "da": ("Børn, perioder, planer, scenarier og – hvis du vælger at indtaste den – din løn gemmes på din iPhone. Lønnen bruges kun til det vejledende overslag og forlader aldrig telefonen.", "periode tilføjet, scenarie oprettet, plan delt", "løn, datoer, navne"),
+   "fi": ("Lapset, jaksot, suunnitelmat, skenaariot ja – jos haluat syöttää sen – palkkasi tallennetaan iPhoneesi. Palkkaa käytetään vain suuntaa antavaan arvioon, eikä se koskaan poistu puhelimesta.", "jakso lisätty, skenaario luotu, suunnitelma jaettu", "palkkaa, päivämääriä, nimiä")},
+   icloud={
+   "sv": "Delar du planen med din partner (Plus) lagras den i Apples iCloud (CloudKit) i ditt och din partners iCloud-konto. Vi har ingen åtkomst; du kan sluta dela när som helst.",
+   "nb": "Deler du planen med partneren din (Plus), lagres den i Apples iCloud (CloudKit) i din og partnerens iCloud-konto. Vi har ingen tilgang; du kan slutte å dele når som helst.",
+   "da": "Deler du planen med din partner (Plus), gemmes den i Apples iCloud (CloudKit) i din og din partners iCloud-konto. Vi har ingen adgang; du kan stoppe delingen når som helst.",
+   "fi": "Jos jaat suunnitelman kumppanisi kanssa (Plus), se tallennetaan Applen iCloudiin (CloudKit) sinun ja kumppanisi iCloud-tilille. Meillä ei ole pääsyä; voit lopettaa jakamisen milloin tahansa."}),
+ "bloeddonor-nl": dict(name="Bloedmaatje", langs=["nl", "en", "sv", "nb", "da", "fi"], data={
+   "nl": ("Je donaties (datum, soort, plaats, notitie), je eigen Hb-waarden en je instellingen worden alleen op je iPhone opgeslagen. Hb-waarden gaan nooit naar ons of naar Google.", "donatie toegevoegd, herinnering ingesteld, mijlpaal bereikt", "Hb-waarden, data, plaatsen, notities"),
+   "en": ("Your donations (date, type, place, note), your own Hb values and your settings are stored only on your iPhone. Hb values never go to us or to Google.", "donation logged, reminder set, milestone reached", "Hb values, dates, places, notes"),
+   "sv": ("Dina givningar (datum, typ, plats, anteckning), dina egna Hb-värden och inställningar sparas bara på din iPhone. Hb-värden skickas aldrig till oss eller Google.", "givning loggad, påminnelse inställd, milstolpe nådd", "Hb-värden, datum, platser, anteckningar"),
+   "nb": ("Givningene dine (dato, type, sted, notat), dine egne Hb-verdier og innstillingene lagres bare på iPhonen din. Hb-verdier sendes aldri til oss eller Google.", "givning logget, påminnelse satt, milepæl nådd", "Hb-verdier, datoer, steder, notater"),
+   "da": ("Dine donationer (dato, type, sted, note), dine egne Hb-værdier og indstillinger gemmes kun på din iPhone. Hb-værdier sendes aldrig til os eller Google.", "donation logget, påmindelse sat, milepæl nået", "Hb-værdier, datoer, steder, noter"),
+   "fi": ("Luovutuksesi (päivä, tyyppi, paikka, muistiinpano), omat Hb-arvosi ja asetuksesi tallennetaan vain iPhoneesi. Hb-arvoja ei koskaan lähetetä meille tai Googlelle.", "luovutus kirjattu, muistutus asetettu, virstanpylväs saavutettu", "Hb-arvoja, päivämääriä, paikkoja, muistiinpanoja")},
+   notif={"nl": "De herinnering dat je weer mag geven is een lokale melding op je iPhone.", "en": "The 'you may give again' reminder is a local notification on your iPhone.",
+          "sv": "Påminnelsen om att du får ge igen är en lokal avisering på din iPhone.", "nb": "Påminnelsen om at du kan gi igjen, er et lokalt varsel på iPhonen din.",
+          "da": "Påmindelsen om, at du må give igen, er en lokal notifikation på din iPhone.", "fi": "Muistutus siitä, että voit luovuttaa taas, on iPhonen paikallinen ilmoitus."}),
+ "targhe-it": dict(name="Caccia alle Targhe", langs=["it", "en", "de", "fr", "pl"], data={
+   "it": ("Viaggi, giocatori (solo il nome che scegli), sigle trovate, punti e medaglie sono salvati solo sul tuo iPhone. L'app salva solo sigle (provincia, paese, categoria), mai numeri di targa completi, e non usa la posizione né la fotocamera.", "viaggio iniziato, targa trovata, quiz giocato", "nomi dei giocatori, sigle o numeri di targa"),
+   "en": ("Trips, players (only the name you choose), found codes, points and medals are stored only on your iPhone. The app saves only codes (province, country, category), never full plate numbers, and uses neither location nor the camera.", "trip started, plate found, quiz played", "player names, codes or plate numbers"),
+   "de": ("Reisen, Spieler (nur der Name, den du wählst), gefundene Kürzel, Punkte und Medaillen werden nur auf deinem iPhone gespeichert. Die App speichert nur Kürzel (Kreis, Land, Kategorie), nie vollständige Kennzeichen, und nutzt weder Standort noch Kamera.", "Reise gestartet, Kennzeichen gefunden, Quiz gespielt", "Spielernamen, Kürzel oder Kennzeichen"),
+   "fr": ("Voyages, joueurs (seulement le prénom choisi), codes trouvés, points et médailles sont enregistrés uniquement sur votre iPhone. L'app n'enregistre que des codes (département, pays, catégorie), jamais de numéros de plaque complets, et n'utilise ni la localisation ni l'appareil photo.", "voyage commencé, plaque trouvée, quiz joué", "noms de joueurs, codes ou numéros de plaque"),
+   "pl": ("Podróże, gracze (tylko wybrane imię), znalezione wyróżniki, punkty i medale są zapisywane wyłącznie na Twoim iPhonie. Aplikacja zapisuje tylko wyróżniki (powiat, kraj, kategoria), nigdy pełne numery tablic, i nie używa lokalizacji ani aparatu.", "podróż rozpoczęta, tablica znaleziona, quiz rozegrany", "imion graczy, wyróżników ani numerów tablic")}),
+}
+LBL = {"en": "EN", "fi": "FI", "sv": "SV", "nb": "NO", "da": "DA", "nl": "NL", "it": "IT", "de": "DE", "fr": "FR", "pl": "PL"}
+
+
+def page(title, lang0, nav, body):
+    return (f"<!doctype html><html lang='{lang0}'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>"
+            f"<title>{html.escape(title)}</title><style>{CSS}</style></head><body><nav>{nav}</nav>{body}</body></html>")
+
+
+for slug, a in APPS.items():
+    name, langs = a["name"], a["langs"]
+    secs, sups = [], []
+    for l in langs:
+        t = T[l]
+        stored, funnel, never = a["data"][l]
+        p = [f"<section id='{l}' lang='{l}'><h1>{t['h']} – {html.escape(name)}</h1><p><em>{t['upd']}: {UPDATED}</em></p>",
+             f"<h2>{t['sum']}</h2><p>{t['sum_t'].format(name=html.escape(name))}</p>",
+             f"<h2>{t['data']}</h2><p>{stored}</p>"]
+        if "icloud" in a:
+            p.append(f"<h2>{t['icloud']}</h2><p>{a['icloud'][l]}</p>")
+        p.append(f"<h2>{t['stats']}</h2><p>{t['stats_t'].format(funnel=funnel, never=never)}</p>")
+        p.append(f"<h2>{t['buy']}</h2><p>{t['buy_t']}</p>")
+        if "notif" in a:
+            p.append(f"<h2>{t['notif']}</h2><p>{t['notif_t']} {a['notif'][l]}</p>")
+        p.append(f"<h2>{t['rights']}</h2><p>{t['rights_t'].format(c=CONTACT)}</p><p><a href='support/'>{t['sup']}</a></p></section>")
+        secs.append("".join(p))
+        qa = "".join(f"<h3>{q}</h3><p>{ans}</p>" for q, ans in t["q"])
+        sups.append(f"<section id='{l}' lang='{l}'><h1>{t['sup']} – {html.escape(name)}</h1><p>{t['sup_t'].format(c=CONTACT)}</p>"
+                    f"<h2>{t['faq']}</h2>{qa}<p><a href='../'>{t['priv']}</a></p></section>")
+    nav = "".join(f"<a href='#{l}'>{LBL[l]}</a>" for l in langs)
+    os.makedirs(f"{slug}/support", exist_ok=True)
+    with open(f"{slug}/index.html", "w", encoding="utf-8", newline="\n") as f:
+        f.write(page(f"{name} – {T[langs[0]]['h']} / Privacy", langs[0], nav, "".join(secs)))
+    with open(f"{slug}/support/index.html", "w", encoding="utf-8", newline="\n") as f:
+        f.write(page(f"{name} – {T[langs[0]]['sup']}", langs[0], nav, "".join(sups)))
+    s = open(f"{slug}/index.html", encoding="utf-8").read()
+    assert CONTACT in s and "Apple" in s and "{" not in s.split("<style>")[1].split("</style>")[1], slug
+    print("ok", slug, langs)
