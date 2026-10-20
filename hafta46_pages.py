@@ -2,7 +2,7 @@
 # Independent of build.py (does not touch index.html or other apps). Re-run: python hafta46_pages.py
 # Data described = the planned v1 build (README of each app repo): no account, data on the device, Google Analytics for
 # Firebase (FirebaseAnalyticsCore, switchable). Update together with PrivacyInfo + ASC App Privacy when the build changes (PP §3.3).
-import html, os
+import html, os, re
 
 CONTACT = "utqsall@gmail.com"
 UPDATED = "2026-10-19"
@@ -164,6 +164,29 @@ EXAM = {
  "da": ("Dine svar, fremskridt pr. emne, resultater fra øveprøver og indstillinger gemmes kun på din iPhone. Vi kan ikke se dem.", "spørgsmål besvaret, øveprøve startet og afsluttet, med resultatet som interval", "spørgsmåls- eller svartekster"),
  "nl": ("Je antwoorden, voortgang per onderwerp, resultaten van proefexamens en instellingen worden alleen op je iPhone opgeslagen. Wij kunnen ze niet zien.", "vraag beantwoord, proefexamen gestart en afgerond, met de score als bereik", "vraag- of antwoordteksten"),
  "de": ("Deine Antworten, dein Fortschritt pro Thema, Ergebnisse der Prüfungssimulationen und Einstellungen werden nur auf deinem iPhone gespeichert. Wir können sie nicht sehen.", "Frage beantwortet, Prüfungssimulation gestartet und beendet, mit dem Ergebnis als Bereich", "Frage- oder Antworttexte"),
+ "pl": ("Twoje odpowiedzi, postępy w każdym dziale, wyniki egzaminów próbnych i ustawienia są zapisywane wyłącznie na Twoim iPhonie. Nie mamy do nich dostępu.", "odpowiedź na pytanie, rozpoczęcie i zakończenie egzaminu próbnego z wynikiem jako przedziałem", "treści pytań ani odpowiedzi"),
+}
+# Exam-day reminder (local notification), certificate-expiry reminder, and a page text for apps without analytics.
+EXAMDAY = {
+ "da": "Påmindelsen før prøvedagen er en lokal notifikation på din iPhone; prøvedatoen gemmes kun på enheden.",
+ "fi": "Koepäivän muistutus on iPhonessasi ajastettu paikallinen ilmoitus; koepäivä tallennetaan vain laitteellesi.",
+ "nl": "De herinnering voor je examendag is een lokale melding op je iPhone; de examendatum wordt alleen op je apparaat opgeslagen.",
+ "de": "Die Erinnerung an den Prüfungstag ist eine lokale Mitteilung auf deinem iPhone; das Prüfungsdatum wird nur auf dem Gerät gespeichert.",
+ "sv": "Påminnelsen inför provdagen är en lokal avisering på din iPhone; provdatumet sparas bara på enheten.",
+ "nb": "Påminnelsen før prøvedagen er et lokalt varsel på iPhonen din; prøvedatoen lagres bare på enheten.",
+ "pl": "Przypomnienie przed dniem egzaminu to lokalne powiadomienie na Twoim iPhonie; data egzaminu jest zapisywana tylko na urządzeniu.",
+}
+CERTEXP = {
+ "fi": "Kortin voimassaolomuistutus on iPhonessasi ajastettu paikallinen ilmoitus; suorituspäivä tallennetaan vain laitteellesi.",
+ "sv": "Påminnelsen om kortets giltighet är en lokal avisering på din iPhone; kursdatumet sparas bara på enheten.",
+ "nb": "Påminnelsen om kortets gyldighet er et lokalt varsel på iPhonen din; kursdatoen lagres bare på enheten.",
+ "nl": "De herinnering dat je certificaat verloopt is een lokale melding op je iPhone; de cursusdatum wordt alleen op je apparaat opgeslagen.",
+}
+NOSTATS = {
+ "nl": ("Geen statistieken", "De app verzamelt geen gebruiksstatistieken en bevat geen analytics, advertenties of externe links. Er wordt niets naar ons of naar derden gestuurd."),
+ "da": ("Ingen statistik", "Appen indsamler ingen brugsstatistik og indeholder ingen analyseværktøjer, reklamer eller eksterne links. Intet sendes til os eller til andre."),
+ "de": ("Keine Statistik", "Die App erfasst keine Nutzungsstatistik und enthält keine Analyse-Tools, keine Werbung und keine externen Links. Nichts wird an uns oder Dritte gesendet."),
+ "pl": ("Brak statystyk", "Aplikacja nie zbiera statystyk użycia i nie zawiera narzędzi analitycznych, reklam ani linków zewnętrznych. Nic nie jest wysyłane do nas ani do innych."),
 }
 APPS = {
  "tyoturva-fi": dict(name="Työturva", langs=["fi", "sv", "en"], data=EXAM, notif={
@@ -206,6 +229,26 @@ APPS = {
    "de": "Die Erinnerung an den Prüfungstag ist eine lokale Mitteilung auf deinem iPhone; das Prüfungsdatum wird nur auf dem Gerät gespeichert.",
    "sv": "Påminnelsen inför provdagen är en lokal avisering på din iPhone; provdatumet sparas bara på enheten.",
    "nb": "Påminnelsen før prøvedagen er et lokalt varsel på iPhonen din; prøvedatoen lagres bare på enheten."}),
+ "traktor-eu": dict(name="Traktorklar", langs=["nb", "sv", "fi", "da", "de"], data=EXAM, updated="2026-10-20", notif=EXAMDAY),
+ "taxiprov-eu": dict(name="Taxiklar", langs=["sv", "nl", "da", "nb", "de"], data=EXAM, updated="2026-10-20", notif=EXAMDAY),
+ "src-vhf-nordic": dict(name="SRC Klar", langs=["sv", "nb", "da", "fi", "nl", "de"], data=EXAM, updated="2026-10-20", notif=EXAMDAY),
+ "snoskoter-nordic": dict(name="Skoterklar", langs=["sv", "nb", "fi"], data=EXAM, updated="2026-10-20", notif=EXAMDAY),
+ "alkohol-servering-eu": dict(name="Serveringsklar", langs=["fi", "nb", "sv", "nl"], data=EXAM, updated="2026-10-20", notif=EXAMDAY),
+ "karta-wedkarska-pl": dict(name="Karta Wędkarska Test", langs=["pl"], data=EXAM, updated="2026-10-20", notif=EXAMDAY),
+ "hundefuehrschein-at": dict(name="Hundeklar", langs=["de"], data=EXAM, updated="2026-10-20", notif=EXAMDAY),
+ "verkeersexamen-eu": dict(name={"nl": "Verkeersheld", "da": "Cykelhelt", "de": "Radheld", "pl": "Verkeersheld"}, langs=["nl", "da", "de", "pl"], data=EXAM, updated="2026-10-20", notif=EXAMDAY, stats=False),
+ "saunagus-eu": dict(name="Gusjournal", langs=["da", "de", "nl", "sv", "fi"], data={
+   "da": ("Dine saunagange (dato, sauna, gus, duftblandinger, noter), dine opskrifter og indstillinger gemmes kun på din iPhone. Vi kan ikke se dem.", "gus logget, blanding gemt, timer startet", "noter, navne på blandinger"),
+   "de": ("Deine Saunagänge (Datum, Sauna, Aufgüsse, Duftmischungen, Notizen), deine Rezepte und Einstellungen werden nur auf deinem iPhone gespeichert. Wir können sie nicht sehen.", "Aufguss gespeichert, Mischung angelegt, Timer gestartet", "Notizen, Namen von Mischungen"),
+   "nl": ("Je saunasessies (datum, sauna, opgietingen, geurmengsels, notities), je recepten en instellingen worden alleen op je iPhone opgeslagen. Wij kunnen ze niet zien.", "opgieting gelogd, mengsel opgeslagen, timer gestart", "notities, namen van mengsels"),
+   "sv": ("Dina bastupass (datum, bastu, bastuslag, doftblandningar, anteckningar), dina recept och inställningar sparas bara på din iPhone. Vi kan inte se dem.", "bastuslag loggat, blandning sparad, timer startad", "anteckningar, namn på blandningar"),
+   "fi": ("Saunakertasi (päivä, sauna, löylyt, tuoksusekoitukset, muistiinpanot), reseptisi ja asetuksesi tallennetaan vain iPhoneesi. Emme näe niitä.", "löyly kirjattu, sekoitus tallennettu, ajastin käynnistetty", "muistiinpanoja, sekoitusten nimiä")}, updated="2026-10-20",
+   notif={"da": "Timeren bruger lokale notifikationer på din iPhone til næste trin i gusen.", "de": "Der Timer nutzt lokale Mitteilungen auf deinem iPhone für den nächsten Schritt im Aufguss.", "nl": "De timer gebruikt lokale meldingen op je iPhone voor de volgende stap van de opgieting.", "sv": "Timern använder lokala aviseringar på din iPhone för nästa steg i bastuslaget.", "fi": "Ajastin käyttää iPhonen paikallisia ilmoituksia löylyn seuraavaan vaiheeseen."}),
+ "patent-zeglarski-pl": dict(name="Żeglarz Jachtowy Testy", langs=["pl"], data=EXAM, updated="2026-10-20", notif=EXAMDAY),
+ "jachtexamen-nl": dict(name="Jachtwijs", langs=["nl"], data=EXAM, updated="2026-10-20", notif=EXAMDAY),
+ "bhv-examen-nl": dict(name="BHV Klaar", langs=["nl"], data=EXAM, updated="2026-10-20", notif=CERTEXP),
+ "tieturva-nordic": dict(name={"fi": "Tieturva Treeni", "sv": "Vägklar", "nb": "Arbeidsvarsling Øv"}, langs=["fi", "sv", "nb"], data=EXAM, updated="2026-10-20", notif=CERTEXP),
+ "ausbilderpruefung-at": dict(name="Ausbilderklar", langs=["de"], data=EXAM, updated="2026-10-20", notif=EXAMDAY),
 }
 LBL = {"en": "EN", "fi": "FI", "sv": "SV", "nb": "NO", "da": "DA", "nl": "NL", "it": "IT", "de": "DE", "fr": "FR", "pl": "PL"}
 
@@ -216,26 +259,34 @@ def page(title, lang0, nav, body):
 
 
 for slug, a in APPS.items():
-    name, langs = a["name"], a["langs"]
+    langs = a["langs"]
     secs, sups = [], []
     for l in langs:
         t = T[l]
+        name = a["name"] if isinstance(a["name"], str) else a["name"][l]
         stored, funnel, never = a["data"][l]
         p = [f"<section id='{l}' lang='{l}'><h1>{t['h']} – {html.escape(name)}</h1><p><em>{t['upd']}: {a.get('updated', UPDATED)}</em></p>",
              f"<h2>{t['sum']}</h2><p>{t['sum_t'].format(name=html.escape(name))}</p>",
              f"<h2>{t['data']}</h2><p>{stored}</p>"]
         if "icloud" in a:
             p.append(f"<h2>{t['icloud']}</h2><p>{a['icloud'][l]}</p>")
-        p.append(f"<h2>{t['stats']}</h2><p>{t['stats_t'].format(funnel=funnel, never=never)}</p>")
+        if a.get("stats", True):
+            p.append(f"<h2>{t['stats']}</h2><p>{t['stats_t'].format(funnel=funnel, never=never)}</p>")
+        else:
+            p.append(f"<h2>{NOSTATS[l][0]}</h2><p>{NOSTATS[l][1]}</p>")
         p.append(f"<h2>{t['buy']}</h2><p>{t['buy_t']}</p>")
         if "notif" in a:
             p.append(f"<h2>{t['notif']}</h2><p>{t['notif_t']} {a['notif'][l]}</p>")
-        p.append(f"<h2>{t['rights']}</h2><p>{t['rights_t'].format(c=CONTACT)}</p><p><a href='support/'>{t['sup']}</a></p></section>")
+        rights = t['rights_t'].format(c=CONTACT)
+        if not a.get("stats", True):  # drop the "object to usage statistics (Art. 21)" sentence
+            rights = re.sub(r"[^.]*\([^)]*21[^)]*\)\.", "", rights).strip()
+        p.append(f"<h2>{t['rights']}</h2><p>{rights}</p><p><a href='support/'>{t['sup']}</a></p></section>")
         secs.append("".join(p))
-        qa = "".join(f"<h3>{q}</h3><p>{ans}</p>" for q, ans in t["q"])
+        qa = "".join(f"<h3>{q}</h3><p>{ans}</p>" for q, ans in (t["q"] if a.get("stats", True) else t["q"][:-1]))
         sups.append(f"<section id='{l}' lang='{l}'><h1>{t['sup']} – {html.escape(name)}</h1><p>{t['sup_t'].format(c=CONTACT)}</p>"
                     f"<h2>{t['faq']}</h2>{qa}<p><a href='../'>{t['priv']}</a></p></section>")
     nav = "".join(f"<a href='#{l}'>{LBL[l]}</a>" for l in langs)
+    name = a["name"] if isinstance(a["name"], str) else a["name"][langs[0]]
     os.makedirs(f"{slug}/support", exist_ok=True)
     with open(f"{slug}/index.html", "w", encoding="utf-8", newline="\n") as f:
         f.write(page(f"{name} – {T[langs[0]]['h']} / Privacy", langs[0], nav, "".join(secs)))
