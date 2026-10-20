@@ -13,16 +13,20 @@ IDS = {"inburgering-examen": 6821393432, "vca-examen": 6821394093, "sachkunde-34
        "lopestart-nordic": 6823956272, "metsastajatutkinto-fi": 6824063739,
        "fodsel-nordic": 6824084037, "bilbok-nordic": 6824187117,
        "indfodsretsprove-dk": 6823126416, "statsborgerprove-no": 6823126983,
-       "tyoturva-fi": 6824628422}
+       "tyoturva-fi": 6824628422, "bloeddonor-nl": 6824629681,
+       "hygieniapassi-fi": 6824628825, "truckkort-nordic": 6824628971, "motorsagskorkort-se": 6824629114,
+       "targhe-it": 6824629769}
 # App Store campaign token per landing page (App Analytics → Sources → Campaigns).
-CT = {"indfodsretsprove-dk": "landing-dk", "statsborgerprove-no": "landing-no", "tyoturva-fi": "landing-fi"}
+CT = {"indfodsretsprove-dk": "landing-dk", "statsborgerprove-no": "landing-no", "tyoturva-fi": "landing-fi", "bloeddonor-nl": "landing-nl",
+      "hygieniapassi-fi": "landing-fi", "truckkort-nordic": "landing", "motorsagskorkort-se": "landing-se", "targhe-it": "landing-it"}
 SHOTS = 3  # first N store screenshots (the ASO order puts the strongest first)
 # Store button text and support link label per localization.
 L = {"da": ("Hent i App Store", "Support"), "de": ("Im App Store laden", "Support"), "nl": ("Download in de App Store", "Support"),
      "en": ("Download on the App Store", "Support"), "tr": ("App Store'dan indir", "Destek"),
      "pl": ("Pobierz z App Store", "Pomoc"), "ar": ("التنزيل من App Store", "الدعم"),
      "no": ("Last ned fra App Store", "Støtte"), "nb": ("Last ned fra App Store", "Støtte"), "fi": ("Lataa App Storesta", "Tuki"),
-     "sv": ("Hämta i App Store", "Support")}
+     "sv": ("Hämta i App Store", "Support"), "it": ("Scarica su App Store", "Assistenza"),
+     "fr": ("Télécharger dans l'App Store", "Assistance")}
 
 LCSS = CSS + """body{overflow-wrap:anywhere}.lead{font-size:1.15em;color:var(--mu);margin-top:0}
 .btn{display:inline-block;background:var(--fg);color:var(--bg);text-decoration:none;padding:10px 18px;border-radius:10px;font-weight:600}
