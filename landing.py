@@ -11,13 +11,16 @@ IDS = {"inburgering-examen": 6821393432, "vca-examen": 6821394093, "sachkunde-34
        "fischereischein": 6821394685, "golf-platzreife": 6821395142,
        "duelighedsbevis-dk": 6824009361, "klein-vaarbewijs-nl": 6824009558,
        "lopestart-nordic": 6823956272, "metsastajatutkinto-fi": 6824063739,
-       "fodsel-nordic": 6824084037, "bilbok-nordic": 6824187117}
+       "fodsel-nordic": 6824084037, "bilbok-nordic": 6824187117,
+       "indfodsretsprove-dk": 6823126416, "statsborgerprove-no": 6823126983}
+# App Store campaign token per landing page (App Analytics → Sources → Campaigns).
+CT = {"indfodsretsprove-dk": "landing-dk", "statsborgerprove-no": "landing-no"}
 SHOTS = 3  # first N store screenshots (the ASO order puts the strongest first)
 # Store button text and support link label per localization.
 L = {"da": ("Hent i App Store", "Support"), "de": ("Im App Store laden", "Support"), "nl": ("Download in de App Store", "Support"),
      "en": ("Download on the App Store", "Support"), "tr": ("App Store'dan indir", "Destek"),
      "pl": ("Pobierz z App Store", "Pomoc"), "ar": ("التنزيل من App Store", "الدعم"),
-     "no": ("Last ned fra App Store", "Støtte"), "fi": ("Lataa App Storesta", "Tuki"),
+     "no": ("Last ned fra App Store", "Støtte"), "nb": ("Last ned fra App Store", "Støtte"), "fi": ("Lataa App Storesta", "Tuki"),
      "sv": ("Hämta i App Store", "Support")}
 
 LCSS = CSS + """body{overflow-wrap:anywhere}.lead{font-size:1.15em;color:var(--mu);margin-top:0}
@@ -68,6 +71,8 @@ for slug in list(APPS) + [x for x in IDS if x not in APPS]:
     meta = json.load(open(f"{SRC}/{slug}/ios/AppStore/metadata.json"))
     locs = list(meta)  # metadata order = primary first
     store = f"https://apps.apple.com/app/id{IDS[slug]}"
+    if slug in CT:
+        store += f"?pt=322891&ct={CT[slug]}"
     first = shots(slug, locs[0], [])
     secs, nav = [], []
     for loc in locs:
