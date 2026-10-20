@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="apple-itunes-app" content="app-id=6824064449">
+<title>Hemlig tomte · Önskelista</title>
+<!-- Secret Santa result page (app 1.0.1). The result travels in the URL fragment (#d=…), which browsers never send
+     to the server. Published at baytechbv.github.io/privacy/onskelista-nordic/santa/ from onskelista-nordic/store/web. -->
+<style>
+:root{--bg:#f7f3f1;--fg:#2b1b24;--muted:#6f5a64;--card:#fff;--accent:#a3164d;--line:#eadfe3}
+@media (prefers-color-scheme:dark){:root{--bg:#1a1216;--fg:#f3e9ee;--muted:#bba7b0;--card:#2a1d23;--accent:#f08fb5;--line:#3a2a32}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.5 -apple-system,system-ui,sans-serif}
+main{max-width:460px;margin:0 auto;padding:40px 16px;text-align:center}
+h1{font-size:28px;margin:0 0 4px}
+.muted{color:var(--muted);font-size:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px;margin:24px 0}
+.name{font-size:36px;font-weight:700;color:var(--accent);margin:4px 0 8px;word-wrap:break-word}
+.btn{display:block;width:100%;box-sizing:border-box;border:0;border-radius:14px;padding:14px 18px;margin:12px 0;font:600 17px -apple-system,system-ui,sans-serif;text-decoration:none;cursor:pointer;background:var(--accent);color:#fff}
+.btn.secondary{background:transparent;color:var(--accent);border:2px solid var(--accent)}
+[hidden]{display:none!important}
+footer{margin-top:32px;font-size:13px}
+footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+  <div id="ok" hidden>
+    <h1 id="hi"></h1>
+    <p class="muted" id="group"></p>
+    <button class="btn" id="show"></button>
+    <div class="card" id="result" hidden>
+      <div class="muted" id="youare"></div>
+      <div class="name" id="receiver"></div>
+      <div id="budget"></div>
+      <div class="muted" id="date"></div>
+    </div>
+    <a class="btn secondary" id="list" hidden></a>
+  </div>
+  <div id="bad" hidden><h1 id="badtitle"></h1><p class="muted" id="badtext"></p></div>
+  <div class="card">
+    <p id="about"></p>
+    <a class="btn" id="store" href="https://apps.apple.com/app/id6824064449"></a>
+    <a class="btn secondary" id="open" hidden></a>
+  </div>
+  <footer><a href="../">Önskelista · Privacy</a></footer>
+</main>
+<script>
+var T = {
+  sv: {hi: "Hej %s!", show: "Visa mitt resultat", youare: "Du är hemlig tomte för", budget: "Budget %s", list: "Öppna %ss önskelista",
+       bad: "Länken fungerar inte", badtext: "Be arrangören skicka länken igen.", about: "Önskelista: gör önskelistor, dela med familjen och lotta hemlig tomte i telefonen.",
+       store: "Hämta Önskelista i App Store", open: "Öppna i appen"},
+  fi: {hi: "Hei %s!", show: "Näytä tulokseni", youare: "Olet salainen joulupukki henkilölle", budget: "Budjetti %s", list: "Avaa toivelista: %s",
+       bad: "Linkki ei toimi", badtext: "Pyydä järjestäjää lähettämään linkki uudelleen.", about: "Toivelista: tee toivelistoja, jaa ne perheelle ja arvo salainen joulupukki puhelimessa.",
+       store: "Lataa Toivelista App Storesta", open: "Avaa sovelluksessa"},
+  nl: {hi: "Hoi %s!", show: "Laat mijn lootje zien", youare: "Jij hebt het lootje van", budget: "Budget %s", list: "Open de verlanglijst van %s",
+       bad: "De link werkt niet", badtext: "Vraag de organisator de link opnieuw te sturen.", about: "Verlanglijstje: maak verlanglijstjes, deel ze met familie en trek lootjes op je telefoon.",
+       store: "Download Verlanglijstje in de App Store", open: "Openen in de app"},
+  da: {hi: "Hej %s!", show: "Vis mit resultat", youare: "Du er hemmelig nisse for", budget: "Budget %s", list: "Åbn %ss ønskeseddel",
+       bad: "Linket virker ikke", badtext: "Bed arrangøren om at sende linket igen.", about: "Ønskeseddel: lav ønskesedler, del dem med familien og træk lod om hemmelig nisse på telefonen.",
+       store: "Hent Ønskeseddel i App Store", open: "Åbn i appen"},
+  de: {hi: "Hallo %s!", show: "Mein Ergebnis zeigen", youare: "Du bist Wichtel für", budget: "Budget %s", list: "Wunschzettel von %s öffnen",
+       bad: "Der Link funktioniert nicht", badtext: "Bitte die Person, die gelost hat, den Link noch einmal zu schicken.", about: "Wunschzettel: Wunschlisten erstellen, mit der Familie teilen und auf dem Handy wichteln.",
+       store: "Wunschzettel im App Store laden", open: "In der App öffnen"},
+  en: {hi: "Hi %s!", show: "Show my result", youare: "You are Secret Santa for", budget: "Budget %s", list: "Open %s's wish list",
+       bad: "This link doesn't work", badtext: "Ask the organiser to send the link again.", about: "Wishlist: make wish lists, share them with family and draw Secret Santa on your phone.",
+       store: "Get Wishlist on the App Store", open: "Open in the app"}
+};
+var lang = (navigator.languages || [navigator.language || "en"]).map(function (l) { return l.slice(0, 2).toLowerCase(); })
+  .map(function (l) { return l === "nb" || l === "no" ? "da" : l; }).filter(function (l) { return T[l]; })[0] || "en";
+var t = T[lang];
+document.documentElement.lang = lang;
+function $(id) { return document.getElementById(id); }
+function fill(s, v) { return s.replace("%s", v); }
+$("about").textContent = t.about; $("store").textContent = t.store;
+
+var r = null, d = (location.hash.match(/[#&]d=([A-Za-z0-9_\-+\/=]+)/) || [])[1];
+try {
+  var b64 = d.replace(/-/g, "+").replace(/_/g, "/");
+  while (b64.length % 4) b64 += "=";
+  var bytes = Uint8Array.from(atob(b64), function (c) { return c.charCodeAt(0); });
+  r = JSON.parse(new TextDecoder().decode(bytes));
+  if (!r.giver || !r.receiver) r = null;
+} catch (e) { r = null; }
+
+if (r) {
+  $("ok").hidden = false;
+  $("hi").textContent = fill(t.hi, r.giver);
+  $("group").textContent = r.group || "";
+  $("show").textContent = t.show;
+  $("youare").textContent = t.youare;
+  $("receiver").textContent = r.receiver;
+  if (typeof r.budget === "number") {
+    try { $("budget").textContent = fill(t.budget, new Intl.NumberFormat(lang, {style: "currency", currency: r.currency, maximumFractionDigits: 0}).format(r.budget)); }
+    catch (e) { $("budget").textContent = fill(t.budget, r.budget + " " + r.currency); }
+  }
+  // Swift's JSONEncoder writes dates as seconds since 2001-01-01.
+  if (typeof r.date === "number") $("date").textContent = new Date((978307200 + r.date) * 1000).toLocaleDateString(lang, {day: "numeric", month: "long"});
+  if (r.receiverListURL && /^https:\/\//.test(r.receiverListURL)) { $("list").href = r.receiverListURL; $("list").textContent = fill(t.list, r.receiver); }
+  $("show").onclick = function () { $("show").hidden = true; $("result").hidden = false; $("list").hidden = !r.receiverListURL || !$("list").href; };
+  $("open").href = "onskelista://santa?d=" + encodeURIComponent(b64);
+  $("open").textContent = t.open;
+  $("open").hidden = !/iPhone|iPad|iPod/.test(navigator.userAgent);
+} else {
+  $("bad").hidden = false; $("badtitle").textContent = t.bad; $("badtext").textContent = t.badtext;
+}
+</script>
+</body>
+</html>
