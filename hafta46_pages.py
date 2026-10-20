@@ -1,4 +1,4 @@
-# Week-46 apps: privacy page (<slug>/) and support page (<slug>/support/) per app, in the app's store languages.
+# Week-46 apps (and the nightly-chain apps from 2026-10-20): privacy page (<slug>/) and support page (<slug>/support/) per app, in the app's store languages.
 # Independent of build.py (does not touch index.html or other apps). Re-run: python hafta46_pages.py
 # Data described = the planned v1 build (README of each app repo): no account, data on the device, Google Analytics for
 # Firebase (FirebaseAnalyticsCore, switchable). Update together with PrivacyInfo + ASC App Privacy when the build changes (PP §3.3).
@@ -162,6 +162,8 @@ EXAM = {
  "sv": ("Dina svar, framsteg per ämne, resultat från övningsprov och inställningar sparas bara på din iPhone. Vi kan inte se dem.", "fråga besvarad, övningsprov startat och avslutat, med resultatet som intervall", "fråge- eller svarstexter"),
  "nb": ("Svarene dine, fremgang per tema, resultater fra øvingsprøver og innstillinger lagres bare på iPhonen din. Vi kan ikke se dem.", "spørsmål besvart, øvingsprøve startet og avsluttet, med resultatet som intervall", "spørsmåls- eller svartekster"),
  "da": ("Dine svar, fremskridt pr. emne, resultater fra øveprøver og indstillinger gemmes kun på din iPhone. Vi kan ikke se dem.", "spørgsmål besvaret, øveprøve startet og afsluttet, med resultatet som interval", "spørgsmåls- eller svartekster"),
+ "nl": ("Je antwoorden, voortgang per onderwerp, resultaten van proefexamens en instellingen worden alleen op je iPhone opgeslagen. Wij kunnen ze niet zien.", "vraag beantwoord, proefexamen gestart en afgerond, met de score als bereik", "vraag- of antwoordteksten"),
+ "de": ("Deine Antworten, dein Fortschritt pro Thema, Ergebnisse der Prüfungssimulationen und Einstellungen werden nur auf deinem iPhone gespeichert. Wir können sie nicht sehen.", "Frage beantwortet, Prüfungssimulation gestartet und beendet, mit dem Ergebnis als Bereich", "Frage- oder Antworttexte"),
 }
 APPS = {
  "tyoturva-fi": dict(name="Työturva", langs=["fi", "sv", "en"], data=EXAM, notif={
@@ -197,6 +199,13 @@ APPS = {
    "de": ("Reisen, Spieler (nur der Name, den du wählst), gefundene Kürzel, Punkte und Medaillen werden nur auf deinem iPhone gespeichert. Die App speichert nur Kürzel (Kreis, Land, Kategorie), nie vollständige Kennzeichen, und nutzt weder Standort noch Kamera.", "Reise gestartet, Kennzeichen gefunden, Quiz gespielt", "Spielernamen, Kürzel oder Kennzeichen"),
    "fr": ("Voyages, joueurs (seulement le prénom choisi), codes trouvés, points et médailles sont enregistrés uniquement sur votre iPhone. L'app n'enregistre que des codes (département, pays, catégorie), jamais de numéros de plaque complets, et n'utilise ni la localisation ni l'appareil photo.", "voyage commencé, plaque trouvée, quiz joué", "noms de joueurs, codes ou numéros de plaque"),
    "pl": ("Podróże, gracze (tylko wybrane imię), znalezione wyróżniki, punkty i medale są zapisywane wyłącznie na Twoim iPhonie. Aplikacja zapisuje tylko wyróżniki (powiat, kraj, kategoria), nigdy pełne numery tablic, i nie używa lokalizacji ani aparatu.", "podróż rozpoczęta, tablica znaleziona, quiz rozegrany", "imion graczy, wyróżników ani numerów tablic")}),
+ "moped-am-eu": dict(name="AM-Klar", langs=["da", "fi", "nl", "de", "sv", "nb"], data=EXAM, updated="2026-10-20", notif={
+   "da": "Påmindelsen før prøvedagen er en lokal notifikation på din iPhone; prøvedatoen gemmes kun på enheden.",
+   "fi": "Koepäivän muistutus on iPhonessasi ajastettu paikallinen ilmoitus; koepäivä tallennetaan vain laitteellesi.",
+   "nl": "De herinnering voor je examendag is een lokale melding op je iPhone; de examendatum wordt alleen op je apparaat opgeslagen.",
+   "de": "Die Erinnerung an den Prüfungstag ist eine lokale Mitteilung auf deinem iPhone; das Prüfungsdatum wird nur auf dem Gerät gespeichert.",
+   "sv": "Påminnelsen inför provdagen är en lokal avisering på din iPhone; provdatumet sparas bara på enheten.",
+   "nb": "Påminnelsen før prøvedagen er et lokalt varsel på iPhonen din; prøvedatoen lagres bare på enheten."}),
 }
 LBL = {"en": "EN", "fi": "FI", "sv": "SV", "nb": "NO", "da": "DA", "nl": "NL", "it": "IT", "de": "DE", "fr": "FR", "pl": "PL"}
 
@@ -212,7 +221,7 @@ for slug, a in APPS.items():
     for l in langs:
         t = T[l]
         stored, funnel, never = a["data"][l]
-        p = [f"<section id='{l}' lang='{l}'><h1>{t['h']} – {html.escape(name)}</h1><p><em>{t['upd']}: {UPDATED}</em></p>",
+        p = [f"<section id='{l}' lang='{l}'><h1>{t['h']} – {html.escape(name)}</h1><p><em>{t['upd']}: {a.get('updated', UPDATED)}</em></p>",
              f"<h2>{t['sum']}</h2><p>{t['sum_t'].format(name=html.escape(name))}</p>",
              f"<h2>{t['data']}</h2><p>{stored}</p>"]
         if "icloud" in a:
