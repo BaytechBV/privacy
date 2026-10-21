@@ -8,7 +8,7 @@ from build import CSS  # importing build also rewrites index.html: do not commit
 
 CONTACT = "utqsall@gmail.com"
 OWNER = "Mustafa Utku Bayık"
-UPDATED = "2026-10-17"
+UPDATED = "2026-10-22"
 SLUG = "split-nordic"
 SRC = os.path.expanduser(sys.argv[1]) if len(sys.argv) > 1 else os.path.expanduser("~/Documents/Projects/baytech")
 APP_ID = sys.argv[2] if len(sys.argv) > 2 else None
@@ -23,7 +23,7 @@ P = {
   ("Deling av grupper", "Når du deler en gruppe, bruker appen Apples iCloud-deling. Personene du inviterer, kan se og endre gruppen: medlemsnavn, utgifter, kvitteringsbilder og historikk. "
    "Navnet på den som endret en utgift, vises i historikken. Du kan stoppe delingen når som helst under Medlemmer → Administrer deling. "
    "Personer uten appen legges inn med bare et navn som du skriver selv. Apple behandler iCloud-data etter <a href='https://www.apple.com/no/legal/privacy/'>Apples personvernerklæring</a>."),
-  ("Kamera og bilder", "Kameraet og bildene dine brukes bare når du selv tar eller velger et kvitteringsbilde. Bildet lagres med utgiften (på enheten og i iCloud hvis du bruker det)."),
+  ("Kamera og bilder", "Kameraet og bildene dine brukes bare når du selv tar eller velger et kvitteringsbilde. Når du skanner, leses teksten på kvitteringen på telefonen; ingenting sendes til oss. Bildet lagres med utgiften (på enheten og i iCloud hvis du bruker det)."),
   ("Bruksstatistikk (Google Analytics for Firebase)", "For å se hvilke deler av appen som brukes, sender appen anonyme brukshendelser til Google Analytics for Firebase "
    "(Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Irland): hvilke skjermer du åpner, hvilke knapper du trykker på, delingsmåte, antall personer og betalinger, og kjøpstrinn. "
    "Firebase registrerer også tekniske data som appversjon, iOS-versjon, enhetsmodell, land/region (utledet av IP-adressen, som ikke lagres) og en tilfeldig app-instans-ID. "
@@ -43,7 +43,7 @@ P = {
   ("Deling af grupper", "Når du deler en gruppe, bruger appen Apples iCloud-deling. Dem, du inviterer, kan se og ændre gruppen: medlemsnavne, udgifter, kvitteringsbilleder og historik. "
    "Navnet på den, der ændrede en udgift, vises i historikken. Du kan stoppe delingen når som helst under Medlemmer → Administrer deling. "
    "Personer uden appen tilføjes kun med et navn, som du selv skriver. Apple behandler iCloud-data efter <a href='https://www.apple.com/dk/legal/privacy/'>Apples privatlivspolitik</a>."),
-  ("Kamera og billeder", "Kameraet og dine billeder bruges kun, når du selv tager eller vælger et kvitteringsbillede. Billedet gemmes med udgiften (på enheden og i iCloud, hvis du bruger det)."),
+  ("Kamera og billeder", "Kameraet og dine billeder bruges kun, når du selv tager eller vælger et kvitteringsbillede. Når du scanner, læses teksten på kvitteringen på telefonen; intet sendes til os. Billedet gemmes med udgiften (på enheden og i iCloud, hvis du bruger det)."),
   ("Brugsstatistik (Google Analytics for Firebase)", "For at se, hvilke dele af appen der bruges, sender appen anonyme brugshændelser til Google Analytics for Firebase "
    "(Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Irland): hvilke skærme du åbner, hvilke knapper du trykker på, fordelingsmåde, antal personer og betalinger samt trin i et køb. "
    "Firebase registrerer også tekniske data som appversion, iOS-version, enhedsmodel, land/region (udledt af IP-adressen, som ikke gemmes) og et tilfældigt app-instans-id. "
@@ -63,7 +63,7 @@ P = {
   ("Ryhmien jakaminen", "Kun jaat ryhmän, sovellus käyttää Applen iCloud-jakoa. Kutsumasi henkilöt voivat nähdä ja muuttaa ryhmää: jäsenten nimet, kulut, kuittikuvat ja historian. "
    "Kulua muuttaneen nimi näkyy historiassa. Voit lopettaa jakamisen milloin tahansa kohdassa Jäsenet → Hallitse jakoa. "
    "Henkilöt ilman sovellusta lisätään pelkällä nimellä, jonka kirjoitat itse. Apple käsittelee iCloud-tietoja <a href='https://www.apple.com/fi/legal/privacy/'>Applen tietosuojakäytännön</a> mukaisesti."),
-  ("Kamera ja kuvat", "Kameraa ja kuviasi käytetään vain, kun itse otat tai valitset kuittikuvan. Kuva tallennetaan kulun yhteyteen (laitteelle ja iCloudiin, jos käytät sitä)."),
+  ("Kamera ja kuvat", "Kameraa ja kuviasi käytetään vain, kun itse otat tai valitset kuittikuvan. Kun skannaat, kuitin teksti luetaan puhelimessa eikä mitään lähetetä meille. Kuva tallennetaan kulun yhteyteen (laitteelle ja iCloudiin, jos käytät sitä)."),
   ("Käyttötilastot (Google Analytics for Firebase)", "Nähdäksemme, mitä sovelluksen osia käytetään, sovellus lähettää nimettömiä käyttötapahtumia Google Analytics for Firebaseen "
    "(Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Irlanti): mitä näkymiä avaat, mitä painikkeita napautat, jakotapa, henkilöiden ja maksujen määrä sekä ostovaiheet. "
    "Firebase kirjaa myös teknisiä tietoja, kuten sovellus- ja iOS-version, laitemallin, maan/alueen (päätelty IP-osoitteesta, jota ei tallenneta) ja satunnaisen sovellusinstanssin tunnuksen. "
@@ -83,7 +83,7 @@ P = {
   ("Sharing groups", "When you share a group, the app uses Apple's iCloud sharing. The people you invite can see and change the group: member names, expenses, receipt photos and history. "
    "The name of whoever changed an expense is shown in its history. You can stop sharing at any time under Members → Manage sharing. "
    "People without the app are added only with a name you type. Apple processes iCloud data under <a href='https://www.apple.com/legal/privacy/'>Apple's Privacy Policy</a>."),
-  ("Camera and photos", "The camera and your photos are used only when you take or pick a receipt photo yourself. The photo is stored with the expense (on the device, and in iCloud if you use it)."),
+  ("Camera and photos", "The camera and your photos are used only when you take or pick a receipt photo yourself. When you scan, the text on the receipt is read on the phone; nothing is sent to us. The photo is stored with the expense (on the device, and in iCloud if you use it)."),
   ("Usage statistics (Google Analytics for Firebase)", "To see which parts of the app are used, the app sends anonymous usage events to Google Analytics for Firebase "
    "(Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Ireland): which screens you open, which buttons you tap, the split mode, the number of people and payments, and purchase steps. "
    "Firebase also records technical data such as app version, iOS version, device model, country/region (derived from the IP address, which is not stored) and a random app-instance ID. "
