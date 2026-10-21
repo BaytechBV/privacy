@@ -1,4 +1,4 @@
-# Week-46 apps (and the nightly-chain apps from 2026-10-20): privacy page (<slug>/) and support page (<slug>/support/) per app, in the app's store languages.
+# Week-46 apps (and the nightly-chain apps from 2026-10-20 and 2026-10-21): privacy page (<slug>/) and support page (<slug>/support/) per app, in the app's store languages.
 # Independent of build.py (does not touch index.html or other apps). Re-run: python hafta46_pages.py
 # Data described = the planned v1 build (README of each app repo): no account, data on the device, Google Analytics for
 # Firebase (FirebaseAnalyticsCore, switchable). Update together with PrivacyInfo + ASC App Privacy when the build changes (PP §3.3).
@@ -153,6 +153,34 @@ T = {
      ("Jak uzyskać zwrot pieniędzy?", "Zwroty obsługuje Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
      ("Gdzie są zapisane moje dane?", "Na Twoim urządzeniu. Usunięcie aplikacji je usuwa."),
      ("Jak wyłączyć statystyki użycia?", "Ustawienia › Wysyłaj statystyki użycia.")], priv="Polityka prywatności"),
+ "pt": dict(h="Política de privacidade", upd="Última atualização", sum="Em resumo",
+  sum_t="{name} não tem conta nem servidor nosso. O que introduz fica no seu iPhone. Os únicos dados que nos chegam são estatísticas de utilização anónimas, que pode desativar.",
+  data="Os seus dados", stats="Estatísticas de utilização",
+  stats_t="Utilizamos o Google Analytics for Firebase (FirebaseAnalyticsCore, sem o identificador de publicidade), fornecido pela Google Ireland Ltd. Recolhe: um ID de instalação aleatório criado pela app (não o ID de publicidade), os ecrãs e botões utilizados e os passos na app (por exemplo, {funnel}), os eventos de compras na app (produto e preço), a localização aproximada (país/região) que a Google deduz do endereço IP e dados técnicos de instalação (Firebase Installations). Os eventos nunca contêm {never} nem outro texto que introduza. Os dados não são associados a si nem utilizados para rastreio ou publicidade; a Google trata-os por nossa conta e conserva-os durante, no máximo, 14 meses. Fundamento jurídico: o nosso interesse legítimo em melhorar a app (art. 6.º, n.º 1, alínea f, do RGPD); a Google pode tratar dados nos EUA ao abrigo do EU-US Data Privacy Framework. Desative na app: Definições › Enviar estatísticas de utilização.",
+  buy="Compras", buy_t="As compras são processadas pela Apple. Não recebemos dados de pagamento; a app apenas pergunta à Apple se a compra está desbloqueada.",
+  notif="Notificações", notif_t="Os lembretes são notificações locais agendadas no seu iPhone; nada nos é enviado.",
+  icloud="Partilha via iCloud", rights="Os seus direitos e contacto",
+  rights_t="Se eliminar um registo na app, ele desaparece; se eliminar a app, desaparece tudo o que estava guardado no seu iPhone. Pode opor-se às estatísticas de utilização a qualquer momento, desativando-as (art. 21.º do RGPD). Questões: <a href='mailto:{c}'>{c}</a>. Responsável pelo tratamento: Mustafa Utku Bayık (BaytechBV).",
+  sup="Suporte", sup_t="Dúvidas ou problemas? Envie-nos um e-mail para <a href='mailto:{c}'>{c}</a>. Normalmente respondemos no prazo de 2 dias úteis.", faq="Perguntas frequentes",
+  q=[("Como restauro a minha compra?", "Abra as Definições na app e toque em «Restaurar compras». Utilize o mesmo ID Apple com que fez a compra."),
+     ("A compra funciona nos meus outros dispositivos?", "Sim. A compra única está associada ao seu ID Apple. Restaure-a em cada dispositivo."),
+     ("Como obtenho um reembolso?", "Os reembolsos são tratados pela Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+     ("Onde são guardados os meus dados?", "No seu dispositivo. Se eliminar a app, são eliminados."),
+     ("Como desativo as estatísticas de utilização?", "Definições › Enviar estatísticas de utilização.")], priv="Política de privacidade"),
+ "es": dict(h="Política de privacidad", upd="Última actualización", sum="En resumen",
+  sum_t="{name} no tiene cuenta ni servidor nuestro. Lo que introduces se queda en tu iPhone. Lo único que nos llega son estadísticas de uso anónimas, que puedes desactivar.",
+  data="Tus datos", stats="Estadísticas de uso",
+  stats_t="Usamos Google Analytics for Firebase (FirebaseAnalyticsCore, sin el identificador de publicidad), de Google Ireland Ltd. Recoge: un ID de instalación aleatorio creado por la app (no el ID de publicidad), qué pantallas y botones se usan y los pasos en la app (por ejemplo, {funnel}), los eventos de compra dentro de la app (producto y precio), la ubicación aproximada (país/región) que Google deduce de la dirección IP y datos técnicos de instalación (Firebase Installations). Los eventos nunca contienen {never} ni otro texto que introduzcas. Los datos no se vinculan a ti ni se usan para seguimiento o publicidad; Google los trata por cuenta nuestra y los conserva como máximo 14 meses. Base jurídica: nuestro interés legítimo en mejorar la app (art. 6.1.f RGPD); Google puede tratar datos en EE. UU. en el marco del EU-US Data Privacy Framework. Desactívalas en la app: Ajustes › Enviar estadísticas de uso.",
+  buy="Compras", buy_t="Las compras las gestiona Apple. No recibimos datos de pago; la app solo pregunta a Apple si la compra está desbloqueada.",
+  notif="Notificaciones", notif_t="Los recordatorios son notificaciones locales programadas en tu iPhone; no se nos envía nada.",
+  icloud="Compartir mediante iCloud", rights="Tus derechos y contacto",
+  rights_t="Si eliminas una entrada en la app, desaparece; si eliminas la app, desaparece todo lo guardado en tu iPhone. Puedes oponerte en cualquier momento a las estadísticas de uso desactivándolas (art. 21 RGPD). Preguntas: <a href='mailto:{c}'>{c}</a>. Responsable del tratamiento: Mustafa Utku Bayık (BaytechBV).",
+  sup="Soporte", sup_t="¿Preguntas o problemas? Escríbenos a <a href='mailto:{c}'>{c}</a>. Solemos responder en un plazo de 2 días laborables.", faq="Preguntas frecuentes",
+  q=[("¿Cómo restauro mi compra?", "Abre Ajustes en la app y toca «Restaurar compras». Usa el mismo ID de Apple con el que compraste."),
+     ("¿La compra funciona en mis otros dispositivos?", "Sí. La compra única está vinculada a tu ID de Apple. Restáurala en cada dispositivo."),
+     ("¿Cómo obtengo un reembolso?", "Los reembolsos los gestiona Apple: <a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>."),
+     ("¿Dónde se guardan mis datos?", "En tu dispositivo. Si eliminas la app, se eliminan."),
+     ("¿Cómo desactivo las estadísticas de uso?", "Ajustes › Enviar estadísticas de uso.")], priv="Política de privacidad"),
 }
 
 # ---- per-app texts: (stored data, funnel examples, "never" list) per language; notif = local reminders; icloud = CloudKit sharing
@@ -165,6 +193,10 @@ EXAM = {
  "nl": ("Je antwoorden, voortgang per onderwerp, resultaten van proefexamens en instellingen worden alleen op je iPhone opgeslagen. Wij kunnen ze niet zien.", "vraag beantwoord, proefexamen gestart en afgerond, met de score als bereik", "vraag- of antwoordteksten"),
  "de": ("Deine Antworten, dein Fortschritt pro Thema, Ergebnisse der Prüfungssimulationen und Einstellungen werden nur auf deinem iPhone gespeichert. Wir können sie nicht sehen.", "Frage beantwortet, Prüfungssimulation gestartet und beendet, mit dem Ergebnis als Bereich", "Frage- oder Antworttexte"),
  "pl": ("Twoje odpowiedzi, postępy w każdym dziale, wyniki egzaminów próbnych i ustawienia są zapisywane wyłącznie na Twoim iPhonie. Nie mamy do nich dostępu.", "odpowiedź na pytanie, rozpoczęcie i zakończenie egzaminu próbnego z wynikiem jako przedziałem", "treści pytań ani odpowiedzi"),
+ "it": ("Le tue risposte, i progressi per argomento, i risultati delle simulazioni d'esame e le impostazioni sono salvati solo sul tuo iPhone. Non possiamo vederli.", "domanda risposta, simulazione d'esame iniziata e conclusa, con il punteggio come intervallo", "testi di domande o risposte"),
+ "fr": ("Vos réponses, votre progression par thème, les résultats des examens blancs et vos réglages sont enregistrés uniquement sur votre iPhone. Nous ne pouvons pas les voir.", "question répondue, examen blanc commencé et terminé, avec le score sous forme de fourchette", "de textes de questions ou de réponses"),
+ "pt": ("As suas respostas, o progresso por tema, os resultados dos exames simulados e as definições são guardados apenas no seu iPhone. Não os conseguimos ver.", "pergunta respondida, exame simulado iniciado e concluído, com a pontuação como intervalo", "textos de perguntas ou respostas"),
+ "es": ("Tus respuestas, tu progreso por tema, los resultados de los simulacros de examen y tus ajustes se guardan solo en tu iPhone. No podemos verlos.", "pregunta respondida, simulacro de examen iniciado y terminado, con la puntuación como rango", "textos de preguntas o respuestas"),
 }
 # Exam-day reminder (local notification), certificate-expiry reminder, and a page text for apps without analytics.
 EXAMDAY = {
@@ -175,6 +207,11 @@ EXAMDAY = {
  "sv": "Påminnelsen inför provdagen är en lokal avisering på din iPhone; provdatumet sparas bara på enheten.",
  "nb": "Påminnelsen før prøvedagen er et lokalt varsel på iPhonen din; prøvedatoen lagres bare på enheten.",
  "pl": "Przypomnienie przed dniem egzaminu to lokalne powiadomienie na Twoim iPhonie; data egzaminu jest zapisywana tylko na urządzeniu.",
+ "en": "The exam-day reminder is a local notification on your iPhone; the exam date is stored only on the device.",
+ "it": "Il promemoria per il giorno dell'esame è una notifica locale sul tuo iPhone; la data dell'esame è salvata solo sul dispositivo.",
+ "fr": "Le rappel du jour de l'examen est une notification locale sur votre iPhone ; la date de l'examen est enregistrée uniquement sur l'appareil.",
+ "pt": "O lembrete do dia do exame é uma notificação local no seu iPhone; a data do exame é guardada apenas no dispositivo.",
+ "es": "El recordatorio del día del examen es una notificación local en tu iPhone; la fecha del examen se guarda solo en el dispositivo.",
 }
 CERTEXP = {
  "fi": "Kortin voimassaolomuistutus on iPhonessasi ajastettu paikallinen ilmoitus; suorituspäivä tallennetaan vain laitteellesi.",
@@ -249,8 +286,56 @@ APPS = {
  "bhv-examen-nl": dict(name="BHV Klaar", langs=["nl"], data=EXAM, updated="2026-10-20", notif=CERTEXP),
  "tieturva-nordic": dict(name={"fi": "Tieturva Treeni", "sv": "Vägklar", "nb": "Arbeidsvarsling Øv"}, langs=["fi", "sv", "nb"], data=EXAM, updated="2026-10-20", notif=CERTEXP),
  "ausbilderpruefung-at": dict(name="Ausbilderklar", langs=["de"], data=EXAM, updated="2026-10-20", notif=EXAMDAY),
+ # ---- nightly apps 2026-10-21
+ "jaktpass-nordic": dict(name="Jaktpass", langs=["nb", "sv", "de", "da", "fi"], updated="2026-10-21", data={
+   "nb": ("Kortene dine (type, navn, nummer, gyldighetsdatoer, notater) og bildene av forside og bakside lagres bare på iPhonen din, med iOS-filbeskyttelse og valgfri Face ID-lås. Kameraet brukes bare til å skanne kortene. Bildene forlater aldri enheten og sendes aldri til oss eller til Google. Det samme gjelder skyteloggen, jaktområdene og innstillingene dine. En PDF lages bare når du selv deler den.", "kort lagt til, påminnelse satt, PDF eksportert", "bilder, kortnumre, navn, datoer, notater"),
+   "sv": ("Dina kort (typ, namn, nummer, giltighetsdatum, anteckningar) och bilderna av fram- och baksidan sparas bara på din iPhone, med iOS-filskydd och valfritt Face ID-lås. Kameran används bara för att skanna korten. Bilderna lämnar aldrig enheten och skickas aldrig till oss eller till Google. Detsamma gäller skjutloggen, jaktområdena och dina inställningar. En PDF skapas bara när du själv delar den.", "kort tillagt, påminnelse inställd, PDF exporterad", "bilder, kortnummer, namn, datum, anteckningar"),
+   "de": ("Deine Karten (Art, Name, Nummer, Gültigkeitsdaten, Notizen) und die Fotos von Vorder- und Rückseite werden nur auf deinem iPhone gespeichert, mit iOS-Dateischutz und optionaler Face-ID-Sperre. Die Kamera wird nur zum Scannen der Karten genutzt. Die Fotos verlassen nie das Gerät und werden nie an uns oder an Google gesendet. Das gilt auch für Schießbuch, Jagdgebiete und Einstellungen. Ein PDF entsteht nur, wenn du es selbst teilst.", "Karte hinzugefügt, Erinnerung gesetzt, PDF exportiert", "Fotos, Kartennummern, Namen, Daten, Notizen"),
+   "da": ("Dine kort (type, navn, nummer, gyldighedsdatoer, noter) og billederne af for- og bagside gemmes kun på din iPhone, med iOS-filbeskyttelse og valgfri Face ID-lås. Kameraet bruges kun til at scanne kortene. Billederne forlader aldrig enheden og sendes aldrig til os eller til Google. Det samme gælder skydeloggen, jagtområderne og dine indstillinger. En PDF oprettes kun, når du selv deler den.", "kort tilføjet, påmindelse sat, PDF eksporteret", "billeder, kortnumre, navne, datoer, noter"),
+   "fi": ("Korttisi (tyyppi, nimi, numero, voimassaolopäivät, muistiinpanot) sekä etu- ja takapuolen kuvat tallennetaan vain iPhoneesi iOS:n tiedostosuojauksella ja valinnaisella Face ID -lukituksella. Kameraa käytetään vain korttien skannaamiseen. Kuvat eivät koskaan poistu laitteelta, eikä niitä koskaan lähetetä meille tai Googlelle. Sama koskee ammuntapäiväkirjaa, metsästysalueita ja asetuksiasi. PDF luodaan vain, kun jaat sen itse.", "kortti lisätty, muistutus asetettu, PDF viety", "kuvia, korttien numeroita, nimiä, päivämääriä, muistiinpanoja")},
+   notif={"nb": "Utløpspåminnelsene (30 dager før og på dagen) er lokale varsler på iPhonen din; datoene lagres bare på enheten.",
+          "sv": "Påminnelserna om utgångsdatum (30 dagar före och på dagen) är lokala aviseringar på din iPhone; datumen sparas bara på enheten.",
+          "de": "Die Erinnerungen an Ablaufdaten (30 Tage vorher und am Tag selbst) sind lokale Mitteilungen auf deinem iPhone; die Daten werden nur auf dem Gerät gespeichert.",
+          "da": "Påmindelserne om udløb (30 dage før og på dagen) er lokale notifikationer på din iPhone; datoerne gemmes kun på enheden.",
+          "fi": "Voimassaolon päättymisen muistutukset (30 päivää ennen ja samana päivänä) ovat iPhonessasi ajastettuja paikallisia ilmoituksia; päivämäärät tallennetaan vain laitteellesi."}),
+ "motorsaege-dach": dict(name="Sägeschein", langs=["de"], data=EXAM, updated="2026-10-21", notif={
+   "de": "Die Erinnerung an den Kurstag ist eine lokale Mitteilung auf deinem iPhone; das Kursdatum wird nur auf dem Gerät gespeichert."}),
+ "pflanzenschutz-eu": dict(name="Spritzklar", langs=["de", "it", "fr", "nl", "sv"], data=EXAM, updated="2026-10-21", notif={
+   "de": "Die Erinnerung an die Verlängerung deines Sachkundenachweises ist eine lokale Mitteilung auf deinem iPhone; das Gültigkeitsdatum wird nur auf dem Gerät gespeichert.",
+   "it": "Il promemoria per il rinnovo del patentino è una notifica locale sul tuo iPhone; la data di scadenza è salvata solo sul dispositivo.",
+   "fr": "Le rappel de renouvellement du Certiphyto est une notification locale sur votre iPhone ; la date de validité est enregistrée uniquement sur l'appareil.",
+   "nl": "De herinnering om je spuitlicentie te verlengen is een lokale melding op je iPhone; de geldigheidsdatum wordt alleen op je apparaat opgeslagen.",
+   "sv": "Påminnelsen om att förnya behörigheten är en lokal avisering på din iPhone; giltighetsdatumet sparas bara på enheten."}),
+ "ap-traener-dk": dict(name="AP-klar", langs=["da"], data=EXAM, updated="2026-10-21", notif=EXAMDAY),
+ "taalexamen-eu": dict(name={"nl": "Taalklaar", "da": "Sprogklar", "nb": "Prøveklar", "fi": "Taalklaar", "de": "Taalklaar"}, langs=["nl", "da", "nb", "fi", "de"], data=EXAM, updated="2026-10-21", notif=EXAMDAY),
+ "medtest-eu": dict(name={"da": "Optagelsesklar", "de": "Medtestklar", "fi": "Optagelsesklar"}, langs=["da", "de", "fi"], data=EXAM, updated="2026-10-21", notif=EXAMDAY),
+ "finanslicens-eu": dict(name={"nl": "Wft Klaar", "sv": "Licensklar", "nb": "Licensklar", "de": "Licensklar"}, langs=["nl", "sv", "nb", "de"], data=EXAM, updated="2026-10-21", notif={
+   "nl": "De herinneringen voor je examendag en je PE-deadline zijn lokale meldingen op je iPhone; de data worden alleen op je apparaat opgeslagen.",
+   "sv": "Påminnelserna inför provdagen och den årliga kunskapsuppdateringen är lokala aviseringar på din iPhone; datumen sparas bara på enheten.",
+   "nb": "Påminnelsene før prøvedagen og fristen for den årlige oppdateringen er lokale varsler på iPhonen din; datoene lagres bare på enheten.",
+   "de": "Die Erinnerungen an den Prüfungstag und an die Frist für die Weiterbildung sind lokale Mitteilungen auf deinem iPhone; die Daten werden nur auf dem Gerät gespeichert."}),
+ "reitabzeichen-eu": dict(name="Sattelfest", langs=["de", "nl", "sv"], data=EXAM, updated="2026-10-21", notif=EXAMDAY),
+ "licenca-arma-pt": dict(name={"pt": "Porte Pronto", "pl": "Patent Klar", "es": "Porte Pronto"}, langs=["pt", "pl", "es"], data=EXAM, updated="2026-10-21", notif=EXAMDAY),
+ "lkw-theorie-at": dict(name="Brummiklar", langs=["de"], data=EXAM, updated="2026-10-21", notif=EXAMDAY),
+ "kaartblok-eu": dict(name="Kaartblok", langs=["nl", "de"], updated="2026-10-21", data={
+   "nl": ("Spelers (alleen de namen die je zelf invoert), spellen, rondes, scores, huisregels, geschiedenis en instellingen worden alleen op je iPhone opgeslagen. Wij kunnen ze niet zien. Een uitslag wordt alleen als afbeelding gedeeld als je dat zelf doet.", "spel gestart, ronde ingevoerd, spel afgerond", "namen van spelers, scores"),
+   "de": ("Spieler (nur die Namen, die du selbst eingibst), Spiele, Runden, Punktestände, Hausregeln, Verlauf und Einstellungen werden nur auf deinem iPhone gespeichert. Wir können sie nicht sehen. Ein Ergebnis wird nur als Bild geteilt, wenn du das selbst tust.", "Spiel gestartet, Runde eingetragen, Spiel beendet", "Spielernamen, Punktestände")}),
+ "mundgym-eu": dict(name="Mundgym", langs=["de", "sv", "it", "es", "nl"], updated="2026-10-21", data={
+   "de": ("Dein Trainingsplan, deine Einheiten, dein Tagebuch (deine eigenen Einschätzungen und Notizen) und deine Einstellungen werden nur auf deinem iPhone gespeichert. Wir können sie nicht sehen. Die App nutzt kein Mikrofon und nimmt nichts auf.", "Einheit gestartet und beendet, Tagebucheintrag gespeichert, Erinnerung gesetzt", "Tagebucheinträge, Bewertungen, Notizen"),
+   "sv": ("Din träningsplan, dina pass, din dagbok (dina egna skattningar och anteckningar) och dina inställningar sparas bara på din iPhone. Vi kan inte se dem. Appen använder inte mikrofonen och spelar inte in något.", "pass startat och avslutat, dagboksanteckning sparad, påminnelse inställd", "dagboksanteckningar, skattningar"),
+   "it": ("Il tuo piano di allenamento, le sessioni, il diario (le tue valutazioni e note) e le impostazioni sono salvati solo sul tuo iPhone. Non possiamo vederli. L'app non usa il microfono e non registra nulla.", "sessione iniziata e conclusa, voce del diario salvata, promemoria impostato", "voci del diario, valutazioni o note"),
+   "es": ("Tu plan de entrenamiento, tus sesiones, tu diario (tus propias valoraciones y notas) y tus ajustes se guardan solo en tu iPhone. No podemos verlos. La app no usa el micrófono ni graba nada.", "sesión iniciada y terminada, entrada del diario guardada, recordatorio configurado", "entradas del diario, valoraciones o notas"),
+   "nl": ("Je trainingsplan, je sessies, je dagboek (je eigen beoordelingen en notities) en je instellingen worden alleen op je iPhone opgeslagen. Wij kunnen ze niet zien. De app gebruikt de microfoon niet en neemt niets op.", "sessie gestart en afgerond, dagboekitem opgeslagen, herinnering ingesteld", "dagboekitems, beoordelingen, notities")},
+   notif={"de": "Uhrzeit und Wochentage der Trainingserinnerungen wählst du selbst; du kannst sie jederzeit ausschalten.",
+          "sv": "Du väljer själv tid och veckodagar för träningspåminnelserna och kan stänga av dem när som helst.",
+          "it": "Scegli tu orario e giorni dei promemoria di allenamento e puoi disattivarli in qualsiasi momento.",
+          "es": "Tú eliges la hora y los días de los recordatorios de entrenamiento y puedes desactivarlos cuando quieras.",
+          "nl": "Je kiest zelf het tijdstip en de dagen van de trainingsherinneringen en kunt ze altijd uitzetten."}),
 }
-LBL = {"en": "EN", "fi": "FI", "sv": "SV", "nb": "NO", "da": "DA", "nl": "NL", "it": "IT", "de": "DE", "fr": "FR", "pl": "PL"}
+# Pages edited by hand after generation (in-app switch names, mic section, consent text, kids wording): not rewritten.
+HAND_EDITED = {"bhv-examen-nl", "hundefuehrschein-at", "jachtexamen-nl", "karta-wedkarska-pl", "ledigplan-nordic", "src-vhf-nordic",
+               "tieturva-nordic", "tyoturva-fi", "verkeersexamen-eu"}
+LBL = {"en": "EN", "fi": "FI", "sv": "SV", "nb": "NO", "da": "DA", "nl": "NL", "it": "IT", "de": "DE", "fr": "FR", "pl": "PL", "pt": "PT", "es": "ES"}
 
 
 def page(title, lang0, nav, body):
@@ -259,6 +344,9 @@ def page(title, lang0, nav, body):
 
 
 for slug, a in APPS.items():
+    if slug in HAND_EDITED:
+        print("skip (hand-edited)", slug)
+        continue
     langs = a["langs"]
     secs, sups = [], []
     for l in langs:
