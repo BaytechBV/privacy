@@ -18,11 +18,13 @@ IDS = {"inburgering-examen": 6821393432, "vca-examen": 6821394093, "sachkunde-34
        "targhe-it": 6824629769, "ajokortti-teoria-fi": 6823285978}
 IDS["breireken-eu"] = 6826536446
 IDS["blutgas-eu"] = 6826536507
+IDS["botekalk-nordic"] = 6827950935
 # App Store campaign token per landing page (App Analytics → Sources → Campaigns).
 CT = {"indfodsretsprove-dk": "landing-dk", "statsborgerprove-no": "landing-no", "tyoturva-fi": "landing-fi", "bloeddonor-nl": "landing-nl",
       "hygieniapassi-fi": "landing-fi", "truckkort-nordic": "landing", "motorsagskorkort-se": "landing-se", "targhe-it": "landing-it", "ajokortti-teoria-fi": "landing-fi"}
 CT["breireken-eu"] = "landing-nl"
 CT["blutgas-eu"] = "landing-fi"
+CT["botekalk-nordic"] = "landing"
 SHOTS = 3  # first N store screenshots (the ASO order puts the strongest first)
 # Store button text and support link label per localization.
 L = {"da": ("Hent i App Store", "Support"), "de": ("Im App Store laden", "Support"), "nl": ("Download in de App Store", "Support"),
