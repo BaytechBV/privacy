@@ -1,0 +1,65 @@
+{
+ "fi": {
+  "slug": "metsastajatutkinto-harjoituskoe",
+  "title": "Metsästäjätutkinto harjoituskoe | Metsästäjätutkinto 2026",
+  "description": "Metsästäjätutkinnon harjoituskoe: 387 kysymystä selityksineen ja 67 lajikorttia. Suomeksi ja ruotsiksi, ilman verkkoa. Kertaosto, ei tilausta.",
+  "h1": "Metsästäjätutkinto harjoituskoe",
+  "lead": "Valmistaudu metsästäjätutkintoon 387 harjoituskysymyksellä kuudesta aihealueesta ja harjoituskokeella tutkinnon järjestyksessä. Jokaiseen kysymykseen on selitys.",
+  "benefits": [
+   {
+    "t": "387 kysymystä selityksineen",
+    "d": "Kuusi aihealuetta riistalajeista metsästyslakiin ja saaliin käsittelyyn."
+   },
+   {
+    "t": "Harjoituskoe tutkinnon mukaan",
+    "d": "15 lajintunnistuskysymystä ja 45 kysymystä, yhteensä 90 minuuttia."
+   },
+   {
+    "t": "67 lajikorttia",
+    "d": "Tunnistus, sekoitettavat lajit, metsästysaika ja elinympäristö."
+   },
+   {
+    "t": "Virheiden kertaus",
+    "d": "Väärät vastaukset kertautuvat, kunnes osaat ne kahdesti peräkkäin."
+   },
+   {
+    "t": "Suomeksi ja ruotsiksi",
+    "d": "Kysymykset, selitykset ja lajikortit ovat molemmilla kielillä."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Mitä aihealueita sovelluksessa on?",
+    "a": "Riistalajit ja tunnistus, metsästyslaki ja -ajat, aseet ja turvallisuus, metsästysetiikka, riistanhoito sekä saaliin käsittely."
+   },
+   {
+    "q": "Kuinka monta kysymystä harjoituskokeessa on?",
+    "a": "Ensin 15 lajintunnistuskysymystä (15 min), sitten 45 kysymystä: yhteensä 60 kysymystä ja 90 minuuttia. Hyväksymisraja on enintään 8 virhettä."
+   },
+   {
+    "q": "Voinko harjoitella ruotsiksi?",
+    "a": "Kyllä. Kaikki kysymykset, selitykset ja lajikortit ovat suomeksi ja ruotsiksi, ja kieltä voi vaihtaa milloin vain."
+   },
+   {
+    "q": "Toimiiko sovellus ilman nettiä?",
+    "a": "Kyllä, sovellus toimii ilman verkkoyhteyttä, eikä se vaadi tiliä."
+   },
+   {
+    "q": "Onko sovellus tilaus?",
+    "a": "Ei. Yksi kertaosto avaa kaikki aihealueet, täydet harjoituskokeet ja kaikki 67 lajikorttia."
+   },
+   {
+    "q": "Voinko kokeilla ennen ostoa?",
+    "a": "Kyllä. Ilman ostoa käytössä ovat Metsästysetiikka-aihe, 10 lajikorttia ja 20 kysymyksen minikoe."
+   },
+   {
+    "q": "Ovatko kysymykset tutkinnon virallisia kysymyksiä?",
+    "a": "Eivät. Kysymykset ovat sovelluksen tekijöiden omia, eikä sovellus liity Suomen riistakeskukseen."
+   },
+   {
+    "q": "Sisältääkö sovellus metsästysajat?",
+    "a": "Kyllä, Metsästysajat-taulukko lähteineen. Ajat muuttuvat asetuksilla, joten tarkista voimassa oleva tilanne ennen metsälle lähtöä."
+   }
+  ]
+ }
+}

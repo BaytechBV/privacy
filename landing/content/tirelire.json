@@ -1,0 +1,61 @@
+{
+ "fr-FR": {
+  "slug": "argent-de-poche-application",
+  "title": "Argent de poche enfant – tâches et épargne | Tirelire",
+  "description": "Tirelire suit l'argent de poche de vos enfants : tâches à valider, objectif d'épargne, 109 idées de tâches, partage iCloud entre parents. Sans banque.",
+  "h1": "Argent de poche enfant – tâches, récompenses et épargne",
+  "lead": "Tirelire tient les comptes de l'argent de poche de vos enfants, récompense les tâches et les aide à épargner. Aucune banque reliée, aucune carte.",
+  "benefits": [
+   {
+    "t": "Un solde par enfant",
+    "d": "Tâches de la semaine, prochain argent de poche et objectif."
+   },
+   {
+    "t": "109 idées de tâches",
+    "d": "Classées par âge, avec une récompense suggérée."
+   },
+   {
+    "t": "Un objectif qui motive",
+    "d": "32 modèles d'objectifs et une date estimée."
+   },
+   {
+    "t": "Mode enfant simple",
+    "d": "Son solde, son objectif et ses tâches du jour."
+   },
+   {
+    "t": "Partage entre parents",
+    "d": "Invitez l'autre parent par iCloud."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Tirelire est-elle reliée à une banque ?",
+    "a": "Non, aucune banque reliée et aucune carte. L'app garde seulement les comptes, et les pièces restent dans la vraie tirelire."
+   },
+   {
+    "q": "Comment fonctionnent les tâches ?",
+    "a": "L'enfant coche, vous validez avec « Valider et payer » ou « Pas encore ». Fait à moitié ? Vous pouvez payer la moitié."
+   },
+   {
+    "q": "L'argent de poche est-il versé automatiquement ?",
+    "a": "Oui, il est ajouté tout seul le jour choisi, même si l'app est restée fermée."
+   },
+   {
+    "q": "Peut-on partager avec l'autre parent ?",
+    "a": "Oui, par le partage iCloud : mêmes soldes, et chacun valide depuis son iPhone."
+   },
+   {
+    "q": "Que puis-je utiliser sans achat ?",
+    "a": "L'app est utilisable sans achat avec un enfant."
+   },
+   {
+    "q": "Y a-t-il un abonnement ?",
+    "a": "Non. Un achat unique débloque les enfants illimités, le partage avec l'autre parent, le mode enfant et le widget."
+   },
+   {
+    "q": "Quelles devises sont disponibles ?",
+    "a": "Euros, couronnes, livres, francs suisses ou dollars."
+   }
+  ]
+ }
+}

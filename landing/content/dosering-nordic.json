@@ -1,0 +1,65 @@
+{
+ "da": {
+  "slug": "medicinregning-proeve",
+  "title": "Medicinregning øvelse til sygeplejersker | Dosisklar",
+  "description": "Øv medicinregning til prøven i sygeplejen med nye tal i hver opgave og løsning trin for trin. Engangskøb, virker uden internet.",
+  "h1": "Medicinregning – øv til prøven i sygeplejen",
+  "lead": "Dosisklar hjælper sygeplejestuderende med at øve medicinregning til prøven, med nye tal i hver opgave og løsningen trin for trin. Kun til eksamenstræning.",
+  "benefits": [
+   {
+    "t": "Nye tal hver gang",
+    "d": "Opgaver om enheder, infusion og fortynding med løsning trin for trin."
+   },
+   {
+    "t": "Prøveeksamen med tid",
+    "d": "Øv i vores øveformat og se fremskridt pr. emne."
+   },
+   {
+    "t": "Formler og enheder samlet",
+    "d": "mg, µg, ml/t og dråber/min på ét sted."
+   },
+   {
+    "t": "Prøvedag",
+    "d": "Nedtælling, tjekliste og påmindelse."
+   },
+   {
+    "t": "Virker uden internet",
+    "d": "Øv dine fejl overalt."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hvem er appen til?",
+    "a": "Sygeplejestuderende, der vil øve medicinregning til prøven."
+   },
+   {
+    "q": "Kan jeg bruge den til at udregne doser til patienter?",
+    "a": "Nej. Dosisklar er kun til eksamenstræning og må ikke bruges til at beregne doser til patienter."
+   },
+   {
+    "q": "Er opgaverne ens hver gang?",
+    "a": "Nej, hver opgave har nye tal, og løsningen vises trin for trin."
+   },
+   {
+    "q": "Hvad kan jeg øve?",
+    "a": "Spørgsmål pr. emne med forklaring, enheder, infusion og fortynding samt en prøveeksamen med tid."
+   },
+   {
+    "q": "Virker appen uden internet?",
+    "a": "Ja, den virker uden internet."
+   },
+   {
+    "q": "Hvad kan jeg bruge uden køb?",
+    "a": "20 spørgsmål, én fuld prøveeksamen, ordlisten og tjeklisten."
+   },
+   {
+    "q": "Er det et abonnement?",
+    "a": "Nej. Den fulde version er et engangskøb, der låser alle spørgsmål, prøveeksamener og statistik op. Intet abonnement."
+   },
+   {
+    "q": "Er appen tilknyttet uddannelsesstederne?",
+    "a": "Nej, appen er uafhængig og ikke tilknyttet uddannelsesstederne."
+   }
+  ]
+ }
+}

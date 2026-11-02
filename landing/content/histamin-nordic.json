@@ -1,0 +1,65 @@
+{
+ "sv": {
+  "slug": "histaminintolerans-livsmedelslista",
+  "title": "Histaminintolerans livsmedelslista och matdagbok | Tåla",
+  "description": "Kan jag äta det här? 300+ livsmedel med betyg för histamin, fruktos, laktos och sorbitol, nordisk mat, källor och matdagbok. Utan konto.",
+  "h1": "Histaminintolerans livsmedelslista – vad kan jag äta?",
+  "lead": "Tåla ger svaret på svenska för histamin, fruktos, laktos och sorbitol. Över 300 livsmedel med betyg, källor och en dagbok för måltider och symtom.",
+  "benefits": [
+   {
+    "t": "300+ livsmedel med betyg",
+    "d": "Bra, Måttligt, Undvik eller Varierar för varje intolerans."
+   },
+   {
+    "t": "Nordisk mat",
+    "d": "Knäckebröd, inlagd sill, gravlax, filmjölk, lingon och mycket mer."
+   },
+   {
+    "t": "Dagbok för måltider och symtom",
+    "d": "Anteckna symtom med styrka 1–5 och se en veckoöversikt."
+   },
+   {
+    "t": "Mina säkra och Visa i butik",
+    "d": "Spara det du tål och visa en stor lista för servitören."
+   },
+   {
+    "t": "Inget konto",
+    "d": "Allt sparas i telefonen."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Vilka intoleranser täcker Tåla?",
+    "a": "Histamin, fruktos, laktos och sorbitol. Fruktos, laktos och sorbitol hör till FODMAP-grupperna, men Tåla visar inga portionsvärden."
+   },
+   {
+    "q": "Hur många livsmedel finns i listan?",
+    "a": "Över 300 livsmedel, bland annat nordisk mat, med betyg per intolerans och en kort förklaring."
+   },
+   {
+    "q": "Varför står det ibland Varierar?",
+    "a": "Där källorna är oeniga står det Varierar. Källor finns till varje livsmedel."
+   },
+   {
+    "q": "Kan jag föra dagbok över symtom?",
+    "a": "Ja, du antecknar måltider och symtom med styrka 1–5. Veckoöversikten beskriver dina anteckningar och är ingen diagnos."
+   },
+   {
+    "q": "Finns det en eliminationsplan?",
+    "a": "Ja, med faser för att utesluta och återintroducera, som du planerar med läkare eller dietist. Du kan också exportera dagbok och listor som PDF."
+   },
+   {
+    "q": "Vad ingår utan köp?",
+    "a": "En intolerans, sök, 50 livsmedel med alla detaljer och 7 dagars dagbok."
+   },
+   {
+    "q": "Hur fungerar Tåla Plus?",
+    "a": "Du väljer årsvis, med förnyelse automatiskt och uppsägning när som helst i App Store-inställningarna, eller livstid som engångsköp. Aktuellt pris ser du i App Store."
+   },
+   {
+    "q": "Ersätter appen läkare eller dietist?",
+    "a": "Nej. Tåla är en informationsapp och ställer inga diagnoser. Betygen är allmän vägledning och tålighet är individuell."
+   }
+  ]
+ }
+}

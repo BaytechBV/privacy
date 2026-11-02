@@ -1,0 +1,375 @@
+{
+ "abonnement-nordic": {
+  "da": "abonnementer-opsigelse",
+  "en": "subscription-tracker-cancel",
+  "fi": "tilaukset-irtisano-helposti",
+  "nb": "abonnementer-si-opp",
+  "sv": "prenumerationer-sag-upp"
+ },
+ "airfryer-nordic": {
+  "da": "krispa-airfryer-opskrifter",
+  "de": "krispa-airfryer-rezepte",
+  "en": "krispa-air-fryer-recipes",
+  "en-us": "krispa-air-fryer-recipes",
+  "fi": "krispa-airfryer-reseptit",
+  "nb": "krispa-airfryer-oppskrift",
+  "sv": "airfryer-tider-grader"
+ },
+ "ajokortti-teoria-fi": {
+  "en": "ajokortti-driving-theory-b",
+  "fi": "ajokortti-teoria-harjoituskoe",
+  "sv": "korkortsteori-finland"
+ },
+ "alkohol-servering-eu": {
+  "en": "serveringsklar-alcohol-test",
+  "fi": "anniskelupassikoe-harjoitus",
+  "nb": "serveringsklar-alkoholloven",
+  "nl": "serveringsklar-horeca-examen",
+  "sv": "serveringsklar-alkohollagen"
+ },
+ "anhuker-nordic": {
+  "da": "lyftklar-anhuggerkursus",
+  "de": "lyftklar-anschlager-kran",
+  "fi": "lyftklar-taakankiinnitys",
+  "nb": "anhuker-teori",
+  "sv": "lyftklar-lyftkort-teori"
+ },
+ "antincendio-it": {
+  "en": "antincendio-pronto-quiz",
+  "it": "quiz-antincendio-livello-3"
+ },
+ "babytegn-nordic": {
+  "da": "tegnbaby-babytegn",
+  "de": "babyhender-babyzeichen",
+  "en": "babyhender-baby-sign-language",
+  "fi": "babyhender-vauvaviittomat",
+  "nb": "babytegn-app",
+  "nl": "babyhender-babygebaren",
+  "sv": "babyhender-babytecken"
+ },
+ "bhv-examen-nl": {
+  "en": "bhv-klaar-herhaling-en-toets",
+  "nl": "bhv-examen-oefenen"
+ },
+ "bilbok-nordic": {
+  "da": "bilbogen-syn-og-service",
+  "en": "bilboka-car-service-log",
+  "fi": "autokirja-katsastus",
+  "nb": "eu-kontroll-dekkskift-varsel",
+  "sv": "bilboken-besiktning-dack"
+ },
+ "bloeddonor-nl": {
+  "da": "bloedmaatje-bloddonor",
+  "en": "bloedmaatje-donorlogboek",
+  "fi": "bloedmaatje-verenluovutus",
+  "nb": "bloedmaatje-blodgiver",
+  "nl": "bloeddonor-logboek",
+  "sv": "bloedmaatje-blodgivning"
+ },
+ "dosering-nordic": {
+  "da": "medicinregning-proeve",
+  "en": "dosisklar-drug-calculations",
+  "fi": "dosisklar-laakelaskenta",
+  "fr": "dosisklar-calcul-de-dose",
+  "nb": "dosisklar-legemiddelregning",
+  "nl": "dosisklar-medisch-rekenen",
+  "sv": "dosisklar-lakemedelsberakning"
+ },
+ "duelighedsbevis-dk": {
+  "da": "duelighedsbevis-teori",
+  "de": "duelighedsbevis-bootsschein",
+  "en": "duelighedsbevis-boat-licence"
+ },
+ "enummer-nordic": {
+  "da": "e-numre-e-tjek",
+  "de": "e-check-zusatzstoffe",
+  "en": "e-numbers-e-koll",
+  "fi": "e-koodit-lisaaineet",
+  "nb": "e-nummer-e-koll",
+  "sv": "e-nummer-tillsatser"
+ },
+ "fischerpruefung-at": {
+  "de": "fischerpruefung-oesterreich-ueben",
+  "en": "fischerprufung-osterreich"
+ },
+ "fodsel-nordic": {
+  "da": "foedselsklar-ve-taeller-og-veer",
+  "en": "foedselsklar-contraction-timer",
+  "fi": "synnytysvalmis-supistukset",
+  "nb": "rieteller-fodsel"
+ },
+ "forarintyg-se": {
+  "en": "baatkorkort-boat-licence-se",
+  "sv": "forarintyg-fritidsbat-ovningsprov"
+ },
+ "glp1-companion-eu": {
+  "de": "glp-1-tagebuch-abnehmspritze",
+  "en": "glp-1-injection-diary",
+  "fr": "journal-glp-1-injections",
+  "nl": "glp-1-dagboek-afvalprik",
+  "sv": "glp-1-dagbok-viktspruta"
+ },
+ "golf-greencard-nordic": {
+  "de": "green-card-golf-osterreich",
+  "en": "golf-green-card-rules-test",
+  "fi": "golf-green-card-saantokoe",
+  "nb": "green-card-golfregler",
+  "sv": "gront-kort-golf-teoriprov"
+ },
+ "hestegym-eu": {
+  "da": "hestegym-oevelser-fra-jorden",
+  "de": "pferdegym-bodenarbeit",
+  "en": "hestegym-horse-groundwork",
+  "fi": "hestegym-hevosen-jumppa",
+  "nb": "hestetrening-bakkearbeid-ovelser",
+  "nl": "hestegym-grondwerk",
+  "sv": "hestegym-markarbete"
+ },
+ "histamin-nordic": {
+  "da": "taale-histamin-fruktose",
+  "de": "taala-histamin-fructose",
+  "en": "taala-histamine-fructose",
+  "en-us": "taala-histamine-fructose",
+  "fi": "sieto-histamiini-fruktoosi",
+  "nb": "taale-histamin-fruktose",
+  "sv": "histaminintolerans-livsmedelslista"
+ },
+ "hygieniapassi-fi": {
+  "en": "hygieniapassi-treeni",
+  "fi": "hygieniapassitesti-harjoittelu",
+  "sv": "hygieniapassi-hygienpass"
+ },
+ "indfodsretsprove-dk": {
+  "ar": "indfodsretsprove-dk",
+  "da": "indfodsretsproeven-oevespoergsmaal",
+  "de": "danischer-einburgerungstest",
+  "en": "danish-citizenship-test-prep",
+  "pl": "test-na-obywatelstwo-danii",
+  "tr": "danimarka-vatandaslik-testi"
+ },
+ "jagdpruefung-at": {
+  "de": "jagdpruefung-oesterreich",
+  "en": "jagdprufung-osterreich"
+ },
+ "karta-wedkarska-pl": {
+  "en": "karta-wedkarska-test-atlas",
+  "pl": "egzamin-na-karte-wedkarska-test"
+ },
+ "kirkeaar-nordic": {
+  "da": "kirkeaaret-soendage-og-tekster",
+  "en": "kirkeaaret-nordic-church-year",
+  "fi": "kirkkovuosi-pyhat-ja-tekstit",
+  "nb": "kirkeaaret-tekstrekker"
+ },
+ "klein-vaarbewijs-nl": {
+  "de": "vaarbewijs-kvb-1-2-trainer",
+  "en": "vaarbewijs-kvb-1-2-practice",
+  "nl": "klein-vaarbewijs-oefenen"
+ },
+ "korkortsteori-sprak-nordic": {
+  "da": "teoriklar-teoriproeven",
+  "en": "teoriklar-driving-theory",
+  "fi": "teoriklar-ajokorttiteoria",
+  "nb": "teoriklar-teoriproeven",
+  "sv": "korkortsteori-pa-ditt-sprak"
+ },
+ "labraopas-fi": {
+  "en": "labraopas-laboratoriokokeet",
+  "fi": "laboratoriokokeet-viitearvot"
+ },
+ "lastbil-c-nordic": {
+  "da": "tungbilklar-teoriproeve-c",
+  "en": "rekkaklar-c-luokan-teoriakoe",
+  "fi": "c-luokan-teoriakoe",
+  "nb": "lastebilklar-teoriproeve-c",
+  "sv": "tungbilklar-c-teori"
+ },
+ "ledigplan-nordic": {
+  "da": "ledigplan-barsel-og-orlov",
+  "en": "ledigplan-foraldraledighet",
+  "fi": "ledigplan-vanhempainvapaa",
+  "nb": "ledigplan-foreldrepermisjon",
+  "sv": "foraldradagar-kalkylator"
+ },
+ "legetakst-eu": {
+  "de": "takstklar-arzttarif-norwegen",
+  "en": "takstklar-normaltariffen",
+  "nb": "legetakst-normaltariffen"
+ },
+ "lesestart-nordic": {
+  "da": "laesestart-laer-at-laese",
+  "nb": "lese-app-for-barn"
+ },
+ "lkw-theorie-at": {
+  "de": "lkw-fuehrerschein-theorie"
+ },
+ "medborgarskapsprov-se": {
+  "en": "provklar-citizenship-test",
+  "sv": "medborgarskapsprovet-ova-fragor"
+ },
+ "metsastajatutkinto-fi": {
+  "en": "metsastajatutkinto-jagarexamen",
+  "fi": "metsastajatutkinto-harjoituskoe",
+  "sv": "jagarexamen-finland-2026-2027"
+ },
+ "moped-am-eu": {
+  "da": "knallertkoerekort-teori",
+  "de": "am-klar-mopedausweis",
+  "en": "am-klar-moped-am-theory",
+  "fi": "am-klar-mopokortti-am120",
+  "nb": "am-klar-mopedlappen",
+  "nl": "am-klar-bromfiets-theorie",
+  "sv": "am-klar-mopedkorkort"
+ },
+ "motorsaege-dach": {
+  "de": "motorsaegenkurs-theorie"
+ },
+ "motorsagskorkort-se": {
+  "en": "saagklar-motorsaagskorkort",
+  "sv": "motorsagskorkort-teori"
+ },
+ "oldtimer-rallye-eu": {
+  "de": "oldtimer-rallye-rechner",
+  "nl": "rallyklar-regelmatigheidsrit"
+ },
+ "onskelista-nordic": {
+  "da": "oenskeseddel-julegaver",
+  "de": "wunschzettel-wichteln",
+  "en": "wishlist-gift-lists",
+  "fi": "toivelista-lahjalista",
+  "fr": "liste-de-souhaits-noel",
+  "nl": "verlanglijstje-lootjes",
+  "sv": "onskelista-julklappar"
+ },
+ "ovningskorning-nordic": {
+  "da": "koerelog-koerekort-som-17-aarig",
+  "en": "korbok-ovningskora-korprov",
+  "fi": "opetusajo-ajokortti-ajoloki",
+  "sv": "ovningskorning-loggbok"
+ },
+ "patent-zeglarski-pl": {
+  "en": "zeglarz-sternik-motorowodny",
+  "pl": "patent-zeglarza-jachtowego-testy"
+ },
+ "pressure-headache-eu": {
+  "da": "lufttryk-hovedpine",
+  "de": "luftdruck-kopfschmerz",
+  "en": "pressure-headache-forecast",
+  "fi": "ilmanpaine-paansarky",
+  "nb": "lufttrykk-hodepine",
+  "nl": "luchtdruk-hoofdpijn",
+  "sv": "lufttryck-huvudvark"
+ },
+ "recipe-saver-nordic": {
+  "da": "opskrifter-gem-madplan",
+  "en": "recipe-saver-app",
+  "fi": "reseptit-tallenna-kokkaa",
+  "nb": "oppskrifter-lagre-fra-nett",
+  "sv": "recept-spara-veckomeny"
+ },
+ "skismoring-nordic": {
+  "en": "smoerklar-xc-ski-wax-guide",
+  "fi": "smoerklar-suksen-voitelu",
+  "nb": "skismoring-langrenn",
+  "sv": "vallaklar-vallaguide-langd"
+ },
+ "snoskoter-nordic": {
+  "fi": "skoterklar-moottorikelkka",
+  "nb": "skoterklar-klasse-s",
+  "sv": "snoskoter-forarbevis-teori"
+ },
+ "sourdough-eu": {
+  "da": "riseplan-surdej-broed",
+  "de": "sauerteig-backplan-app",
+  "en": "riseplan-sourdough-planner",
+  "fi": "riseplan-juuri-leipa",
+  "nb": "riseplan-surdeig-broed",
+  "nl": "riseplan-zuurdesem-brood",
+  "sv": "riseplan-surdeg-brod"
+ },
+ "split-nordic": {
+  "da": "delt-dele-udgifter-regning",
+  "en": "delt-split-group-expenses",
+  "fi": "jaettu-jaa-kulut-ja-laskut",
+  "nb": "dele-utgifter-app",
+  "sv": "delt-dela-utgifter-notan"
+ },
+ "src-vhf-nordic": {
+  "da": "src-klar-vhf-certifikat",
+  "de": "src-klar-prufung-funkschein",
+  "fi": "src-klar-vhf-todistus",
+  "nb": "src-klar-vhf-sertifikat",
+  "nl": "src-klar-marifoon-examen",
+  "sv": "src-provet-ova"
+ },
+ "statsborgerprove-no": {
+  "ar": "statsborgerprove-no",
+  "de": "norwegischer-einburgerungstest",
+  "en": "norwegian-citizenship-test",
+  "en-us": "norwegian-citizenship-test",
+  "nb": "statsborgerproven-oving",
+  "pl": "test-na-obywatelstwo-norwegii"
+ },
+ "targhe-it": {
+  "de": "caccia-alle-targhe",
+  "en": "caccia-alle-targhe",
+  "fr": "caccia-alle-targhe",
+  "it": "gioco-targhe-auto-viaggio",
+  "pl": "caccia-alle-targhe"
+ },
+ "taxiprov-eu": {
+  "da": "taxiklar-taxikoerekort",
+  "de": "taxiklar-taxischein",
+  "en": "taxiklar-swedish-taxi-test",
+  "nb": "taxiklar-kjoereseddel-taxi",
+  "nl": "taxiklar-chauffeurskaart",
+  "sv": "taxiforarlegitimation-prov"
+ },
+ "tieturva-nordic": {
+  "en": "tieturva-treeni-road-work",
+  "fi": "tieturva-1-harjoituskoe",
+  "nb": "arbeidsvarsling-oev-kurs-1",
+  "sv": "vagklar-arbete-paa-vag-apv"
+ },
+ "tirelire": {
+  "da": "tirelire-lommepenge",
+  "en": "tirelire-pocket-money",
+  "fi": "tirelire-viikkoraha",
+  "fr": "argent-de-poche-application",
+  "fr-ca": "tirelire-argent-de-poche",
+  "nb": "tirelire-lommepenger",
+  "sv": "tirelire-veckopeng"
+ },
+ "trailerklar-nordic": {
+  "da": "trailerklar-koerekort-b-e",
+  "fi": "be-kortti-teoriakoe",
+  "nb": "trailerklar-hengervekt",
+  "sv": "slapklar-be-teori"
+ },
+ "traktor-eu": {
+  "da": "traktorklar-traktorkoerekort",
+  "de": "traktorklar-fuhrerschein-f",
+  "fi": "traktorklar-t-kortti",
+  "nb": "traktorforerkort-teori",
+  "sv": "traktorklar-traktorkort"
+ },
+ "tyoturva-fi": {
+  "en": "tyoturva-ttk-ja-tulityo",
+  "fi": "tyoturvallisuuskortti-koe",
+  "sv": "heta-arbeten-ovningsprov"
+ },
+ "vaktplan-nordic": {
+  "da": "vagtplan-loenberegner",
+  "en": "shift-planner-pay-calculator",
+  "fi": "vaktplan-tyovuorot-ja-palkka",
+  "nb": "vaktplan-turnus-og-loenn",
+  "sv": "vaktplan-arbetspass-och-lon"
+ },
+ "verkeersexamen-eu": {
+  "da": "cykelhelt-cyklistproeven",
+  "de": "radheld-fahrradprufung",
+  "en": "radheld-fahrradprufung",
+  "nl": "verkeersexamen-groep-7-oefenen",
+  "pl": "verkeersheld-karta-rowerowa"
+ }
+}

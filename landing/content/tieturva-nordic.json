@@ -1,0 +1,61 @@
+{
+ "fi": {
+  "slug": "tieturva-1-harjoituskoe",
+  "title": "Tieturva 1 harjoituskoe – tietyömerkit | Tieturva Treeni",
+  "description": "Harjoittele Tieturva 1 -koetta: kysymykset selityksineen, koeharjoitus sekä työmaan merkit ja turvaetäisyydet. Kertaosto, suomeksi ja ilman nettiä.",
+  "h1": "Tieturva 1 harjoituskoe – tietyömerkit ja turvaetäisyydet",
+  "lead": "Tieturva Treeni auttaa harjoittelemaan Tieturva 1 -koetta: tietyömaan merkit, varoituslaitteet ja turvaetäisyydet selityksineen.",
+  "benefits": [
+   {
+    "t": "Kysymykset aiheittain",
+    "d": "Selitys jokaiseen vastaukseen."
+   },
+   {
+    "t": "Koeharjoitus ajalla",
+    "d": "Harjoittele koemuodossa ajan kanssa."
+   },
+   {
+    "t": "Merkit ja etäisyydet",
+    "d": "Varoitus, suojaus ja turvaetäisyys yhdellä sivulla."
+   },
+   {
+    "t": "Kortin voimassaolo",
+    "d": "5 vuotta ja muistutus ennen vanhenemista."
+   },
+   {
+    "t": "Toimii ilman nettiä",
+    "d": "Kertaosto, ei tilausta."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Mitä Tieturva 1 -harjoituskokeessa harjoitellaan?",
+    "a": "Tietyömaan merkkejä, varoituslaitteita ja turvaetäisyyksiä sekä kysymyksiä selityksineen."
+   },
+   {
+    "q": "Kuinka kauan Tieturvakortti on voimassa?",
+    "a": "Sovelluksen mukaan 5 vuotta, ja sovellus muistuttaa ennen vanhenemista."
+   },
+   {
+    "q": "Korvaako sovellus kurssin?",
+    "a": "Ei. Kurssin ja kokeen suoritat kouluttajan kautta. Sovellus on itsenäinen eikä liity Väylävirastoon tai kouluttajiin."
+   },
+   {
+    "q": "Toimiiko sovellus ilman nettiä?",
+    "a": "Kyllä, se toimii ilman nettiä ja on suomeksi."
+   },
+   {
+    "q": "Onko se tilaus?",
+    "a": "Ei. Täysi versio on kertaosto, joka avaa kaikki kysymykset, koeharjoitukset ja virheiden kertauksen."
+   },
+   {
+    "q": "Voiko sovellusta kokeilla ennen ostoa?",
+    "a": "Ilman ostoa voit harjoitella 20 kysymystä ja käyttää sanastoa, merkit ja etäisyydet -sivua sekä kortin muistutusta."
+   },
+   {
+    "q": "Onko mukana virheiden kertaus?",
+    "a": "Kyllä, virheiden kertaus ja edistyminen aiheittain kuuluvat sovellukseen."
+   }
+  ]
+ }
+}

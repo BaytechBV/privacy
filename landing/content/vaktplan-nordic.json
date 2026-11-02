@@ -1,0 +1,120 @@
+{
+ "en-GB": {
+  "slug": "shift-planner-pay-calculator",
+  "title": "Shift Planner and Pay Calculator | Vaktplan – Shifts & Pay",
+  "description": "Plan shifts and rotations, see hours split into evening, night, weekend and holiday, and estimate gross pay. For shift workers in Norway, Denmark, Finland.",
+  "h1": "Shift planner and pay calculator for shift workers",
+  "lead": "Plan your shifts, see your hours and check that your payslip adds up. Made for shift workers in Norway, Denmark and Finland.",
+  "benefits": [
+   {
+    "t": "Calendar and rotations",
+    "d": "Own shift types, rotations of 1 to 8 weeks, placed two years ahead."
+   },
+   {
+    "t": "Hours split by type",
+    "d": "Evening, night, Saturday, Sunday, public holiday and overtime."
+   },
+   {
+    "t": "Public holidays built in",
+    "d": "Norway, Denmark and Finland, calculated in the app."
+   },
+   {
+    "t": "Pay estimate with Pro",
+    "d": "Gross pay with supplements to compare with your payslip."
+   },
+   {
+    "t": "No account, works offline",
+    "d": "Everything is stored on your phone."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Who is Vaktplan for?",
+    "a": "For shift workers in Norway, Denmark and Finland, such as nurses, care workers, police, retail, hotels and restaurants, warehouses and students with part-time jobs."
+   },
+   {
+    "q": "Can I plan a rotation?",
+    "a": "Yes, rotations of 1 to 8 weeks, placed up to two years ahead."
+   },
+   {
+    "q": "Does it calculate evening, night and holiday hours?",
+    "a": "Yes, hours per week and month for normal, evening, night, Saturday, Sunday, public holiday, overtime and on-call. Shifts past midnight and daylight-saving changes are counted correctly."
+   },
+   {
+    "q": "How does the pay estimate work?",
+    "a": "With Pro you get a monthly gross estimate with supplements you set up yourself. It is an estimate before tax, not a payslip."
+   },
+   {
+    "q": "Does it include agreement rates?",
+    "a": "No. Templates have the supplement names of common agreements, but you enter the numbers from your own agreement."
+   },
+   {
+    "q": "How much is Pro?",
+    "a": "Pro is a yearly subscription or a one-time lifetime purchase."
+   },
+   {
+    "q": "Which languages does it support?",
+    "a": "English, Norwegian, Danish, Finnish and Swedish."
+   }
+  ]
+ },
+ "da": {
+  "slug": "vagtplan-loenberegner",
+  "title": "Vagtplan og lønberegner til vagter | Vagtplan",
+  "description": "Sæt rulleplanen ind, se timer fordelt på aften, nat, weekend og helligdag og få et skøn over bruttolønnen. Til skiftende vagter i DK, Norge og Finland.",
+  "h1": "Vagtplan og lønberegner – rulleplan og tillæg",
+  "lead": "Vagtplan er lavet til dig, der arbejder i skiftende vagter. Planlæg vagterne, se dine timer og tjek, at lønsedlen passer.",
+  "benefits": [
+   {
+    "t": "Kalender og rulleplan",
+    "d": "Egne vagttyper og rulleplan på 1–8 uger, op til to år frem."
+   },
+   {
+    "t": "Timer fordelt",
+    "d": "Aften, nat, lørdag, søndag, helligdag og overarbejde."
+   },
+   {
+    "t": "Helligdage indbygget",
+    "d": "Danmark, Norge og Finland beregnes i appen."
+   },
+   {
+    "t": "Lønskøn med Pro",
+    "d": "Bruttoløn med tillæg, så du kan sammenligne med lønsedlen."
+   },
+   {
+    "t": "Ingen konto, virker offline",
+    "d": "Alt gemmes på telefonen."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hvem er Vagtplan lavet til?",
+    "a": "Til sygeplejersker, SOSU'er, politi, butik, hotel og restaurant, lager og studerende med studiejob."
+   },
+   {
+    "q": "Kan jeg lægge en rulleplan?",
+    "a": "Ja, rulleplaner på 1–8 uger, sat ind op til to år frem."
+   },
+   {
+    "q": "Regner appen aften-, nat- og helligdagstimer?",
+    "a": "Ja, timer pr. uge og måned fordelt på almindelige timer, aften, nat, lørdag, søndag, helligdag, overarbejde og rådighed."
+   },
+   {
+    "q": "Hvordan fungerer lønskønnet?",
+    "a": "Med Pro får du en anslået bruttoløn pr. måned med tillæg, du selv sætter op. Det er et skøn før skat, ikke en lønseddel."
+   },
+   {
+    "q": "Er overenskomstens satser med?",
+    "a": "Nej. Skabelonerne har navnene på tillæggene, men du indtaster tallene fra din egen overenskomst."
+   },
+   {
+    "q": "Hvad koster Pro?",
+    "a": "Pro fås som årsabonnement eller som engangskøb for altid."
+   },
+   {
+    "q": "Skal jeg oprette en konto?",
+    "a": "Nej, ingen konto og ingen reklamer. Alt gemmes på telefonen og virker uden internet."
+   }
+  ]
+ }
+}

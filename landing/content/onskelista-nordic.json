@@ -1,0 +1,65 @@
+{
+ "sv": {
+  "slug": "onskelista-julklappar",
+  "title": "Önskelista julklappar – dela och reservera | Önskelista",
+  "description": "Skapa en önskelista per högtid, dela med familjen och låt dem reservera i hemlighet. Hemlig tomte ingår. Engångsköp, ingen prenumeration.",
+  "h1": "Önskelista julklappar – dela med familjen, inga dubbla presenter",
+  "lead": "Gör en lista per högtid, dela den med en länk och låt familjen reservera i hemlighet. Du som önskar ser aldrig vad som är köpt, så överraskningen finns kvar.",
+  "benefits": [
+   {
+    "t": "Lägg till önskningar snabbt",
+    "d": "Klistra in en länk från vilken butik som helst, eller dela från Safari."
+   },
+   {
+    "t": "Reservera i hemlighet",
+    "d": "Familjen trycker Jag köper, och den som önskar ser det inte."
+   },
+   {
+    "t": "Hemlig tomte",
+    "d": "Lottning i telefonen med budget, datum och par som inte får dra varandra."
+   },
+   {
+    "t": "Att köpa på ett ställe",
+    "d": "Reserverad, köpt, inslagen, given, med budget per person."
+   },
+   {
+    "t": "Listor åt barnen",
+    "d": "Bara ett förnamn, inget konto för barnet."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hur delar jag min önskelista?",
+    "a": "Du bjuder in via Meddelanden, WhatsApp eller e-post med iCloud-delning, och inget konto behövs. Utan appen kan du skicka listan som bild eller text."
+   },
+   {
+    "q": "Ser jag vad familjen har köpt?",
+    "a": "Nej. Den som önskar ser inte vad som är reserverat. Hinner två reservera samma sak går den till den som var först."
+   },
+   {
+    "q": "Hur fungerar hemlig tomte?",
+    "a": "Du lägger till deltagare, par som inte får dra varandra, budget och datum. Lottningen sker i telefonen och var och en får sitt resultat som en privat länk."
+   },
+   {
+    "q": "Kan jag lägga till önskningar från en butik?",
+    "a": "Ja, klistra in en länk så hämtas titel och bild en gång, eller dela direkt från Safari eller en butiksapp."
+   },
+   {
+    "q": "Finns det påminnelser?",
+    "a": "Ja, en påminnelse 14 dagar före en högtid, med hur många önskningar som är kvar."
+   },
+   {
+    "q": "Vad kan jag använda utan köp?",
+    "a": "3 egna listor och allt som rör givande, samt lottning av hemlig tomte med upp till 5 personer."
+   },
+   {
+    "q": "Är det en prenumeration?",
+    "a": "Nej. Ett engångsköp ger full tillgång och gäller hela familjen via Familjedelning."
+   },
+   {
+    "q": "Kan barn ha egna listor?",
+    "a": "Ja, du gör listor åt barnen med bara ett förnamn och inget konto för barnet."
+   }
+  ]
+ }
+}

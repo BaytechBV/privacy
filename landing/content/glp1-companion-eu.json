@@ -1,0 +1,65 @@
+{
+ "en-GB": {
+  "slug": "glp-1-injection-diary",
+  "title": "GLP-1 injection diary and log | GLP-1 Diary",
+  "description": "Private GLP-1 injection log: rotate 8 injection sites, track weight and side effects, and share a PDF report with your doctor. Works in 5 languages.",
+  "h1": "GLP-1 injection diary – log shots, weight and side effects",
+  "lead": "GLP-1 Diary is a private diary for people on GLP-1 medication prescribed by their doctor. Log every injection, follow your weight and note side effects, then share a clear PDF report.",
+  "benefits": [
+   {
+    "t": "Injection log with body map",
+    "d": "8 sites, and a star marks the one you used least recently."
+   },
+   {
+    "t": "Weight and habits",
+    "d": "Weight and waist with a chart and goal line, plus protein, water and fibre counters."
+   },
+   {
+    "t": "Side-effect notes",
+    "d": "Rate severity 1 to 5 and see it on the timeline next to your injections."
+   },
+   {
+    "t": "PDF report for your doctor",
+    "d": "Doses, weights and a side-effect summary for any period."
+   },
+   {
+    "t": "Private by design",
+    "d": "No account, and your health data is never sent anywhere. Optional Face ID lock."
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is GLP-1 Diary?",
+    "a": "It is a diary for logging GLP-1 injections, injection sites, weight and side effects. It is only a diary and gives no dose advice, titration advice, medicine-level estimate or diagnosis."
+   },
+   {
+    "q": "Can I log weekly and daily injections?",
+    "a": "Yes. You can set a weekly or daily schedule with the dose your doctor set, and get a reminder on your day and time."
+   },
+   {
+    "q": "Will reminders show my medicine name?",
+    "a": "No. Lock-screen texts never show a medicine name or dose."
+   },
+   {
+    "q": "Is my health data private?",
+    "a": "There is no account, and your diary stays on your iPhone, and in Apple Health only if you turn it on. Your health data is never sent anywhere; only anonymous usage statistics, which you can turn off."
+   },
+   {
+    "q": "What can I share with my doctor?",
+    "a": "You can create a PDF for any period with doses, weights and a side-effect summary, in the app language."
+   },
+   {
+    "q": "What does Pro add?",
+    "a": "Pro adds full history and charts, side-effect trends, the PDF report, Apple Health sync and multiple medications. It is a yearly subscription or a one-time lifetime purchase."
+   },
+   {
+    "q": "What do I get without Pro?",
+    "a": "You keep the injection log, reminders and the last 30 days of weight."
+   },
+   {
+    "q": "Which languages does it support?",
+    "a": "The app is available in 5 languages."
+   }
+  ]
+ }
+}

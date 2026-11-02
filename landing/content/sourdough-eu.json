@@ -1,0 +1,65 @@
+{
+ "de-DE": {
+  "slug": "sauerteig-backplan-app",
+  "title": "Sauerteig Backplan App – Anstellgut & Rechner | Riseplan",
+  "description": "Sauerteig Backplan rückwärts, Bäckerprozent-Rechner, Anstellgut-Tracker und Rezepte. Einmalkauf, kein Abo, keine Werbung. Für iPhone.",
+  "h1": "Sauerteig Backplan – Brot rückwärts planen",
+  "lead": "Riseplan rechnet rückwärts, wann du ansetzen, mischen und falten musst, damit dein Brot zur Wunschzeit fertig ist. Dazu Anstellgut-Tagebuch, Triebkurve und Rechner in Gramm und °C.",
+  "benefits": [
+   {
+    "t": "Backplan rückwärts",
+    "d": "Wähle die Fertigzeit, Riseplan rechnet jeden Schritt zurück."
+   },
+   {
+    "t": "Warnung bei Nachtschritten",
+    "d": "Fällt ein Handgriff in deine Ruhezeit, kommt ein Vorschlag für längere Kühlschrank-Gare."
+   },
+   {
+    "t": "Anstellgut und Triebkurve",
+    "d": "Ein oder mehrere Anstellgüter, mit deiner eigenen Kurve."
+   },
+   {
+    "t": "Bäckerprozent-Rechner",
+    "d": "Mehl, Wasser, Sauerteig und Salz in Gramm."
+   },
+   {
+    "t": "Rezepte und Backtagebuch",
+    "d": "Roggen-, Land- und weitere Brote, Fotos und Notizen."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Was macht der Backplan rückwärts?",
+    "a": "Du wählst, wann das Brot fertig sein soll, und Riseplan rechnet jeden Schritt zurück. Die Gärzeiten passen sich deiner Raumtemperatur an und sind als Faustregel gekennzeichnet."
+   },
+   {
+    "q": "Kann ich mehrere Anstellgüter verwalten?",
+    "a": "Ja, mit Roggen, Weizen oder Dinkel, mit Alter und Fütterungsverlauf. Mehrere Anstellgüter schaltet der Einmalkauf frei."
+   },
+   {
+    "q": "Was ist die Triebkurve?",
+    "a": "Du misst die Höhe nach dem Füttern und siehst deine eigene Kurve, den Durchschnitt bis zum Höhepunkt und das maximale Volumen."
+   },
+   {
+    "q": "Was kann der Rechner?",
+    "a": "Aus Teiggewicht, Hydration, Sauerteig- und Salzanteil berechnet er Mehl, Wasser, Sauerteig und Salz in Gramm. Mehl und Wasser im Sauerteig werden mitgerechnet."
+   },
+   {
+    "q": "Was ist ohne Kauf nutzbar?",
+    "a": "Ein Anstellgut, Füttern, Erinnerungen, Rechner und drei Rezepte."
+   },
+   {
+    "q": "Ist es ein Abo?",
+    "a": "Nein. Ein Einmalkauf schaltet alles frei, es gibt kein Abo und keine Werbung."
+   },
+   {
+    "q": "Welche Rezepte gibt es?",
+    "a": "Unter anderem Roggenmischbrot, Roggenbrot, Landbrot, Pizza und Pfannkuchen aus Anstellgut-Resten, mit Mehlnamen deines Landes wie Roggen 1150 oder Weizen 550."
+   },
+   {
+    "q": "Wie steht es um den Datenschutz?",
+    "a": "Deine Daten bleiben auf dem Gerät. Anonyme Nutzungsstatistik wird nur gesendet, wenn du sie beim Start oder in den Einstellungen einschaltest."
+   }
+  ]
+ }
+}

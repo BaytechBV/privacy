@@ -1,0 +1,65 @@
+{
+ "fi": {
+  "slug": "hygieniapassitesti-harjoittelu",
+  "title": "Hygieniapassitesti harjoittelu | Hygieniapassi Treeni",
+  "description": "Harjoittele hygieniapassitestiä 448 oikein/väärin-väittämällä, selityksillä ja ajastetulla harjoituskokeella. Kertaosto, toimii ilman verkkoa.",
+  "h1": "Hygieniapassitesti – harjoituskoe ja väittämät",
+  "lead": "Hygieniapassi Treeni auttaa harjoittelemaan hygieniapassitestiä samanlaisilla oikein/väärin-väittämillä kuin testissä. Jokaiseen väittämään on selitys.",
+  "benefits": [
+   {
+    "t": "448 väittämää",
+    "d": "Aiheittain: mikrobiologia, ruokamyrkytykset, omavalvonta, allergeenit ja muut."
+   },
+   {
+    "t": "Harjoituskoe ajastimella",
+    "d": "Testin muodossa, tulos aiheittain."
+   },
+   {
+    "t": "Kertaa virheet",
+    "d": "Väärin menneet väittämät ja heikot aiheet yhdessä paikassa."
+   },
+   {
+    "t": "Lämpötilat yhdellä sivulla",
+    "d": "Säilytys, kypsennys, jäähdytys ja kuumana pito."
+   },
+   {
+    "t": "Toimii ilman verkkoa",
+    "d": "Ei tiliä; sanasto suomeksi, ruotsiksi ja englanniksi."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Mitä testiä sovellus harjoittelee?",
+    "a": "Hygieniapassitestiä, samanlaisilla oikein/väärin-väittämillä kuin testissä."
+   },
+   {
+    "q": "Kuinka monta väittämää on?",
+    "a": "448 väittämää, jaoteltu aiheisiin kuten mikrobiologia, ruokamyrkytykset, hygieeniset työtavat, puhtaanapito, omavalvonta, lainsäädäntö ja allergeenit."
+   },
+   {
+    "q": "Saanko selityksen vastauksiin?",
+    "a": "Kyllä, jokaiseen väittämään on selitys ja tieto aiheesta, johon se kuuluu."
+   },
+   {
+    "q": "Antaako sovellus hygieniapassin?",
+    "a": "Ei. Se on itsenäinen harjoitussovellus eikä Ruokaviraston sovellus; passin saa hyväksytyltä testaajalta."
+   },
+   {
+    "q": "Toimiiko sovellus ilman verkkoyhteyttä?",
+    "a": "Kyllä, se toimii ilman verkkoyhteyttä eikä vaadi tiliä."
+   },
+   {
+    "q": "Mitä voin käyttää ilman ostoa?",
+    "a": "Yhden harjoituskokeen, osan väittämistä ja sanaston."
+   },
+   {
+    "q": "Onko se tilaus?",
+    "a": "Ei. Kertaosto avaa kaikki väittämät, rajattomat harjoituskokeet, virheiden kertauksen ja lämpötilasivun. Ei tilausta."
+   },
+   {
+    "q": "Millä kielillä sovellus toimii?",
+    "a": "Kieli vaihdetaan sovelluksessa: suomi, svenska tai English."
+   }
+  ]
+ }
+}

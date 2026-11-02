@@ -1,0 +1,57 @@
+{
+ "sv": {
+  "slug": "src-provet-ova",
+  "title": "SRC-provet – öva frågor och nödanrop | SRC Klar",
+  "description": "Öva inför SRC-certifikatet för VHF med DSC: frågor med förklaring, övningsprov, kanaler och nödanrop du säger högt. 20 frågor utan köp, utan internet.",
+  "h1": "SRC-provet – öva frågor, övningsprov och nödanrop",
+  "lead": "SRC Klar hjälper dig öva inför SRC-certifikatet för VHF med DSC. Du övar anropsprocedurer med rösten.",
+  "benefits": [
+   {
+    "t": "Frågor per ämne",
+    "d": "Förklaring till varje svar."
+   },
+   {
+    "t": "Övningsprov",
+    "d": "Med tid och resultat per ämne."
+   },
+   {
+    "t": "Nödtrafik med rösten",
+    "d": "MAYDAY, PAN-PAN och SÉCURITÉ steg för steg."
+   },
+   {
+    "t": "Kanaler och fonetiska alfabetet",
+    "d": "Samlade på en sida."
+   },
+   {
+    "t": "Fungerar utan internet",
+    "d": "Öva var du vill."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Vad är SRC Klar?",
+    "a": "En app för att öva inför SRC-provet, certifikatet för VHF med DSC."
+   },
+   {
+    "q": "Kan jag öva nödanrop?",
+    "a": "Ja, MAYDAY, PAN-PAN och SÉCURITÉ går du igenom steg för steg och övar med rösten."
+   },
+   {
+    "q": "Vad ingår utan köp?",
+    "a": "Du kan öva 20 frågor, göra ett helt övningsprov och använda ordlistan och checklistan utan köp."
+   },
+   {
+    "q": "Är det en prenumeration?",
+    "a": "Nej. Fullversionen är ett engångsköp som låser upp alla frågor, övningsprov och anropsövning med rösten."
+   },
+   {
+    "q": "Fungerar appen utan internet?",
+    "a": "Ja, den fungerar utan internet."
+   },
+   {
+    "q": "Var gör jag provet?",
+    "a": "Provet gör du hos en kursarrangör. SRC Klar är fristående och inte kopplad till Transportstyrelsen, PTS eller någon provanordnare."
+   }
+  ]
+ }
+}

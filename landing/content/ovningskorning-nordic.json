@@ -1,0 +1,65 @@
+{
+ "sv": {
+  "slug": "ovningskorning-loggbok",
+  "title": "Övningskörning loggbok för handledare | Körbok",
+  "description": "Loggbok för övningskörning med handledare: GPS mäter sträcka och tid, handledaren signerar. För Sverige, Finland och Danmark. Inget konto.",
+  "h1": "Övningskörning – loggbok för körkort B",
+  "lead": "Handledaren startar inspelningen och iPhonens GPS mäter sträcka och tid. Efter turen loggar ni förhållanden och moment, och handledaren signerar på skärmen.",
+  "benefits": [
+   {
+    "t": "Spela in varje tur",
+    "d": "Stora knappar för handledaren, ritad rutt för varje tur."
+   },
+   {
+    "t": "Moment enligt kursplanen",
+    "d": "Momentlista för behörighet B: ej övat, övat eller säkert."
+   },
+   {
+    "t": "Se hur långt ni har kommit",
+    "d": "Kilometer, timmar, antal körningar och tid i mörker."
+   },
+   {
+    "t": "Inför uppkörningen",
+    "d": "Nedräkning, checklista och påminnelser 14, 7 och 1 dag före provet."
+   },
+   {
+    "t": "PDF för trafikskolan",
+    "d": "Hela körloggen med datum, sträcka, moment och signatur."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Vem använder appen?",
+    "a": "Eleven och handledaren vid övningskörning för körkort B, i Sverige, Finland eller Danmark."
+   },
+   {
+    "q": "Behövs något konto?",
+    "a": "Nej, inget konto behövs."
+   },
+   {
+    "q": "Hur mäts sträckan?",
+    "a": "Med iPhonens GPS under körningen. Du kan också lägga till en körning utan GPS i efterhand."
+   },
+   {
+    "q": "Kan jag logga mörkerkörning och halka?",
+    "a": "Ja, du väljer bland annat mörker, regn och halka efter turen och ser tiden i mörker i statistiken."
+   },
+   {
+    "q": "Kan jag skicka loggen till trafikskolan?",
+    "a": "Ja, hela körloggen kan exporteras som PDF med datum, sträcka, moment och signatur. Förhandsvisning finns även utan köp."
+   },
+   {
+    "q": "Vad ingår utan köp?",
+    "a": "Inspelning, turer, totaler, momentlistan, checklistan, en handledare och de tre första signaturerna."
+   },
+   {
+    "q": "Är det en prenumeration?",
+    "a": "Nej, Körbok Full är ett engångsköp. Inget abonnemang och ingen reklam."
+   },
+   {
+    "q": "Är loggen ett officiellt dokument?",
+    "a": "Nej, Körbok är en privat övningslogg utan koppling till Transportstyrelsen, Trafikverket, Traficom eller Færdselsstyrelsen."
+   }
+  ]
+ }
+}

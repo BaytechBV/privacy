@@ -1,0 +1,65 @@
+{
+ "sv": {
+  "slug": "foraldradagar-kalkylator",
+  "title": "Föräldradagar räknare – dagar kvar och planering | Ledigplan",
+  "description": "Räkna föräldradagar för er båda: dagar kvar, gemensam kalender och jämförelse av planer. Regler för SE, NO, DK och FI. Engångsköp.",
+  "h1": "Föräldradagar räknare – planera ledigheten tillsammans",
+  "lead": "Hur många föräldradagar har ni kvar, och vem tar vilka? Ledigplan räknar dagarna för er båda, visar dem i en gemensam kalender och låter er jämföra planer innan ni bestämmer.",
+  "benefits": [
+   {
+    "t": "Dagar kvar per förälder",
+    "d": "Per förälder och per nivå, med reserverade dagar."
+   },
+   {
+    "t": "Gemensam kalender",
+    "d": "Perioder färgade per förälder, dubbeldagar och helgdagar."
+   },
+   {
+    "t": "Jämför två planer",
+    "d": "Scenarier sida vid sida innan ni bestämmer."
+   },
+   {
+    "t": "Regler med källa",
+    "d": "Sverige, Norge, Danmark och Finland, förklarade för ditt land."
+   },
+   {
+    "t": "Inget konto",
+    "d": "Ingen inloggning, och lönen du anger stannar på telefonen."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Vad räknar Ledigplan?",
+    "a": "Dagar kvar per förälder och per nivå, med reserverade dagar, för er båda i en gemensam plan."
+   },
+   {
+    "q": "Vilka länder stöds?",
+    "a": "Regler för Sverige, Norge, Danmark och Finland, med källa."
+   },
+   {
+    "q": "Kan vi dela planen med min partner?",
+    "a": "Ja, du skickar planen som en fil och ni ser samma plan. Delning ingår i Ledigplan Plus."
+   },
+   {
+    "q": "Vad är dubbeldagar?",
+    "a": "Appen visar dubbeldagar i kalendern och förklarar reglerna för dem."
+   },
+   {
+    "q": "Kan jag få en uppskattning av ersättningen?",
+    "a": "För Sverige, Norge och Danmark får du en vägledande uppskattning om du vill ange lön. Uppgiften stannar på telefonen."
+   },
+   {
+    "q": "Kan jag exportera planen?",
+    "a": "Ja, till kalendern eller som PDF till arbetsgivaren."
+   },
+   {
+    "q": "Vad kan jag använda utan köp?",
+    "a": "Översikt, kalender och regler för ett barn och en plan. Ledigplan Plus är ett engångsköp som låser upp delning, scenarier, export och flera barn. Ingen prenumeration."
+   },
+   {
+    "q": "Är appen kopplad till Försäkringskassan?",
+    "a": "Nej, Ledigplan är fristående och beräkningen är vägledande. Ansökan gör du alltid hos myndigheten."
+   }
+  ]
+ }
+}

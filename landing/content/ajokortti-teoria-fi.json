@@ -1,0 +1,61 @@
+{
+ "fi": {
+  "slug": "ajokortti-teoria-harjoituskoe",
+  "title": "Ajokortti teoria – harjoituskoe B-kortti | Ajokortti teoria",
+  "description": "Harjoittele B-ajokortin teoriakoetta Traficomin mallin mukaan: yli 300 kysymystä, selitys ja lakiviite jokaiseen. Kertaosto, toimii ilman nettiä.",
+  "h1": "Ajokortti teoria – teoriakokeen harjoituskoe B-kortti",
+  "lead": "Harjoittele B-ajokortin teoriakoetta kolmiosaisessa muodossa: 15 sanallista, 50 kuvatehtävää ja 5 riskitehtävää. Jokaiseen kysymykseen on selitys ja lakiviite.",
+  "benefits": [
+   {
+    "t": "Yli 300 kysymystä",
+    "d": "12 aihetta liikennemerkeistä ensiapuun ja vaaranhavaitsemiseen."
+   },
+   {
+    "t": "Täysi harjoituskoe",
+    "d": "15 + 50 + 5 tehtävää 30 minuutin ajastimella."
+   },
+   {
+    "t": "Kuvatehtävät",
+    "d": "Risteystilanteet ja vaaratilanteet kuvina, myös liikennemerkkihakemisto."
+   },
+   {
+    "t": "Virheet kertaukseen",
+    "d": "Väärin menneet kysymykset palaavat, kunnes osaat ne kaksi kertaa peräkkäin."
+   },
+   {
+    "t": "Ei tilausta",
+    "d": "Kertaosto, ei mainoksia eikä tiliä, toimii ilman verkkoyhteyttä."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Mitä ajokortti teoriakoe B sisältää?",
+    "a": "Sovelluksen täysi harjoituskoe noudattaa Traficomin teoriakoemääräyksen rakennetta: 15 sanallista kysymystä, 50 kuvatehtävää ja 5 riskitehtävää, aikaa 30 minuuttia."
+   },
+   {
+    "q": "Kuinka monta kysymystä sovelluksessa on?",
+    "a": "Yli 300 kysymystä 12 aiheesta. Jokaiseen on selitys ja lakiviite."
+   },
+   {
+    "q": "Ovatko kysymykset virallisia koekysymyksiä?",
+    "a": "Eivät ole. Kysymykset ja kuvat ovat sovelluksen omia ja perustuvat tieliikennelakiin 729/2018, joten tulos on suuntaa antava. Sovellus ei liity Traficomiin tai muihin viranomaisiin."
+   },
+   {
+    "q": "Voiko kysymykset lukea ruotsiksi?",
+    "a": "Kyllä, kysymykset ovat suomeksi ja ruotsiksi. Selitykset voit lukea suomeksi, ruotsiksi tai englanniksi."
+   },
+   {
+    "q": "Toimiiko sovellus ilman nettiä?",
+    "a": "Kyllä, sovellus toimii ilman verkkoyhteyttä. Tiliä ei tarvita."
+   },
+   {
+    "q": "Onko sovellus tilaus vai kertaosto?",
+    "a": "Täysi versio avataan yhdellä ostolla. Tilausta ei ole."
+   },
+   {
+    "q": "Voiko sovellusta kokeilla ennen ostoa?",
+    "a": "Kyllä. Liikennemerkit, etuajo-oikeus, merkkihakemisto, risteys- ja vaaraharjoitukset, lyhyt harjoituskoe ja yksi täysi harjoituskoe ovat käytössä ilman ostoa."
+   }
+  ]
+ }
+}

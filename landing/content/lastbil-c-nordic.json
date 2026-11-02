@@ -1,0 +1,57 @@
+{
+ "fi": {
+  "slug": "c-luokan-teoriakoe",
+  "title": "C-luokan teoriakoe – kuorma-autokortti suomeksi | Rekkaklar",
+  "description": "Harjoittele C-, CE- ja C1-luokan teoriakoetta suomeksi: kysymykset selityksineen, koeharjoitus sekä ajo- ja lepoajat. 20 kysymystä ilman ostoa.",
+  "h1": "C-luokan teoriakoe – harjoittele kuorma-autokortin teoriaa",
+  "lead": "Rekkaklar auttaa harjoittelemaan C-, CE- ja C1-luokan teoriaa aiheittaisilla kysymyksillä ja selityksillä. Sovellus toimii ilman nettiä.",
+  "benefits": [
+   {
+    "t": "Kysymykset aiheittain",
+    "d": "Selitys jokaiseen vastaukseen."
+   },
+   {
+    "t": "Koeharjoitus ajan kanssa",
+    "d": "Harjoittele koemuodossa."
+   },
+   {
+    "t": "Ajo- ja lepoajat",
+    "d": "Tauot sekä päivä- ja viikkorajat yhdellä silmäyksellä."
+   },
+   {
+    "t": "Koepäivän apu",
+    "d": "Laskuri, tarkistuslista ja muistutus."
+   },
+   {
+    "t": "Toimii ilman nettiä",
+    "d": "Harjoittele missä vain."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Mitä luokkia sovellus kattaa?",
+    "a": "Sovelluksella harjoitellaan C-, CE- ja C1-luokan teoriaa."
+   },
+   {
+    "q": "Onko sovelluksessa virallinen kysymyspankki?",
+    "a": "Ei. Kysymykset ovat sovelluksen omia, eikä sovellus sisällä virallista kysymyspankkia."
+   },
+   {
+    "q": "Mitä ajo- ja lepoajoista löytyy?",
+    "a": "Tauot sekä päivä- ja viikkorajat on koottu yhdelle näkymälle."
+   },
+   {
+    "q": "Voiko sovellusta kokeilla ennen ostoa?",
+    "a": "Voit harjoitella 20 kysymystä, sanastoa ja tarkistuslistaa ilman ostoa."
+   },
+   {
+    "q": "Onko kyseessä tilaus?",
+    "a": "Ei. Täysi versio on kertaosto, joka avaa kaikki kysymykset, koeharjoitukset ja tilastot."
+   },
+   {
+    "q": "Missä teen oikean kokeen?",
+    "a": "Kokeen suoritat Ajovarmassa. Rekkaklar on itsenäinen eikä liity Traficomiin tai Ajovarmaan."
+   }
+  ]
+ }
+}

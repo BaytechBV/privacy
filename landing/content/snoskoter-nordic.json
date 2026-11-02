@@ -1,0 +1,65 @@
+{
+ "sv": {
+  "slug": "snoskoter-forarbevis-teori",
+  "title": "Snöskoter förarbevis – teoriprov och övning | Skoterklar",
+  "description": "Öva kunskapsprovet för förarbevis för snöskoter med frågor, förklaringar och övningsprov. Skoterregler på svenska, fungerar utan internet.",
+  "h1": "Förarbevis snöskoter – öva teoriprovet",
+  "lead": "Skoterklar hjälper dig att öva inför kunskapsprovet för förarbevis för snöskoter, med skoterregler och inte bilregler.",
+  "benefits": [
+   {
+    "t": "Frågor per ämne",
+    "d": "Med förklaring till varje svar."
+   },
+   {
+    "t": "Övningsprov i provformat",
+    "d": "Öva i provformat och se framsteg per ämne."
+   },
+   {
+    "t": "Leder, fart och terräng",
+    "d": "Skoterreglerna samlade på en sida."
+   },
+   {
+    "t": "Provdag och säsongsstart",
+    "d": "Nedräkning, checklista och påminnelse."
+   },
+   {
+    "t": "Fungerar utan internet",
+    "d": "Även på fjället."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Vad övar jag inför?",
+    "a": "Kunskapsprovet för förarbevis för snöskoter."
+   },
+   {
+    "q": "Är det skoterregler eller bilregler?",
+    "a": "Skoterregler, inte bilregler."
+   },
+   {
+    "q": "Finns övningsprov?",
+    "a": "Ja, övningsprov i provformat. Utan köp kan du göra korta övningsprov med 10 frågor."
+   },
+   {
+    "q": "Fungerar appen utan internet?",
+    "a": "Ja, den fungerar utan internet."
+   },
+   {
+    "q": "Vilka länder gäller frågorna?",
+    "a": "Frågor för Sverige, Norge och Finland."
+   },
+   {
+    "q": "Vad ingår utan köp?",
+    "a": "20 frågor, korta övningsprov med 10 frågor, ordlistan och checklistan."
+   },
+   {
+    "q": "Är det en prenumeration?",
+    "a": "Nej. Fullversionen är ett engångsköp som låser upp alla frågor, övningsprov och statistik. Ingen prenumeration."
+   },
+   {
+    "q": "Kan jag göra provet i appen?",
+    "a": "Nej, provet gör du hos en utbildare. Appen är fristående och inte kopplad till Transportstyrelsen eller någon utbildare."
+   }
+  ]
+ }
+}

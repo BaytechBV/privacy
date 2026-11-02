@@ -1,0 +1,65 @@
+{
+ "sv": {
+  "slug": "forarintyg-fritidsbat-ovningsprov",
+  "title": "Förarintyg fritidsbåt – övningsprov | Båtkörkort",
+  "description": "612 övningsfrågor med förklaring, 96 sjökortsuppgifter och provsimulering på 90 minuter för förarintyget. Engångsköp, fungerar utan internet.",
+  "h1": "Förarintyg fritidsbåt – övningsprov och sjökort",
+  "lead": "Öva teorin, sjökortet och provet för förarintyg för fritidsbåt i en och samma app. Varje svar förklaras med en hänvisning till regeln.",
+  "benefits": [
+   {
+    "t": "612 egna övningsfrågor",
+    "d": "I 6 områden, med förklaring och regelhänvisning efter varje svar."
+   },
+   {
+    "t": "96 sjökortsuppgifter",
+    "d": "På 8 övningskort: rita kursen, mät och skriv in kurs och distans."
+   },
+   {
+    "t": "Provsimulering på 90 minuter",
+    "d": "Tre delar med egen gräns för godkänt, som exempelprovet."
+   },
+   {
+    "t": "Mina fel",
+    "d": "Frågor du svarat fel på kommer tillbaka tills du kan dem två gånger i rad."
+   },
+   {
+    "t": "Studieplan och påminnelse",
+    "d": "Nedräkning till provdatumet och en daglig påminnelse om du vill."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Vilket prov övar jag inför?",
+    "a": "Provet för förarintyg för fritidsbåt, ofta kallat båtkörkortet."
+   },
+   {
+    "q": "Hur många frågor finns det?",
+    "a": "612 egna övningsfrågor i 6 områden, plus 96 sjökortsuppgifter på 8 övningskort och 69 kort för lanternor och signaler."
+   },
+   {
+    "q": "Hur lång är provsimuleringen?",
+    "a": "90 minuter, uppbyggd som exempelprovet med tre delar som var och en har en egen gräns för godkänt."
+   },
+   {
+    "q": "Finns sjökortsuppgifter?",
+    "a": "Ja. Du ritar kursen från A till B, mäter med gradskiva och passare och skriver in kurs och distans. Facit visar din linje mot rätt linje."
+   },
+   {
+    "q": "Fungerar appen utan internet?",
+    "a": "Ja, övningarna fungerar utan internet. Inget konto och ingen reklam."
+   },
+   {
+    "q": "Är det en prenumeration?",
+    "a": "Nej, det är ett engångsköp som låser upp allt. Utan köp kan du prova bland annat 20 frågor om sjövägsregler, 2 sjökortsuppgifter och en hel provsimulering."
+   },
+   {
+    "q": "Är frågorna officiella provfrågor?",
+    "a": "Nej, frågorna är skrivna av oss och appen har ingen koppling till Nämnden för båtlivsutbildning, Transportstyrelsen eller Sjöfartsverket."
+   },
+   {
+    "q": "Vilka språk finns?",
+    "a": "Allt innehåll finns på svenska och engelska."
+   }
+  ]
+ }
+}

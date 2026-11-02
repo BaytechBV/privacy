@@ -1,0 +1,61 @@
+{
+ "da": {
+  "slug": "duelighedsbevis-teori",
+  "title": "Duelighedsbevis teori og speedbådsbevis | Duelighedsbevis",
+  "description": "Øv teoriprøven til duelighedsbevis og speedbådsbevis: 385 spørgsmål med forklaring, prøveeksamen og lys-finder. Betal én gang, intet abonnement.",
+  "h1": "Duelighedsbevis teori – øv til teoriprøven",
+  "lead": "Appen forbereder dig til teoriprøven til duelighedsbevis i sejlads og til speedbådsbeviset med 385 øvespørgsmål og forklaring til hver. Du kan også tage en prøveeksamen bedømt som prøven.",
+  "benefits": [
+   {
+    "t": "385 spørgsmål i 8 emner",
+    "d": "Søvejsregler, lys, afmærkning, søkort, vejr, sikkerhed, motor og speedbåd."
+   },
+   {
+    "t": "Prøveeksamen med tid",
+    "d": "Bedømt som prøven for både duelighedsbevis og speedbåd."
+   },
+   {
+    "t": "Lys-finder",
+    "d": "Vælg de lys du ser og få at vide, hvilket skib det er, og hvem der viger."
+   },
+   {
+    "t": "52 kort og 68 billedspørgsmål",
+    "d": "Afmærkning, fyrkarakterer, lanterner, signalfigurer og lydsignaler."
+   },
+   {
+    "t": "Mine fejl og prøvedato",
+    "d": "Forkerte svar kommer igen, og du får nedtælling og påmindelser før prøven."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hvad dækker appen?",
+    "a": "Den dækker teoriprøven til duelighedsbevis i sejlads og speedbådsbeviset. Du vælger selv, om du vil øve til duelighedsbevis eller speedbåd."
+   },
+   {
+    "q": "Hvor mange spørgsmål er der?",
+    "a": "Der er 385 øvespørgsmål i 8 emner, heriblandt 68 billedspørgsmål med lanterner, signalfigurer og bøjer."
+   },
+   {
+    "q": "Hvordan bedømmes prøveeksamen?",
+    "a": "Prøveeksamen til duelighedsbevis tillader højst 1 fejl i hvert af de 5 hovedområder og højst 3 i alt. Til speedbåd er der to dele med højst 2 fejl i del 1 og 3 i del 2."
+   },
+   {
+    "q": "Er det den rigtige prøve?",
+    "a": "Nej. Den teoretiske duelighedsprøve har intet fast antal spørgsmål, og appens prøveeksamen er et øveformat. Appen er uafhængig og ikke tilknyttet Søfartsstyrelsen eller Dansk Sejlunion."
+   },
+   {
+    "q": "Skal jeg købe et abonnement?",
+    "a": "Nej. Et engangskøb låser alle emner, ubegrænsede prøveeksamener, kort og Lys-finder op. Uden køb kan du bruge ét emne og tage én hel prøveeksamen."
+   },
+   {
+    "q": "Virker appen uden internet?",
+    "a": "Ja, appen virker uden internet og kræver ingen konto."
+   },
+   {
+    "q": "Hvilke sprog er appen på?",
+    "a": "Spørgsmålene er på dansk som til prøven. Forklaringer og menuer findes på dansk, engelsk og tysk."
+   }
+  ]
+ }
+}

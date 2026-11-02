@@ -1,0 +1,61 @@
+{
+ "fi": {
+  "slug": "laboratoriokokeet-viitearvot",
+  "title": "Laboratoriokokeet ja viitearvot – Labraopas | Labraopas",
+  "description": "155 laboratoriokoetta suomalaisin lyhentein: mitä koe mittaa, näyte ja viitealue. Hakuteos hoitotyön opiskelijoille. Kertaosto, toimii ilman nettiä.",
+  "h1": "Laboratoriokokeet ja viitearvot – Labraopas",
+  "lead": "Labraopas on hakuteos hoitotyön ja lääketieteen opiskelijoille sekä sairaanhoitajille: 155 laboratoriokoetta suomalaisin lyhentein. Se on tarkoitettu opiskeluun, ei omien tulosten tulkintaan.",
+  "benefits": [
+   {
+    "t": "155 laboratoriokoetta",
+    "d": "Suomalaiset lyhenteet, kuten P-Krea, B-Hb ja fP-Gluk."
+   },
+   {
+    "t": "Koekortti",
+    "d": "Mitä mittaa, näyte ja tyypillinen aikuisen viitealue lähteineen."
+   },
+   {
+    "t": "Lyhenneavain",
+    "d": "B-, P-, S-, fP-, U- ja cB- selitettynä."
+   },
+   {
+    "t": "Visa ja kertaus",
+    "d": "Harjoittele viitearvoja ja kertaa virheet."
+   },
+   {
+    "t": "Yksiköt ja muunnokset",
+    "d": "mmol/l, µmol/l, g/l ja mg/dl."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Mikä Labraopas on?",
+    "a": "Itsenäinen hakuteos hoitotyön ja lääketieteen opiskelijoille sekä sairaanhoitajille, jossa on 155 laboratoriokoetta."
+   },
+   {
+    "q": "Mistä viitearvot ovat peräisin?",
+    "a": "Viitevälit, näytteet ja putket on koottu Fimlabin julkisesta tutkimusohjekirjasta, ja jokaisen koekortin lähde näkyy sovelluksessa."
+   },
+   {
+    "q": "Voinko tulkita omia verikoetuloksiani sovelluksella?",
+    "a": "Ei, sovellus ei tulkitse omia tuloksiasi eikä korvaa lääkärin arviota. Viitearvot vaihtelevat laboratorioittain, joten tarkista oman laboratoriosi arvot."
+   },
+   {
+    "q": "Miten haen kokeen?",
+    "a": "Haku toimii lyhenteellä tai nimellä, esimerkiksi P-Krea, hemoglobiini tai CRP."
+   },
+   {
+    "q": "Toimiiko sovellus ilman nettiä?",
+    "a": "Kyllä, ja tiliä ei tarvita."
+   },
+   {
+    "q": "Onko se tilaus?",
+    "a": "Ei. Täysi versio on kertaosto, joka avaa kaikki 155 koetta, rajattomat visat ja virheiden kertauksen sekä näyteputket ja ottojärjestyksen."
+   },
+   {
+    "q": "Mitä saan ilman ostoa?",
+    "a": "30 yleisintä koetta, lyhenneavain, yksiköt ja yksi viiden kysymyksen visa päivässä."
+   }
+  ]
+ }
+}

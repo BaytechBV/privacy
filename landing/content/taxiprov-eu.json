@@ -1,0 +1,61 @@
+{
+ "sv": {
+  "slug": "taxiforarlegitimation-prov",
+  "title": "Taxiförarlegitimation kunskapsprov – öva | Taxiklar",
+  "description": "Öva inför kunskapsprovet för taxiförarlegitimation: frågor med förklaring, övningsprov med tid och Pris och kvitto. Engångsköp, ingen prenumeration.",
+  "h1": "Taxiförarlegitimation kunskapsprov – öva frågor",
+  "lead": "Taxiklar hjälper dig att öva inför kunskapsprovet för taxiförarlegitimation, med förklaringar och inte bara rätt svar. Appen är på svenska och fungerar utan internet.",
+  "benefits": [
+   {
+    "t": "Frågor med förklaring",
+    "d": "Frågor per ämne och en förklaring till varje svar."
+   },
+   {
+    "t": "Övningsprov med tid",
+    "d": "I provets format (delprov 1)."
+   },
+   {
+    "t": "Pris och kvitto",
+    "d": "Jämförpris, taxameter och prisdekal samlat."
+   },
+   {
+    "t": "Provdag och ordlista",
+    "d": "Nedräkning, checklista, påminnelse och viktiga begrepp."
+   },
+   {
+    "t": "Öva på dina fel",
+    "d": "Se framsteg per ämne."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Vad kan jag öva i Taxiklar?",
+    "a": "Du kan öva frågor inför kunskapsprovet för taxiförarlegitimation, per ämne och med förklaring till varje svar."
+   },
+   {
+    "q": "Finns det övningsprov?",
+    "a": "Ja, övningsprov med tid i provets format (delprov 1)."
+   },
+   {
+    "q": "Vad är Pris och kvitto?",
+    "a": "En samlad del om jämförpris, taxameter och prisdekal."
+   },
+   {
+    "q": "Vad ingår utan köp?",
+    "a": "Du kan öva 20 frågor per land, göra ett helt övningsprov och använda ordlistan, checklistan och Pris och kvitto."
+   },
+   {
+    "q": "Är det en prenumeration?",
+    "a": "Nej. Fullversionen är ett engångsköp som låser upp alla frågor, obegränsade övningsprov och statistik."
+   },
+   {
+    "q": "Fungerar appen utan internet?",
+    "a": "Ja, den fungerar utan internet."
+   },
+   {
+    "q": "Var gör jag det riktiga provet?",
+    "a": "Hos Trafikverket. Taxiklar är fristående och inte kopplad till Transportstyrelsen eller Trafikverket."
+   }
+  ]
+ }
+}

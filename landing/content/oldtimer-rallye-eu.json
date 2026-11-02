@@ -1,0 +1,57 @@
+{
+ "de-DE": {
+  "slug": "oldtimer-rallye-rechner",
+  "title": "Oldtimer Rallye Rechner – Schnitt & Sollzeit | Rallyklar",
+  "description": "Rechner für Beifahrer bei Oldtimer-Rallyes: Schnitt, Sollzeit, Zwischenzeiten, Stoppuhr und Wegstreckenzähler-Korrekturfaktor. Offline, ohne GPS.",
+  "h1": "Oldtimer Rallye Rechner – Schnitt, Sollzeit und Stoppuhr",
+  "lead": "Rallyklar ist der Rechner und das Notizbuch für Beifahrer bei Oldtimer-Rallyes mit Gleichmäßigkeitsprüfungen. Alle Werte aus Bordbuch und Wegstreckenzähler gibst du selbst ein.",
+  "benefits": [
+   {
+    "t": "Schnitt-Rechner",
+    "d": "Sollzeit, Schnitt oder Strecke berechnen."
+   },
+   {
+    "t": "Zwischenzeiten-Tabelle",
+    "d": "Je km oder Bordbuch-Punkt."
+   },
+   {
+    "t": "Korrekturfaktor",
+    "d": "Für den Wegstreckenzähler."
+   },
+   {
+    "t": "Stoppuhr mit Abweichung",
+    "d": "Abweichung zur Sollzeit im Blick."
+   },
+   {
+    "t": "Offline ohne GPS",
+    "d": "Funktioniert ohne Internet und ohne GPS."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Wofür ist Rallyklar gedacht?",
+    "a": "Für Beifahrer bei Oldtimer-Rallyes mit Gleichmäßigkeitsprüfungen, als Rechen- und Notizwerkzeug."
+   },
+   {
+    "q": "Brauche ich GPS oder Internet?",
+    "a": "Nein, die App funktioniert ohne Internet und ohne GPS."
+   },
+   {
+    "q": "Was kann ich ohne Kauf nutzen?",
+    "a": "Schnitt-Rechner, Korrekturfaktor und ein Termin sind ohne Kauf nutzbar."
+   },
+   {
+    "q": "Gibt es ein Abo?",
+    "a": "Nein. Die Vollversion ist ein Einmalkauf und schaltet Zwischenzeiten, Stoppuhr, unbegrenzte Termine und Ergebnisse frei."
+   },
+   {
+    "q": "Welche Bordbuch-Zeichen sind enthalten?",
+    "a": "Chinesenzeichen, Fischgräten und ZK."
+   },
+   {
+    "q": "Ersetzt die App die Ausschreibung?",
+    "a": "Nein, es gilt immer die Ausschreibung des Veranstalters. Die App ist nicht mit ADAC, ÖAMTC oder Veranstaltern verbunden."
+   }
+  ]
+ }
+}

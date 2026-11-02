@@ -1,0 +1,65 @@
+{
+ "nl-NL": {
+  "slug": "bloeddonor-logboek",
+  "title": "Bloeddonor logboek – wanneer weer geven? | Bloedmaatje",
+  "description": "Houd je bloed- en plasmadonaties bij, zie wanneer je weer mag geven en krijg een herinnering. Werkt offline, zonder account. Plus is eenmalig.",
+  "h1": "Bloeddonor logboek – wanneer mag je weer doneren?",
+  "lead": "Bloedmaatje houdt je donaties bij en laat zien wanneer je weer mag geven, voor volbloed en plasma. Werkt offline en zonder account.",
+  "benefits": [
+   {
+    "t": "Aftellen tot je volgende donatie",
+    "d": "Zie meteen hoe lang het nog duurt, voor volbloed en plasma."
+   },
+   {
+    "t": "Herinnering op je telefoon",
+    "d": "Je krijgt een melding zodra je weer mag doneren."
+   },
+   {
+    "t": "Geschiedenis en mijlpalen",
+    "d": "Bekijk je donaties per jaar en verdien mijlpalen en badges."
+   },
+   {
+    "t": "Voorbereiding en regels",
+    "d": "Een checklist voor de donatie en de wachttijden met bron."
+   },
+   {
+    "t": "Offline, geen account",
+    "d": "Je Hb-waarden blijven op je telefoon."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Wat doet Bloedmaatje?",
+    "a": "De app houdt je donaties bij en toont een aftelling tot je volgende donatie, voor volbloed en plasma."
+   },
+   {
+    "q": "Beslist de app of ik mag doneren?",
+    "a": "Nee. Bloedmaatje geeft geen medisch advies en beslist niet of je mag doneren; dat doet de bloedbank."
+   },
+   {
+    "q": "Wat kan ik per donatie noteren?",
+    "a": "Datum, soort (bloed of plasma), plaats, een notitie en eventueel je eigen Hb-waarde."
+   },
+   {
+    "q": "Krijg ik een herinnering?",
+    "a": "Ja, de app herinnert je op je telefoon zodra je weer mag geven."
+   },
+   {
+    "q": "Heb ik een account nodig?",
+    "a": "Nee. De app werkt offline en zonder account, en je Hb-waarden blijven op je telefoon."
+   },
+   {
+    "q": "Wat kan ik zonder aankoop?",
+    "a": "Bijhouden, aftellen, herinnering, geschiedenis en mijlpalen kun je gebruiken zonder aankoop."
+   },
+   {
+    "q": "Wat is Bloedmaatje Plus?",
+    "a": "Een eenmalige aankoop voor de widget met aftellen, statistiek per jaar en het Hb-logboek. Geen abonnement."
+   },
+   {
+    "q": "Is de app van Sanquin?",
+    "a": "Nee, de app is onafhankelijk en niet verbonden aan Sanquin. Hij maakt ook geen afspraken."
+   }
+  ]
+ }
+}
