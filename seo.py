@@ -67,7 +67,8 @@ def pages():
     out = []
     for root, dirs, files in os.walk("."):
         dirs[:] = sorted(d for d in dirs if not d.startswith("."))
-        out += [Page(os.path.join(root, f)[2:]) for f in sorted(files) if f.endswith(".html")]
+        out += [Page(os.path.join(root, f)[2:]) for f in sorted(files)
+                if f.endswith(".html") and not re.match(r"google[0-9a-f]+\.html$", f)]  # Search Console verification file
     return out
 
 
