@@ -55,7 +55,10 @@ h2{font-size:1.25em;margin-top:1.8em}h3{font-size:1em;margin:1.2em 0 .2em}.badge
 .test{display:inline-block;background:var(--card);border-radius:12px;padding:10px 14px;font-weight:600;text-decoration:none}
 .desc{color:var(--mu);font-size:.95em}.def{border-left:3px solid var(--ac);padding:2px 0 2px 12px}
 .cmp{overflow-x:auto;margin:0 -16px;padding:0 16px}.cmp table{border-collapse:collapse;font-size:.9em;min-width:560px}
-.cmp th,.cmp td{border-bottom:1px solid rgba(128,128,128,.3);padding:6px 8px;text-align:left;vertical-align:top}.cmp small{color:var(--mu)}footer{margin-top:40px;font-size:.9em;color:var(--mu)}footer a{margin-right:10px}"""
+.cmp th,.cmp td{border-bottom:1px solid rgba(128,128,128,.3);padding:6px 8px;text-align:left;vertical-align:top}.cmp small{color:var(--mu)}
+@media (max-width:600px){.cmp table{min-width:0}.cmp thead{display:none}.cmp tr{display:block;background:var(--card);border-radius:12px;
+padding:8px 12px;margin-bottom:10px}.cmp td{display:flex;gap:10px;border:0;padding:3px 0}.cmp td:first-child{font-weight:600}
+.cmp td[data-l]:before{content:attr(data-l);flex:0 0 40%;color:var(--mu)}}footer{margin-top:40px;font-size:.9em;color:var(--mu)}footer a{margin-right:10px}"""
 e = html.escape
 
 
@@ -211,9 +214,11 @@ def build(only=None):
                 body.append("<ul class='ben'>" + "".join(f"<li><b>{e(b['t'])}</b>{'<br>' + e(b['d']) if b['d'] else ''}</li>" for b in bens) + "</ul>")
             cmp = c.get("compare")
             if cmp:
-                row = lambda cells, t: "<tr>" + "".join(f"<{t}>{e(x)}</{t}>" for x in cells) + "</tr>"
-                body.append(f"<h2>{e(cmp['title'])}</h2><div class='cmp'><table><thead>{row(cmp['head'], 'th')}</thead><tbody>"
-                            + "".join(row(r, "td") for r in cmp["rows"]) + f"</tbody></table></div><p><small>{e(cmp['note'])}</small></p>")
+                th = "".join(f"<th>{e(x)}</th>" for x in cmp["head"])  # data-l = column label for the stacked mobile layout
+                tds = "".join("<tr>" + "".join(f"<td{f' data-l={chr(39)}{e(h)}{chr(39)}' if h and i else ''}>{e(x)}</td>"
+                                               for i, (h, x) in enumerate(zip(cmp["head"], r))) + "</tr>" for r in cmp["rows"])
+                body.append(f"<h2>{e(cmp['title'])}</h2><div class='cmp'><table><thead><tr>{th}</tr></thead><tbody>{tds}</tbody></table></div>"
+                            f"<p><small>{e(cmp['note'])}</small></p>")
             if rs in TESTS and TESTS[rs].startswith(d + "/") and os.path.exists(TESTS[rs]):  # quiztest.py page is live
                 body.append(f"<p><a class='test' href='../../{TESTS[rs]}'>{e(u[3])} →</a></p>")
             if faq:
