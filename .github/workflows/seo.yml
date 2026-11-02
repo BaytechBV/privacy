@@ -1,0 +1,30 @@
+# sitemap.xml stays current whatever generator added the page; PRs fail on broken links / hreflang / canonical errors.
+name: seo
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: write
+jobs:
+  seo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Audit
+        run: |
+          python3 -c "import seo, sys; sys.exit(1 if seo.audit('/tmp/DENETIM.md') else 0)" || { cat /tmp/DENETIM.md >> "$GITHUB_STEP_SUMMARY"; exit 1; }
+      - name: Sitemap
+        if: github.event_name == 'push' && !cancelled()
+        run: |
+          python3 seo.py sitemap
+          git diff --quiet sitemap.xml && exit 0
+          git -c user.name=github-actions -c user.email=github-actions@users.noreply.github.com commit -m "sitemap.xml" sitemap.xml
+          git push
+      - name: IndexNow
+        if: github.event_name == 'push' && !cancelled() && vars.INDEXNOW_KEY != ''
+        env:
+          INDEXNOW_KEY: ${{ vars.INDEXNOW_KEY }}
+        run: python3 seo.py indexnow ${{ github.event.before }}
