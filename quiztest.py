@@ -5,7 +5,7 @@
 import html, json, random, subprocess, sys
 
 SRC = sys.argv[1] if len(sys.argv) > 1 else "../baytech"
-BASE = "https://baytechbv.github.io/privacy"
+from landing import BASE  # single base URL (SITE_BASE env)
 N = 25
 
 TESTS = {
