@@ -43,6 +43,9 @@ UI["fr-ca"], UI["en-us"] = UI["fr"], UI["en"]
 NAME = {"da": "Dansk", "nb": "Norsk", "sv": "Svenska", "fi": "Suomi", "de": "Deutsch", "nl": "Nederlands", "pl": "Polski", "it": "Italiano",
         "fr": "Français", "fr-ca": "Français (CA)", "en": "English", "en-us": "English (US)", "ar": "العربية", "tr": "Türkçe"}
 FREE = re.compile(r"\b(free|gratis|gratuit\w*|kostenlos\w*|ilmai\w*|maksuton\w*|darmow\w*|bezpłatn\w*|ücretsiz|مجان\w*)\b", re.I)
+# Campaign from the incoming link (app share card sends ?ct=share) replaces the page's own ct on the store buttons.
+CT_JS = ("<script>var c=new URLSearchParams(location.search).get('ct');if(c&&/^[\\w-]{1,40}$/.test(c))"
+         "document.querySelectorAll(\"a[href*='apps.apple.com']\").forEach(function(a){a.href=a.href.replace(/ct=[^&]*/,'ct='+c)})</script>")
 CSS = """:root{--bg:#fff;--fg:#1c1c1e;--mu:#6b6b70;--ac:#0a66c2;--card:#f4f4f6}
 @media (prefers-color-scheme:dark){:root{--bg:#111;--fg:#eee;--mu:#9a9aa0;--ac:#5aa9ff;--card:#1d1d20}}
 *{box-sizing:border-box}body{background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:760px;
@@ -235,7 +238,7 @@ def build(only=None):
                     f"<meta property='og:title' content='{e(title)}'><meta property='og:description' content='{e(meta)}'>"
                     f"<meta property='og:url' content='{url}'>" + (f"<meta property='og:image' content='{img}'>" if img else "") +
                     f"<meta name='twitter:card' content='summary_large_image'>{jsonld}<style>{CSS}</style></head>"
-                    f"<body>{''.join(body)}</body></html>")
+                    f"<body>{''.join(body)}{CT_JS}</body></html>")
             hand = " ".join([title, meta, h1, lead, c.get("definition", ""), json.dumps([bens, faq, cmp], ensure_ascii=False)])
             seen = FREE.search(hand + re.sub(r"href='[^']*'", "", page))  # test-page URLs may say "gratis"; visible text may not
             assert not seen, (rs, loc, seen and seen.group(0))  # PUBLISH-PLAN §3.4: no "free" in sales copy
