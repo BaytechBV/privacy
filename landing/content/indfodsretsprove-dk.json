@@ -56,6 +56,128 @@
     "q": "Er appen officiel?",
     "a": "Nej, den er uafhængig og ikke tilknyttet SIRI, Uddannelses- og Forskningsministeriet eller staten."
    }
+  ],
+  "definition": "Indfødsretsprøven 2026/2027 er en uafhængig iPhone- og iPad-app fra Baytech BV til at øve indfødsretsprøven og medborgerskabsprøven. Den har 244 spørgsmål (148 plus 22 værdispørgsmål til indfødsretsprøven, 74 til medborgerskabsprøven), øveprøver med tid i samme format som de rigtige prøver og forklaringer på dansk, engelsk, tysk, polsk, tyrkisk og arabisk. Den virker uden internet, og alt låses op med ét køb på 129 kr uden abonnement.",
+  "compare": {
+   "title": "Sammenligning med andre måder at øve på",
+   "head": [
+    "",
+    "Spørgsmål",
+    "Sprog",
+    "Uden internet",
+    "Pris"
+   ],
+   "rows": [
+    [
+     "Denne app",
+     "244",
+     "Dansk; forklaring på 6 sprog",
+     "Ja",
+     "129 kr, ét køb"
+    ],
+    [
+     "SIRI: læremateriale og tidligere prøver (danskogproever.dk)",
+     "Tidligere prøver + læremateriale",
+     "Dansk, også som lyd",
+     "PDF kan hentes",
+     "0 kr"
+    ],
+    [
+     "Bliv Klar",
+     "1.700+",
+     "Dansk og engelsk",
+     "Ja",
+     "149 kr, ét køb"
+    ],
+    [
+     "Nyborger",
+     "Ikke oplyst",
+     "Kun dansk",
+     "Ikke oplyst",
+     "Abonnement 149 kr/md., 499 kr/år"
+    ],
+    [
+     "Indfødsretsprøven ◎",
+     "369",
+     "Dansk og engelsk",
+     "Ikke oplyst",
+     "79 kr, ét køb"
+    ]
+   ],
+   "note": "Kilde: appbeskrivelser og priser i den danske App Store, tjekket 2. november 2026. Brug altid også SIRI's officielle materiale; ingen app er officiel."
+  }
+ },
+ "en-GB": {
+  "definition": "Danish Citizenship Test Prep is an independent iPhone and iPad app by Baytech BV for the Danish citizenship test (indfødsretsprøven) and the permanent residence test (medborgerskabsprøven). It has 244 questions (148 plus 22 values questions for the citizenship test, 74 for the residence test), timed mock tests in the real format, and explanations in English, Danish, German, Polish, Turkish and Arabic. It works offline, and one purchase of 129 DKK unlocks everything, with no subscription.",
+  "compare": {
+   "title": "How it compares",
+   "head": [
+    "",
+    "Questions",
+    "Languages",
+    "Offline",
+    "Price"
+   ],
+   "rows": [
+    [
+     "This app",
+     "244",
+     "Questions in Danish; explanations in 6 languages",
+     "Yes",
+     "129 DKK, one purchase"
+    ],
+    [
+     "SIRI official learning material and past tests (danskogproever.dk)",
+     "Past tests + learning material",
+     "Danish, also as audio",
+     "PDF download",
+     "0 DKK"
+    ],
+    [
+     "Bliv Klar",
+     "1,700+",
+     "Danish and English",
+     "Yes",
+     "149 DKK, one purchase"
+    ],
+    [
+     "Nyborger",
+     "Not stated",
+     "Danish only",
+     "Not stated",
+     "Subscription 149 DKK/month, 499 DKK/year"
+    ],
+    [
+     "Indfødsretsprøven ◎",
+     "369",
+     "Danish and English",
+     "Not stated",
+     "79 DKK, one purchase"
+    ]
+   ],
+   "note": "Source: app descriptions and prices on the Danish App Store, checked 2 November 2026. Always use SIRI's official material as well; no app is official."
+  },
+  "faq": [
+   {
+    "q": "Which tests does the app cover?",
+    "a": "Both: indfødsretsprøven (citizenship, 45 questions in 45 minutes, pass with 36 correct and at least 4 of 5 values questions) and medborgerskabsprøven (permanent residence, 25 questions in 30 minutes, pass with 20 correct)."
+   },
+   {
+    "q": "Are the questions in English?",
+    "a": "The questions are in Danish, like the real test. After each answer you can read the explanation in English, German, Polish, Turkish or Arabic."
+   },
+   {
+    "q": "Can I practise every question that will be on the test?",
+    "a": "No. 5 questions on the citizenship test are about current affairs and cannot be prepared from the syllabus. The mock tests use syllabus questions, so the real test can be different."
+   },
+   {
+    "q": "Is there a subscription?",
+    "a": "No. You can try one topic and one mock test for each exam without buying. One purchase unlocks everything."
+   },
+   {
+    "q": "Is the app official?",
+    "a": "No. It is independent and not affiliated with SIRI, the Danish Ministry of Higher Education and Science or the Danish state."
+   }
   ]
  }
 }
