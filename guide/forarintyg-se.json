@@ -1,0 +1,41 @@
+{
+ "dir": "sv",
+ "slug": "forarintyg-batkorkort-prov-kostnad",
+ "app": "Båtkörkort – Förarintyg 2026",
+ "updated": "2026-11-02",
+ "updated_text": "2 november 2026",
+ "title": "Förarintyg för fritidsbåt 2026: prov, kostnad, krav och hur du klarar provet",
+ "description": "Båtkörkortet (förarintyg): digitalt prov på 90 minuter, 75 % rätt för godkänt, 650 kr totalt, åldersgräns 12 år. Så bokar du provet och det här ingår i kursen.",
+ "h1": "Förarintyg för fritidsbåt 2026: prov, kostnad, krav och hur du klarar provet",
+ "lead": "Förarintyget kallas ofta båtkörkortet. Här är det du behöver veta: när det krävs, vad provet kostar, hur du bokar, hur provet går till och vad du ska kunna. Uppgifterna kommer från Nämnden för båtlivsutbildning (NFB) och Transportstyrelsen, med länk i varje avsnitt.",
+ "sections": [
+  {"h": "Behöver jag förarintyg?", "html": "<p>Det finns inga krav på körkort för en fritidsbåt som är <b>kortare än tolv meter och smalare än fyra meter</b>. Undantaget är vattenskoter, där det krävs förarbevis (<a href='https://www.transportstyrelsen.se/sv/sjofart/fritidsbatar/Kunskap-och-kompetens/'>Transportstyrelsen</a>). Den som kör ett fritidsfartyg som är längre än 12 meter och bredare än 4 meter ska ha skepparexamen, kustskepparexamen eller högre.</p><p>Förarintyget är ändå det vanliga beviset på att du kan sjövägsreglerna och navigation, och det är förkrav för bland annat Kanalintyg (<a href='https://batlivsutbildning.se/produkt/kanalintyg/'>NFB</a>). Intyget gäller för resor i dagsljus och god sikt, inom 3 sjömil från närmaste skyddade plats.</p><p><b>Vattenskoter:</b> förarbeviset för vattenskoter utfärdas av Transportstyrelsen och kräver att du har fyllt 15 år. Förarintyget räcker inte (<a href='https://www.transportstyrelsen.se/vattenskoter/'>Transportstyrelsen om vattenskoter</a>).</p>"},
+  {"h": "Så bokar du provet och vad det kostar", "html": "<ol><li><b>Köp en provlicens</b> hos NFB (325 kr inkl. moms) med Mobilt BankID eller Freja eID. Välj prov Väst eller Öst efter ditt övningssjökort.</li><li><b>Boka ett provtillfälle</b> hos en av NFB:s samarbetspartner, till exempel Medborgarskolan, Svenska Kryssarklubben eller Sjösportskolan. Bokningsavgiften är 325 kr.</li><li><b>Skriv provet</b> digitalt i en skrivsal med provvakt.</li></ol><p><b>Totalt 650 kr inkl. moms.</b> Det finns inga centrala provdatum; varje arrangör har egna tider. Kurs hos en arrangör kostar extra och priset sätts av arrangören. Källor: <a href='https://batlivsutbildning.se/digitala-prov/'>Digitala prov</a>, <a href='https://batlivsutbildning.se/boka-intygsprov/'>Boka intygsprov</a>.</p>"},
+  {"h": "Så går provet till", "html": "<table><tr><th>Form</th><td>Digitala flervalsfrågor som rättas automatiskt, resultat direkt</td></tr><tr><th>Tid</th><td>90 minuter</td></tr><tr><th>Godkänt</th><td>75 % rätt</td></tr><tr><th>Åldersgräns</th><td>12 år</td></tr><tr><th>Ta med</th><td>Laddad dator eller surfplatta, övningssjökort (616/6163 Öst eller 931/9313 Väst), navigationsverktyg och miniräknare (inte mobilen)</td></tr></table><p>Det finns ingen praktisk del. Källor: <a href='https://batlivsutbildning.se/digitala-prov/'>Digitala prov</a>, <a href='https://batlivsutbildning.se/produkt/forarintyg/'>Förarintyg</a>, <a href='https://batlivsutbildning.se/wp-content/uploads/2025/03/Kunskapsfordringar-gallande-Forarintyg-for-fritidsbat-redigerad-2025-02-01.pdf'>Kunskapsfordringar (PDF)</a>.</p>"},
+  {"h": "Kursinnehåll: det här ska du kunna", "html": "<p>Kunskapsfordringarna gäller från 1 februari 2025 och omfattar:</p><ul><li>Sjökort och nautiska publikationer</li><li>Utmärkning (System A)</li><li>Elektroniska hjälpmedel: GPS, plotter, kompass, logg och ekolod</li><li>Navigation: kurs, avdrift, missvisning, deviation, fart–tid–distans, högfartsnavigering, positionsbestämning och reseplanering</li><li>Säkerhet, sjömanskap och första hjälpen: man över bord, nedkylning, brand, knopar, manövrering och ankring</li><li>Miljö: allemansrätten, skyddade områden, svall, ecodriving och avfall</li><li>Väder och vattenstånd</li><li>Sjövägsregler enligt TSFS 2009:44, regel 1–19 samt lanternor från regel 20</li></ul><p>Källa: <a href='https://batlivsutbildning.se/wp-content/uploads/2025/03/Kunskapsfordringar-gallande-Forarintyg-for-fritidsbat-redigerad-2025-02-01.pdf'>NFB:s kunskapsfordringar (PDF)</a>.</p>"},
+  {"h": "Efter provet: intyget", "html": "<p>Vid godkänt resultat registreras intyget i NFB:s register. Du kan visa det digitalt i NFB:s app med Mobilt BankID eller beställa ett intygskort. Beställningstiden för kort är upp till 20 arbetsdagar, så beställ i god tid (<a href='https://batlivsutbildning.se/bestall-intyg/'>Beställ intyg</a>).</p>"},
+  {"h": "Studieplan: 4 veckor före provet", "html": "<ol><li><b>Vecka 1:</b> Sjövägsregler, utmärkning och lanternor. Öva tills du känner igen ljus och märken direkt.</li><li><b>Vecka 2:</b> Sjökortet: kurs, distans, missvisning och deviation på ditt övningssjökort.</li><li><b>Vecka 3:</b> Säkerhet, sjömanskap, miljö och väder. Repetera frågorna du svarat fel på.</li><li><b>Vecka 4:</b> Skriv hela provsimuleringar på 90 minuter med sjökort och miniräknare.</li></ol><p>Planen är vårt förslag, inte ett officiellt krav.</p>"}
+ ],
+ "cta": "612 egna övningsfrågor, 96 sjökortsuppgifter och en provsimulering på 90 minuter. Engångsköp, ingen prenumeration.",
+ "faq": [
+  {"q": "Vad kostar förarintyg för båt?", "a": "Provet kostar totalt 650 kr inklusive moms: 325 kr för provlicensen hos NFB och 325 kr i bokningsavgift hos arrangören. En kurs kostar extra."},
+  {"q": "Hur många procent rätt krävs på förarintygsprovet?", "a": "75 % rätt."},
+  {"q": "Hur lång tid tar provet?", "a": "Du har 90 minuter."},
+  {"q": "Vilken åldersgräns gäller för förarintyg?", "a": "Du ska ha fyllt 12 år för att skriva provet."},
+  {"q": "Krävs förarintyg för att köra båt?", "a": "Nej, inte för en fritidsbåt som är kortare än 12 meter och smalare än 4 meter. För vattenskoter krävs förarbevis från Transportstyrelsen."},
+  {"q": "Kan man göra förarintyget online?", "a": "Provet är digitalt men skrivs på plats i en skrivsal med provvakt, hos en av NFB:s samarbetspartner. Teorin kan du plugga på egen hand."},
+  {"q": "Gäller förarintyget för vattenskoter?", "a": "Nej. För vattenskoter krävs Transportstyrelsens förarbevis, och du måste ha fyllt 15 år."},
+  {"q": "Vad ska jag ta med till provet?", "a": "En laddad dator eller surfplatta, rätt övningssjökort (Öst eller Väst), navigationsverktyg och en miniräknare. Mobilen får inte användas som miniräknare."}
+ ],
+ "sources": [
+  {"name": "NFB – Digitala prov", "url": "https://batlivsutbildning.se/digitala-prov/"},
+  {"name": "NFB – Förarintyg (provlicens)", "url": "https://batlivsutbildning.se/produkt/forarintyg/"},
+  {"name": "NFB – Boka intygsprov", "url": "https://batlivsutbildning.se/boka-intygsprov/"},
+  {"name": "NFB – Kunskapsfordringar för förarintyg (PDF, 2025-02-01)", "url": "https://batlivsutbildning.se/wp-content/uploads/2025/03/Kunskapsfordringar-gallande-Forarintyg-for-fritidsbat-redigerad-2025-02-01.pdf"},
+  {"name": "NFB – Beställ intyg", "url": "https://batlivsutbildning.se/bestall-intyg/"},
+  {"name": "NFB – Kanalintyg", "url": "https://batlivsutbildning.se/produkt/kanalintyg/"},
+  {"name": "Transportstyrelsen – Kunskap och kompetens för fritidsbåtar", "url": "https://www.transportstyrelsen.se/sv/sjofart/fritidsbatar/Kunskap-och-kompetens/"},
+  {"name": "Transportstyrelsen – Vattenskoter", "url": "https://www.transportstyrelsen.se/vattenskoter/"}
+ ],
+ "disclaimer": "Den här sidan och appen är fristående och har ingen koppling till Nämnden för båtlivsutbildning, Transportstyrelsen eller Sjöfartsverket. Kontrollera alltid de officiella sidorna innan du bokar."
+}

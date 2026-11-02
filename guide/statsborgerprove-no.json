@@ -1,0 +1,43 @@
+{
+ "dir": "nb",
+ "slug": "statsborgerproven-datoer-pris-pensum",
+ "app": "Statsborgerprøven 2026/2027",
+ "updated": "2026-11-02",
+ "updated_text": "2. november 2026",
+ "title": "Statsborgerprøven 2026/2027: datoer, påmelding, pris, pensum og hvordan bestå",
+ "description": "Statsborgerprøven: 36 oppgaver på 60 minutter, 24 riktige for å bestå. Slik finner du dato og melder deg på, hva prøven koster (300–1800 kr) og hva pensum er.",
+ "h1": "Statsborgerprøven 2026/2027: datoer, påmelding, pris, pensum og hvordan bestå",
+ "lead": "Her er det du må vite før statsborgerprøven: hvem som må ta den, hvordan du finner dato og melder deg på, hva den koster, hvordan prøven er bygget opp og hvor mange som består. Tallene kommer fra HK-dir, UDI og regjeringen.no, med lenke i hvert avsnitt.",
+ "sections": [
+  {"h": "Datoer: kommunen bestemmer", "html": "<p>Det finnes ingen felles nasjonal dato. <b>Kommunen eller prøvestedet bestemmer når du kan ta prøven.</b> For å se datoene velger du først fylket du bor i, og deretter et prøvested i påmeldingsportalen til HK-dir (<a href='https://prove.hkdir.no/statsborgerprove/meld-deg-pa-statsborgerprove'>meld deg på statsborgerprøven</a>).</p><p>Påmeldingsfristen settes også av prøvestedet. Du får innkallingsbrev fra prøvestedet to uker før prøven.</p>"},
+  {"h": "Påmelding og pris", "html": "<ul><li>Du melder deg på via HK-dir sin påmeldingsportal og betaler når du melder deg på (bankkort, nettbank eller faktura).</li><li><b>Prisen settes av kommunen og kan variere mellom 300 og 1800 kroner.</b></li><li>Påmeldingen er bindende: du må betale selv om du ikke møter, med unntak av sykemelding.</li><li>Trenger du tilrettelegging, kontakter du prøvestedet senest tre dager etter påmeldingen.</li></ul><p>Kilder: <a href='https://prove.hkdir.no/statsborgerprove/meld-deg-pa-statsborgerprove'>påmelding</a>, <a href='https://prove.hkdir.no/statsborgerprove/les-om-proven-statsborgerprove'>les om prøven</a>.</p>"},
+  {"h": "Slik er prøven", "html": "<table><tr><th>Antall oppgaver</th><td>36, hver med 3 svaralternativer og ett riktig svar</td></tr><tr><th>Som gir poeng</th><td>32 (4 er utprøvingsoppgaver)</td></tr><tr><th>Bestått</th><td>24 riktige svar</td></tr><tr><th>Tid</th><td>Maks 60 minutter</td></tr><tr><th>Språk</th><td>Norsk (bokmål eller nynorsk), nivå A2; oppgavene kan leses opp</td></tr><tr><th>Gjennomføring</th><td>På datamaskin på prøvestedet</td></tr></table><p>Ta med gyldig legitimasjon. Digitalt førerkort er ikke gyldig. Kilder: <a href='https://prove.hkdir.no/statsborgerprove/les-om-proven-statsborgerprove'>les om prøven</a>, <a href='https://prove.hkdir.no/statsborgerprove/dette-skjer-pa-provedagen-statsborgerprove'>dette skjer på prøvedagen</a>.</p>"},
+  {"h": "Pensum", "html": "<p>Statsborgerprøven har samme pensum som samfunnskunnskapsprøven. Pensum ligger på <a href='https://www.samfunnskunnskap.no'>samfunnskunnskap.no</a> (HK-dir), med tekster om blant annet utdanning, kompetanse og arbeidsliv, familie, helse og hverdagsliv, og Norge før og nå. HK-dir har også en offisiell eksempelprøve (<a href='https://prove.hkdir.no/statsborgerprove/ov-til-proven-statsborgerprove'>øv til prøven</a>).</p>"},
+  {"h": "Hvor mange består?", "html": "<p>Ifølge regjeringen.no bestod <b>over 92 prosent</b> statsborgerprøven i 2024 (<a href='https://www.regjeringen.no/no/aktuelt/over-92-prosent-bestod-statsborgerproven-i-2024/id3092065/'>regjeringen.no</a>). Prøven er altså ikke umulig, men du må kjenne pensum og kunne lese oppgavene på norsk.</p>"},
+  {"h": "Hvem må ta statsborgerprøven?", "html": "<p>Er du mellom 18 og 67 år, må du ha bestått prøvene før du leverer dokumenter til politiet: norsk muntlig på nivå B1 og statsborgerprøven, eller samfunnskunnskapsprøven på norsk (<a href='https://www.udi.no/ord-og-begreper/krav-om-prover-for-a-fa-norsk-statsborgerskap/'>UDI</a>). Har du bestått samfunnskunnskapsprøven på et annet språk enn norsk, må du ta statsborgerprøven (<a href='https://prove.hkdir.no/statsborgerprove'>HK-dir</a>).</p><p>Du kan i noen tilfeller få unntak, for eksempel med karakter 2 eller bedre i samfunnsfag fra ungdomsskolen eller samfunnskunnskap fra videregående (<a href='https://www.udi.no/ord-og-begreper/unntak-prover-norsk-statsborgerskap/'>UDI om unntak</a>).</p>"},
+  {"h": "Plan: 4 uker før prøven", "html": "<ol><li><b>Uke 1:</b> Les ett tema på samfunnskunnskap.no om dagen og noter ord du ikke kan.</li><li><b>Uke 2:</b> Øv på spørsmål per tema og gjenta de du svarer feil på.</li><li><b>Uke 3:</b> Ta HK-dir sin eksempelprøve og øvingsprøver på 60 minutter.</li><li><b>Uke 4:</b> Repeter feilene dine. Sjekk innkallingsbrevet, adressen og legitimasjonen.</li></ol><p>Planen er vårt forslag, ikke et offisielt krav.</p>"}
+ ],
+ "cta": "150+ spørsmål om samfunnskunnskap, øvingsprøve med 36 spørsmål på 60 minutter og forklaring på norsk, engelsk, tysk, polsk eller arabisk. Betal én gang, ikke abonnement.",
+ "faq": [
+  {"q": "Når er statsborgerprøven?", "a": "Det er ingen felles nasjonal dato. Kommunen eller prøvestedet bestemmer datoene. Du ser dem i HK-dir sin påmeldingsportal når du har valgt fylke og prøvested."},
+  {"q": "Hva koster statsborgerprøven?", "a": "Prisen settes av kommunen og kan variere mellom 300 og 1800 kroner. Du betaler når du melder deg på."},
+  {"q": "Hvor mange feil kan man ha på statsborgerprøven?", "a": "32 av de 36 oppgavene gir poeng, og du må ha 24 riktige. Du kan altså ha opptil 8 feil blant oppgavene som teller."},
+  {"q": "Hvor lang tid har man på statsborgerprøven?", "a": "Maksimalt 60 minutter."},
+  {"q": "Hva er pensum til statsborgerprøven?", "a": "Samme pensum som samfunnskunnskapsprøven, på samfunnskunnskap.no."},
+  {"q": "Hva er forskjellen på statsborgerprøven og samfunnskunnskapsprøven?", "a": "De har samme pensum, men statsborgerprøven har et litt lavere språknivå (A2) og tas på norsk. Samfunnskunnskapsprøven på et annet språk enn norsk gjelder ikke for statsborgerskap."},
+  {"q": "Kan jeg ta statsborgerprøven på engelsk?", "a": "Nei. Prøven tas på norsk, bokmål eller nynorsk. Oppgavene kan leses opp."},
+  {"q": "Hvor mange består statsborgerprøven?", "a": "Ifølge regjeringen.no bestod over 92 prosent i 2024."}
+ ],
+ "sources": [
+  {"name": "HK-dir – Meld deg på statsborgerprøven", "url": "https://prove.hkdir.no/statsborgerprove/meld-deg-pa-statsborgerprove"},
+  {"name": "HK-dir – Les om prøven", "url": "https://prove.hkdir.no/statsborgerprove/les-om-proven-statsborgerprove"},
+  {"name": "HK-dir – Dette skjer på prøvedagen", "url": "https://prove.hkdir.no/statsborgerprove/dette-skjer-pa-provedagen-statsborgerprove"},
+  {"name": "HK-dir – Øv til prøven", "url": "https://prove.hkdir.no/statsborgerprove/ov-til-proven-statsborgerprove"},
+  {"name": "HK-dir – Statsborgerprøven", "url": "https://prove.hkdir.no/statsborgerprove"},
+  {"name": "samfunnskunnskap.no (HK-dir)", "url": "https://www.samfunnskunnskap.no"},
+  {"name": "UDI – Krav om prøver for å få norsk statsborgerskap", "url": "https://www.udi.no/ord-og-begreper/krav-om-prover-for-a-fa-norsk-statsborgerskap/"},
+  {"name": "UDI – Unntak fra prøver", "url": "https://www.udi.no/ord-og-begreper/unntak-prover-norsk-statsborgerskap/"},
+  {"name": "regjeringen.no – Over 92 prosent bestod statsborgerprøven i 2024", "url": "https://www.regjeringen.no/no/aktuelt/over-92-prosent-bestod-statsborgerproven-i-2024/id3092065/"}
+ ],
+ "disclaimer": "Denne siden og appen er uavhengige og ikke tilknyttet HK-dir, UDI eller staten. Sjekk alltid de offisielle sidene før du melder deg på."
+}
