@@ -8,7 +8,7 @@
 # <repo-slug>/app/ (old marketing URL) becomes a redirect to the primary-language page.
 import html, json, os, re, sys, unicodedata, urllib.request
 
-BASE = os.environ.get("SITE_BASE", "https://baytechbv.github.io/privacy")  # domain switch = this line
+BASE = os.environ.get("SITE_BASE", "https://apps.baytech.nl")  # domain switch = this line
 SHOTS = 3
 MIN_RATINGS = 5  # aggregateRating only with at least this many real App Store ratings
 # ASC locale → (URL dir, hreflang, iTunes country)
