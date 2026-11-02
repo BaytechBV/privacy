@@ -1,0 +1,67 @@
+# Baytech BV apps
+
+> Independent iOS apps by Baytech BV (Amsterdam), mostly exam and test preparation for Northern and Western Europe: citizenship tests, boating, hunting, driving and trade licences. Each app has a page per App Store language. The apps are not official and not affiliated with the exam authorities.
+
+Full text with facts and FAQ per app: https://baytechbv.github.io/privacy/llms-full.txt
+
+## Apps
+
+- [AM-Klar – Moped AM theory](https://baytechbv.github.io/privacy/en/am-klar-moped-am-theory/): Moped licence test practice
+- [Abonnement – Subscriptions](https://baytechbv.github.io/privacy/en/subscription-tracker-cancel/): Reminders before renewals
+- [Ajokortti – Driving Theory B](https://baytechbv.github.io/privacy/en/ajokortti-driving-theory-b/): Finnish road signs, mock tests
+- [Anhukerklar – anhuker G11](https://baytechbv.github.io/privacy/nb/anhuker-teori/): Teori for stropping og kran
+- [Antincendio Pronto – Quiz](https://baytechbv.github.io/privacy/en/antincendio-pronto-quiz/): Italian fire warden exam prep
+- [BHV Klaar – Herhaling en toets](https://baytechbv.github.io/privacy/en/bhv-klaar-herhaling-en-toets/): Eerste hulp en ploegleider
+- [Babyhender: Baby Sign Language](https://baytechbv.github.io/privacy/en/babyhender-baby-sign-language/): Signs before your baby talks
+- [Bilboka – Car Service Log](https://baytechbv.github.io/privacy/en/bilboka-car-service-log/): Inspection, tyres, fuel & EV
+- [Bloedmaatje – donorlogboek](https://baytechbv.github.io/privacy/en/bloedmaatje-donorlogboek/): Blood donation tracker
+- [Brummiklar – Lkw-Führerschein](https://baytechbv.github.io/privacy/de/lkw-fuehrerschein-theorie/): Theorie für C, C1, D und C95
+- [Båtkörkort – Boat Licence SE](https://baytechbv.github.io/privacy/en/baatkorkort-boat-licence-se/): Swedish boating theory & test
+- [Caccia alle Targhe](https://baytechbv.github.io/privacy/en/caccia-alle-targhe/): Licence plate road trip game
+- [Danish Citizenship Test Prep](https://baytechbv.github.io/privacy/en/danish-citizenship-test-prep/): Danish Citizenship Test Prep is an independent iPhone and iPad app by Baytech BV for the Danish citizenship test (indfødsretsprøven) and the permanent residence test (medborgerskabsprøven). It has 244 questions (148 plus 22 values questions for the citizenship test, 74 for the residence test), timed mock tests in the real format, and explanations in English, Danish, German, Polish, Turkish and Arabic. It works offline, and one purchase of 129 DKK unlocks everything, with no subscription.
+- [Delt – Split Group Expenses](https://baytechbv.github.io/privacy/en/delt-split-group-expenses/): Bill splitter for trips & rent
+- [Dosisklar – Drug Calculations](https://baytechbv.github.io/privacy/en/dosisklar-drug-calculations/): Dose maths practice for nurses
+- [Duelighedsbevis: Boat Licence](https://baytechbv.github.io/privacy/en/duelighedsbevis-boat-licence/): Danish boating theory test
+- [E-numbers – E-koll](https://baytechbv.github.io/privacy/en/e-numbers-e-koll/): Scan labels, know additives
+- [Fischerprüfung Österreich](https://baytechbv.github.io/privacy/en/fischerprufung-osterreich/): Fischerkurs & Prüfungsfragen
+- [Fødselsklar: Contraction Timer](https://baytechbv.github.io/privacy/en/foedselsklar-contraction-timer/): Birth plan & hospital bag
+- [GLP-1 Diary – Injection Log](https://baytechbv.github.io/privacy/en/glp-1-injection-diary/): Shots, weight & doctor report
+- [Golf Green Card: Rules Test](https://baytechbv.github.io/privacy/en/golf-green-card-rules-test/): Golf rules & etiquette quiz
+- [Hestegym – Horse Groundwork](https://baytechbv.github.io/privacy/en/hestegym-horse-groundwork/): Horse stretching & week plan
+- [Hygieniapassi Treeni](https://baytechbv.github.io/privacy/en/hygieniapassi-treeni/): Food safety & hygiene test
+- [Jagdprüfung Österreich](https://baytechbv.github.io/privacy/en/jagdprufung-osterreich/): Jungjägerprüfung & Jagdkurs
+- [Karta Wędkarska Test – Atlas](https://baytechbv.github.io/privacy/en/karta-wedkarska-test-atlas/): Wędkowanie i rozpoznawanie
+- [Kirkeåret – Nordic Church Year](https://baytechbv.github.io/privacy/en/kirkeaaret-nordic-church-year/): Lectionary, colours, Sundays
+- [Krispa – air fryer & recipes](https://baytechbv.github.io/privacy/en/krispa-air-fryer-recipes/): Cooking times & shake timer
+- [Kärryklar – BE-teoriakoe](https://baytechbv.github.io/privacy/fi/be-kortti-teoriakoe/): Perävaunu, massat ja kytkentä
+- [Körbok – övningsköra & körprov](https://baytechbv.github.io/privacy/en/korbok-ovningskora-korprov/): Ajoharjoittelu, ledsagerkørsel
+- [Labraopas – laboratoriokokeet](https://baytechbv.github.io/privacy/en/labraopas-laboratoriokokeet/): Lab test values & reference
+- [Ledigplan – föräldraledighet](https://baytechbv.github.io/privacy/en/ledigplan-foraldraledighet/): Forældreorlov, pappapermisjon
+- [Lesestart – lær å lese](https://baytechbv.github.io/privacy/nb/lese-app-for-barn/): Lesespill: bokstaver og lyder
+- [Metsästäjätutkinto/Jägarexamen](https://baytechbv.github.io/privacy/en/metsastajatutkinto-jagarexamen/): Finnish hunting exam practice
+- [Norwegian Citizenship Test](https://baytechbv.github.io/privacy/en/norwegian-citizenship-test/): Norwegian Citizenship Test is an independent iPhone and iPad app by Baytech BV for the Norwegian citizenship test (statsborgerprøven) and the social studies test (samfunnskunnskapsprøven). It has 150+ questions on the 8 social studies themes, a timed mock test in the real format (36 questions in 60 minutes, pass at 75%) and explanations in English, Norwegian, German, Polish and Arabic. It works offline, and one purchase of 129 NOK unlocks everything, with no subscription.
+- [Pressure & Headache Forecast](https://baytechbv.github.io/privacy/en/pressure-headache-forecast/): Barometer alerts and diary
+- [Provklar – Citizenship Test](https://baytechbv.github.io/privacy/en/provklar-citizenship-test/): Swedish society exam practice
+- [Radheld – Fahrradprüfung](https://baytechbv.github.io/privacy/en/radheld-fahrradprufung/): Verkehrserziehung Grundschule
+- [Rallyklar – Oldtimer Rallye](https://baytechbv.github.io/privacy/de/oldtimer-rallye-rechner/): Schnitt, Sollzeit, Stoppuhr
+- [Recipe Saver: Cookbook & Plan](https://baytechbv.github.io/privacy/en/recipe-saver-app/): Meal plan & shopping list
+- [Rekkaklar – C-luokan teoriakoe](https://baytechbv.github.io/privacy/en/rekkaklar-c-luokan-teoriakoe/): Kuorma-auton C ja CE suomeksi
+- [Riseplan: Sourdough Planner](https://baytechbv.github.io/privacy/en/riseplan-sourdough-planner/): Feed your starter, plan bakes
+- [SRC Klar – VHF-certifikat](https://baytechbv.github.io/privacy/sv/src-provet-ova/): Öva SRC-provet och nödanrop
+- [Serveringsklar – Alcohol Test](https://baytechbv.github.io/privacy/en/serveringsklar-alcohol-test/): Serving licence exam practice
+- [Skoterklar – förarbevis skoter](https://baytechbv.github.io/privacy/sv/snoskoter-forarbevis-teori/): Teori för snöskoter på svenska
+- [Smørklar – XC ski wax guide](https://baytechbv.github.io/privacy/en/smoerklar-xc-ski-wax-guide/): Grip wax & glide for skiing
+- [Sägeschein – Motorsägenkurs](https://baytechbv.github.io/privacy/de/motorsaegenkurs-theorie/): Theorie für AS Baum I und II
+- [Sågklar – motorsågskörkort](https://baytechbv.github.io/privacy/en/saagklar-motorsaagskorkort/): Swedish chainsaw licence test
+- [Takstklar – normaltariffen](https://baytechbv.github.io/privacy/en/takstklar-normaltariffen/): Norwegian GP tariff look-up
+- [Taxiklar – Swedish taxi test](https://baytechbv.github.io/privacy/en/taxiklar-swedish-taxi-test/): Taxiförare theory & mock exam
+- [Teoriklar – driving theory](https://baytechbv.github.io/privacy/en/teoriklar-driving-theory/): In Arabic, Ukrainian, Somali
+- [Tieturva Treeni – Road Work](https://baytechbv.github.io/privacy/en/tieturva-treeni-road-work/): Work zone safety test prep
+- [Tirelire – Pocket Money](https://baytechbv.github.io/privacy/en/tirelire-pocket-money/): Chores, savings and goals
+- [Traktorklar – klasse T](https://baytechbv.github.io/privacy/nb/traktorforerkort-teori/): Teori til traktorførerkort
+- [Työturva – TTK ja tulityö](https://baytechbv.github.io/privacy/en/tyoturva-ttk-ja-tulityo/): Finnish safety card practice
+- [Tåla – histamine & fructose](https://baytechbv.github.io/privacy/en/taala-histamine-fructose/): Food intolerance list & diary
+- [Vaarbewijs KVB 1 & 2 Practice](https://baytechbv.github.io/privacy/en/vaarbewijs-kvb-1-2-practice/): Vaarbewijs KVB 1 & 2 Practice is an independent iPhone and iPad app by Baytech BV for the Dutch CBR boating licence theory exams Klein Vaarbewijs 1 and 2. It has 616 original questions with explanations, timed mock exams with CBR-style scoring (KVB 1: 40 questions in 60 minutes; KVB 2: 27 questions in 90 minutes including open calculation questions) and chart reading and course plotting for KVB 2. It works offline, in Dutch, English and German, and one purchase of €9.99 unlocks everything, with no subscription.
+- [Vaktplan – Shifts & Pay](https://baytechbv.github.io/privacy/en/shift-planner-pay-calculator/): Shifts, supplements, hours
+- [Wishlist – Gift Lists](https://baytechbv.github.io/privacy/en/wishlist-gift-lists/): Shared lists and Secret Santa
+- [Żeglarz – Sternik motorowodny](https://baytechbv.github.io/privacy/en/zeglarz-sternik-motorowodny/): Węzły, COLREG, locja i meteo

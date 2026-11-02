@@ -2,7 +2,9 @@
 #   python3 landing.py fetch ~/Documents/Projects/baytech   # live ASC texts + first 3 store screenshots + rating → landing/apps.json
 #   python3 landing.py build [repo-slug]                     # pages from landing/apps.json + landing/content/<repo-slug>.json
 # Hand-written SEO copy (h1, benefits, FAQ) lives in landing/content/<repo-slug>.json keyed by ASC locale; locales without it
-# get a page from the store texts. URL slugs are pinned in landing/slugs.json (never rename a published one).
+# get a page from the store texts. Optional citable blocks per locale: "definition" (one paragraph: what the app is,
+# for whom, what it covers) and "compare" ({title, head, rows, note}: app vs. official sources vs. competitors, facts checked
+# on the App Store). build also writes llms.txt + llms-full.txt (index for AI search engines). URL slugs are pinned in landing/slugs.json (never rename a published one).
 # <repo-slug>/app/ (old marketing URL) becomes a redirect to the primary-language page.
 import html, json, os, re, sys, unicodedata, urllib.request
 
@@ -51,7 +53,12 @@ h2{font-size:1.25em;margin-top:1.8em}h3{font-size:1em;margin:1.2em 0 .2em}.badge
 .shots img{width:min(62vw,240px);height:auto;border-radius:18px;flex:none;scroll-snap-align:start;border:1px solid rgba(128,128,128,.25)}
 .ben{list-style:none;padding:0;display:grid;gap:10px}.ben li{background:var(--card);border-radius:12px;padding:12px 14px}
 .test{display:inline-block;background:var(--card);border-radius:12px;padding:10px 14px;font-weight:600;text-decoration:none}
-.desc{color:var(--mu);font-size:.95em}footer{margin-top:40px;font-size:.9em;color:var(--mu)}footer a{margin-right:10px}"""
+.desc{color:var(--mu);font-size:.95em}.def{border-left:3px solid var(--ac);padding:2px 0 2px 12px}
+.cmp{overflow-x:auto;margin:0 -16px;padding:0 16px}.cmp table{border-collapse:collapse;font-size:.9em;min-width:560px}
+.cmp th,.cmp td{border-bottom:1px solid rgba(128,128,128,.3);padding:6px 8px;text-align:left;vertical-align:top}.cmp small{color:var(--mu)}
+@media (max-width:600px){.cmp table{min-width:0}.cmp thead{display:none}.cmp tr{display:block;background:var(--card);border-radius:12px;
+padding:8px 12px;margin-bottom:10px}.cmp td{display:flex;gap:10px;border:0;padding:3px 0}.cmp td:first-child{font-weight:600}
+.cmp td[data-l]:before{content:attr(data-l);flex:0 0 40%;color:var(--mu)}}footer{margin-top:40px;font-size:.9em;color:var(--mu)}footer a{margin-right:10px}"""
 e = html.escape
 
 
@@ -201,8 +208,17 @@ def build(only=None):
             btn = (f"<a class='badge' href='{store}'><img src='../../landing/app-store-badge.svg'"
                    f" alt='{e(u[0])}' width='162' height='54'></a>")
             body = [f"<header>{icon}<div><h1>{e(h1)}</h1></div></header><p class='lead'>{e(lead)}</p>{btn}<div class='shots'>{imgs}</div>"]
+            if c.get("definition"):
+                body.append(f"<p class='def'>{e(c['definition'])}</p>")
             if bens:
                 body.append("<ul class='ben'>" + "".join(f"<li><b>{e(b['t'])}</b>{'<br>' + e(b['d']) if b['d'] else ''}</li>" for b in bens) + "</ul>")
+            cmp = c.get("compare")
+            if cmp:
+                th = "".join(f"<th>{e(x)}</th>" for x in cmp["head"])  # data-l = column label for the stacked mobile layout
+                tds = "".join("<tr>" + "".join(f"<td{f' data-l={chr(39)}{e(h)}{chr(39)}' if h and i else ''}>{e(x)}</td>"
+                                               for i, (h, x) in enumerate(zip(cmp["head"], r))) + "</tr>" for r in cmp["rows"])
+                body.append(f"<h2>{e(cmp['title'])}</h2><div class='cmp'><table><thead><tr>{th}</tr></thead><tbody>{tds}</tbody></table></div>"
+                            f"<p><small>{e(cmp['note'])}</small></p>")
             if rs in TESTS and TESTS[rs].startswith(d + "/") and os.path.exists(TESTS[rs]):  # quiztest.py page is live
                 body.append(f"<p><a class='test' href='../../{TESTS[rs]}'>{e(u[3])} →</a></p>")
             if faq:
@@ -220,7 +236,7 @@ def build(only=None):
                     f"<meta property='og:url' content='{url}'>" + (f"<meta property='og:image' content='{img}'>" if img else "") +
                     f"<meta name='twitter:card' content='summary_large_image'>{jsonld}<style>{CSS}</style></head>"
                     f"<body>{''.join(body)}</body></html>")
-            hand = " ".join([title, meta, h1, lead, json.dumps(bens, ensure_ascii=False), json.dumps(faq, ensure_ascii=False)])
+            hand = " ".join([title, meta, h1, lead, c.get("definition", ""), json.dumps([bens, faq, cmp], ensure_ascii=False)])
             seen = FREE.search(hand + re.sub(r"href='[^']*'", "", page))  # test-page URLs may say "gratis"; visible text may not
             assert not seen, (rs, loc, seen and seen.group(0))  # PUBLISH-PLAN §3.4: no "free" in sales copy
             open(f"{out}index.html", "w").write(page)
@@ -240,6 +256,39 @@ def build(only=None):
     if not only:
         open("landing/urls.txt", "w").write("\n".join(sorted(urls)) + "\n")
         print(len(urls), "pages")
+        llms(apps, slugs)
+
+
+def llms(apps, slugs):
+    """llms.txt (llmstxt.org): one line per app; llms-full.txt: definition, facts and FAQ per app, in the page languages."""
+    short, full = [], []
+    for rs, a in sorted(apps.items(), key=lambda x: x[1]["locales"].get("en-GB", x[1]["locales"].get(x[1]["primary"], {})).get("name") or x[0]):
+        content = json.load(open(f"landing/content/{rs}.json")) if os.path.exists(f"landing/content/{rs}.json") else {}
+        loc = "en-GB" if "en-GB" in a["locales"] else a["primary"] if a["primary"] in a["locales"] else next(iter(a["locales"]))
+        m, c = a["locales"][loc], content.get(loc, {})
+        url = f"{BASE}/{LOC[loc][0]}/{slugs[rs][LOC[loc][0]]}/"
+        line = c.get("definition") or m["subtitle"] or ""
+        short.append(f"- [{m['name']}]({url}): {line}".rstrip(": "))
+        full.append(f"## {m['name']}\n\nApp Store: https://apps.apple.com/app/id{a['id']}\n")
+        for l in a["locales"]:
+            mm, cc = a["locales"][l], content.get(l, {})
+            full.append(f"### {mm['name']} ({LOC[l][1]})\n\n{BASE}/{LOC[l][0]}/{slugs[rs][LOC[l][0]]}/\n")
+            text = cc.get("definition") or cc.get("lead") or clean(mm["subtitle"] + ". " + mm["promo"]).strip(". ")
+            if text:
+                full.append(text + "\n")
+            full += [f"- {b['t']}{': ' + b['d'] if b['d'] else ''}" for b in cc.get("benefits", [])] + [""] if cc.get("benefits") else []
+            full += [f"Q: {q['q']}\nA: {q['a']}\n" for q in cc.get("faq", [])]
+            if cc.get("compare"):
+                cm = cc["compare"]
+                full += [f"{cm['title']}\n", "| " + " | ".join(cm["head"]) + " |", "|" + "---|" * len(cm["head"])]
+                full += ["| " + " | ".join(r) + " |" for r in cm["rows"]] + [f"\n{cm['note']}\n"]
+    head = ("# Baytech BV apps\n\n> Independent iOS apps by Baytech BV (Amsterdam), mostly exam and test preparation for Northern and Western"
+            " Europe: citizenship tests, boating, hunting, driving and trade licences. Each app has a page per App Store language."
+            " The apps are not official and not affiliated with the exam authorities.\n\n"
+            f"Full text with facts and FAQ per app: {BASE}/llms-full.txt\n\n## Apps\n\n")
+    open("llms.txt", "w").write(head + "\n".join(short) + "\n")
+    open("llms-full.txt", "w").write(head.split("Full text")[0] + "\n".join(full) + "\n")
+    print("llms.txt", len(short), "apps")
 
 
 if __name__ == "__main__":

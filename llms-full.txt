@@ -1,0 +1,3603 @@
+# Baytech BV apps
+
+> Independent iOS apps by Baytech BV (Amsterdam), mostly exam and test preparation for Northern and Western Europe: citizenship tests, boating, hunting, driving and trade licences. Each app has a page per App Store language. The apps are not official and not affiliated with the exam authorities.
+
+## AM-Klar – Moped AM theory
+
+App Store: https://apps.apple.com/app/id6824960240
+
+### AM-Klar – knallertkørekort (da)
+
+https://baytechbv.github.io/privacy/da/knallertkoerekort-teori/
+
+AM-Klar hjælper dig med at øve teorien til knallertkørekortet, med knallertregler og ikke bilregler. Du får forklaring til hvert svar.
+
+- Spørgsmål pr. emne: Med forklaring til hvert svar.
+- Prøveeksamen med tid: Resultat pr. emne, så du ser, hvad der skal øves.
+- Lille og stor knallert: Alder, bevis, fart og cykelsti side om side.
+- Prøvedag: Nedtælling, tjekliste og påmindelse.
+- Virker uden internet: Øv dine fejl og følg fremskridt pr. emne.
+
+Q: Dækker appen både lille og stor knallert?
+A: Ja, lille og stor knallert vises side om side: alder, bevis, fart og cykelsti.
+
+Q: Er det knallertregler eller bilregler?
+A: Knallertregler, ikke bilregler.
+
+Q: Er der prøveeksamen?
+A: Ja, en prøveeksamen med tid og resultat pr. emne.
+
+Q: Virker appen uden internet?
+A: Ja, den virker uden internet.
+
+Q: Hvad kan jeg bruge uden køb?
+A: 20 spørgsmål, én prøveeksamen, ordlisten og tjeklisten.
+
+Q: Er det et abonnement?
+A: Nej. Den fulde version er et engangskøb, der låser alle spørgsmål, prøveeksamener og statistik op. Intet abonnement.
+
+Q: Gælder familiedeling?
+A: Ja. Køber en voksen i familien appen, får du også den fulde version.
+
+Q: Kan appen udstede kørekort?
+A: Nej. AM-Klar er uafhængig, ikke tilknyttet Færdselsstyrelsen eller politiet, holder ikke prøver og udsteder ikke kørekort.
+
+### AM-Klar – Mopedausweis (de)
+
+https://baytechbv.github.io/privacy/de/am-klar-mopedausweis/
+
+Theorie für Moped und AM. Übe die Theorie für den Mopedausweis: Fragen mit Erklärung, Prüfungssimulation und deine Fehler an einem Ort – auf Deutsch und offline
+
+### AM-Klar – Moped AM theory (en)
+
+https://baytechbv.github.io/privacy/en/am-klar-moped-am-theory/
+
+Moped licence test practice. Practise moped theory for Denmark, Sweden, Norway, Finland, the Netherlands and Austria – questions with explanations, mock exams, offline
+
+### AM-Klar – mopokortti AM120 (fi)
+
+https://baytechbv.github.io/privacy/fi/am-klar-mopokortti-am120/
+
+Mopon teoriakoe suomeksi. Harjoittele mopokortin teoriaa: kysymykset selityksineen, koeharjoitus ja virheiden kertaus – suomeksi ja ilman nettiä
+
+### AM-Klar – bromfiets theorie (nl)
+
+https://baytechbv.github.io/privacy/nl/am-klar-bromfiets-theorie/
+
+Oefen voor je AM-rijbewijs. Oefen het bromfietstheorie-examen: vragen met uitleg, proefexamens en je fouten op één plek – in het Nederlands en zonder internet
+
+### AM-Klar – mopedlappen (nb)
+
+https://baytechbv.github.io/privacy/nb/am-klar-mopedlappen/
+
+Teori for moped klasse AM. Øv teorien til mopedlappen: spørsmål med forklaring, prøvetester og feilene dine samlet – på norsk og uten nett
+
+### AM-Klar – mopedkörkort (sv)
+
+https://baytechbv.github.io/privacy/sv/am-klar-mopedkorkort/
+
+Moped körkort – teori klass I. Öva teorin för mopedkörkort: frågor med förklaring, övningsprov och dina fel samlade – på svenska och utan internet
+
+## Abonnement – Subscriptions
+
+App Store: https://apps.apple.com/app/id6823286010
+
+### Abonnementer – opsig nemt (da)
+
+https://baytechbv.github.io/privacy/da/abonnementer-opsigelse/
+
+Se, hvad du betaler hver måned, få en påmindelse før hver fornyelse, og opsig med et færdigt brev. Alt bliver på din iPhone.
+
+- Se, hvad du betaler: Samlet pr. måned og pr. år, udgift pr. kategori og dit dyreste abonnement.
+- Påmindelser i tide: Op til 30 dage før fornyelse, før en prøveperiode bliver betalt og før sidste frist for opsigelse.
+- Opsigelsesguider: Pr. tjeneste og land med direkte link, opsigelsesvarsel, binding og dato for sidste tjek.
+- Færdigt opsigelsesbrev: På dansk, svensk, norsk eller finsk; du sender det selv.
+- Privat og uden banklogin: Ingen konto, ingen reklamer. Lås med Face ID og eksport som CSV, hvis du vil.
+
+Q: Hvilke lande dækker appen?
+A: Danmark, Sverige, Norge og Finland. Du vælger blandt populære tjenester i de fire lande.
+
+Q: Opsiger appen abonnementer for mig?
+A: Nej, appen opsiger aldrig noget på dine vegne. Du får en guide med direkte link og et brev, som du selv sender.
+
+Q: Skal jeg logge ind på min bank?
+A: Nej. Der er ingen konto og intet banklogin, og alt bliver på din iPhone.
+
+Q: Hvad står der i opsigelsesbrevet?
+A: Dit navn, kundenummer og en anmodning om skriftlig bekræftelse. Du kan dele det via Mail eller Beskeder, kopiere det eller gemme det som PDF.
+
+Q: Hvilke påmindelser kan jeg få?
+A: Før hver fornyelse op til 30 dage i forvejen, før en prøveperiode bliver til et betalt abonnement, før sidste frist for opsigelse og når bindingsperioden er slut.
+
+Q: Hvor mange abonnementer kan jeg følge uden Pro?
+A: Op til 5 abonnementer med påmindelser og opsigelsesguider. Pro giver ubegrænset antal, opsigelsesbreve, udgift pr. kategori, widget og CSV-eksport.
+
+Q: Er Pro et abonnement?
+A: Du kan vælge årsabonnement eller et engangskøb. Årsabonnementet starter med en prøveperiode på 7 dage.
+
+Q: Er der en widget?
+A: Ja, en widget til hjemmeskærmen og låseskærmen viser månedens samlede beløb og næste betaling.
+
+### Abonnement – Subscriptions (en)
+
+https://baytechbv.github.io/privacy/en/subscription-tracker-cancel/
+
+Abonnement shows what you pay every month, reminds you before each renewal or notice deadline, and helps you cancel with a ready-made letter. Everything stays on your iPhone.
+
+- See what you pay: Total per month and per year, cost per category and your most expensive subscription.
+- Reminders on time: Up to 30 days before a renewal, before a trial turns paid and before the last day to give notice.
+- Cancellation guides: Per service and country, with a direct link, notice period, binding period and the date last checked.
+- Ready cancellation letter: Available in Swedish, Norwegian, Danish, Finnish or English; you send it yourself.
+- Private by design: No account, no bank login, no ads. Optional Face ID lock and CSV export.
+
+Q: Which countries does the app cover?
+A: It is made for Sweden, Norway, Denmark and Finland, with popular services from each country to pick from.
+
+Q: Does it cancel subscriptions for me?
+A: No. The app never cancels anything on your behalf. It gives you a guide with a direct link and a letter you send yourself.
+
+Q: Do I need to log in to my bank?
+A: No. There is no account and no bank login, and everything stays on your iPhone.
+
+Q: What can the cancellation letter include?
+A: Your name, customer number and a request for written confirmation. You can share it by Mail or Messages, copy it or save it as a PDF.
+
+Q: Which reminders can I get?
+A: Before every renewal up to 30 days ahead, before a trial becomes a paid subscription, before the last day to give notice and when a binding period ends.
+
+Q: What does Pro add?
+A: Without Pro you can track up to 5 subscriptions. Pro adds unlimited subscriptions, cancellation letters, cost per category, the widget and CSV export.
+
+Q: How do I pay for Pro?
+A: You can choose a yearly subscription or a one-time purchase. The yearly plan starts with a 7-day trial.
+
+Q: Is there a widget?
+A: Yes, a home screen and lock screen widget shows your monthly total and the next payment.
+
+### Tilaukset – irtisano helposti (fi)
+
+https://baytechbv.github.io/privacy/fi/tilaukset-irtisano-helposti/
+
+Muistutus ennen uusiutumista. Näet, mitä maksat joka kuukausi, saat muistutuksen ennen uusiutumista ja irtisanot valmiilla kirjeellä. Ei pankkitunnuksia – kaikki pysyy iPhonessasi
+
+### Abonnementer – si opp (nb)
+
+https://baytechbv.github.io/privacy/nb/abonnementer-si-opp/
+
+Varsel før trekk og frister. Se hva du betaler hver måned, få varsel før hvert trekk og si opp med et ferdig brev. Ingen bankinnlogging – alt blir på iPhonen din
+
+### Prenumerationer – säg upp (sv)
+
+https://baytechbv.github.io/privacy/sv/prenumerationer-sag-upp/
+
+Påminnelse före förnyelse. Se vad du betalar varje månad, få en påminnelse före varje förnyelse och säg upp med ett färdigt brev. Ingen bankinloggning – allt stannar på din iPhone
+
+## Ajokortti – Driving Theory B
+
+App Store: https://apps.apple.com/app/id6823285978
+
+### Ajokortti – Driving Theory B (en)
+
+https://baytechbv.github.io/privacy/en/ajokortti-driving-theory-b/
+
+Finnish road signs, mock tests. Practise the Finnish theory test in Traficom's three-part format: 15 text questions, 50 picture tasks, 5 risk tasks. 300+ questions, each explained in English
+
+### Ajokortti teoria – teoriakoe B (fi)
+
+https://baytechbv.github.io/privacy/fi/ajokortti-teoria-harjoituskoe/
+
+Harjoittele B-ajokortin teoriakoetta kolmiosaisessa muodossa: 15 sanallista, 50 kuvatehtävää ja 5 riskitehtävää. Jokaiseen kysymykseen on selitys ja lakiviite.
+
+- Yli 300 kysymystä: 12 aihetta liikennemerkeistä ensiapuun ja vaaranhavaitsemiseen.
+- Täysi harjoituskoe: 15 + 50 + 5 tehtävää 30 minuutin ajastimella.
+- Kuvatehtävät: Risteystilanteet ja vaaratilanteet kuvina, myös liikennemerkkihakemisto.
+- Virheet kertaukseen: Väärin menneet kysymykset palaavat, kunnes osaat ne kaksi kertaa peräkkäin.
+- Ei tilausta: Kertaosto, ei mainoksia eikä tiliä, toimii ilman verkkoyhteyttä.
+
+Q: Mitä ajokortti teoriakoe B sisältää?
+A: Sovelluksen täysi harjoituskoe noudattaa Traficomin teoriakoemääräyksen rakennetta: 15 sanallista kysymystä, 50 kuvatehtävää ja 5 riskitehtävää, aikaa 30 minuuttia.
+
+Q: Kuinka monta kysymystä sovelluksessa on?
+A: Yli 300 kysymystä 12 aiheesta. Jokaiseen on selitys ja lakiviite.
+
+Q: Ovatko kysymykset virallisia koekysymyksiä?
+A: Eivät ole. Kysymykset ja kuvat ovat sovelluksen omia ja perustuvat tieliikennelakiin 729/2018, joten tulos on suuntaa antava. Sovellus ei liity Traficomiin tai muihin viranomaisiin.
+
+Q: Voiko kysymykset lukea ruotsiksi?
+A: Kyllä, kysymykset ovat suomeksi ja ruotsiksi. Selitykset voit lukea suomeksi, ruotsiksi tai englanniksi.
+
+Q: Toimiiko sovellus ilman nettiä?
+A: Kyllä, sovellus toimii ilman verkkoyhteyttä. Tiliä ei tarvita.
+
+Q: Onko sovellus tilaus vai kertaosto?
+A: Täysi versio avataan yhdellä ostolla. Tilausta ei ole.
+
+Q: Voiko sovellusta kokeilla ennen ostoa?
+A: Kyllä. Liikennemerkit, etuajo-oikeus, merkkihakemisto, risteys- ja vaaraharjoitukset, lyhyt harjoituskoe ja yksi täysi harjoituskoe ovat käytössä ilman ostoa.
+
+### Körkortsteori Finland (sv)
+
+https://baytechbv.github.io/privacy/sv/korkortsteori-finland/
+
+Teoriprov B – på svenska. Öva teoriprovet i Traficoms tredelade format: 15 textfrågor, 50 bilduppgifter och 5 riskuppgifter. Över 300 frågor med förklaring och lagrum
+
+## Anhukerklar – anhuker G11
+
+App Store: https://apps.apple.com/app/id6825875056
+
+### Lyftklar – anhuggerkursus (da)
+
+https://baytechbv.github.io/privacy/da/lyftklar-anhuggerkursus/
+
+Teori til anhugning og kran. Øv teorien til anhuggerkurset: spørgsmål med forklaring, prøver og dine fejl samlet – på dansk og uden internet
+
+### Lyftklar – Anschläger & Kran (de)
+
+https://baytechbv.github.io/privacy/de/lyftklar-anschlager-kran/
+
+Kranschein-Theorie üben. Übe die Theorie für Anschläger und Kranführer: Fragen mit Erklärung, Prüfungssimulation und deine Fehler an einem Ort – offline
+
+### Lyftklar – taakankiinnitys (fi)
+
+https://baytechbv.github.io/privacy/fi/lyftklar-taakankiinnitys/
+
+Taakankiinnitys ja nosturit. Harjoittele taakankiinnityksen teoriaa: kysymykset selityksineen, koeharjoitukset ja virheiden kertaus – suomeksi ja ilman nettiä
+
+### Anhukerklar – anhuker G11 (nb)
+
+https://baytechbv.github.io/privacy/nb/anhuker-teori/
+
+Anhukerklar hjelper deg å øve teorien til anhukeropplæringen (G11) og fellesdelen for kran: stropping, løfteredskap, signaler og sikkerhet. Alt på norsk og uten nett.
+
+- Spørsmål med forklaring: Øv per emne og les forklaringen til hvert svar.
+- Prøvetest med tid: Prøv deg i appens eget øvingsformat med tidsgrense.
+- Toppvinkel og arbeidslast: Faktorene for 1, 2 og 3–4 parter samlet i én tabell.
+- Øv på feilene dine: Se fremgang per emne og ta de feilene du gjorde på nytt.
+- Prøvedag-sjekkliste: Nedtelling, sjekkliste og påminnelse før kurset eller prøven.
+
+Q: Hva dekker Anhukerklar?
+A: Teorien til anhukeropplæringen (G11) og fellesdelen for kran: stropping, løfteredskap, signaler og sikkerhet.
+
+Q: Hva er toppvinkel og arbeidslast?
+A: Appen har en tabell med faktorene for 1, 2 og 3–4 parter, slik at du ser sammenhengen mellom toppvinkel og arbeidslast på ett sted.
+
+Q: Fungerer appen uten internett?
+A: Ja, du kan øve uten nett.
+
+Q: Kan jeg prøve appen før jeg kjøper?
+A: Du kan øve på 20 spørsmål, ordlisten og sjekklisten uten kjøp.
+
+Q: Er det et abonnement?
+A: Nei. Fullversjonen er et engangskjøp som låser opp alle spørsmål, prøvetester og statistikk.
+
+Q: Får jeg kompetansebevis i appen?
+A: Nei. Appen er uavhengig og ikke tilknyttet Arbeidstilsynet eller noen kursleverandør. Kompetansebevis får du hos en godkjent opplæringsvirksomhet.
+
+Q: Finnes det en ordliste?
+A: Ja, en ordliste med de viktigste begrepene følger med.
+
+### Lyftklar – lyftkort teori (sv)
+
+https://baytechbv.github.io/privacy/sv/lyftklar-lyftkort-teori/
+
+Stroppning, lyft och kran. Öva teorin för lyftkort och stroppning: frågor med förklaring, övningsprov och dina fel samlade – på svenska och utan internet
+
+## Antincendio Pronto – Quiz
+
+App Store: https://apps.apple.com/app/id6825875073
+
+### Antincendio Pronto – Quiz (en)
+
+https://baytechbv.github.io/privacy/en/antincendio-pronto-quiz/
+
+Italian fire warden exam prep. Practise for the Italian fire warden exam (idoneità tecnica antincendio): 300+ questions with explanations, timed mock tests and a mistakes review. In Italian, offline
+
+### Antincendio Pronto – livello 3 (it)
+
+https://baytechbv.github.io/privacy/it/quiz-antincendio-livello-3/
+
+Antincendio Pronto ti prepara all'esame di idoneità tecnica per addetto antincendio di livello 2 e 3 con oltre 300 domande, simulazioni a tempo e ripasso degli errori.
+
+- Oltre 300 domande: In 6 argomenti, scritte sulle dispense VVF e sul D.M. 2 settembre 2021.
+- Spiegazione e fonte: Ogni risposta è spiegata e indica la fonte.
+- Simulazione d'esame: Prova in formato esame, a tempo, per arrivare pronto.
+- Classi di fuoco ed estintori: Quale agente usare, a colpo d'occhio.
+- Funziona senza internet: Studia ovunque e ripassa gli errori con i progressi per argomento.
+
+Q: A quale esame serve l'app?
+A: Ti aiuta a prepararti all'esame di idoneità tecnica per addetto antincendio di livello 2 e 3.
+
+Q: Quante domande ci sono?
+A: Oltre 300 domande in 6 argomenti, scritte sulle dispense VVF e sul D.M. 2 settembre 2021.
+
+Q: Ogni risposta è spiegata?
+A: Sì, ogni risposta ha una spiegazione e la fonte.
+
+Q: C'è la simulazione d'esame?
+A: Sì, una simulazione in formato esame, a tempo. Senza acquisto puoi farne una completa.
+
+Q: Funziona senza internet?
+A: Sì, l'app funziona senza connessione.
+
+Q: Cosa posso usare senza acquisto?
+A: 20 domande, una simulazione d'esame completa, il glossario e la checklist.
+
+Q: Serve un abbonamento?
+A: No. La versione completa è un acquisto unico che sblocca tutte le domande, le simulazioni e le statistiche. Nessun abbonamento.
+
+Q: L'app è collegata ai Vigili del Fuoco?
+A: No, è indipendente e non è collegata ai Vigili del Fuoco né ad enti di formazione. L'esame si sostiene presso il Comando VVF.
+
+## BHV Klaar – Herhaling en toets
+
+App Store: https://apps.apple.com/app/id6824971613
+
+### BHV Klaar – Herhaling en toets (en)
+
+https://baytechbv.github.io/privacy/en/bhv-klaar-herhaling-en-toets/
+
+Eerste hulp en ploegleider. Practise the Dutch BHV exam and your refresher: questions with explanations, mock exams, fire classes and a certificate reminder – offline
+
+### BHV Klaar – BHV examen oefenen (nl)
+
+https://baytechbv.github.io/privacy/nl/bhv-examen-oefenen/
+
+BHV Klaar helpt je oefenen voor het BHV-examen en de jaarlijkse herhaling: brand, ontruiming, eerste hulp, AED en reanimatie met uitleg bij elk antwoord.
+
+- Vragen met uitleg: Per onderwerp oefenen, met uitleg bij elk antwoord.
+- Proefexamen met tijd: Oefen in examenvorm.
+- Brandklassen en blussers: Zie wat er brandt en waarmee je blust.
+- Certificaat bijhouden: Aftellen, checklist en herinnering voor je herhaling.
+- Werkt zonder internet: Eenmalige aankoop, geen abonnement.
+
+Q: Wat kan ik met BHV Klaar oefenen?
+A: Brand, ontruiming, eerste hulp en reanimatie, met vragen per onderwerp, proefexamens en een begrippenlijst.
+
+Q: Is er een proefexamen?
+A: Ja, een proefexamen in examenvorm met tijd. De volledige versie ontgrendelt alle proefexamens.
+
+Q: Kan ik ook de jaarlijkse herhaling oefenen?
+A: Ja, de app is bedoeld voor het BHV-examen en de jaarlijkse herhaling, met een aftelling en herinnering voor je certificaat.
+
+Q: Werkt de app zonder internet?
+A: Ja, de app werkt zonder internet.
+
+Q: Is het een abonnement?
+A: Nee. De volledige versie is een eenmalige aankoop die alle vragen, proefexamens en statistiek ontgrendelt.
+
+Q: Kan ik eerst proberen voor ik koop?
+A: Je kunt 20 vragen, de begrippenlijst en de checklist zonder aankoop gebruiken.
+
+Q: Haal ik mijn BHV-certificaat via de app?
+A: Nee. Het certificaat haal je bij je cursus. De app is onafhankelijk en niet verbonden aan het NIBHV, een opleider of de overheid.
+
+## Babyhender: Baby Sign Language
+
+App Store: https://apps.apple.com/app/id6826536448
+
+### Tegnbaby – babytegn (da)
+
+https://baytechbv.github.io/privacy/da/tegnbaby-babytegn/
+
+Tegn med din baby før ordene. Lær babytegn sammen med din baby: 150 tegn med tegning og trin, en ugeplan med fem tegn og en dagbog over de første tegn – uden internet
+
+### Babyhender – Babyzeichen (de)
+
+https://baytechbv.github.io/privacy/de/babyhender-babyzeichen/
+
+Gebärden für dein Baby. Gebärden mit deinem Baby: 150 Zeichen mit Zeichnung und Schritten, ein Wochenplan mit fünf Gebärden und ein Tagebuch für die ersten Zeichen – offline
+
+### Babyhender: Baby Sign Language (en)
+
+https://baytechbv.github.io/privacy/en/babyhender-baby-sign-language/
+
+Signs before your baby talks. Sign with your baby: 150 signs with drawings and simple steps, a week plan with five signs and a diary for the first signs – works offline
+
+### Babyhender – vauvaviittomat (fi)
+
+https://baytechbv.github.io/privacy/fi/babyhender-vauvaviittomat/
+
+Viittomia ennen sanoja. Viito vauvan kanssa: 150 viittomaa piirroksin ja vaihein, viikko-ohjelma viidellä viittomalla ja päiväkirja ensimmäisille viittomille – ilman nettiä
+
+### Babyhender – babygebaren (nl)
+
+https://baytechbv.github.io/privacy/nl/babyhender-babygebaren/
+
+Gebaren voordat je baby praat. Gebaar samen met je baby: 150 gebaren met tekening en stappen, een weekplan met vijf gebaren en een dagboek voor de eerste gebaren – zonder internet
+
+### Babyhender – babytegn (nb)
+
+https://baytechbv.github.io/privacy/nb/babytegn-app/
+
+Babyhender hjelper deg å bruke enkle tegn sammen med babyen før ordene kommer, ett lite tegn om gangen i hverdagen. Hvert tegn har en egen tegning med tre enkle trinn.
+
+- 150 babytegn i 9 kategorier: Mat, søvn, følelser, dyr og mer, ordnet etter alder fra 6 til 24 måneder.
+- Ukeplan med fem tegn: Ett nytt tegn om dagen, så det blir lett å komme i gang.
+- Dagbok for første tegn: Noter når babyen bruker de første tegnene sine.
+- Sanger og lek: Bruk tegnene i sang og lek sammen med babyen.
+- Uten nett og uten konto: Appen virker uten internett og krever ingen innlogging.
+
+Q: Hva er babytegn?
+A: Babytegn er enkle hverdagsgester du bruker sammen med babyen før ordene kommer. Babyhender viser hvert tegn som en tegning med tre enkle trinn.
+
+Q: Hvor mange tegn er det i appen?
+A: Det er 150 babytegn fordelt på 9 kategorier, blant annet mat, søvn, følelser og dyr.
+
+Q: Fra hvilken alder passer appen?
+A: Tegnene er ordnet etter alder, fra 6 til 24 måneder. Appen har også tips til foreldre om når og hvordan dere kan starte.
+
+Q: Er babytegnene det samme som norsk tegnspråk?
+A: Tegnene er enkle hverdagsgester tegnet av oss, og mange ligner tegn i norsk tegnspråk. Appen lenker til Tegnordbok for det offisielle tegnet.
+
+Q: Hva kan jeg bruke uten kjøp?
+A: 30 tegn i 3 kategorier, den første ukeplanen, dagboken og tipsene kan brukes uten kjøp.
+
+Q: Er det abonnement?
+A: Nei. Fullversjonen er et engangskjøp som låser opp alle 150 tegn, nye ukeplaner, sanger, lek og fremgang.
+
+Q: Virker appen uten nett?
+A: Ja, appen virker uten nett og du trenger ingen konto.
+
+### Babyhender – babytecken (sv)
+
+https://baytechbv.github.io/privacy/sv/babyhender-babytecken/
+
+Tecken med bebisen före orden. Teckna med din bebis: 150 tecken med teckning och steg, en veckoplan med fem tecken och en dagbok för de första tecknen – utan internet
+
+## Bilboka – Car Service Log
+
+App Store: https://apps.apple.com/app/id6824187117
+
+### Bilbogen – syn og service (da)
+
+https://baytechbv.github.io/privacy/da/bilbogen-syn-og-service/
+
+Servicebog, dæk og opladning. Pigdæk er tilladt fra 1. november. Bilbogen viser næste syn, hvornår dækskiftet passer, og hvad bilen koster – uden konto, alt på telefonen
+
+### Bilboka – Car Service Log (en)
+
+https://baytechbv.github.io/privacy/en/bilboka-car-service-log/
+
+Inspection, tyres, fuel & EV. Your next periodic inspection from the official Nordic rule, tyre changes in the right season and a service history for the buyer as a PDF. No account, all on your phone
+
+### Autokirja – katsastus (fi)
+
+https://baytechbv.github.io/privacy/fi/autokirja-katsastus/
+
+Huollot, tankkaus ja renkaat. Talvirenkaat vaaditaan 1.11.–31.3. kelin niin vaatiessa. Autokirja näyttää, milloin renkaanvaihto koskee sinua, seuraavan katsastuksen ja auton kulut
+
+### Bilboka – EU-kontroll og dekk (nb)
+
+https://baytechbv.github.io/privacy/nb/eu-kontroll-dekkskift-varsel/
+
+Bilboka regner ut neste EU-kontroll fra vognkortet og minner deg på dekkskift og service. Hele historikken følger med til du selger bilen.
+
+- Neste frist først: EU-kontroll, service, dekkskift og forsikring på én skjerm.
+- Piggdekksesong der du bor: Også Nordland, Troms og Finnmark, med påminnelse om dekkskift.
+- Drivstoff, lading og service: Forbruk per 100 km eller mil og servicebok med kvitteringer.
+- Salgsrapport som PDF: Full historikk til kjøperen, og du velger om priser vises.
+- Ingen konto: Alt lagres på telefonen, og du legger inn bilen selv.
+
+Q: Hvordan finner Bilboka datoen for neste EU-kontroll?
+A: Fristen regnes ut fra første registrering og regelen fra Statens vegvesen. Står det en annen dato i brevet, skriver du den inn, for brevet gjelder alltid.
+
+Q: Når kan jeg kjøre på piggdekk?
+A: Appen viser piggdekksesongen for der du bor, også for Nordland, Troms og Finnmark. Sjekk alltid gjeldende regler.
+
+Q: Kan jeg følge med på mønsterdybden?
+A: Ja, du legger inn mønsterdybde per hjul og får varsel når den er under kravet.
+
+Q: Kan jeg regne ut forbruket på elbil?
+A: Ja, du kan logge liter eller kWh med pris og kilometerstand, og få forbruk per 100 km eller per mil.
+
+Q: Trenger jeg konto, og hvor lagres dataene?
+A: Nei, det er ingen konto og ingen skiltoppslag. Alt lagres på telefonen.
+
+Q: Hva koster Bilboka?
+A: Én bil, logg, kvitteringer, EU-kontroll, dekkvarsel og sikkerhetskopi kan brukes uten kjøp. Flere biler, grafer, deling av salgsrapport, dokumenter og CSV låses opp med et engangskjøp. Ingen abonnement.
+
+### Bilboken – besiktning & däck (sv)
+
+https://baytechbv.github.io/privacy/sv/bilboken-besiktning-dack/
+
+Servicebok, tankning, laddning. Vinterdäck krävs från 1 december vid vinterväglag. Bilboken visar när däckbytet gäller dig, nästa besiktning och vad bilen kostar
+
+## Bloedmaatje – donorlogboek
+
+App Store: https://apps.apple.com/app/id6824629681
+
+### Bloedmaatje – bloddonor (da)
+
+https://baytechbv.github.io/privacy/da/bloedmaatje-bloddonor/
+
+Log dine bloddonationer
+
+### Bloedmaatje – donorlogboek (en)
+
+https://baytechbv.github.io/privacy/en/bloedmaatje-donorlogboek/
+
+Blood donation tracker
+
+### Bloedmaatje – verenluovutus (fi)
+
+https://baytechbv.github.io/privacy/fi/bloedmaatje-verenluovutus/
+
+Seuraa luovutuksiasi
+
+### Bloedmaatje – donorlogboek (nl)
+
+https://baytechbv.github.io/privacy/nl/bloeddonor-logboek/
+
+Bloedmaatje houdt je donaties bij en laat zien wanneer je weer mag geven, voor volbloed en plasma. Werkt offline en zonder account.
+
+- Aftellen tot je volgende donatie: Zie meteen hoe lang het nog duurt, voor volbloed en plasma.
+- Herinnering op je telefoon: Je krijgt een melding zodra je weer mag doneren.
+- Geschiedenis en mijlpalen: Bekijk je donaties per jaar en verdien mijlpalen en badges.
+- Voorbereiding en regels: Een checklist voor de donatie en de wachttijden met bron.
+- Offline, geen account: Je Hb-waarden blijven op je telefoon.
+
+Q: Wat doet Bloedmaatje?
+A: De app houdt je donaties bij en toont een aftelling tot je volgende donatie, voor volbloed en plasma.
+
+Q: Beslist de app of ik mag doneren?
+A: Nee. Bloedmaatje geeft geen medisch advies en beslist niet of je mag doneren; dat doet de bloedbank.
+
+Q: Wat kan ik per donatie noteren?
+A: Datum, soort (bloed of plasma), plaats, een notitie en eventueel je eigen Hb-waarde.
+
+Q: Krijg ik een herinnering?
+A: Ja, de app herinnert je op je telefoon zodra je weer mag geven.
+
+Q: Heb ik een account nodig?
+A: Nee. De app werkt offline en zonder account, en je Hb-waarden blijven op je telefoon.
+
+Q: Wat kan ik zonder aankoop?
+A: Bijhouden, aftellen, herinnering, geschiedenis en mijlpalen kun je gebruiken zonder aankoop.
+
+Q: Wat is Bloedmaatje Plus?
+A: Een eenmalige aankoop voor de widget met aftellen, statistiek per jaar en het Hb-logboek. Geen abonnement.
+
+Q: Is de app van Sanquin?
+A: Nee, de app is onafhankelijk en niet verbonden aan Sanquin. Hij maakt ook geen afspraken.
+
+### Bloedmaatje – blodgiver (nb)
+
+https://baytechbv.github.io/privacy/nb/bloedmaatje-blodgiver/
+
+Logg blodgivningene dine
+
+### Bloedmaatje – blodgivning (sv)
+
+https://baytechbv.github.io/privacy/sv/bloedmaatje-blodgivning/
+
+Logga dina blodgivningar
+
+## Brummiklar – Lkw-Führerschein
+
+App Store: https://apps.apple.com/app/id6825264151
+
+### Brummiklar – Lkw-Führerschein (de)
+
+https://baytechbv.github.io/privacy/de/lkw-fuehrerschein-theorie/
+
+Brummiklar hilft dir, die Theorie für die Klassen C, C1, D und D1 in Österreich zu üben, mit Fragen nach Themen und dem Grundwissen für C95. Zu jeder Antwort gibt es eine Erklärung.
+
+- Fragen mit Erklärung: Nach Thema üben, mit Erklärung zu jeder Antwort.
+- Prüfungssimulation: Mit Zeit, angelehnt an das Prüfungsformat.
+- Lenk- und Ruhezeiten: Pausen, Tages- und Wochengrenzen auf einen Blick.
+- Prüfungstag-Hilfe: Countdown, Checkliste und Erinnerung.
+- Offline und ohne Abo: Funktioniert ohne Internet, Vollversion als Einmalkauf.
+
+Q: Für welche Klassen ist Brummiklar?
+A: Für die Klassen C, C1, D und D1 in Österreich, dazu das Grundwissen für C95.
+
+Q: Enthält die App den amtlichen Fragenkatalog?
+A: Nein, Brummiklar enthält eigene Fragen und ist nicht mit Behörden verbunden. Die Prüfung legst du über die Fahrschule ab.
+
+Q: Gibt es eine Prüfungssimulation?
+A: Ja, mit Zeit und angelehnt an das Prüfungsformat.
+
+Q: Werden Lenk- und Ruhezeiten behandelt?
+A: Ja, Pausen sowie Tages- und Wochengrenzen im Überblick.
+
+Q: Funktioniert die App offline?
+A: Ja, ohne Internet.
+
+Q: Ist es ein Abo?
+A: Nein, die Vollversion ist ein Einmalkauf und schaltet alle Fragen, Simulationen und die Statistik frei.
+
+Q: Kann ich vor dem Kauf testen?
+A: 20 Fragen, die Begriffe und die Checkliste kannst du ohne Kauf nutzen.
+
+## Båtkörkort – Boat Licence SE
+
+App Store: https://apps.apple.com/app/id6824002373
+
+### Båtkörkort – Boat Licence SE (en)
+
+https://baytechbv.github.io/privacy/en/baatkorkort-boat-licence-se/
+
+Swedish boating theory & test. Study this winter, go boating in spring: 612 explained questions and 96 chart tasks
+
+### Båtkörkort – Förarintyg 2026 (sv)
+
+https://baytechbv.github.io/privacy/sv/forarintyg-fritidsbat-ovningsprov/
+
+Öva teorin, sjökortet och provet för förarintyg för fritidsbåt i en och samma app. Varje svar förklaras med en hänvisning till regeln.
+
+- 612 egna övningsfrågor: I 6 områden, med förklaring och regelhänvisning efter varje svar.
+- 96 sjökortsuppgifter: På 8 övningskort: rita kursen, mät och skriv in kurs och distans.
+- Provsimulering på 90 minuter: Tre delar med egen gräns för godkänt, som exempelprovet.
+- Mina fel: Frågor du svarat fel på kommer tillbaka tills du kan dem två gånger i rad.
+- Studieplan och påminnelse: Nedräkning till provdatumet och en daglig påminnelse om du vill.
+
+Q: Vilket prov övar jag inför?
+A: Provet för förarintyg för fritidsbåt, ofta kallat båtkörkortet.
+
+Q: Hur många frågor finns det?
+A: 612 egna övningsfrågor i 6 områden, plus 96 sjökortsuppgifter på 8 övningskort och 69 kort för lanternor och signaler.
+
+Q: Hur lång är provsimuleringen?
+A: 90 minuter, uppbyggd som exempelprovet med tre delar som var och en har en egen gräns för godkänt.
+
+Q: Finns sjökortsuppgifter?
+A: Ja. Du ritar kursen från A till B, mäter med gradskiva och passare och skriver in kurs och distans. Facit visar din linje mot rätt linje.
+
+Q: Fungerar appen utan internet?
+A: Ja, övningarna fungerar utan internet. Inget konto och ingen reklam.
+
+Q: Är det en prenumeration?
+A: Nej, det är ett engångsköp som låser upp allt. Utan köp kan du prova bland annat 20 frågor om sjövägsregler, 2 sjökortsuppgifter och en hel provsimulering.
+
+Q: Är frågorna officiella provfrågor?
+A: Nej, frågorna är skrivna av oss och appen har ingen koppling till Nämnden för båtlivsutbildning, Transportstyrelsen eller Sjöfartsverket.
+
+Q: Vilka språk finns?
+A: Allt innehåll finns på svenska och engelska.
+
+## Caccia alle Targhe
+
+App Store: https://apps.apple.com/app/id6824629769
+
+### Caccia alle Targhe (de)
+
+https://baytechbv.github.io/privacy/de/caccia-alle-targhe/
+
+Kennzeichen-Spiel für Reisen. Das Spiel für die Autofahrt: Kennzeichen sammeln – italienische Provinzen, Schweizer Kantone, französische Départements und Länder – und die Familie herausfordern
+
+### Caccia alle Targhe (en)
+
+https://baytechbv.github.io/privacy/en/caccia-alle-targhe/
+
+Licence plate road trip game. The car-trip game: spot Italian province codes, special plates and foreign countries, fill in the map and challenge the family
+
+### Caccia alle Targhe (fr)
+
+https://baytechbv.github.io/privacy/fr/caccia-alle-targhe/
+
+Jeu de plaques en voyage. Le jeu des trajets en voiture : repérez les départements, les cantons suisses, les provinces italiennes et les pays étrangers, puis défiez la famille
+
+### Caccia alle Targhe (it)
+
+https://baytechbv.github.io/privacy/it/gioco-targhe-auto-viaggio/
+
+Caccia alle Targhe è il gioco per i passeggeri durante i viaggi in auto: raccogli le province italiane, le targhe speciali e i paesi stranieri.
+
+- Province e mappa: Tutte le sigle per regione, con una mappa che si colora.
+- Targhe speciali ed estere: CD, EE, VF, Polizia, Carabinieri e le sigle dei paesi.
+- Sfida in famiglia: Più giocatori, punti e classifica; le targhe rare valgono di più.
+- Medaglie e quiz: Medaglie per regioni, province e paesi, e quiz delle sigle.
+- Offline, senza pubblicità: Senza account; si salvano solo le sigle, mai numeri di targa completi.
+
+Q: Come si gioca?
+A: Durante il viaggio digiti o scegli la sigla della targa che vedi e confermi con «Trovata!» in un tocco.
+
+Q: Quali targhe posso raccogliere?
+A: Le province italiane, le targhe speciali come CD, EE, VF, CRI, Polizia, Carabinieri ed Esercito e le sigle dei paesi esteri.
+
+Q: Si può giocare in più persone?
+A: Sì, con punti e classifica. Senza acquisto si può giocare in due; con l'acquisto fino a sei giocatori.
+
+Q: Chi deve giocare?
+A: Il gioco è per i passeggeri, non per chi guida.
+
+Q: Salva le targhe complete?
+A: No, si salvano solo sigle (provincia, paese, categoria), mai numeri di targa completi.
+
+Q: Funziona offline?
+A: Sì, funziona offline, senza account e senza pubblicità.
+
+Q: Cosa posso usare senza acquisto?
+A: Le province italiane, un viaggio e due giocatori.
+
+Q: Serve un abbonamento?
+A: No. Un acquisto unico sblocca targhe speciali, paesi esteri, viaggi illimitati, il quiz e i pacchetti con i cantoni svizzeri e i dipartimenti francesi. Nessun abbonamento.
+
+### Caccia alle Targhe (pl)
+
+https://baytechbv.github.io/privacy/pl/caccia-alle-targhe/
+
+Gra w tablice w podróży. Gra na podróż samochodem: zbieraj włoskie prowincje, kantony Szwajcarii, departamenty Francji i kody krajów, wypełniaj regiony i rywalizuj z rodziną
+
+## Danish Citizenship Test Prep
+
+App Store: https://apps.apple.com/app/id6823126416
+
+### اختبار الجنسية الدنماركية (ar)
+
+https://baytechbv.github.io/privacy/ar/indfodsretsprove-dk/
+
+Indfødsretsprøven والإقامة. 244 سؤالًا تدريبيًا للاختبارين الدنماركيين. الأسئلة بالدنماركية والشرح بالعربية. امتحانات تجريبية بوقت محدد وقاعدة 4 من 5 لأسئلة القيم
+
+### Indfødsretsprøven 2026/2027 (da)
+
+https://baytechbv.github.io/privacy/da/indfodsretsproeven-oevespoergsmaal/
+
+Indfødsretsprøven 2026/2027 er en uafhængig iPhone- og iPad-app fra Baytech BV til at øve indfødsretsprøven og medborgerskabsprøven. Den har 244 spørgsmål (148 plus 22 værdispørgsmål til indfødsretsprøven, 74 til medborgerskabsprøven), øveprøver med tid i samme format som de rigtige prøver og forklaringer på dansk, engelsk, tysk, polsk, tyrkisk og arabisk. Den virker uden internet, og alt låses op med ét køb på 129 kr uden abonnement.
+
+- 244 spørgsmål til begge prøver: 148 plus 22 værdispørgsmål til indfødsretsprøven og 74 til medborgerskabsprøven.
+- Øveprøver med tid: Samme format som de rigtige prøver: 45 spørgsmål på 45 minutter og 25 på 30 minutter.
+- Forklaring på 6 sprog: Spørgsmålene er på dansk, forklaringen kan læses på dit eget sprog.
+- Dine fejl kommer igen: Til du har svaret rigtigt 2 gange i træk.
+- Oplæsning og nedtælling: Få spørgsmål læst højt på dansk og følg nedtællingen til din prøvedato.
+
+Q: Hvad er forskellen på indfødsretsprøven og medborgerskabsprøven?
+A: Appen dækker begge. Indfødsretsprøven har 148 spørgsmål om bl.a. historie, grundlov og samfund samt 22 om danske værdier, medborgerskabsprøven har 74 om hverdagsliv, rettigheder og pligter samt arbejde, skat og uddannelse.
+
+Q: Hvordan er øveprøverne bygget op?
+A: Indfødsretsprøven øves med 45 spørgsmål på 45 minutter, bestået ved 36 rigtige og mindst 4 af 5 værdispørgsmål. Medborgerskabsprøven øves med 25 spørgsmål på 30 minutter, bestået ved 20 rigtige.
+
+Q: Kan jeg øve alle spørgsmål, som de kommer til prøven?
+A: Nej, 5 af spørgsmålene til indfødsretsprøven handler om aktuelle begivenheder og kan ikke forberedes. Øveprøven bruger i stedet spørgsmål fra pensum, og den rigtige prøve kan være anderledes.
+
+Q: Kan jeg få forklaringerne på mit eget sprog?
+A: Ja, forklaringerne findes på dansk, engelsk, tysk, polsk, tyrkisk og arabisk.
+
+Q: Er der abonnement?
+A: Du kan prøve ét emne og én øveprøve i hver prøve uden køb. Du låser alt op med ét køb, og der er intet abonnement.
+
+Q: Virker appen uden internet?
+A: Ja, appen virker uden internet, uden reklamer og uden konto.
+
+Q: Er appen officiel?
+A: Nej, den er uafhængig og ikke tilknyttet SIRI, Uddannelses- og Forskningsministeriet eller staten.
+
+Sammenligning med andre måder at øve på
+
+|  | Spørgsmål | Sprog | Uden internet | Pris |
+|---|---|---|---|---|
+| Denne app | 244 | Dansk; forklaring på 6 sprog | Ja | 129 kr, ét køb |
+| SIRI: læremateriale og tidligere prøver (danskogproever.dk) | Tidligere prøver + læremateriale | Dansk, også som lyd | PDF kan hentes | 0 kr |
+| Bliv Klar | 1.700+ | Dansk og engelsk | Ja | 149 kr, ét køb |
+| Nyborger | Ikke oplyst | Kun dansk | Ikke oplyst | Abonnement 149 kr/md., 499 kr/år |
+| Indfødsretsprøven ◎ | 369 | Dansk og engelsk | Ikke oplyst | 79 kr, ét køb |
+
+Kilde: appbeskrivelser og priser i den danske App Store, tjekket 2. november 2026. Brug altid også SIRI's officielle materiale; ingen app er officiel.
+
+### Dänischer Einbürgerungstest (de)
+
+https://baytechbv.github.io/privacy/de/danischer-einburgerungstest/
+
+Indfødsret & Daueraufenthalt. 244 Übungsfragen für beide dänischen Tests. Fragen auf Dänisch, Erklärungen auf Deutsch. Probeprüfungen mit Zeit und der 4-von-5-Werte-Regel
+
+### Danish Citizenship Test Prep (en)
+
+https://baytechbv.github.io/privacy/en/danish-citizenship-test-prep/
+
+Danish Citizenship Test Prep is an independent iPhone and iPad app by Baytech BV for the Danish citizenship test (indfødsretsprøven) and the permanent residence test (medborgerskabsprøven). It has 244 questions (148 plus 22 values questions for the citizenship test, 74 for the residence test), timed mock tests in the real format, and explanations in English, Danish, German, Polish, Turkish and Arabic. It works offline, and one purchase of 129 DKK unlocks everything, with no subscription.
+
+Q: Which tests does the app cover?
+A: Both: indfødsretsprøven (citizenship, 45 questions in 45 minutes, pass with 36 correct and at least 4 of 5 values questions) and medborgerskabsprøven (permanent residence, 25 questions in 30 minutes, pass with 20 correct).
+
+Q: Are the questions in English?
+A: The questions are in Danish, like the real test. After each answer you can read the explanation in English, German, Polish, Turkish or Arabic.
+
+Q: Can I practise every question that will be on the test?
+A: No. 5 questions on the citizenship test are about current affairs and cannot be prepared from the syllabus. The mock tests use syllabus questions, so the real test can be different.
+
+Q: Is there a subscription?
+A: No. You can try one topic and one mock test for each exam without buying. One purchase unlocks everything.
+
+Q: Is the app official?
+A: No. It is independent and not affiliated with SIRI, the Danish Ministry of Higher Education and Science or the Danish state.
+
+How it compares
+
+|  | Questions | Languages | Offline | Price |
+|---|---|---|---|---|
+| This app | 244 | Questions in Danish; explanations in 6 languages | Yes | 129 DKK, one purchase |
+| SIRI official learning material and past tests (danskogproever.dk) | Past tests + learning material | Danish, also as audio | PDF download | 0 DKK |
+| Bliv Klar | 1,700+ | Danish and English | Yes | 149 DKK, one purchase |
+| Nyborger | Not stated | Danish only | Not stated | Subscription 149 DKK/month, 499 DKK/year |
+| Indfødsretsprøven ◎ | 369 | Danish and English | Not stated | 79 DKK, one purchase |
+
+Source: app descriptions and prices on the Danish App Store, checked 2 November 2026. Always use SIRI's official material as well; no app is official.
+
+### Test na obywatelstwo Danii (pl)
+
+https://baytechbv.github.io/privacy/pl/test-na-obywatelstwo-danii/
+
+Indfødsret i stały pobyt. 244 pytań do obu duńskich testów. Pytania po duńsku, wyjaśnienia po polsku. Egzaminy próbne na czas z zasadą 4 z 5 pytań o wartości
+
+### Danimarka Vatandaşlık Testi (tr)
+
+https://baytechbv.github.io/privacy/tr/danimarka-vatandaslik-testi/
+
+Indfødsret ve oturum sınavı. İki Danimarka sınavı için 244 alıştırma sorusu. Sorular Danca, açıklamalar Türkçe. Süreli deneme sınavları ve 5 değer sorusundan 4 kuralı
+
+## Delt – Split Group Expenses
+
+App Store: https://apps.apple.com/app/id6824083931
+
+### Delt – dele udgifter, regning (da)
+
+https://baytechbv.github.io/privacy/da/delt-dele-udgifter-regning/
+
+Rejse, sommerhus, bofællesskab. Hvem betalte hvad, og hvem skylder hvem? Skriv udgifterne på turen eller i bofællesskabet, og gør op med så få betalinger som muligt. Uden konto
+
+### Delt – Split Group Expenses (en)
+
+https://baytechbv.github.io/privacy/en/delt-split-group-expenses/
+
+Bill splitter for trips & rent. Who paid what, and who owes whom? Add the costs of a trip or a shared flat and settle up with as few payments as possible. No account needed
+
+### Jaettu – jaa kulut ja laskut (fi)
+
+https://baytechbv.github.io/privacy/fi/jaettu-jaa-kulut-ja-laskut/
+
+Mökkireissu ja kimppakämppä. Kuka maksoi mitä ja kuka on velkaa kenelle? Lisää reissun tai kimppakämpän kulut ja selvitä ne mahdollisimman vähillä maksuilla. Ei tiliä
+
+### Delt – dele utgifter, regning (nb)
+
+https://baytechbv.github.io/privacy/nb/dele-utgifter-app/
+
+Del utgiftene på hytteturen, i kollektivet eller på reisen, uten regneark og uten konto. Legg inn hvem som betalte hva, så viser Delt hvordan dere gjør opp med færrest mulig betalinger.
+
+- Utgifter på sekunder: Beløp, hvem som betalte og hvem som deler.
+- Fleksibel deling: Likt, i andeler, eksakte beløp eller prosent.
+- Oppgjør med færrest betalinger: Del beløpet som tekst eller åpne Vipps.
+- Del gruppen via iCloud: Gruppene ligger i din egen iCloud, ikke på våre servere.
+- Uten konto: Virker også uten nett og uten reklame.
+
+Q: Hvordan deler jeg utgifter på en tur?
+A: Lag en gruppe, legg til folk og legg inn hver utgift med beløp, hvem som betalte og hvem som deler. Saldoen viser hvem som skylder hvem.
+
+Q: Hvordan deler jeg på hytteturen eller i kollektivet?
+A: Lag en gruppe for turen, hytta eller kollektivet. De som ikke har appen, kan legges inn med bare navn.
+
+Q: Flytter Delt penger?
+A: Nei, Delt har ingen bankkobling. Dere betaler selv, for eksempel i Vipps eller nettbanken.
+
+Q: Trenger alle en konto?
+A: Nei. Ingen trenger konto hos oss. Inviter de andre med en iCloud-lenke.
+
+Q: Virker appen uten nett?
+A: Ja, endringene sendes når du er på nett igjen.
+
+Q: Hva får jeg uten kjøp, og hva er Delt Pluss?
+A: Grupper, utgifter, saldo og oppgjør kan brukes uten kjøp, uten grense per dag. Delt Pluss er et engangskjøp med kvitteringsskanning, flere valutaer, faste utgifter, statistikk og eksport.
+
+Q: Hvilke språk finnes?
+A: Norsk, dansk, finsk og engelsk.
+
+### Delt – dela utgifter & notan (sv)
+
+https://baytechbv.github.io/privacy/sv/delt-dela-utgifter-notan/
+
+Resor, stuga och kollektiv. Vem betalade vad, och vem är skyldig vem? Lägg in kostnaderna för resan eller kollektivet och gör upp med så få betalningar som möjligt. Inget konto behövs
+
+## Dosisklar – Drug Calculations
+
+App Store: https://apps.apple.com/app/id6825874936
+
+### Dosisklar – medicinregning (da)
+
+https://baytechbv.github.io/privacy/da/medicinregning-proeve/
+
+Dosisklar hjælper sygeplejestuderende med at øve medicinregning til prøven, med nye tal i hver opgave og løsningen trin for trin. Kun til eksamenstræning.
+
+- Nye tal hver gang: Opgaver om enheder, infusion og fortynding med løsning trin for trin.
+- Prøveeksamen med tid: Øv i vores øveformat og se fremskridt pr. emne.
+- Formler og enheder samlet: mg, µg, ml/t og dråber/min på ét sted.
+- Prøvedag: Nedtælling, tjekliste og påmindelse.
+- Virker uden internet: Øv dine fejl overalt.
+
+Q: Hvem er appen til?
+A: Sygeplejestuderende, der vil øve medicinregning til prøven.
+
+Q: Kan jeg bruge den til at udregne doser til patienter?
+A: Nej. Dosisklar er kun til eksamenstræning og må ikke bruges til at beregne doser til patienter.
+
+Q: Er opgaverne ens hver gang?
+A: Nej, hver opgave har nye tal, og løsningen vises trin for trin.
+
+Q: Hvad kan jeg øve?
+A: Spørgsmål pr. emne med forklaring, enheder, infusion og fortynding samt en prøveeksamen med tid.
+
+Q: Virker appen uden internet?
+A: Ja, den virker uden internet.
+
+Q: Hvad kan jeg bruge uden køb?
+A: 20 spørgsmål, én fuld prøveeksamen, ordlisten og tjeklisten.
+
+Q: Er det et abonnement?
+A: Nej. Den fulde version er et engangskøb, der låser alle spørgsmål, prøveeksamener og statistik op. Intet abonnement.
+
+Q: Er appen tilknyttet uddannelsesstederne?
+A: Nej, appen er uafhængig og ikke tilknyttet uddannelsesstederne.
+
+### Dosisklar – Drug Calculations (en)
+
+https://baytechbv.github.io/privacy/en/dosisklar-drug-calculations/
+
+Dose maths practice for nurses. Practise drug calculations with new numbers every time: units, infusions and dilutions with step-by-step solutions. For exam practice – not for clinical use
+
+### Dosisklar – lääkelaskenta (fi)
+
+https://baytechbv.github.io/privacy/fi/dosisklar-laakelaskenta/
+
+Harjoittele lääkelaskukoetta. Harjoittele lääkelaskentaa uusilla tehtävillä joka kerta: yksiköt, infuusio ja laimennos vaihe vaiheelta. Vain koeharjoitteluun – ei kliiniseen käyttöön
+
+### Dosisklar – calcul de dose (fr)
+
+https://baytechbv.github.io/privacy/fr/dosisklar-calcul-de-dose/
+
+Révisions pour étudiants IDE. Entraîne-toi au calcul de dose avec de nouveaux exercices : unités, débit de perfusion et dilution, corrigés pas à pas. Pour réviser – pas pour un usage clinique
+
+### Dosisklar – medisch rekenen (nl)
+
+https://baytechbv.github.io/privacy/nl/dosisklar-medisch-rekenen/
+
+Oefen rekenen voor de zorg. Oefen medisch rekenen met steeds nieuwe opgaven: eenheden, infuus en verdunning met stap-voor-stap uitleg. Alleen voor toetstraining – niet voor klinisch gebruik
+
+### Dosisklar – legemiddelregning (nb)
+
+https://baytechbv.github.io/privacy/nb/dosisklar-legemiddelregning/
+
+Øv til prøven i sykepleien. Øv medikamentregning med nye oppgaver hver gang: enheter, infusjon og fortynning med løsning trinn for trinn. Kun for eksamenstrening – ikke klinisk bruk
+
+### Dosisklar: läkemedelsberäkning (sv)
+
+https://baytechbv.github.io/privacy/sv/dosisklar-lakemedelsberakning/
+
+Öva inför tentan i vården. Öva läkemedelsberäkning med nya uppgifter varje gång: enheter, infusion och spädning steg för steg. Endast för tentaträning – inte för klinisk användning
+
+## Duelighedsbevis: Boat Licence
+
+App Store: https://apps.apple.com/app/id6824009361
+
+### Duelighedsbevis – Teori & Test (da)
+
+https://baytechbv.github.io/privacy/da/duelighedsbevis-teori/
+
+Appen forbereder dig til teoriprøven til duelighedsbevis i sejlads og til speedbådsbeviset med 385 øvespørgsmål og forklaring til hver. Du kan også tage en prøveeksamen bedømt som prøven.
+
+- 385 spørgsmål i 8 emner: Søvejsregler, lys, afmærkning, søkort, vejr, sikkerhed, motor og speedbåd.
+- Prøveeksamen med tid: Bedømt som prøven for både duelighedsbevis og speedbåd.
+- Lys-finder: Vælg de lys du ser og få at vide, hvilket skib det er, og hvem der viger.
+- 52 kort og 68 billedspørgsmål: Afmærkning, fyrkarakterer, lanterner, signalfigurer og lydsignaler.
+- Mine fejl og prøvedato: Forkerte svar kommer igen, og du får nedtælling og påmindelser før prøven.
+
+Q: Hvad dækker appen?
+A: Den dækker teoriprøven til duelighedsbevis i sejlads og speedbådsbeviset. Du vælger selv, om du vil øve til duelighedsbevis eller speedbåd.
+
+Q: Hvor mange spørgsmål er der?
+A: Der er 385 øvespørgsmål i 8 emner, heriblandt 68 billedspørgsmål med lanterner, signalfigurer og bøjer.
+
+Q: Hvordan bedømmes prøveeksamen?
+A: Prøveeksamen til duelighedsbevis tillader højst 1 fejl i hvert af de 5 hovedområder og højst 3 i alt. Til speedbåd er der to dele med højst 2 fejl i del 1 og 3 i del 2.
+
+Q: Er det den rigtige prøve?
+A: Nej. Den teoretiske duelighedsprøve har intet fast antal spørgsmål, og appens prøveeksamen er et øveformat. Appen er uafhængig og ikke tilknyttet Søfartsstyrelsen eller Dansk Sejlunion.
+
+Q: Skal jeg købe et abonnement?
+A: Nej. Et engangskøb låser alle emner, ubegrænsede prøveeksamener, kort og Lys-finder op. Uden køb kan du bruge ét emne og tage én hel prøveeksamen.
+
+Q: Virker appen uden internet?
+A: Ja, appen virker uden internet og kræver ingen konto.
+
+Q: Hvilke sprog er appen på?
+A: Spørgsmålene er på dansk som til prøven. Forklaringer og menuer findes på dansk, engelsk og tysk.
+
+### Duelighedsbevis: Bootsschein (de)
+
+https://baytechbv.github.io/privacy/de/duelighedsbevis-bootsschein/
+
+Dänischer Bootsführerschein. Theoriekurs im Winter? Übe 385 Fragen mit Erklärungen, mach eine Probeprüfung wie in der Prüfung bewertet und bestimme Schiffe an ihren Lichtern. Auch Speedboot
+
+### Duelighedsbevis: Boat Licence (en)
+
+https://baytechbv.github.io/privacy/en/duelighedsbevis-boat-licence/
+
+Danish boating theory test. Winter theory course? Practise 385 questions with explanations, take a mock exam marked like the test and name vessels by their lights. For duelighedsbevis and speedboat
+
+## E-numbers – E-koll
+
+App Store: https://apps.apple.com/app/id6824513618
+
+### E-numre – E-tjek (da)
+
+https://baytechbv.github.io/privacy/da/e-numre-e-tjek/
+
+Scan indhold, forstå stofferne. Ret kameraet mod ingredienslisten og se med det samme, hvad hvert E-nummer er. Alle 339 tilsætningsstoffer på EU's liste, med kilder. Virker uden internet
+
+### E-Check – Zusatzstoffe (de)
+
+https://baytechbv.github.io/privacy/de/e-check-zusatzstoffe/
+
+Zutaten scannen & verstehen. Kamera auf die Zutatenliste halten und sofort sehen, was jede E-Nummer ist. Alle 339 Zusatzstoffe der EU-Liste, mit Quellen. Funktioniert ohne Internet
+
+### E-numbers – E-koll (en)
+
+https://baytechbv.github.io/privacy/en/e-numbers-e-koll/
+
+Scan labels, know additives. Point the camera at the ingredients list and see straight away what every E-number is. All 339 additives on the EU list, with sources. Works offline
+
+### E-koodit – lisäaineet (fi)
+
+https://baytechbv.github.io/privacy/fi/e-koodit-lisaaineet/
+
+Skannaa ainesosat, ymmärrä. Osoita kameralla ainesosaluetteloa ja näe heti, mikä kukin E-koodi on. Kaikki EU:n luettelon 339 lisäainetta lähteineen. Toimii ilman nettiä
+
+### E-nummer – E-koll (nb)
+
+https://baytechbv.github.io/privacy/nb/e-nummer-e-koll/
+
+Skann innhold, forstå stoffene. Rett kameraet mot ingredienslisten og se med en gang hva hvert E-nummer er. Alle 339 tilsetningsstoffene på EUs liste, med kilder. Virker uten internett
+
+### E-nummer – E-koll (sv)
+
+https://baytechbv.github.io/privacy/sv/e-nummer-tillsatser/
+
+E-koll läser innehållsförteckningen med kameran och förklarar varje tillsats, lugnt, kort och med källa. Du ser också om en tillsats kan vara av animaliskt ursprung.
+
+- Skanna med kameran: Texten läses direkt på din iPhone, även utan internet.
+- 339 tillsatser: Alla E-nummer från EU:s förordning med namn på sex språk.
+- Sök och bläddra: Sök på nummer eller namn och bläddra i sex grupper.
+- Egen undvik-lista: Välj tillsatser du vill undvika, de markeras vid varje skanning.
+- Historik och jämförelse: Spara skanningar och jämför två etiketter.
+
+Q: Vad är ett E-nummer?
+A: E-nummer är tillsatser från EU:s förordning om livsmedelstillsatser. Appen visar namn, grupp och om tillsatsen kan vara av animaliskt ursprung.
+
+Q: Hur många tillsatser finns i appen?
+A: Alla 339 E-nummer på EU:s lista, med källa där en myndighet säger något extra.
+
+Q: Hur skannar jag en etikett?
+A: Rikta kameran mot ingredienserna. E-koll hittar både E-nummer (E 330) och namn (citronsyra), även på norska, danska, finska, tyska och engelska.
+
+Q: Sparas eller skickas bilden?
+A: Nej, ingen bild sparas eller skickas.
+
+Q: Är E 120 veganskt?
+A: Appen visar om en tillsats kan vara av animaliskt ursprung, så du kan slå upp E 120 direkt i appen.
+
+Q: Fungerar appen utan internet?
+A: Ja, texten läses direkt på din iPhone, även utan internet.
+
+Q: Kostar den något per månad?
+A: Full version är ett engångsköp, ingen prenumeration. Utan köp får du 5 skanningar per dag samt sök och fakta om alla tillsatser, grupper och guider.
+
+## Fischerprüfung Österreich
+
+App Store: https://apps.apple.com/app/id6824187501
+
+### Fischerprüfung Österreich (de)
+
+https://baytechbv.github.io/privacy/de/fischerpruefung-oesterreich-ueben/
+
+Bereite dich mit österreichischem Fischereirecht und den Fischen unserer Gewässer auf die Fischerprüfung in deinem Bundesland vor. Die App funktioniert offline.
+
+- Über 680 Fragen je Bundesland: Mit Erklärung und Quellenlink zum Nachlesen.
+- Prüfungssimulation: Im Format deines Bundeslandes, Auflösung erst am Ende.
+- Schonzeiten und Brittelmaße: Mit Paragraph und Prüfdatum, Filter „Schonzeit jetzt“.
+- 24 heimische Fischarten: Mit Erkennungsmerkmalen, eigenen Zeichnungen und Fischarten-Quiz.
+- Meine Fehler und Prüfungstermin: Falsche Fragen wiederholen und Tage bis zur Prüfung zählen.
+
+Q: Für welche Bundesländer ist die App?
+A: Aktuell für Wien, Niederösterreich und Oberösterreich. Weitere Bundesländer folgen, als Nächstes Steiermark, Tirol und Salzburg.
+
+Q: Ist die App für die Fischerprüfung in Deutschland geeignet?
+A: Nein, sie enthält nur österreichisches Fischereirecht.
+
+Q: Wie sieht die Prüfungssimulation aus?
+A: In Wien 50 Fragen in 120 Minuten, in Niederösterreich 20 Fragen in 30 Minuten, jeweils mit Mindestzahl pro Sachgebiet. In Oberösterreich sind es 27 Fragen, bestanden ab 60 %, angelehnt an das Prüfungsformat.
+
+Q: Woher stammen die Antworten?
+A: Jede Frage hat eine Erklärung und Quellenangabe, etwa Paragraphen aus dem RIS oder Links zu AGES und EU-Recht. Die Fragen sind eigene Formulierungen.
+
+Q: Funktioniert die App offline?
+A: Ja, die App funktioniert offline.
+
+Q: Muss ich ein Abo abschließen?
+A: Nein. 30 Fragen und eine Simulation kannst du ohne Kauf ausprobieren. Die Vollversion ist ein Einmalkauf, kein Abo, und schaltet alles für alle Bundesländer frei.
+
+Q: Gelten die Regeln meines Reviers?
+A: Die Regeln deines Reviers können strenger sein. Die App ist ein unabhängiges Lernangebot, Angaben ohne Gewähr.
+
+### Fischerprüfung Österreich (en)
+
+https://baytechbv.github.io/privacy/en/fischerprufung-osterreich/
+
+Fischerkurs & Prüfungsfragen. Austrian fishing licence exam: over 680 questions per state with sources, closed seasons, fish quiz and exam simulation. Vienna, Lower and Upper Austria. In German
+
+## Fødselsklar: Contraction Timer
+
+App Store: https://apps.apple.com/app/id6824084037
+
+### Fødselsklar: Ve-tæller og veer (da)
+
+https://baytechbv.github.io/privacy/da/foedselsklar-ve-taeller-og-veer/
+
+Hospitalstaske og fødeplan. Veer-timer med én stor knap, din jordemoders regel, hospitalstaske og fødeplan – din partner ser det samme via iCloud. Appen fører log, den giver ikke medicinske råd
+
+### Fødselsklar: Contraction Timer (en)
+
+https://baytechbv.github.io/privacy/en/foedselsklar-contraction-timer/
+
+Birth plan & hospital bag. One big button for contractions, your midwife's own rule, the hospital bag and birth plan – and your partner sees the same via iCloud. A log, not medical advice
+
+### Synnytysvalmis: Supistukset (fi)
+
+https://baytechbv.github.io/privacy/fi/synnytysvalmis-supistukset/
+
+Supistuslaskuri, sairaalakassi. Supistusajastin yhdellä isolla painikkeella, kätilösi ohje, sairaalakassi ja toiveet – kumppani näkee saman iCloudin kautta. Sovellus kirjaa, se ei anna hoito-ohjeita
+
+### Fødselsklar: Rieteller og rier (nb)
+
+https://baytechbv.github.io/privacy/nb/rieteller-fodsel/
+
+Fødselsklar samler det du trenger på fødedagen: en rietimer med én stor knapp, sykehusbagen, fødselsplanen og numrene du skal ringe. Partneren din kan se det samme via iCloud.
+
+- Rietimer med én stor knapp: Trykk når rien starter og slutter, og se snitt mellom riene og varighet.
+- Din regel fra jordmor: Skriv inn regelen du fikk, og se når tallene dine er nådd.
+- Sykehusbag og fødselsplan: Ferdig liste for Norge og en fødselsplan som PDF på norsk.
+- Partner via iCloud: Del uten konto, og velg selv hva partneren ser.
+- Kontakter ved hånden: Store knapper til fødeavdelingen, jordmor, partner og taxi.
+
+Q: Hvordan fungerer rietimeren?
+A: Du trykker på én stor knapp når rien starter og når den er over. Appen viser snitt mellom riene, snitt varighet og antall rier den siste timen.
+
+Q: Virker rietimeren når telefonen er låst?
+A: Ja, den fortsetter riktig når telefonen er låst, appen lukkes eller skjermen slukker. Låseskjermen og Dynamic Island viser rien eller pausen.
+
+Q: Sier appen når jeg skal dra til fødeavdelingen?
+A: Nei. Du skriver inn regelen du har fått fra jordmor eller fødeavdelingen, og appen viser når tallene dine er nådd. Den foreslår ingen tall selv og gir ikke medisinske råd.
+
+Q: Hva er med i fødselsplanen?
+A: Sju deler, blant annet smertelindring, hvem som er med, stillinger, mating og stemning. Du kan lage en PDF på norsk som du kan skrive ut eller vise fram.
+
+Q: Hvordan ser partneren det samme?
+A: Du deler via iCloud, uten konto. Partneren ser status for riene, sykehusbagen, planen og kontaktene, og du velger selv hva som deles.
+
+Q: Hva kan jeg bruke uten kjøp?
+A: Rietimeren, historikken, sykehusbagen og kontaktene, også på fødedagen.
+
+Q: Er det et abonnement?
+A: Nei. Deling med partner, PDF av fødselsplanen, bevegelsesdagboken, de første ukene og eksport av historikken låses opp med et engangskjøp.
+
+Q: Gir appen medisinske råd?
+A: Nei. Fødselsklar fører logg og hjelper deg å huske. Følg rådene fra jordmor og fødeavdelingen.
+
+## GLP-1 Diary – Injection Log
+
+App Store: https://apps.apple.com/app/id6823285179
+
+### GLP-1 Tagebuch – Abnehmspritze (de)
+
+https://baytechbv.github.io/privacy/de/glp-1-tagebuch-abnehmspritze/
+
+Spritzen, Gewicht, Arztbericht. Ein ruhiges, privates Tagebuch für deine wöchentlichen oder täglichen GLP-1-Injektionen: Einstichstellen, Gewicht, Nebenwirkungen und ein PDF-Bericht für die Praxis
+
+### GLP-1 Diary – Injection Log (en)
+
+https://baytechbv.github.io/privacy/en/glp-1-injection-diary/
+
+GLP-1 Diary is a private diary for people on GLP-1 medication prescribed by their doctor. Log every injection, follow your weight and note side effects, then share a clear PDF report.
+
+- Injection log with body map: 8 sites, and a star marks the one you used least recently.
+- Weight and habits: Weight and waist with a chart and goal line, plus protein, water and fibre counters.
+- Side-effect notes: Rate severity 1 to 5 and see it on the timeline next to your injections.
+- PDF report for your doctor: Doses, weights and a side-effect summary for any period.
+- Private by design: No account, and your health data is never sent anywhere. Optional Face ID lock.
+
+Q: What is GLP-1 Diary?
+A: It is a diary for logging GLP-1 injections, injection sites, weight and side effects. It is only a diary and gives no dose advice, titration advice, medicine-level estimate or diagnosis.
+
+Q: Can I log weekly and daily injections?
+A: Yes. You can set a weekly or daily schedule with the dose your doctor set, and get a reminder on your day and time.
+
+Q: Will reminders show my medicine name?
+A: No. Lock-screen texts never show a medicine name or dose.
+
+Q: Is my health data private?
+A: There is no account, and your diary stays on your iPhone, and in Apple Health only if you turn it on. Your health data is never sent anywhere; only anonymous usage statistics, which you can turn off.
+
+Q: What can I share with my doctor?
+A: You can create a PDF for any period with doses, weights and a side-effect summary, in the app language.
+
+Q: What does Pro add?
+A: Pro adds full history and charts, side-effect trends, the PDF report, Apple Health sync and multiple medications. It is a yearly subscription or a one-time lifetime purchase.
+
+Q: What do I get without Pro?
+A: You keep the injection log, reminders and the last 30 days of weight.
+
+Q: Which languages does it support?
+A: The app is available in 5 languages.
+
+### Journal GLP-1 – injections (fr)
+
+https://baytechbv.github.io/privacy/fr/journal-glp-1-injections/
+
+Injections, poids et rapport. Un journal calme et privé pour vos injections GLP-1 hebdomadaires ou quotidiennes : sites, poids, effets indésirables et un rapport PDF pour votre médecin
+
+### GLP-1 dagboek – afvalprik (nl)
+
+https://baytechbv.github.io/privacy/nl/glp-1-dagboek-afvalprik/
+
+Injecties, gewicht, bijwerking. Een rustig, privé dagboek voor je wekelijkse of dagelijkse GLP-1-injecties: prikplekken, gewicht, bijwerkingen en een PDF-rapport voor je arts
+
+### GLP-1 dagbok – viktspruta (sv)
+
+https://baytechbv.github.io/privacy/sv/glp-1-dagbok-viktspruta/
+
+Injektion, vikt & biverkningar. En lugn och privat dagbok för dina GLP-1-injektioner varje vecka eller dag: injektionsställen, vikt, biverkningar och en PDF-rapport till din läkare
+
+## Golf Green Card: Rules Test
+
+App Store: https://apps.apple.com/app/id6823284458
+
+### Green Card – Golf Österreich (de)
+
+https://baytechbv.github.io/privacy/de/green-card-golf-osterreich/
+
+Golfregeln & Etikette üben. Jetzt 249 Fragen, auch zu den Regeländerungen 2023. Üben für den Regeltest zur Turnier-Lizenz, mit Erklärung nach jeder Antwort
+
+### Golf Green Card: Rules Test (en)
+
+https://baytechbv.github.io/privacy/en/golf-green-card-rules-test/
+
+Get ready for the golf rules and etiquette test beginners take: the Grönt kort test in Sweden, the Green Card in Finland or the Turnier-Lizenz test in Austria. Each answer comes with an explanation.
+
+- 249 questions: In 10 topics, from etiquette to scoring and handicap.
+- Picture questions: Drawn course situations such as penalty areas and boundary stakes.
+- Mock exam per country: Sweden, Finland, Austria and a Norway quiz format.
+- Mistakes come back: Until you have answered them right twice in a row.
+- Rules lookup: Plain-language answers with the rule number, plus a first-round checklist.
+
+Q: Which golf rules tests does the app cover?
+A: The Grönt kort knowledge test in Sweden, the Green Card test in Finland and the Turnier-Lizenz rules test in Austria. In Norway, where "Veien til golf" has replaced the test, it helps you learn the rules.
+
+Q: How many questions are there?
+A: 249 questions in 10 topics.
+
+Q: What do the mock exams look like?
+A: Sweden 2 x 25 questions (at least 20 per part), Finland 15 rules plus 15 etiquette, Austria 31 questions (pass at 20 correct) and a 20-question quiz for Norway.
+
+Q: Which languages are the explanations in?
+A: English, Norwegian, Swedish, Finnish or German. Choose your country and the questions follow the language of its test.
+
+Q: Does it work offline?
+A: Yes, it works offline, with no account and no ads.
+
+Q: Is it a subscription?
+A: No. You unlock everything with a single purchase. Ten sample questions, one short mock exam, the rules lookup and the checklist are included without a purchase.
+
+Q: Are these the official test questions?
+A: No. All questions and rule summaries are written by us, and the app is not affiliated with any golf federation. Ask your club how the test is taken.
+
+### Golf Green Card – sääntökoe (fi)
+
+https://baytechbv.github.io/privacy/fi/golf-green-card-saantokoe/
+
+Golfin säännöt ja etiketti. Nyt 249 kysymystä, myös vuoden 2023 sääntömuutoksista. Harjoittele Green Card -sääntökokeeseen, selitys jokaisen vastauksen jälkeen
+
+### Green Card – golfregler (nb)
+
+https://baytechbv.github.io/privacy/nb/green-card-golfregler/
+
+Lær golfregler og etikette. Nå 249 spørsmål, også om regelendringene i 2023. Lær golfreglene før første runde, med forklaring etter hvert svar
+
+### Grönt kort golf – teoriprov (sv)
+
+https://baytechbv.github.io/privacy/sv/gront-kort-golf-teoriprov/
+
+Gör dig redo för kunskapstestet för Grönt kort, som du gör innan du får spela på en golfbana. Varje svar har en förklaring.
+
+- 249 frågor: I 10 ämnen, från etikett och säkerhet till spelformer och handicap.
+- Bildfrågor: Ritade situationer från banan, som pliktområden och gränspinnar.
+- Övningsprov: Två delar om 25 frågor, minst 20 rätt per del.
+- Fel kommer tillbaka: Tills du har svarat rätt två gånger i rad.
+- Regeluppslag: Korta svar på Vad gör jag när, med regelnummer.
+
+Q: Vad är Grönt kort i golf?
+A: Det är kunskapstestet du gör innan du får spela på en golfbana. Appen hjälper dig att öva inför det.
+
+Q: Hur många frågor finns det?
+A: 249 frågor i 10 ämnen.
+
+Q: Hur ser övningsprovet ut?
+A: Två delar om 25 frågor (golfspelet och golfvett), minst 20 rätt per del.
+
+Q: Är frågorna officiella?
+A: Nej. Alla frågor och regelsammanfattningar är skrivna av oss, och appen är inte knuten till Svenska Golfförbundet. Det riktiga testet gör du i Min Golf.
+
+Q: Fungerar appen för Norge, Finland och Österrike?
+A: Ja, välj land så kommer frågorna på språket i det landets prov.
+
+Q: Är det en prenumeration?
+A: Nej, du låser upp allt med ett köp. Tio smakprovsfrågor, ett kort övningsprov, regeluppslaget och checklistan ingår utan köp.
+
+Q: Fungerar den utan internet?
+A: Ja, den fungerar utan internet, utan konto och utan reklam.
+
+## Hestegym – Horse Groundwork
+
+App Store: https://apps.apple.com/app/id6826536530
+
+### Hestegym – Øvelser fra jorden (da)
+
+https://baytechbv.github.io/privacy/da/hestegym-oevelser-fra-jorden/
+
+Udstrækning, styrke og ugeplan. Øvelser fra jorden til din hest: udstrækning, styrke og balance i korte træninger med timer, ugeplan og logbog – også uden net i stalden
+
+### Pferdegym – Bodenarbeit (de)
+
+https://baytechbv.github.io/privacy/de/pferdegym-bodenarbeit/
+
+Dehnen, Kraft und Wochenplan. Übungen vom Boden für dein Pferd: Dehnen, Kraft und Balance in kurzen Einheiten mit Timer, Wochenplan und Tagebuch – auch ohne Internet im Stall
+
+### Hestegym – Horse Groundwork (en)
+
+https://baytechbv.github.io/privacy/en/hestegym-horse-groundwork/
+
+Horse stretching & week plan. Groundwork exercises for your horse: stretching, strength and balance in short sessions with a timer, week plan and log – also offline in the stable
+
+### Hestegym – hevosen jumppa (fi)
+
+https://baytechbv.github.io/privacy/fi/hestegym-hevosen-jumppa/
+
+Venyttely, lihaskunto, ohjelma. Maasta tehtävät harjoitukset hevosellesi: venyttely, lihaskunto ja tasapaino lyhyinä treeneinä ajastimella, viikko-ohjelmalla ja päiväkirjalla
+
+### Hestegym – grondwerk (nl)
+
+https://baytechbv.github.io/privacy/nl/hestegym-grondwerk/
+
+Rekken, kracht en weekschema. Oefeningen vanaf de grond voor je paard: rekken, kracht en balans in korte sessies met timer, weekschema en logboek – ook zonder internet in de stal
+
+### Hestegym – Øvelser fra bakken (nb)
+
+https://baytechbv.github.io/privacy/nb/hestetrening-bakkearbeid-ovelser/
+
+Hestegym er treningsprogrammet for deg som jobber med hesten fra bakken. Øvelsesbibliotek, ukeplan, timer og logg ligger på ett sted.
+
+- Øvelser etter mål: Overlinje, bakpart, balanse og smidighet.
+- Tegning og steg for steg: Hver øvelse har tegning og antall repetisjoner.
+- Timer under økta: Hold tiden på holdetid og repetisjoner.
+- Ukeplan og logg: Planlegg økter og hviledager og logg hvordan hesten virket.
+- Virker uten nett: Bruk appen i stallen selv uten dekning.
+
+Q: Hva er Hestegym?
+A: En app med øvelser du gjør med hesten fra bakken, med ukeplan, timer og logg.
+
+Q: Hvilke mål kan jeg trene mot?
+A: Biblioteket er sortert etter mål som overlinje, bakpart, balanse og smidighet.
+
+Q: Kan jeg bruke appen i stallen uten nett?
+A: Ja, appen virker uten nett.
+
+Q: Kan jeg prøve appen uten kjøp?
+A: Ja, dagens økt med timer, 12 øvelser og loggen kan brukes uten kjøp.
+
+Q: Er det abonnement?
+A: Nei. Fullversjonen er et engangskjøp som låser opp hele biblioteket, ukeplaner, påminnelser, fremgang og flere hester.
+
+Q: Erstatter appen veterinær eller fysioterapeut?
+A: Nei. Er hesten skadet, halt eller under behandling, spør veterinæren før du starter.
+
+### Hestegym – markarbete (sv)
+
+https://baytechbv.github.io/privacy/sv/hestegym-markarbete/
+
+Töjning, styrka och veckoplan. Övningar från marken för din häst: töjning, styrka och balans i korta pass med timer, veckoplan och loggbok – även utan nät i stallet
+
+## Hygieniapassi Treeni
+
+App Store: https://apps.apple.com/app/id6824628825
+
+### Hygieniapassi Treeni (en)
+
+https://baytechbv.github.io/privacy/en/hygieniapassi-treeni/
+
+Food safety & hygiene test. 448 true/false statements in English, Finnish or Swedish: an explanation for each, a timed 40-statement mock test, temperatures and test-day reminders
+
+### Hygieniapassi Treeni – testi (fi)
+
+https://baytechbv.github.io/privacy/fi/hygieniapassitesti-harjoittelu/
+
+Hygieniapassi Treeni auttaa harjoittelemaan hygieniapassitestiä samanlaisilla oikein/väärin-väittämillä kuin testissä. Jokaiseen väittämään on selitys.
+
+- 448 väittämää: Aiheittain: mikrobiologia, ruokamyrkytykset, omavalvonta, allergeenit ja muut.
+- Harjoituskoe ajastimella: Testin muodossa, tulos aiheittain.
+- Kertaa virheet: Väärin menneet väittämät ja heikot aiheet yhdessä paikassa.
+- Lämpötilat yhdellä sivulla: Säilytys, kypsennys, jäähdytys ja kuumana pito.
+- Toimii ilman verkkoa: Ei tiliä; sanasto suomeksi, ruotsiksi ja englanniksi.
+
+Q: Mitä testiä sovellus harjoittelee?
+A: Hygieniapassitestiä, samanlaisilla oikein/väärin-väittämillä kuin testissä.
+
+Q: Kuinka monta väittämää on?
+A: 448 väittämää, jaoteltu aiheisiin kuten mikrobiologia, ruokamyrkytykset, hygieeniset työtavat, puhtaanapito, omavalvonta, lainsäädäntö ja allergeenit.
+
+Q: Saanko selityksen vastauksiin?
+A: Kyllä, jokaiseen väittämään on selitys ja tieto aiheesta, johon se kuuluu.
+
+Q: Antaako sovellus hygieniapassin?
+A: Ei. Se on itsenäinen harjoitussovellus eikä Ruokaviraston sovellus; passin saa hyväksytyltä testaajalta.
+
+Q: Toimiiko sovellus ilman verkkoyhteyttä?
+A: Kyllä, se toimii ilman verkkoyhteyttä eikä vaadi tiliä.
+
+Q: Mitä voin käyttää ilman ostoa?
+A: Yhden harjoituskokeen, osan väittämistä ja sanaston.
+
+Q: Onko se tilaus?
+A: Ei. Kertaosto avaa kaikki väittämät, rajattomat harjoituskokeet, virheiden kertauksen ja lämpötilasivun. Ei tilausta.
+
+Q: Millä kielillä sovellus toimii?
+A: Kieli vaihdetaan sovelluksessa: suomi, svenska tai English.
+
+### Hygieniapassi – hygienpass (sv)
+
+https://baytechbv.github.io/privacy/sv/hygieniapassi-hygienpass/
+
+Övningsprov med förklaringar. Öva inför hygienpasstestet på svenska: rätt/fel-påståenden med förklaringar, övningsprov med timer och temperaturer på en sida. 448 påståenden på tre språk
+
+## Jagdprüfung Österreich
+
+App Store: https://apps.apple.com/app/id6824084421
+
+### Jagdprüfung Österreich 2027 (de)
+
+https://baytechbv.github.io/privacy/de/jagdpruefung-oesterreich/
+
+Übe die mündliche Jagdprüfung wie vor der Kommission, mit dem Jagdrecht und den Schusszeiten deines Bundeslandes. Für Niederösterreich, Oberösterreich und die Steiermark.
+
+- Mündlich wie vor der Kommission: Laut antworten, Musterantwort aufdecken, selbst bewerten.
+- 400 Fragen je Bundesland: Mit Erklärung und Quellenangabe, davon 50 zum Landesjagdgesetz.
+- Schusszeiten im Überblick: Monatsübersicht mit Paragraph und Filter Schusszeit jetzt.
+- 50 Wildarten: Merkmale zum Ansprechen, Jägersprache und Bildfragen.
+- Prüfungstermin-Erinnerung: Erinnerungen 30, 14, 7 und 1 Tag vorher, nur auf deinem Gerät.
+
+Q: Für welche Bundesländer ist die App?
+A: Für Niederösterreich, Oberösterreich und die Steiermark. Weitere Bundesländer folgen.
+
+Q: Eignet sie sich für die Jägerprüfung in Deutschland?
+A: Nein, die App enthält nur österreichisches Jagdrecht.
+
+Q: Wie läuft die mündliche Prüfung in der App ab?
+A: Du beantwortest offene Fragen laut, deckst die Musterantwort mit Quelle auf und bewertest dich selbst. Nicht Gewusstes landet bei Meine Fehler.
+
+Q: Wie viele Fragen gibt es?
+A: 400 Fragen je Bundesland, davon 50 zum eigenen Landesjagdgesetz, dazu Wildtierkunde, Waffenkunde, Jagdhunde, Wildbrethygiene, Naturschutz und Erste Hilfe.
+
+Q: Gibt es eine Prüfungssimulation?
+A: Ja, mit 40 Fragen in 60 Minuten. Sie ist an den Prüfungsstoff angelehnt und kein amtliches Format.
+
+Q: Ist es ein Abo?
+A: Nein, die Vollversion ist ein Einmalkauf mit Familienfreigabe. Mit 30 Fragen, einer Simulation, einer mündlichen Runde und 10 Wildarten kannst du vorher testen.
+
+Q: Funktioniert die App offline?
+A: Ja, sie funktioniert offline.
+
+### Jagdprüfung Österreich (en)
+
+https://baytechbv.github.io/privacy/en/jagdprufung-osterreich/
+
+Jungjägerprüfung & Jagdkurs. Austrian hunting exam: practise the oral exam with your state's hunting law, open seasons and game species. Lower Austria, Upper Austria, Styria. In German
+
+## Karta Wędkarska Test – Atlas
+
+App Store: https://apps.apple.com/app/id6824970442
+
+### Karta Wędkarska Test – Atlas (en)
+
+https://baytechbv.github.io/privacy/en/karta-wedkarska-test-atlas/
+
+Wędkowanie i rozpoznawanie. Mock test and 2026 questions for the Polish fishing card exam, with explanations, fish protection sizes and seasons – in Polish, offline
+
+### Karta Wędkarska Test (pl)
+
+https://baytechbv.github.io/privacy/pl/egzamin-na-karte-wedkarska-test/
+
+Karta Wędkarska Test pomaga przygotować się do egzaminu na kartę wędkarską. Pytania są po polsku, a każda odpowiedź ma wyjaśnienie.
+
+- Pytania z wyjaśnieniem: Każda odpowiedź ma wyjaśnienie i źródło.
+- Wymiary i okresy ochronne: Ryby i raki na jednym ekranie, z wyjątkami regionalnymi.
+- Egzamin próbny na czas: 20 pytań ze wszystkich działów.
+- Własne rysunki: Jak zmierzyć rybę, haczyki i rozpoznawanie gatunków.
+- Dzień egzaminu: Odliczanie, lista rzeczy i przypomnienie.
+
+Q: Co zawiera aplikacja?
+A: Pytania według działów z wyjaśnieniem, egzamin próbny, słownik pojęć wędkarskich, tabelę wymiarów i okresów ochronnych oraz listę na dzień egzaminu.
+
+Q: Ile pytań ma egzamin próbny?
+A: Egzamin próbny na czas ma 20 pytań ze wszystkich działów. Forma i próg prawdziwego egzaminu zależą od organizacji, która go prowadzi.
+
+Q: Czy aplikacja działa bez internetu?
+A: Tak, działa bez internetu.
+
+Q: Co mogę wypróbować bez zakupu?
+A: Bez zakupu masz 20 pytań, 1 pełny egzamin próbny, słownik, tabelę wymiarów i listę na dzień egzaminu.
+
+Q: Czy to subskrypcja?
+A: Nie. Pełna wersja to jednorazowy zakup, który odblokowuje wszystkie pytania, nielimitowane egzaminy próbne i statystyki.
+
+Q: Czy aplikacja jest powiązana z PZW?
+A: Nie, jest niezależna i nie jest powiązana z PZW ani starostwem. Egzamin zdajesz przed komisją egzaminacyjną.
+
+## Kirkeåret – Nordic Church Year
+
+App Store: https://apps.apple.com/app/id6824514142
+
+### Kirkeåret – søndage og tekster (da)
+
+https://baytechbv.github.io/privacy/da/kirkeaaret-soendage-og-tekster/
+
+Prædiketekst, farver, højtider. Hvilken søndag er det, hvilke tekster og hvilken farve? Hele kirkeåret med folkekirkens to tekstrækker – også som widget. Nyt kirkeår begynder 29. november
+
+### Kirkeåret – Nordic Church Year (en)
+
+https://baytechbv.github.io/privacy/en/kirkeaaret-nordic-church-year/
+
+Lectionary, colours, Sundays. Which Sunday is it, which readings and which colour? The whole church year with the readings of the churches of Norway, Denmark and Finland – also as a widget
+
+### Kirkkovuosi – pyhät ja tekstit (fi)
+
+https://baytechbv.github.io/privacy/fi/kirkkovuosi-pyhat-ja-tekstit/
+
+Raamatuntekstit, värit, juhlat. Mikä pyhä on tulossa, mitkä tekstit ja mikä väri? Koko kirkkovuosi kolmen vuosikerran teksteineen – myös widgettinä. Uusi kirkkovuosi alkaa 29. marraskuuta
+
+### Kirkeåret: søndager og tekster (nb)
+
+https://baytechbv.github.io/privacy/nb/kirkeaaret-tekstrekker/
+
+Kirkeåret viser hvilken søndag det er, hvilke tekster som gjelder og hvilken liturgisk farge. For prester, kantorer, organister, korledere, kirketjenere og alle som går i kirken.
+
+- Dagen i dag: Neste søndag eller helligdag med navn, farge og tekstrekke.
+- Tre tekstrekker: Se rekken som brukes i år, og de andre rekkene på hver dag.
+- Planlegg flere kirkeår: Notater for hver søndag, som prekenutkast og korplaner.
+- Widgets og varsel: Widget på Hjem-skjermen og låseskjermen, og varsel lørdag kveld.
+- Uten internett: Bevegelige dager regnes ut på telefonen fra påskedatoen.
+
+Q: Hva viser Kirkeåret?
+A: Alle søndager og helligdager fra første søndag i advent til siste søndag i kirkeåret, med navn, liturgisk farge og tekstrekke.
+
+Q: Hvilke tekstrekker finnes?
+A: Den norske kirkes tre tekstrekker, med rekken som brukes i år markert.
+
+Q: Viser appen bibelteksten?
+A: Nei, bare bibelhenvisninger. Du kan søke etter dag eller bibelbok og kopiere henvisningene.
+
+Q: Trenger jeg internett?
+A: Nei. Bevegelige dager regnes ut på telefonen fra påskedatoen.
+
+Q: Kan jeg lage notater?
+A: Ja, for hver søndag, for eksempel prekenutkast, korplaner og huskelapper. De lagres bare på telefonen.
+
+Q: Finnes det widgets og varsler?
+A: Ja, widgets for Hjem-skjermen og låseskjermen, og et varsel lørdag kveld med søndagens navn, farge og evangelium.
+
+Q: Hva kan jeg bruke uten kjøp?
+A: Dagens dag, kalenderen og tekstene for de neste 28 dagene. Den lille widgeten og varselet lørdag kveld krever ikke kjøp.
+
+Q: Er det et abonnement?
+A: Nei, et engangskjøp låser opp hele kirkeåret. Kjøpet kan deles med familien via Familiedeling. Appen er ikke laget av Den norske kirke.
+
+## Krispa – air fryer & recipes
+
+App Store: https://apps.apple.com/app/id6824512615
+
+### Krispa – airfryer & opskrifter (da)
+
+https://baytechbv.github.io/privacy/da/krispa-airfryer-opskrifter/
+
+Tider, grader og timer. Ny airfryer til jul? Krispa viser tid og grader for 170+ fødevarer – og nedtællingen vises på låseskærmen. Nyt: æbleskiver og juleopskrifter
+
+### Krispa – Airfryer Rezepte (de)
+
+https://baytechbv.github.io/privacy/de/krispa-airfryer-rezepte/
+
+Garzeiten, Grad & Timer. Eine neue Heißluftfritteuse zu Weihnachten? Krispa zeigt Zeit und Temperatur für 170+ Lebensmittel – und der Countdown bleibt auf dem Sperrbildschirm
+
+### Krispa – air fryer & recipes (en)
+
+https://baytechbv.github.io/privacy/en/krispa-air-fryer-recipes/
+
+Cooking times & shake timer. A new air fryer for Christmas? Krispa shows the time and temperature for 170+ foods – and the countdown stays on the Lock Screen. Now with 12 Christmas recipes
+
+### Krispa – air fryer & recipes (en-US)
+
+https://baytechbv.github.io/privacy/en-us/krispa-air-fryer-recipes/
+
+Cooking times & shake timer. A new air fryer for Christmas? Krispa shows the time and temperature for 170+ foods – and the countdown stays on the Lock Screen. Now with 12 Christmas recipes
+
+### Krispa – airfryer & reseptit (fi)
+
+https://baytechbv.github.io/privacy/fi/krispa-airfryer-reseptit/
+
+Kypsennysajat ja ajastin. Uusi airfryer joululahjaksi? Krispa kertoo ajan ja lämpötilan 170+ ruoalle – ja lähtölaskenta näkyy lukitusnäytöllä. Uutta: joulukinkun kuorrutus
+
+### Krispa – airfryer & oppskrift (nb)
+
+https://baytechbv.github.io/privacy/nb/krispa-airfryer-oppskrift/
+
+Tider, grader og timer. Ny airfryer til jul? Krispa viser tid og grader for 170+ matvarer – og nedtellingen vises på låseskjermen. Nytt: ribbe med sprø svor
+
+### Krispa – airfryer & recept (sv)
+
+https://baytechbv.github.io/privacy/sv/airfryer-tider-grader/
+
+Krispa visar hur länge och hur varmt du ska ställa airfryern för över 170 livsmedel, från frysta pommes till laxfilé. Sök på svenska och få timer som påminner dig när det är dags att skaka korgen.
+
+- Tidstabell för 170+ livsmedel: Temperatur, tidsintervall och när du ska skaka eller vända.
+- Ugn till airfryer: Ange ugnens temperatur och tid och få ett förslag, tydligt märkt som tumregel.
+- Timers på låsskärmen: Nedräkningen syns på låsskärmen och i Dynamic Island.
+- 68 egna recept: Ändra portioner, följ lagaläget steg för steg och skapa inköpslista.
+- Inget konto, fungerar offline: Appen fungerar utan internet och är inte knuten till något airfryer-märke.
+
+Q: Hur länge ska pommes vara i airfryern?
+A: Krispa visar temperatur, tidsintervall och när du ska skaka för frysta pommes och många andra livsmedel. Tiderna är riktvärden eftersom modeller skiljer sig, så kolla alltid i tid.
+
+Q: Hur många livsmedel finns i tidstabellen?
+A: Tidstabellen täcker 170+ livsmedel, bland annat köttbullar, falukorv, laxfilé, kyckling, grönsaker, bröd och snacks.
+
+Q: Kan jag räkna om ett ugnsrecept till airfryer?
+A: Ja. Ange ugnens temperatur och tid så får du ett förslag för airfryern och när du ska kolla. Det är en tumregel och är markerat som det.
+
+Q: Fungerar Krispa utan internet och konto?
+A: Ja, appen fungerar utan internet och du behöver inget konto.
+
+Q: Vad ingår utan köp och vad ger Krispa Plus?
+A: Tidstabellen, omvandlaren, en timer och 10 recept ingår utan köp. Krispa Plus öppnar alla 68 recept, upp till fyra timers, lagaläget, egna tider och inköpslistan.
+
+Q: Hur köper jag Krispa Plus?
+A: Du väljer en årsprenumeration som förnyas automatiskt och kan avslutas i App Store-inställningarna, eller ett engångsköp. Nya prenumeranter börjar årsplanen med 7 dagars provperiod.
+
+Q: Vilken temperatur säger appen för kyckling och fläsk?
+A: Kyckling, fläsk och färs visar en lägsta kärntemperatur, det strängaste rådet bland de nordiska livsmedelsmyndigheterna. Kontrollera även att fisk är genomstekt.
+
+## Kärryklar – BE-teoriakoe
+
+App Store: https://apps.apple.com/app/id6826792127
+
+### Trailerklar – kørekort B/E (da)
+
+https://baytechbv.github.io/privacy/da/trailerklar-koerekort-b-e/
+
+Trailerkort og vægtberegner. Øv teorien til trailerkørekort B/E: spørgsmål med forklaring, prøveeksamen og en beregner, der viser, om du må trække traileren på dit kørekort
+
+### Kärryklar – BE-teoriakoe (fi)
+
+https://baytechbv.github.io/privacy/fi/be-kortti-teoriakoe/
+
+Kärryklar auttaa harjoittelemaan BE-kortin (auto + raskas perävaunu) teoriaa. Se myös laskee rekisteriotteen arvoista, riittääkö B, B96 vai tarvitaanko BE.
+
+- Kysymykset selityksineen: Harjoittele aiheittain ja lue selitys jokaiseen vastaukseen.
+- Koeharjoitus ajan kanssa: Oma harjoitusmuoto, jossa on aikaraja.
+- Saanko vetää? -laskuri: B, B96 tai BE rekisteriotteen arvoista.
+- Koepäivä ja lähtötarkastus: Laskuri, lista ja muistutus.
+- Virheiden kertaus: Seuraa edistymistä aiheittain.
+
+Q: Mitä Kärryklar sisältää?
+A: Kysymykset aiheittain selityksineen, koeharjoituksen ajan kanssa, Saanko vetää? -laskurin, sanaston, tarkistuslistan ja virheiden kertauksen.
+
+Q: Miten Saanko vetää? -laskuri toimii?
+A: Se laskee rekisteriotteen arvoista, riittääkö B, B96 vai tarvitaanko BE. Tulos on harjoitusapu, joten tarkista aina rekisteriote.
+
+Q: Toimiiko sovellus ilman nettiä?
+A: Kyllä, sovellus toimii ilman nettiä.
+
+Q: Mitä voin käyttää ilman ostoa?
+A: Saanko vetää? -laskurin, sanaston, tarkistuslistan ja 20 kysymystä.
+
+Q: Onko sovellus tilaus?
+A: Ei. Täysi versio on kertaosto, joka avaa kaikki kysymykset, koeharjoitukset ja tilastot.
+
+Q: Onko sovellus viranomaisen tekemä?
+A: Ei. Kärryklar on itsenäinen eikä liity Traficomiin, Ajovarmaan tai poliisiin.
+
+Q: Onko mukana sanasto?
+A: Kyllä, sanasto tärkeimmistä käsitteistä.
+
+### Trailerklar – hengervekt (nb)
+
+https://baytechbv.github.io/privacy/nb/trailerklar-hengervekt/
+
+Teori og vektkalkulator for BE. Regn ut om du kan trekke tilhengeren med førerkortet ditt – B, B96 eller BE – og øv på teori om tilhenger, kobling, last og sikring
+
+### Släpklar – BE-teori (sv)
+
+https://baytechbv.github.io/privacy/sv/slapklar-be-teori/
+
+Släpvagn, vikter och koppling. Öva teorin för BE-körkort: frågor med förklaring, övningsprov och en kalkylator som visar om du får dra släpet med ditt körkort
+
+## Körbok – övningsköra & körprov
+
+App Store: https://apps.apple.com/app/id6824513659
+
+### Kørelog – kørekort som 17-årig (da)
+
+https://baytechbv.github.io/privacy/da/koerelog-koerekort-som-17-aarig/
+
+Ledsaget kørsel og køretimer. Mørkt klokken fire? Log kørsel i mørke og glat føre – og se, hvornår I sidst øvede det. Ledsageren eller kørelæreren starter, GPS'en måler
+
+### Körbok – övningsköra & körprov (en)
+
+https://baytechbv.github.io/privacy/en/korbok-ovningskora-korprov/
+
+Ajoharjoittelu, ledsagerkørsel. Dark by four? Log dark driving and icy roads – and see when you last practised them. The supervisor starts, GPS measures
+
+### Opetusajo – ajokortti, ajoloki (fi)
+
+https://baytechbv.github.io/privacy/fi/opetusajo-ajokortti-ajoloki/
+
+Kirjaa harjoitusajot GPS:llä. Pimeää jo neljältä? Kirjaa pimeällä ajo ja liukas keli – ja näe, milloin harjoittelitte niitä viimeksi. Opettaja käynnistää, GPS mittaa
+
+### Körbok – övningskörning (sv)
+
+https://baytechbv.github.io/privacy/sv/ovningskorning-loggbok/
+
+Handledaren startar inspelningen och iPhonens GPS mäter sträcka och tid. Efter turen loggar ni förhållanden och moment, och handledaren signerar på skärmen.
+
+- Spela in varje tur: Stora knappar för handledaren, ritad rutt för varje tur.
+- Moment enligt kursplanen: Momentlista för behörighet B: ej övat, övat eller säkert.
+- Se hur långt ni har kommit: Kilometer, timmar, antal körningar och tid i mörker.
+- Inför uppkörningen: Nedräkning, checklista och påminnelser 14, 7 och 1 dag före provet.
+- PDF för trafikskolan: Hela körloggen med datum, sträcka, moment och signatur.
+
+Q: Vem använder appen?
+A: Eleven och handledaren vid övningskörning för körkort B, i Sverige, Finland eller Danmark.
+
+Q: Behövs något konto?
+A: Nej, inget konto behövs.
+
+Q: Hur mäts sträckan?
+A: Med iPhonens GPS under körningen. Du kan också lägga till en körning utan GPS i efterhand.
+
+Q: Kan jag logga mörkerkörning och halka?
+A: Ja, du väljer bland annat mörker, regn och halka efter turen och ser tiden i mörker i statistiken.
+
+Q: Kan jag skicka loggen till trafikskolan?
+A: Ja, hela körloggen kan exporteras som PDF med datum, sträcka, moment och signatur. Förhandsvisning finns även utan köp.
+
+Q: Vad ingår utan köp?
+A: Inspelning, turer, totaler, momentlistan, checklistan, en handledare och de tre första signaturerna.
+
+Q: Är det en prenumeration?
+A: Nej, Körbok Full är ett engångsköp. Inget abonnemang och ingen reklam.
+
+Q: Är loggen ett officiellt dokument?
+A: Nej, Körbok är en privat övningslogg utan koppling till Transportstyrelsen, Trafikverket, Traficom eller Færdselsstyrelsen.
+
+## Labraopas – laboratoriokokeet
+
+App Store: https://apps.apple.com/app/id6826536423
+
+### Labraopas – laboratoriokokeet (en)
+
+https://baytechbv.github.io/privacy/en/labraopas-laboratoriokokeet/
+
+Lab test values & reference. 155 lab tests in your pocket: what each test measures, sample, typical reference range and causes of deviation. For study – not for interpreting your own results
+
+### Labraopas – laboratoriokokeet (fi)
+
+https://baytechbv.github.io/privacy/fi/laboratoriokokeet-viitearvot/
+
+Labraopas on hakuteos hoitotyön ja lääketieteen opiskelijoille sekä sairaanhoitajille: 155 laboratoriokoetta suomalaisin lyhentein. Se on tarkoitettu opiskeluun, ei omien tulosten tulkintaan.
+
+- 155 laboratoriokoetta: Suomalaiset lyhenteet, kuten P-Krea, B-Hb ja fP-Gluk.
+- Koekortti: Mitä mittaa, näyte ja tyypillinen aikuisen viitealue lähteineen.
+- Lyhenneavain: B-, P-, S-, fP-, U- ja cB- selitettynä.
+- Visa ja kertaus: Harjoittele viitearvoja ja kertaa virheet.
+- Yksiköt ja muunnokset: mmol/l, µmol/l, g/l ja mg/dl.
+
+Q: Mikä Labraopas on?
+A: Itsenäinen hakuteos hoitotyön ja lääketieteen opiskelijoille sekä sairaanhoitajille, jossa on 155 laboratoriokoetta.
+
+Q: Mistä viitearvot ovat peräisin?
+A: Viitevälit, näytteet ja putket on koottu Fimlabin julkisesta tutkimusohjekirjasta, ja jokaisen koekortin lähde näkyy sovelluksessa.
+
+Q: Voinko tulkita omia verikoetuloksiani sovelluksella?
+A: Ei, sovellus ei tulkitse omia tuloksiasi eikä korvaa lääkärin arviota. Viitearvot vaihtelevat laboratorioittain, joten tarkista oman laboratoriosi arvot.
+
+Q: Miten haen kokeen?
+A: Haku toimii lyhenteellä tai nimellä, esimerkiksi P-Krea, hemoglobiini tai CRP.
+
+Q: Toimiiko sovellus ilman nettiä?
+A: Kyllä, ja tiliä ei tarvita.
+
+Q: Onko se tilaus?
+A: Ei. Täysi versio on kertaosto, joka avaa kaikki 155 koetta, rajattomat visat ja virheiden kertauksen sekä näyteputket ja ottojärjestyksen.
+
+Q: Mitä saan ilman ostoa?
+A: 30 yleisintä koetta, lyhenneavain, yksiköt ja yksi viiden kysymyksen visa päivässä.
+
+## Ledigplan – föräldraledighet
+
+App Store: https://apps.apple.com/app/id6824629514
+
+### Ledigplan – barsel og orlov (da)
+
+https://baytechbv.github.io/privacy/da/ledigplan-barsel-og-orlov/
+
+Beregn ugerne, planlæg sammen. Planlæg 2027 nu: læg orloven ind før jul og se de uger, I har tilbage – for jer begge
+
+### Ledigplan – föräldraledighet (en)
+
+https://baytechbv.github.io/privacy/en/ledigplan-foraldraledighet/
+
+Forældreorlov, pappapermisjon. Plan 2027 now: put the leave in before Christmas and see the days you have left – for both of you
+
+### Ledigplan – vanhempainvapaa (fi)
+
+https://baytechbv.github.io/privacy/fi/ledigplan-vanhempainvapaa/
+
+Laske päivät ja suunnittele. Suunnittele vuosi 2027 nyt: merkitse vapaat ennen joulua ja näe jäljellä olevat päivät – teille molemmille
+
+### Ledigplan – foreldrepermisjon (nb)
+
+https://baytechbv.github.io/privacy/nb/ledigplan-foreldrepermisjon/
+
+Barsel: tell ukene, planlegg. Planlegg 2027 nå: legg inn permisjonen før jul og se ukene dere har igjen – for dere begge
+
+### Ledigplan – föräldradagar (sv)
+
+https://baytechbv.github.io/privacy/sv/foraldradagar-kalkylator/
+
+Hur många föräldradagar har ni kvar, och vem tar vilka? Ledigplan räknar dagarna för er båda, visar dem i en gemensam kalender och låter er jämföra planer innan ni bestämmer.
+
+- Dagar kvar per förälder: Per förälder och per nivå, med reserverade dagar.
+- Gemensam kalender: Perioder färgade per förälder, dubbeldagar och helgdagar.
+- Jämför två planer: Scenarier sida vid sida innan ni bestämmer.
+- Regler med källa: Sverige, Norge, Danmark och Finland, förklarade för ditt land.
+- Inget konto: Ingen inloggning, och lönen du anger stannar på telefonen.
+
+Q: Vad räknar Ledigplan?
+A: Dagar kvar per förälder och per nivå, med reserverade dagar, för er båda i en gemensam plan.
+
+Q: Vilka länder stöds?
+A: Regler för Sverige, Norge, Danmark och Finland, med källa.
+
+Q: Kan vi dela planen med min partner?
+A: Ja, du skickar planen som en fil och ni ser samma plan. Delning ingår i Ledigplan Plus.
+
+Q: Vad är dubbeldagar?
+A: Appen visar dubbeldagar i kalendern och förklarar reglerna för dem.
+
+Q: Kan jag få en uppskattning av ersättningen?
+A: För Sverige, Norge och Danmark får du en vägledande uppskattning om du vill ange lön. Uppgiften stannar på telefonen.
+
+Q: Kan jag exportera planen?
+A: Ja, till kalendern eller som PDF till arbetsgivaren.
+
+Q: Vad kan jag använda utan köp?
+A: Översikt, kalender och regler för ett barn och en plan. Ledigplan Plus är ett engångsköp som låser upp delning, scenarier, export och flera barn. Ingen prenumeration.
+
+Q: Är appen kopplad till Försäkringskassan?
+A: Nej, Ledigplan är fristående och beräkningen är vägledande. Ansökan gör du alltid hos myndigheten.
+
+## Lesestart – lær å lese
+
+App Store: https://apps.apple.com/app/id6824002314
+
+### Læsestart – lær at læse (da)
+
+https://baytechbv.github.io/privacy/da/laesestart-laer-at-laese/
+
+Læsespil: bogstaver og lyde. Lær bogstavernes lyde ét ad gangen, sæt lydene sammen til ord, og læs små bøger med kun de bogstaver, barnet kan. Til børn på 5–8 år, uden reklamer
+
+### Lesestart – lær å lese (nb)
+
+https://baytechbv.github.io/privacy/nb/lese-app-for-barn/
+
+Lesestart lærer barnet å lese slik mange lærere gjør det: først lyden til bokstaven, så lydene sammen til ord, så små bøker. Appen er for barn fra 5 til 8 år.
+
+- 29 bokstaver på et eventyrkart: Også Æ, Ø og Å, i en rekkefølge der ord kommer tidlig.
+- Fire steg per bokstav: Bokstav og lyd, lydjakt, lydering og ord med bilde.
+- 37 små lesebøker: Bøkene bruker bare bokstaver barnet allerede kan.
+- Oversikt for foreldre: Se hvilke bokstaver barnet kan, ukens minutter og vanskelige lyder.
+- Trygt for barn: Ingen reklame, ingen innlogging og alt lagres på enheten.
+
+Q: Hvilken alder passer Lesestart for?
+A: Appen er for barn fra 5 til 8 år.
+
+Q: Hvordan lærer barnet å lese i appen?
+A: Lyd for lyd: først lyden til bokstaven, så dras lydene sammen til ord, og så leser barnet små bøker. Alt blir lest høyt, så barnet trenger ikke kunne lese fra start.
+
+Q: Hvor mange bokstaver og ord er det?
+A: Det er 29 bokstaver, 148 ord med bilder og 103 vanlige ord å kjenne igjen, samt 37 små lesebøker.
+
+Q: Hva kan jeg bruke uten kjøp?
+A: De første fem bokstavene (S, O, L, I og M) kan brukes uten kjøp.
+
+Q: Er det abonnement?
+A: Nei. Ett engangskjøp åpner hele alfabetet, alle ordene og lesebøkene.
+
+Q: Kan jeg begrense skjermtiden?
+A: Ja, det finnes en daglig tidsgrense med en vennlig «vi fortsetter i morgen»-skjerm. Kjøp og innstillinger ligger bak en enkel voksenoppgave.
+
+Q: Virker appen uten nett?
+A: Ja, appen virker uten nett. Det er ingen reklame og ingen innlogging, og alt lagres på enheten.
+
+## Metsästäjätutkinto/Jägarexamen
+
+App Store: https://apps.apple.com/app/id6824063739
+
+### Metsästäjätutkinto/Jägarexamen (en)
+
+https://baytechbv.github.io/privacy/en/metsastajatutkinto-jagarexamen/
+
+Finnish hunting exam practice
+
+### Metsästäjätutkinto 2026/2027 (fi)
+
+https://baytechbv.github.io/privacy/fi/metsastajatutkinto-harjoituskoe/
+
+Valmistaudu metsästäjätutkintoon 387 harjoituskysymyksellä kuudesta aihealueesta ja harjoituskokeella tutkinnon järjestyksessä. Jokaiseen kysymykseen on selitys.
+
+- 387 kysymystä selityksineen: Kuusi aihealuetta riistalajeista metsästyslakiin ja saaliin käsittelyyn.
+- Harjoituskoe tutkinnon mukaan: 15 lajintunnistuskysymystä ja 45 kysymystä, yhteensä 90 minuuttia.
+- 67 lajikorttia: Tunnistus, sekoitettavat lajit, metsästysaika ja elinympäristö.
+- Virheiden kertaus: Väärät vastaukset kertautuvat, kunnes osaat ne kahdesti peräkkäin.
+- Suomeksi ja ruotsiksi: Kysymykset, selitykset ja lajikortit ovat molemmilla kielillä.
+
+Q: Mitä aihealueita sovelluksessa on?
+A: Riistalajit ja tunnistus, metsästyslaki ja -ajat, aseet ja turvallisuus, metsästysetiikka, riistanhoito sekä saaliin käsittely.
+
+Q: Kuinka monta kysymystä harjoituskokeessa on?
+A: Ensin 15 lajintunnistuskysymystä (15 min), sitten 45 kysymystä: yhteensä 60 kysymystä ja 90 minuuttia. Hyväksymisraja on enintään 8 virhettä.
+
+Q: Voinko harjoitella ruotsiksi?
+A: Kyllä. Kaikki kysymykset, selitykset ja lajikortit ovat suomeksi ja ruotsiksi, ja kieltä voi vaihtaa milloin vain.
+
+Q: Toimiiko sovellus ilman nettiä?
+A: Kyllä, sovellus toimii ilman verkkoyhteyttä, eikä se vaadi tiliä.
+
+Q: Onko sovellus tilaus?
+A: Ei. Yksi kertaosto avaa kaikki aihealueet, täydet harjoituskokeet ja kaikki 67 lajikorttia.
+
+Q: Voinko kokeilla ennen ostoa?
+A: Kyllä. Ilman ostoa käytössä ovat Metsästysetiikka-aihe, 10 lajikorttia ja 20 kysymyksen minikoe.
+
+Q: Ovatko kysymykset tutkinnon virallisia kysymyksiä?
+A: Eivät. Kysymykset ovat sovelluksen tekijöiden omia, eikä sovellus liity Suomen riistakeskukseen.
+
+Q: Sisältääkö sovellus metsästysajat?
+A: Kyllä, Metsästysajat-taulukko lähteineen. Ajat muuttuvat asetuksilla, joten tarkista voimassa oleva tilanne ennen metsälle lähtöä.
+
+### Jägarexamen Finland 2026/2027 (sv)
+
+https://baytechbv.github.io/privacy/sv/jagarexamen-finland-2026-2027/
+
+Artkännedom och övningsprov
+
+## Norwegian Citizenship Test
+
+App Store: https://apps.apple.com/app/id6823126983
+
+### اختبار الجنسية النرويجية 2026 (ar)
+
+https://baytechbv.github.io/privacy/ar/statsborgerprove-no/
+
+Statsborgerprøven تدريب. أكثر من 150 سؤال تدريبي بالنرويجية مع شرح بالعربية. امتحان تجريبي بوقت محدد: 36 سؤالًا في 60 دقيقة كما في الاختبار الحقيقي
+
+### Norwegischer Einbürgerungstest (de)
+
+https://baytechbv.github.io/privacy/de/norwegischer-einburgerungstest/
+
+Statsborgerprøven üben. 150+ Übungsfragen auf Norwegisch mit Erklärungen auf Deutsch. Probeprüfung mit Zeit: 36 Fragen in 60 Minuten
+
+### Norwegian Citizenship Test (en)
+
+https://baytechbv.github.io/privacy/en/norwegian-citizenship-test/
+
+Norwegian Citizenship Test is an independent iPhone and iPad app by Baytech BV for the Norwegian citizenship test (statsborgerprøven) and the social studies test (samfunnskunnskapsprøven). It has 150+ questions on the 8 social studies themes, a timed mock test in the real format (36 questions in 60 minutes, pass at 75%) and explanations in English, Norwegian, German, Polish and Arabic. It works offline, and one purchase of 129 NOK unlocks everything, with no subscription.
+
+Q: Are the questions in English?
+A: The questions are in Norwegian (Bokmål or Nynorsk), as the citizenship test is taken in Norwegian. The explanation after each answer can be read in English, German, Polish or Arabic.
+
+Q: What does the mock test look like?
+A: The same format as the test: 36 questions in 60 minutes, pass at 75%. It is practice; the real test can be different.
+
+Q: Is there a subscription?
+A: No, you pay once. With Family Sharing the purchase covers the whole family.
+
+Q: Is the app official?
+A: No. It is independent and not affiliated with HK-dir, UDI or the Norwegian state. We wrote the questions from the public syllabus themes.
+
+How it compares
+
+|  | Questions | Languages | Offline | Price |
+|---|---|---|---|---|
+| This app | 150+ | Questions in Norwegian; explanations in 5 languages | Yes | 129 NOK, one purchase |
+| samfunnskunnskap.no (HK-dir, official syllabus material) | Texts and exercises | Norwegian | No, website | 0 NOK |
+| Samfunn & Statsborgerprøven | 453 (127 without purchase) | Norwegian and English | Not stated | 99 NOK, one purchase |
+| Bli Statsborger | Not stated | Several languages | Not stated | Subscription from 135 NOK/week, 260 NOK/month |
+| Norway Citizenship Test | 200+ | Interface in 14 languages | Yes | Not stated |
+
+Source: app descriptions and prices on the Norwegian App Store, checked 2 November 2026. Use the official material on samfunnskunnskap.no as well; no app is official.
+
+### Norwegian Citizenship Test (en-US)
+
+https://baytechbv.github.io/privacy/en-us/norwegian-citizenship-test/
+
+Mock exam & practice, Norway. 150+ practice questions in Norwegian, with explanations in English, German, Polish or Arabic. Timed mock test: 36 questions in 60 minutes
+
+### Statsborgerprøven 2026/2027 (nb)
+
+https://baytechbv.github.io/privacy/nb/statsborgerproven-oving/
+
+Statsborgerprøven 2026/2027 er en uavhengig iPhone- og iPad-app fra Baytech BV for å øve til statsborgerprøven og samfunnskunnskapsprøven. Den har 150+ spørsmål om de 8 temaene i samfunnskunnskap, en øvingsprøve med tid i samme format som prøven (36 spørsmål på 60 minutter) og forklaringer på norsk, engelsk, tysk, polsk og arabisk. Den virker uten internett, og alt låses opp med ett kjøp på 129 kr uten abonnement.
+
+- 150+ spørsmål på enkelt norsk: Fordelt på de 8 temaene i samfunnskunnskap.
+- Øvingsprøve med tid: 36 spørsmål på 60 minutter, bestått ved 75 %.
+- Forklaring på ditt språk: Norsk, engelsk, tysk, polsk eller arabisk.
+- Feil kommer tilbake: Til du har svart riktig 2 ganger på rad.
+- Uten internett: Ingen reklame og ingen konto.
+
+Q: Hvilke temaer dekker appen?
+A: De 8 temaene i samfunnskunnskap: historie og geografi, demokrati og velferd, individ og fellesskap, å komme til Norge, arbeidsliv, utdanning, familie og oppvekst, og helse.
+
+Q: Hvordan er øvingsprøven?
+A: Den har samme format som prøven: 36 spørsmål på 60 minutter, bestått ved 75 %. Øvingsprøven er trening, og den ekte prøven kan være annerledes.
+
+Q: Kan jeg få forklaring på et annet språk?
+A: Ja. Spørsmålene er på norsk, bokmål eller nynorsk, men forklaringen kan leses på norsk, engelsk, tysk, polsk eller arabisk.
+
+Q: Hva kan jeg prøve uten kjøp?
+A: Temaet historie og geografi og én hel øvingsprøve. Alt låses opp med ett kjøp.
+
+Q: Er det et abonnement?
+A: Nei, du betaler én gang. Med Familiedeling gjelder kjøpet hele familien.
+
+Q: Virker appen uten internett?
+A: Ja, appen virker uten internett.
+
+Q: Er appen offisiell?
+A: Nei. Appen er uavhengig og ikke tilknyttet HK-dir, UDI eller staten. Spørsmålene er skrevet av oss ut fra de offentlige temaene i læreplanen.
+
+Sammenligning med andre måter å øve på
+
+|  | Spørsmål | Språk | Uten internett | Pris |
+|---|---|---|---|---|
+| Denne appen | 150+ | Norsk; forklaring på 5 språk | Ja | 129 kr, ett kjøp |
+| samfunnskunnskap.no (HK-dir, fagstoff til læreplanen) | Fagstoff og oppgaver | Norsk | Nei, nettside | 0 kr |
+| Samfunn & Statsborgerprøven | 453 (127 uten kjøp) | Norsk og engelsk | Ikke oppgitt | 99 kr, ett kjøp |
+| Bli Statsborger | Ikke oppgitt | Flere språk | Ikke oppgitt | Abonnement fra 135 kr/uke, 260 kr/md. |
+| Norway Citizenship Test | 200+ | Grensesnitt på 14 språk | Ja | Ikke oppgitt |
+
+Kilde: appbeskrivelser og priser i norsk App Store, sjekket 2. november 2026. Bruk også det offisielle fagstoffet på samfunnskunnskap.no; ingen app er offisiell.
+
+### Test na obywatelstwo Norwegii (pl)
+
+https://baytechbv.github.io/privacy/pl/test-na-obywatelstwo-norwegii/
+
+Statsborgerprøven po polsku. 150+ pytań po norwesku z wyjaśnieniami po polsku. Egzamin próbny z czasem: 36 pytań w 60 minut, jak na prawdziwym teście
+
+## Pressure & Headache Forecast
+
+App Store: https://apps.apple.com/app/id6823286520
+
+### Lufttryk & hovedpine (da)
+
+https://baytechbv.github.io/privacy/da/lufttryk-hovedpine/
+
+Trykprognose og dagbog. Efterårets storme giver hurtige trykfald. Se dem komme time for time, få en advarsel aftenen før, og log hovedpine med ét tryk
+
+### Luftdruck & Kopfschmerz (de)
+
+https://baytechbv.github.io/privacy/de/luftdruck-kopfschmerz/
+
+Druckprognose und Tagebuch. Herbststürme bringen schnelle Druckabfälle. Sieh sie Stunde für Stunde kommen, erhalte am Vorabend einen Hinweis und trag Kopfschmerzen mit einem Tippen ein
+
+### Pressure & Headache Forecast (en)
+
+https://baytechbv.github.io/privacy/en/pressure-headache-forecast/
+
+Many people report headaches or migraine when the air pressure falls quickly. The app shows pressure hour by hour, highlights big drops and helps you see whether the weather is linked to your headaches.
+
+- Hourly pressure chart: 24 hours ahead, 72 hours with Pro.
+- Drop zones highlighted: At least 3 hPa in 3 hours or 6 hPa in 12 hours, adjustable.
+- One-tap headache diary: Intensity, type, medicine, notes and possible triggers.
+- Heads-up alerts with Pro: A notification before a big pressure drop.
+- Private by design: Diary stays on your iPhone, no account, no ads.
+
+Q: Can air pressure cause headaches or migraine?
+A: Many people report headaches or migraine when the air pressure falls quickly. The app helps you check whether this applies to you, but gives no medical conclusion.
+
+Q: What counts as a big pressure drop?
+A: By default at least 3 hPa in 3 hours or 6 hPa in 12 hours. You can adjust the limits.
+
+Q: Can I get a warning before a drop?
+A: Yes, with Pro: a notification the evening before or a few hours before a big drop.
+
+Q: What does the headache diary record?
+A: Intensity 0 to 10, start and end, type, medicine and whether it helped, notes and triggers such as sleep, stress, alcohol, menstruation and screen time.
+
+Q: Where does the weather data come from?
+A: From Apple Weather. Your diary stays on your iPhone.
+
+Q: How does Pro work?
+A: Pro is a yearly subscription or a one-time lifetime purchase. Without Pro you keep the 24-hour chart and the diary.
+
+Q: Is it a medical device?
+A: No. It gives no medical advice or diagnosis. If your headaches change or are severe, contact a doctor.
+
+### Ilmanpaine & päänsärky (fi)
+
+https://baytechbv.github.io/privacy/fi/ilmanpaine-paansarky/
+
+Paine-ennuste ja päiväkirja. Syysmyrskyt tuovat nopeita paineen laskuja. Näe ne tunti tunnilta, saa varoitus edellisenä iltana ja kirjaa päänsärky yhdellä napautuksella
+
+### Luchtdruk & hoofdpijn (nl)
+
+https://baytechbv.github.io/privacy/nl/luchtdruk-hoofdpijn/
+
+Drukvoorspelling en dagboek. Herfststormen brengen snelle drukdalingen. Zie ze per uur aankomen, krijg de avond ervoor een melding en noteer hoofdpijn met één tik
+
+### Lufttrykk & hodepine (nb)
+
+https://baytechbv.github.io/privacy/nb/lufttrykk-hodepine/
+
+Trykkprognose og dagbok. Høststormene gir raske trykkfall. Se dem komme time for time, få et varsel kvelden før og logg hodepine med ett trykk
+
+### Lufttryck & huvudvärk (sv)
+
+https://baytechbv.github.io/privacy/sv/lufttryck-huvudvark/
+
+Tryckprognos och dagbok. Höstens stormar ger snabba tryckfall. Se dem komma timme för timme, få en varning kvällen före och logga huvudvärk med ett tryck
+
+## Provklar – Citizenship Test
+
+App Store: https://apps.apple.com/app/id6824513587
+
+### Provklar – Citizenship Test (en)
+
+https://baytechbv.github.io/privacy/en/provklar-citizenship-test/
+
+Swedish society exam practice. Over 290 questions in Swedish from all eleven areas, explanations in seven languages incl. Arabic and Somali, and timed mock exams. Works offline
+
+### Provklar – medborgarskapsprov (sv)
+
+https://baytechbv.github.io/privacy/sv/medborgarskapsprovet-ova-fragor/
+
+Provklar har över 290 övningsfrågor på svenska från alla elva ämnesområden. Förklaringarna finns på svenska och på ditt språk.
+
+- Över 290 övningsfrågor: Fyra svarsalternativ, som i provet.
+- Förklaringar på sju språk: Svenska, engelska, arabiska, persiska, somaliska, tigrinja och ukrainska.
+- Provprov med tidtagning: 40 frågor på 60 minuter och resultat per område.
+- Mina fel och dagens 10: Öva på dina fel och få tio nya frågor varje dag.
+- 74 begreppskort: Till exempel allemansrätten och offentlighetsprincipen.
+
+Q: Vilka områden täcker frågorna?
+A: Alla elva områden, bland annat historia, välfärd, demokrati och grundlagar, fri- och rättigheter, medierna, geografi samt EU.
+
+Q: Vilka språk finns förklaringarna på?
+A: Svenska, engelska, arabiska, persiska, somaliska, tigrinja och ukrainska. Frågorna är på svenska, precis som i provet.
+
+Q: Hur många frågor har provprovet?
+A: Provprovet har 40 frågor på 60 minuter. Antal frågor, tid och gräns i det riktiga provet är inte publicerade ännu, så provprovet har en egen övningsgräns.
+
+Q: Varifrån kommer frågorna?
+A: Frågorna är egna och bygger på det officiella studiematerialet Sverige i fokus, med källhänvisning.
+
+Q: Fungerar appen utan internet?
+A: Ja, den fungerar utan internet.
+
+Q: Är det en prenumeration?
+A: Nej, det är ett engångsköp. Dagens 10 frågor och ett komplett provprov ingår utan köp.
+
+Q: Är appen officiell?
+A: Nej, Provklar är oberoende och har ingen koppling till Universitets- och högskolerådet, Migrationsverket eller någon annan myndighet.
+
+## Radheld – Fahrradprüfung
+
+App Store: https://apps.apple.com/app/id6824971055
+
+### Cykelhelt – cyklistprøven (da)
+
+https://baytechbv.github.io/privacy/da/cykelhelt-cyklistproeven/
+
+Øv færdselsregler til cyklen. Øv til cyklistprøven: spørgsmål med forklaring, kryds, vejskilte og en prøveeksamen – på dansk, legende let og uden internet
+
+### Radheld – Fahrradprüfung (de)
+
+https://baytechbv.github.io/privacy/de/radheld-fahrradprufung/
+
+Radfahrprüfung üben, 4. Klasse. Übe für die Radfahrprüfung: Fragen mit Erklärung, Kreuzungen, Verkehrszeichen und eine Probeprüfung – spielerisch, klar und offline
+
+### Radheld – Fahrradprüfung (en)
+
+https://baytechbv.github.io/privacy/en/radheld-fahrradprufung/
+
+Verkehrserziehung Grundschule. Practise for the German cycling test (Radfahrprüfung) in year 4: questions with explanations, junctions, road signs and a mock test – offline
+
+### Verkeersheld – verkeersexamen (nl)
+
+https://baytechbv.github.io/privacy/nl/verkeersexamen-groep-7-oefenen/
+
+Verkeersheld helpt kinderen oefenen voor het theoretisch verkeersexamen, met kruispunten, borden en fietsregels in gewone taal. Handig om samen met je kind te doen.
+
+- Vragen met uitleg: Bij elk antwoord staat uitleg per onderwerp.
+- Proefexamen: 25 vragen, geslaagd bij 16 goed.
+- Kruispunten getekend: Zie in één oogopslag wie voorrang heeft.
+- Verkeersborden: Groot en duidelijk.
+- Examendag-checklist: Aftellen en samen afvinken.
+
+Q: Voor wie is Verkeersheld?
+A: Voor kinderen die oefenen voor het theoretisch verkeersexamen van groep 7 en het fietsexamen.
+
+Q: Hoe werkt het proefexamen?
+A: Het proefexamen is zoals het echte examen: 25 vragen, geslaagd bij 16 goed.
+
+Q: Werkt de app zonder internet?
+A: Ja, de app werkt zonder internet.
+
+Q: Wat kan ik gebruiken zonder aankoop?
+A: Je kunt 20 vragen, de verkeersborden, de begrippenlijst en de checklist zonder aankoop gebruiken.
+
+Q: Is er een abonnement?
+A: Nee. De volledige versie is een eenmalige aankoop die alle vragen, proefexamens en statistiek ontgrendelt.
+
+Q: Kan mijn kind zelf iets kopen?
+A: Nee, kopen en links naar buiten gaan alleen via een ouder (ouderlijk toezicht).
+
+Q: Is er ook een versie voor andere landen?
+A: Ja, ook voor de cyklistprøve (Denemarken), de Radfahrprüfung (Duitsland) en de karta rowerowa (Polen): kies het land in de app.
+
+### Verkeersheld – karta rowerowa (pl)
+
+https://baytechbv.github.io/privacy/pl/verkeersheld-karta-rowerowa/
+
+Egzamin na kartę rowerową. Ćwicz do egzaminu na kartę rowerową: pytania z wyjaśnieniem, skrzyżowania, znaki drogowe i egzamin próbny – na wesoło, jasno i bez internetu
+
+## Rallyklar – Oldtimer Rallye
+
+App Store: https://apps.apple.com/app/id6825875169
+
+### Rallyklar – Oldtimer Rallye (de)
+
+https://baytechbv.github.io/privacy/de/oldtimer-rallye-rechner/
+
+Rallyklar ist der Rechner und das Notizbuch für Beifahrer bei Oldtimer-Rallyes mit Gleichmäßigkeitsprüfungen. Alle Werte aus Bordbuch und Wegstreckenzähler gibst du selbst ein.
+
+- Schnitt-Rechner: Sollzeit, Schnitt oder Strecke berechnen.
+- Zwischenzeiten-Tabelle: Je km oder Bordbuch-Punkt.
+- Korrekturfaktor: Für den Wegstreckenzähler.
+- Stoppuhr mit Abweichung: Abweichung zur Sollzeit im Blick.
+- Offline ohne GPS: Funktioniert ohne Internet und ohne GPS.
+
+Q: Wofür ist Rallyklar gedacht?
+A: Für Beifahrer bei Oldtimer-Rallyes mit Gleichmäßigkeitsprüfungen, als Rechen- und Notizwerkzeug.
+
+Q: Brauche ich GPS oder Internet?
+A: Nein, die App funktioniert ohne Internet und ohne GPS.
+
+Q: Was kann ich ohne Kauf nutzen?
+A: Schnitt-Rechner, Korrekturfaktor und ein Termin sind ohne Kauf nutzbar.
+
+Q: Gibt es ein Abo?
+A: Nein. Die Vollversion ist ein Einmalkauf und schaltet Zwischenzeiten, Stoppuhr, unbegrenzte Termine und Ergebnisse frei.
+
+Q: Welche Bordbuch-Zeichen sind enthalten?
+A: Chinesenzeichen, Fischgräten und ZK.
+
+Q: Ersetzt die App die Ausschreibung?
+A: Nein, es gilt immer die Ausschreibung des Veranstalters. Die App ist nicht mit ADAC, ÖAMTC oder Veranstaltern verbunden.
+
+### Rallyklar – regelmatigheidsrit (nl)
+
+https://baytechbv.github.io/privacy/nl/rallyklar-regelmatigheidsrit/
+
+Gemiddelde, tijden, stopwatch. Gemiddelde en tijd berekenen, tussentijden per proef, kilometerteller ijken en een stopwatch met afwijking – offline in de auto, zonder verplichte GPS
+
+## Recipe Saver: Cookbook & Plan
+
+App Store: https://apps.apple.com/app/id6823286418
+
+### Opskrifter – gem & madplan (da)
+
+https://baytechbv.github.io/privacy/da/opskrifter-gem-madplan/
+
+Ugeplan og indkøbsliste. Del en opskrift fra en app eller hjemmeside, og få et overskueligt opskriftskort med ingredienser, trin og tid. Skalér portioner, lav mad trin for trin og planlæg ugen
+
+### Recipe Saver: Cookbook & Plan (en)
+
+https://baytechbv.github.io/privacy/en/recipe-saver-app/
+
+Share a recipe from any app or website and Recipe Saver turns it into a clean recipe card you can cook from. It also handles the meal plan and shopping list.
+
+- Save from any app: Share from Safari, Instagram, TikTok and more.
+- Cooking mode: Big text, one step at a time, and the screen stays on.
+- Smart shopping list: Ticks ingredients and merges duplicates.
+- Weekly meal plan: Drag recipes onto days and add the week to the list (Pro).
+- Made for Nordic recipes: Reads English, Swedish, Norwegian, Danish and Finnish.
+
+Q: How do I save a recipe?
+A: Tap Share in Safari, Instagram, TikTok or any other app and choose Recipe Saver. You check the recipe before it is saved and can fix anything.
+
+Q: Does it read recipe websites automatically?
+A: Yes, links to recipe websites are read automatically: title, ingredients, steps, time, servings and photo.
+
+Q: Can I scale servings and convert units?
+A: Yes, you can scale servings up and down and convert cups and ounces to dl and grams.
+
+Q: How many recipes can I save without Pro?
+A: Up to 15 recipes, with cooking mode and the shopping list. Pro adds unlimited recipes, screenshot reading, smart import, the meal plan and collections.
+
+Q: Is it a subscription?
+A: You can choose a yearly subscription or a one-time purchase. The subscription renews automatically unless cancelled at least 24 hours before the period ends.
+
+Q: Do I need an account?
+A: No. There is no account and no ads, and your recipes stay on your phone.
+
+Q: Which languages are supported?
+A: The app reads recipes in English, Swedish, Norwegian, Danish and Finnish.
+
+### Reseptit – tallenna & kokkaa (fi)
+
+https://baytechbv.github.io/privacy/fi/reseptit-tallenna-kokkaa/
+
+Ruokalista ja ostoslista. Jaa resepti sovelluksesta tai verkkosivulta, niin saat siistin reseptikortin aineksineen ja vaiheineen. Skaalaa annokset, kokkaa vaihe kerrallaan, suunnittele viikko
+
+### Oppskrifter – lagre fra nett (nb)
+
+https://baytechbv.github.io/privacy/nb/oppskrifter-lagre-fra-nett/
+
+Ukemeny og handleliste. Del en oppskrift fra en app eller nettside og få et ryddig oppskriftskort med ingredienser, steg og tid. Skaler porsjoner, lag mat steg for steg og planlegg uken
+
+### Recept – spara & veckomeny (sv)
+
+https://baytechbv.github.io/privacy/sv/recept-spara-veckomeny/
+
+Matsedel och inköpslista. Dela ett recept från en app eller webbplats och få ett snyggt receptkort med ingredienser, steg och tid. Skala portioner, laga mat steg för steg och planera veckan
+
+## Rekkaklar – C-luokan teoriakoe
+
+App Store: https://apps.apple.com/app/id6826536593
+
+### Tungbilklar – teoriprøve C (da)
+
+https://baytechbv.github.io/privacy/da/tungbilklar-teoriproeve-c/
+
+Teori til lastbil C og CE. Øv teorien til lastbilkørekort: egne spørgsmål med forklaring, prøveeksamen og køre- og hviletid samlet – på dansk og uden internet
+
+### Rekkaklar – C-luokan teoriakoe (en)
+
+https://baytechbv.github.io/privacy/en/rekkaklar-c-luokan-teoriakoe/
+
+Kuorma-auton C ja CE suomeksi. Harjoittele kuorma-autokortin teoriaa: omat kysymykset selityksineen, koeharjoitus sekä ajo- ja lepoajat yhdellä silmäyksellä – suomeksi ja ilman nettiä
+
+### Rekkaklar – C-luokan teoriakoe (fi)
+
+https://baytechbv.github.io/privacy/fi/c-luokan-teoriakoe/
+
+Rekkaklar auttaa harjoittelemaan C-, CE- ja C1-luokan teoriaa aiheittaisilla kysymyksillä ja selityksillä. Sovellus toimii ilman nettiä.
+
+- Kysymykset aiheittain: Selitys jokaiseen vastaukseen.
+- Koeharjoitus ajan kanssa: Harjoittele koemuodossa.
+- Ajo- ja lepoajat: Tauot sekä päivä- ja viikkorajat yhdellä silmäyksellä.
+- Koepäivän apu: Laskuri, tarkistuslista ja muistutus.
+- Toimii ilman nettiä: Harjoittele missä vain.
+
+Q: Mitä luokkia sovellus kattaa?
+A: Sovelluksella harjoitellaan C-, CE- ja C1-luokan teoriaa.
+
+Q: Onko sovelluksessa virallinen kysymyspankki?
+A: Ei. Kysymykset ovat sovelluksen omia, eikä sovellus sisällä virallista kysymyspankkia.
+
+Q: Mitä ajo- ja lepoajoista löytyy?
+A: Tauot sekä päivä- ja viikkorajat on koottu yhdelle näkymälle.
+
+Q: Voiko sovellusta kokeilla ennen ostoa?
+A: Voit harjoitella 20 kysymystä, sanastoa ja tarkistuslistaa ilman ostoa.
+
+Q: Onko kyseessä tilaus?
+A: Ei. Täysi versio on kertaosto, joka avaa kaikki kysymykset, koeharjoitukset ja tilastot.
+
+Q: Missä teen oikean kokeen?
+A: Kokeen suoritat Ajovarmassa. Rekkaklar on itsenäinen eikä liity Traficomiin tai Ajovarmaan.
+
+### Lastebilklar – teoriprøve C (nb)
+
+https://baytechbv.github.io/privacy/nb/lastebilklar-teoriproeve-c/
+
+Teori for klasse C og CE. Øv teorien til lastebillappen: egne spørsmål med forklaring, prøvetester og kjøre- og hviletid på ett sted – på norsk og uten nett
+
+### Tungbilklar – C-teori (sv)
+
+https://baytechbv.github.io/privacy/sv/tungbilklar-c-teori/
+
+Teori för lastbil C och CE. Öva teorin för C-körkort: egna frågor med förklaring, övningsprov och kör- och vilotider samlat – på svenska och utan internet
+
+## Riseplan: Sourdough Planner
+
+App Store: https://apps.apple.com/app/id6824240378
+
+### Riseplan: Surdej & brød (da)
+
+https://baytechbv.github.io/privacy/da/riseplan-surdej-broed/
+
+Fodr surdejen, planlæg bagning. Brødet færdigt kl. 8? Riseplan regner baglæns, hvornår du skal sætte, blande og folde – og advarer, hvis et trin falder midt om natten
+
+### Riseplan: Sauerteig & Brot (de)
+
+https://baytechbv.github.io/privacy/de/sauerteig-backplan-app/
+
+Riseplan rechnet rückwärts, wann du ansetzen, mischen und falten musst, damit dein Brot zur Wunschzeit fertig ist. Dazu Anstellgut-Tagebuch, Triebkurve und Rechner in Gramm und °C.
+
+- Backplan rückwärts: Wähle die Fertigzeit, Riseplan rechnet jeden Schritt zurück.
+- Warnung bei Nachtschritten: Fällt ein Handgriff in deine Ruhezeit, kommt ein Vorschlag für längere Kühlschrank-Gare.
+- Anstellgut und Triebkurve: Ein oder mehrere Anstellgüter, mit deiner eigenen Kurve.
+- Bäckerprozent-Rechner: Mehl, Wasser, Sauerteig und Salz in Gramm.
+- Rezepte und Backtagebuch: Roggen-, Land- und weitere Brote, Fotos und Notizen.
+
+Q: Was macht der Backplan rückwärts?
+A: Du wählst, wann das Brot fertig sein soll, und Riseplan rechnet jeden Schritt zurück. Die Gärzeiten passen sich deiner Raumtemperatur an und sind als Faustregel gekennzeichnet.
+
+Q: Kann ich mehrere Anstellgüter verwalten?
+A: Ja, mit Roggen, Weizen oder Dinkel, mit Alter und Fütterungsverlauf. Mehrere Anstellgüter schaltet der Einmalkauf frei.
+
+Q: Was ist die Triebkurve?
+A: Du misst die Höhe nach dem Füttern und siehst deine eigene Kurve, den Durchschnitt bis zum Höhepunkt und das maximale Volumen.
+
+Q: Was kann der Rechner?
+A: Aus Teiggewicht, Hydration, Sauerteig- und Salzanteil berechnet er Mehl, Wasser, Sauerteig und Salz in Gramm. Mehl und Wasser im Sauerteig werden mitgerechnet.
+
+Q: Was ist ohne Kauf nutzbar?
+A: Ein Anstellgut, Füttern, Erinnerungen, Rechner und drei Rezepte.
+
+Q: Ist es ein Abo?
+A: Nein. Ein Einmalkauf schaltet alles frei, es gibt kein Abo und keine Werbung.
+
+Q: Welche Rezepte gibt es?
+A: Unter anderem Roggenmischbrot, Roggenbrot, Landbrot, Pizza und Pfannkuchen aus Anstellgut-Resten, mit Mehlnamen deines Landes wie Roggen 1150 oder Weizen 550.
+
+Q: Wie steht es um den Datenschutz?
+A: Deine Daten bleiben auf dem Gerät. Anonyme Nutzungsstatistik wird nur gesendet, wenn du sie beim Start oder in den Einstellungen einschaltest.
+
+### Riseplan: Sourdough Planner (en)
+
+https://baytechbv.github.io/privacy/en/riseplan-sourdough-planner/
+
+Feed your starter, plan bakes. Bread ready at 8 am? Riseplan works backwards to when you start, mix and fold – and warns you when a step falls in the middle of the night
+
+### Riseplan: Juuri & leipä (fi)
+
+https://baytechbv.github.io/privacy/fi/riseplan-juuri-leipa/
+
+Ruoki juurta, ajoita leivonta. Leipä valmiina klo 8? Riseplan laskee taaksepäin, milloin aloittaa, sekoittaa ja taitella – ja varoittaa, jos vaihe osuu keskelle yötä
+
+### Riseplan: Zuurdesem & brood (nl)
+
+https://baytechbv.github.io/privacy/nl/riseplan-zuurdesem-brood/
+
+Starter voeden, bakplan maken. Brood klaar om 8 uur? Riseplan plant terug wanneer je moet aanzetten, mengen en vouwen – en waarschuwt als een stap midden in de nacht valt
+
+### Riseplan: Surdeig & brød (nb)
+
+https://baytechbv.github.io/privacy/nb/riseplan-surdeig-broed/
+
+Mat surdeigen, planlegg bakst. Brødet ferdig kl. 8? Riseplan regner baklengs når du skal starte, blande og brette – og varsler hvis et steg havner midt på natten
+
+### Riseplan: Surdeg & bröd (sv)
+
+https://baytechbv.github.io/privacy/sv/riseplan-surdeg-brod/
+
+Mata surdegen, planera baket. Brödet klart kl. 8? Riseplan räknar baklänges när du ska starta, blanda och vika – och varnar om ett steg hamnar mitt i natten
+
+## SRC Klar – VHF-certifikat
+
+App Store: https://apps.apple.com/app/id6824970189
+
+### SRC Klar – VHF-certifikat (da)
+
+https://baytechbv.github.io/privacy/da/src-klar-vhf-certifikat/
+
+Øv til SRC-prøven og nødopkald. Øv til SRC-prøven: spørgsmål med forklaring, prøveeksamen, VHF-kanaler og nødopkald, du siger højt – på dansk og uden internet
+
+### SRC Klar – Prüfung, Funkschein (de)
+
+https://baytechbv.github.io/privacy/de/src-klar-prufung-funkschein/
+
+UKW-Funkzeugnis: Fragen & Test. Übe für die SRC-Prüfung: Fragen mit Erklärung, Prüfungssimulation, UKW-Kanäle und einen Notruf, den du laut sprichst – auf Deutsch und offline
+
+### SRC Klar – VHF-todistus (fi)
+
+https://baytechbv.github.io/privacy/fi/src-klar-vhf-todistus/
+
+SRC-koe ja hätäkutsut suomeksi. Harjoittele SRC-koetta: kysymykset selityksineen, koeharjoitus, VHF-kanavat ja hätäkutsu, jonka sanot ääneen – suomeksi ja ilman nettiä
+
+### SRC Klar – marifoon examen (nl)
+
+https://baytechbv.github.io/privacy/nl/src-klar-marifoon-examen/
+
+Oefen voor je marifoonbewijs. Oefen voor het marifoonexamen: vragen met uitleg, proefexamens, VHF-kanalen en een noodoproep die je hardop zegt – in het Nederlands
+
+### SRC Klar – VHF-sertifikat (nb)
+
+https://baytechbv.github.io/privacy/nb/src-klar-vhf-sertifikat/
+
+Øv til SRC-prøven og nødanrop. Øv til SRC-prøven: spørsmål med forklaring, prøvetester, VHF-kanaler og nødanrop du sier høyt – på norsk og uten nett
+
+### SRC Klar – VHF-certifikat (sv)
+
+https://baytechbv.github.io/privacy/sv/src-provet-ova/
+
+SRC Klar hjälper dig öva inför SRC-certifikatet för VHF med DSC. Du övar anropsprocedurer med rösten.
+
+- Frågor per ämne: Förklaring till varje svar.
+- Övningsprov: Med tid och resultat per ämne.
+- Nödtrafik med rösten: MAYDAY, PAN-PAN och SÉCURITÉ steg för steg.
+- Kanaler och fonetiska alfabetet: Samlade på en sida.
+- Fungerar utan internet: Öva var du vill.
+
+Q: Vad är SRC Klar?
+A: En app för att öva inför SRC-provet, certifikatet för VHF med DSC.
+
+Q: Kan jag öva nödanrop?
+A: Ja, MAYDAY, PAN-PAN och SÉCURITÉ går du igenom steg för steg och övar med rösten.
+
+Q: Vad ingår utan köp?
+A: Du kan öva 20 frågor, göra ett helt övningsprov och använda ordlistan och checklistan utan köp.
+
+Q: Är det en prenumeration?
+A: Nej. Fullversionen är ett engångsköp som låser upp alla frågor, övningsprov och anropsövning med rösten.
+
+Q: Fungerar appen utan internet?
+A: Ja, den fungerar utan internet.
+
+Q: Var gör jag provet?
+A: Provet gör du hos en kursarrangör. SRC Klar är fristående och inte kopplad till Transportstyrelsen, PTS eller någon provanordnare.
+
+## Serveringsklar – Alcohol Test
+
+App Store: https://apps.apple.com/app/id6824970576
+
+### Serveringsklar – Alcohol Test (en)
+
+https://baytechbv.github.io/privacy/en/serveringsklar-alcohol-test/
+
+Serving licence exam practice. Practise the alcohol serving exam for Norway (kunnskapsprøven) or Finland (anniskelupassi): questions with explanations, mock exams and the key limits – offline
+
+### Serveringsklar: anniskelupassi (fi)
+
+https://baytechbv.github.io/privacy/fi/anniskelupassikoe-harjoitus/
+
+Serveringsklar auttaa harjoittelemaan anniskelupassikoetta aiheittain, ja jokaiseen kysymykseen on selitys. Sovellus toimii myös ilman nettiä.
+
+- Kysymykset aiheittain: Jokaiseen vastaukseen on selitys, joten ymmärrät miksi vastaus on oikein.
+- Koeharjoitus ajan kanssa: Kokeile koemuotoa ajan kanssa ennen oikeaa koetta.
+- Ikä, ajat ja vahvuus: Henkilöllisyyden tarkistus ja rajat yhdellä sivulla.
+- Koepäivän laskuri: Laskuri, tarkistuslista ja muistutus koepäivää varten.
+- Toimii ilman nettiä: Harjoittele missä tahansa, myös ilman verkkoyhteyttä.
+
+Q: Mikä Serveringsklar on?
+A: Se on sovellus anniskelupassikokeen harjoitteluun suomeksi. Kysymykset on jaoteltu aiheittain ja jokaisella on selitys.
+
+Q: Voinko harjoitella ilman nettiä?
+A: Kyllä, sovellus toimii ilman nettiä.
+
+Q: Mitä aiheita sovelluksessa on?
+A: Mukana ovat kysymykset aiheittain, ikärajat, anniskeluajat ja vahvuudet sekä sanasto tärkeimmistä käsitteistä.
+
+Q: Voiko sovellusta kokeilla ennen ostoa?
+A: Voit harjoitella 20 kysymystä, sanastoa ja tarkistuslistaa ilman ostoa.
+
+Q: Onko kyseessä tilaus?
+A: Ei. Täysi versio on kertaosto, joka avaa kaikki kysymykset, koeharjoitukset ja tilastot. Tilausta ei ole.
+
+Q: Voinko tehdä kokeen sovelluksessa?
+A: Ei. Serveringsklar on itsenäinen eikä liity viranomaisiin tai kokeen järjestäjiin. Kokeen teet hyväksytyllä järjestäjällä.
+
+### Serveringsklar – horeca examen (nl)
+
+https://baytechbv.github.io/privacy/nl/serveringsklar-horeca-examen/
+
+Sociale Hygiëne oefenexamen. Oefen voor het examen Sociale Hygiëne: vragen met uitleg, proefexamens en de regels voor leeftijd, legitimatie en tijden – in het Nederlands
+
+### Serveringsklar – alkoholloven (nb)
+
+https://baytechbv.github.io/privacy/nb/serveringsklar-alkoholloven/
+
+Kunnskapsprøven for skjenking. Øv til kunnskapsprøven etter alkoholloven: spørsmål med forklaring, prøvetester og regler for alder, tider og styrke – på norsk og uten nett
+
+### Serveringsklar – alkohollagen (sv)
+
+https://baytechbv.github.io/privacy/sv/serveringsklar-alkohollagen/
+
+Kunskapsprov alkoholservering. Öva ansvarsfull alkoholservering och kunskapsprovet för serveringstillstånd: frågor med förklaring, övningsprov och regler för ålder och tider
+
+## Skoterklar – förarbevis skoter
+
+App Store: https://apps.apple.com/app/id6824970204
+
+### Skoterklar – moottorikelkka (fi)
+
+https://baytechbv.github.io/privacy/fi/skoterklar-moottorikelkka/
+
+Kelkkailun säännöt ja teoria. Harjoittele moottorikelkan säännöt: kysymykset selityksineen, koeharjoitus sekä urat, nopeudet ja maastoajo – suomeksi ja myös ilman nettiä
+
+### Skoterklar – klasse S (nb)
+
+https://baytechbv.github.io/privacy/nb/skoterklar-klasse-s/
+
+Teori til snøscooter-førerkort. Øv teorien til førerkort klasse S: spørsmål med forklaring, prøvetester og regler for løyper, fart og terreng – også uten nett på vidda
+
+### Skoterklar – förarbevis skoter (sv)
+
+https://baytechbv.github.io/privacy/sv/snoskoter-forarbevis-teori/
+
+Skoterklar hjälper dig att öva inför kunskapsprovet för förarbevis för snöskoter, med skoterregler och inte bilregler.
+
+- Frågor per ämne: Med förklaring till varje svar.
+- Övningsprov i provformat: Öva i provformat och se framsteg per ämne.
+- Leder, fart och terräng: Skoterreglerna samlade på en sida.
+- Provdag och säsongsstart: Nedräkning, checklista och påminnelse.
+- Fungerar utan internet: Även på fjället.
+
+Q: Vad övar jag inför?
+A: Kunskapsprovet för förarbevis för snöskoter.
+
+Q: Är det skoterregler eller bilregler?
+A: Skoterregler, inte bilregler.
+
+Q: Finns övningsprov?
+A: Ja, övningsprov i provformat. Utan köp kan du göra korta övningsprov med 10 frågor.
+
+Q: Fungerar appen utan internet?
+A: Ja, den fungerar utan internet.
+
+Q: Vilka länder gäller frågorna?
+A: Frågor för Sverige, Norge och Finland.
+
+Q: Vad ingår utan köp?
+A: 20 frågor, korta övningsprov med 10 frågor, ordlistan och checklistan.
+
+Q: Är det en prenumeration?
+A: Nej. Fullversionen är ett engångsköp som låser upp alla frågor, övningsprov och statistik. Ingen prenumeration.
+
+Q: Kan jag göra provet i appen?
+A: Nej, provet gör du hos en utbildare. Appen är fristående och inte kopplad till Transportstyrelsen eller någon utbildare.
+
+## Smørklar – XC ski wax guide
+
+App Store: https://apps.apple.com/app/id6825875087
+
+### Smørklar – XC ski wax guide (en)
+
+https://baytechbv.github.io/privacy/en/smoerklar-xc-ski-wax-guide/
+
+Grip wax & glide for skiing. Enter snow temperature and conditions and get the right wax class – grip wax or klister. With a wax box and wax log, offline on the trail
+
+### Smørklar – suksen voitelu (fi)
+
+https://baytechbv.github.io/privacy/fi/smoerklar-suksen-voitelu/
+
+Pitovoide, klisteri ja luisto. Syötä lumen lämpötila ja keli, saat oikean voideluokan – pitovoide tai klisteri. Voidelaatikko ja voitelupäiväkirja, myös ilman nettiä ladulla
+
+### Smørklar – smøreguide langrenn (nb)
+
+https://baytechbv.github.io/privacy/nb/skismoring-langrenn/
+
+Smørklar hjelper deg å velge smøring til langrenn. Du legger inn snøtemperatur, lufttemperatur og snøtype, og får forslag til smøreklasse for feste og glid.
+
+- Anbefaling etter føre: Basert på snøtemperatur, lufttemperatur og snøtype.
+- Festevoks, klister eller glider: Generelle smøreklasser, med guide: klister eller hardvoks?
+- Din egen smørekasse: Legg inn voksen du har og se hva som passer.
+- Smørelogg: Noter karakter for feste og glid.
+- Virker uten nett: Ingen posisjon og ingen værdata.
+
+Q: Hvordan velger appen smøring?
+A: Du legger inn snøtemperatur, lufttemperatur og snøtype, og appen foreslår smøreklasse for feste og glid.
+
+Q: Hva er forskjellen på klister og hardvoks?
+A: Appen har en egen guide: klister eller hardvoks? Den hjelper deg å velge for føret du står i.
+
+Q: Hva gjør jeg uten termometer?
+A: Appen har tips for å velge smøring når du ikke har termometer.
+
+Q: Er anbefalingene knyttet til et merke?
+A: Nei. Smørklar gir generelle råd og er ikke tilknyttet noe smøremerke. Følg alltid produsentens anvisning.
+
+Q: Henter appen værdata eller posisjon?
+A: Nei, appen henter ikke værdata og bruker ikke posisjon. Du legger inn temperaturene selv.
+
+Q: Kan jeg bruke appen i løypa uten nett?
+A: Ja, den virker uten nett.
+
+Q: Hva kan jeg bruke uten kjøp?
+A: Anbefaling for kaldt føre, 5 voks i smørekassa og tips uten termometer.
+
+Q: Er det et abonnement?
+A: Nei. Full versjon er et engangskjøp som låser opp alle føretyper, klisterguide, ubegrenset logg og sesongsjekk.
+
+### Vallaklar – vallaguide längd (sv)
+
+https://baytechbv.github.io/privacy/sv/vallaklar-vallaguide-langd/
+
+Fästvalla, klister och glid. Ange snötemperatur och före och få rätt vallaklass – fästvalla eller klister. Med vallalåda och vallalogg, även utan nät i spåret
+
+## Sägeschein – Motorsägenkurs
+
+App Store: https://apps.apple.com/app/id6825264068
+
+### Sägeschein – Motorsägenkurs (de)
+
+https://baytechbv.github.io/privacy/de/motorsaegenkurs-theorie/
+
+Sägeschein hilft dir, die Theorie für den Motorsägenkurs zu üben, für AS Baum I und II, den Brennholz-Kurs und Kurse in Österreich und der Schweiz. Jede Antwort kommt mit Erklärung.
+
+- Fragen nach Thema: Mit Erklärung zu jeder Antwort.
+- Prüfungssimulation mit Zeit: Üben im Prüfungsformat.
+- Fällen in 6 Schritten: Fallkerb, Bruchleiste und Rückweiche im Überblick.
+- Kurstag-Funktion: Countdown, Checkliste und Erinnerung.
+- Fehler üben, offline nutzen: Fortschritt nach Thema, funktioniert ohne Internet.
+
+Q: Für welche Kurse ist die App gedacht?
+A: Für AS Baum I und II, den Brennholz-Kurs und Kurse in Österreich und der Schweiz.
+
+Q: Was kann ich ohne Kauf nutzen?
+A: 20 Fragen, die Begriffe und die Checkliste kannst du ohne Kauf nutzen.
+
+Q: Ist die Vollversion ein Abo?
+A: Nein. Die Vollversion ist ein Einmalkauf und schaltet alle Fragen, Simulationen und die Statistik frei. Kein Abo.
+
+Q: Gibt es eine Prüfungssimulation?
+A: Ja, die Prüfungssimulation läuft im Prüfungsformat mit Zeit.
+
+Q: Wird das Fällen erklärt?
+A: Ja, in 6 Schritten, mit Fallkerb, Bruchleiste und Rückweiche im Überblick.
+
+Q: Funktioniert die App offline?
+A: Ja, sie funktioniert ohne Internet.
+
+Q: Bekomme ich in der App den Nachweis?
+A: Nein. Sägeschein ist unabhängig und nicht mit Kursanbietern, Berufsgenossenschaften oder Behörden verbunden. Den Nachweis bekommst du im Kurs.
+
+## Sågklar – motorsågskörkort
+
+App Store: https://apps.apple.com/app/id6824629114
+
+### Sågklar – motorsågskörkort (en)
+
+https://baytechbv.github.io/privacy/en/saagklar-motorsaagskorkort/
+
+Swedish chainsaw licence test. Prepare for the Swedish chainsaw licence theory test: questions with explanations and drawings, mock tests per level and felling technique step by step
+
+### Sågklar – motorsågskörkort (sv)
+
+https://baytechbv.github.io/privacy/sv/motorsagskorkort-teori/
+
+Sågklar hjälper dig att plugga inför teoriprovet för motorsågskörkort, nivå A, B och C. Du får frågor med förklaringar och egna bilder samt övningsprov per nivå.
+
+- Över 250 frågor: Tre svarsalternativ, som på teoriprovet.
+- Välj nivå A, B eller C: Från underhåll och kapning till stormfällt.
+- Förklaring och källa: Egna bilder på riktskär, fällskär och brytmån.
+- Provläge per nivå: Resultat per modul och dina fel att öva på.
+- Fällning och checklistor: Fällningsteknik steg för steg och checklista för skyddsutrustning.
+
+Q: Vad innebär nivå A, B och C?
+A: A gäller underhåll och kapning, B fällning av normala träd och C svårare fällning och stormfällt.
+
+Q: Hur många frågor finns det?
+A: Över 250 egna frågor med tre svarsalternativ.
+
+Q: Utfärdar appen motorsågskörkort?
+A: Nej. Körkortet utfärdas bara av en certifierad instruktör efter teori- och praktiskt prov. Sågklar är en fristående övningsapp som inte ersätter kursen.
+
+Q: Vilka ämnen ingår?
+A: Bland annat skyddsutrustning, kedja och svärd, kapning, fällningsteknik, fastfällda och stormfällda träd, första hjälpen och regler (AFS 2023:11).
+
+Q: Fungerar appen utan nätverk?
+A: Ja, utan nätverk och utan konto.
+
+Q: Är det en prenumeration?
+A: Nej, ett engångsköp låser upp alla frågor och övningsprov.
+
+Q: Kan jag prova först?
+A: En modul med 20 frågor per nivå, ett övningsprov för nivå A, checklistan och ordlistan kan användas utan köp.
+
+## Takstklar – normaltariffen
+
+App Store: https://apps.apple.com/app/id6825875214
+
+### Takstklar – Arzttarif Norwegen (de)
+
+https://baytechbv.github.io/privacy/de/takstklar-arzttarif-norwegen/
+
+Normaltariff offline suchen. Für Ärztinnen und Ärzte in Norwegen: Taksten der Normaltariff schnell finden – auch ohne Internet. Sätze, ungültige Kombinationen und Konsultationen mit Summe
+
+### Takstklar – normaltariffen (en)
+
+https://baytechbv.github.io/privacy/en/takstklar-normaltariffen/
+
+Norwegian GP tariff look-up. Find the right Norwegian takst code fast, even offline. Search by code or word, see rates and invalid combinations, and build the takster for a consultation
+
+### Takstklar – normaltariffen (nb)
+
+https://baytechbv.github.io/privacy/nb/legetakst-normaltariffen/
+
+Takstklar er et oppslagsverk for leger i Norge. Søk på takstkode eller ord, se satser og regler, og sett sammen takstene for et besøk.
+
+- Søk uten nett: Søk på takstkode eller ord, lagret på telefonen.
+- Honorar, refusjon og egenandel: Satsene for hver takst på ett sted.
+- Ugyldige kombinasjoner: Merknader fra forskriften og kombinasjonssjekk.
+- Konsultasjon med sum: Sett sammen takstene for et besøk og få summen.
+- Favoritter og notater: Favoritter for dagtid og legevakt, maler og egne notater.
+
+Q: Hvem er appen for?
+A: Leger i Norge som trenger et oppslagsverk for takster.
+
+Q: Hvilken tariff bygger den på?
+A: Takstene i kapittel II i forskrift om stønad til dekning av utgifter til undersøkelse og behandling hos lege (FOR-2024-06-26-1322), med satser fra 1. juli 2026.
+
+Q: Fungerer den uten nett?
+A: Ja, du kan søke på takstkode eller ord uten nett.
+
+Q: Kan jeg se ugyldige takstkombinasjoner?
+A: Ja, appen viser ugyldige kombinasjoner og merknader fra forskriften.
+
+Q: Hva kan jeg bruke uten kjøp?
+A: Søk, takstdetaljer, 5 favoritter og de siste 10 oppslagene.
+
+Q: Er det et abonnement?
+A: Nei. Full versjon er et engangskjøp som låser opp konsultasjonen med sum, maler, notater, ubegrenset favoritter og hele historikken.
+
+Q: Kommer det varsel ved ny tariff?
+A: Ja, appen har nedtelling og varsel før ny tariff 1. juli.
+
+Q: Er appen offisiell?
+A: Nei, den er ikke tilknyttet Legeforeningen, Helfo eller Helse- og omsorgsdepartementet. Kontroller alltid satser og regler mot gjeldende tariff.
+
+## Taxiklar – Swedish taxi test
+
+App Store: https://apps.apple.com/app/id6824969988
+
+### Taxiklar – taxikørekort (da)
+
+https://baytechbv.github.io/privacy/da/taxiklar-taxikoerekort/
+
+Teori til taxiprøven på dansk. Øv teorien til taxikørekort: spørgsmål med forklaring, prøveeksamen og reglerne for taxameter og priser – på dansk og uden internet
+
+### Taxiklar – Taxischein (de)
+
+https://baytechbv.github.io/privacy/de/taxiklar-taxischein/
+
+Theorie für den P-Schein Taxi. Übe die Theorie für den Taxischein: Fragen mit Erklärung, Prüfungssimulation und Regeln zu Taxameter und Tarif – auf Deutsch und offline
+
+### Taxiklar – Swedish taxi test (en)
+
+https://baytechbv.github.io/privacy/en/taxiklar-swedish-taxi-test/
+
+Taxiförare theory & mock exam. Practise for the Swedish taxi kunskapsprov: questions with explanations, a timed mock exam and the rules on prices and receipts
+
+### Taxiklar – chauffeurskaart (nl)
+
+https://baytechbv.github.io/privacy/nl/taxiklar-chauffeurskaart/
+
+Oefen het taxi theorie-examen. Oefen voor het examen Vakbekwaamheid Taxichauffeur: vragen met uitleg, proefexamens en de regels voor tarieven – in het Nederlands
+
+### Taxiklar – kjøreseddel taxi (nb)
+
+https://baytechbv.github.io/privacy/nb/taxiklar-kjoereseddel-taxi/
+
+Øv til teoriprøven for taxi. Øv teorien til kjøreseddel for taxi: spørsmål med forklaring, prøvetester og regler for taksameter og priser – på norsk og uten nett
+
+### Taxiklar – taxikörkort (sv)
+
+https://baytechbv.github.io/privacy/sv/taxiforarlegitimation-prov/
+
+Taxiklar hjälper dig att öva inför kunskapsprovet för taxiförarlegitimation, med förklaringar och inte bara rätt svar. Appen är på svenska och fungerar utan internet.
+
+- Frågor med förklaring: Frågor per ämne och en förklaring till varje svar.
+- Övningsprov med tid: I provets format (delprov 1).
+- Pris och kvitto: Jämförpris, taxameter och prisdekal samlat.
+- Provdag och ordlista: Nedräkning, checklista, påminnelse och viktiga begrepp.
+- Öva på dina fel: Se framsteg per ämne.
+
+Q: Vad kan jag öva i Taxiklar?
+A: Du kan öva frågor inför kunskapsprovet för taxiförarlegitimation, per ämne och med förklaring till varje svar.
+
+Q: Finns det övningsprov?
+A: Ja, övningsprov med tid i provets format (delprov 1).
+
+Q: Vad är Pris och kvitto?
+A: En samlad del om jämförpris, taxameter och prisdekal.
+
+Q: Vad ingår utan köp?
+A: Du kan öva 20 frågor per land, göra ett helt övningsprov och använda ordlistan, checklistan och Pris och kvitto.
+
+Q: Är det en prenumeration?
+A: Nej. Fullversionen är ett engångsköp som låser upp alla frågor, obegränsade övningsprov och statistik.
+
+Q: Fungerar appen utan internet?
+A: Ja, den fungerar utan internet.
+
+Q: Var gör jag det riktiga provet?
+A: Hos Trafikverket. Taxiklar är fristående och inte kopplad till Transportstyrelsen eller Trafikverket.
+
+## Teoriklar – driving theory
+
+App Store: https://apps.apple.com/app/id6825874939
+
+### Teoriklar – teoriprøven (da)
+
+https://baytechbv.github.io/privacy/da/teoriklar-teoriproeven/
+
+Køreteori på dit eget sprog. Øv til teoriprøven med spørgsmålet på dansk og på dit sprog – ukrainsk, somali, persisk, arabisk eller engelsk. Lær de danske ord og tag prøveeksamener
+
+### Teoriklar – driving theory (en)
+
+https://baytechbv.github.io/privacy/en/teoriklar-driving-theory/
+
+In Arabic, Ukrainian, Somali. Practise driving theory with each question in the local language and in yours: Arabic, Ukrainian, Somali, Persian or English. Learn the words, take a mock test
+
+### Teoriklar – ajokorttiteoria (fi)
+
+https://baytechbv.github.io/privacy/fi/teoriklar-ajokorttiteoria/
+
+Teoria myös omalla kielelläsi. Harjoittele teoriakoetta: kysymys suomeksi ja omalla kielelläsi – ukrainaksi, somaliksi, persiaksi, arabiaksi tai englanniksi. Opi suomen sanat ja tee koeharjoituksia
+
+### Teoriklar – teoriprøven (nb)
+
+https://baytechbv.github.io/privacy/nb/teoriklar-teoriproeven/
+
+Førerkortteori på ditt språk. Øv til teoriprøven med spørsmålet på norsk og på ditt språk – ukrainsk, somali, persisk, arabisk eller engelsk. Lær de norske ordene og ta prøvetester
+
+### Teoriklar – körkortsteori (sv)
+
+https://baytechbv.github.io/privacy/sv/korkortsteori-pa-ditt-sprak/
+
+Teoriklar hjälper dig att öva teorin för körkort B när svenska inte är ditt första språk. Varje fråga visas på svenska och på ditt språk.
+
+- Frågor på två språk: Svenska plus ukrainska, somaliska, persiska, arabiska eller engelska.
+- Övningsprov med tid: Prova i provformat och se dina framsteg per ämne.
+- Vägmärken med orden på ditt språk: Märkena visas i grupper så att du lär dig de svenska orden.
+- Provdag: checklista och påminnelse: Nedräkning till provet, checklista och notis.
+- Fungerar utan internet: Öva var som helst, även utan uppkoppling.
+
+Q: Vilka språk finns i Teoriklar?
+A: Frågorna visas på svenska och på ditt språk: ukrainska, somaliska, persiska, arabiska eller engelska.
+
+Q: Vilket körkort handlar appen om?
+A: Appen hjälper dig att öva teorin för körkort B.
+
+Q: Hur många frågor kan jag öva utan köp?
+A: Du kan öva 20 frågor, göra ett helt övningsprov och använda ordlistan och checklistan utan köp.
+
+Q: Kostar det en prenumeration?
+A: Nej. Fullversionen är ett engångsköp som låser upp alla frågor, övningsprov och statistik. Ingen prenumeration.
+
+Q: Hjälper appen mig att lära mig svenska trafikord?
+A: Ja. Vägmärkena visas i grupper med orden på ditt språk och det finns en ordlista med de viktigaste begreppen.
+
+Q: Fungerar appen utan internet?
+A: Ja, den fungerar utan internet.
+
+Q: Kan jag boka provet i appen?
+A: Nej. Teoriklar är fristående och inte kopplad till Trafikverket eller Transportstyrelsen. Provet bokar du hos Trafikverket.
+
+## Tieturva Treeni – Road Work
+
+App Store: https://apps.apple.com/app/id6824971955
+
+### Tieturva Treeni – Road Work (en)
+
+https://baytechbv.github.io/privacy/en/tieturva-treeni-road-work/
+
+Work zone safety test prep. Practise for Tieturva 1 (Finland), Arbete på väg steg 1 (Sweden) and arbeidsvarsling kurs 1 (Norway): questions with explanations and a mock test, offline
+
+### Tieturva Treeni – tieturva 1 (fi)
+
+https://baytechbv.github.io/privacy/fi/tieturva-1-harjoituskoe/
+
+Tieturva Treeni auttaa harjoittelemaan Tieturva 1 -koetta: tietyömaan merkit, varoituslaitteet ja turvaetäisyydet selityksineen.
+
+- Kysymykset aiheittain: Selitys jokaiseen vastaukseen.
+- Koeharjoitus ajalla: Harjoittele koemuodossa ajan kanssa.
+- Merkit ja etäisyydet: Varoitus, suojaus ja turvaetäisyys yhdellä sivulla.
+- Kortin voimassaolo: 5 vuotta ja muistutus ennen vanhenemista.
+- Toimii ilman nettiä: Kertaosto, ei tilausta.
+
+Q: Mitä Tieturva 1 -harjoituskokeessa harjoitellaan?
+A: Tietyömaan merkkejä, varoituslaitteita ja turvaetäisyyksiä sekä kysymyksiä selityksineen.
+
+Q: Kuinka kauan Tieturvakortti on voimassa?
+A: Sovelluksen mukaan 5 vuotta, ja sovellus muistuttaa ennen vanhenemista.
+
+Q: Korvaako sovellus kurssin?
+A: Ei. Kurssin ja kokeen suoritat kouluttajan kautta. Sovellus on itsenäinen eikä liity Väylävirastoon tai kouluttajiin.
+
+Q: Toimiiko sovellus ilman nettiä?
+A: Kyllä, se toimii ilman nettiä ja on suomeksi.
+
+Q: Onko se tilaus?
+A: Ei. Täysi versio on kertaosto, joka avaa kaikki kysymykset, koeharjoitukset ja virheiden kertauksen.
+
+Q: Voiko sovellusta kokeilla ennen ostoa?
+A: Ilman ostoa voit harjoitella 20 kysymystä ja käyttää sanastoa, merkit ja etäisyydet -sivua sekä kortin muistutusta.
+
+Q: Onko mukana virheiden kertaus?
+A: Kyllä, virheiden kertaus ja edistyminen aiheittain kuuluvat sovellukseen.
+
+### Arbeidsvarsling Øv – kurs 1 (nb)
+
+https://baytechbv.github.io/privacy/nb/arbeidsvarsling-oev-kurs-1/
+
+Skilt, sikring og prøvetest. Øv til prøven i arbeidsvarsling kurs 1: spørsmål med forklaring, prøvetester og regler for skilt og sikkerhetssoner – på norsk og uten nett
+
+### Vägklar – Arbete på väg (APV) (sv)
+
+https://baytechbv.github.io/privacy/sv/vagklar-arbete-paa-vag-apv/
+
+Övningsfrågor för vägarbete. Öva inför Arbete på väg steg 1: frågor med förklaring, övningsprov och regler för utmärkning och skyddsavstånd – på svenska och offline
+
+## Tirelire – Pocket Money
+
+App Store: https://apps.apple.com/app/id6823956407
+
+### Tirelire – lommepenge (da)
+
+https://baytechbv.github.io/privacy/da/tirelire-lommepenge/
+
+Pligter, opsparing og mål. Hvert barns saldo, pligter til godkendelse og sparemålet – delt mellem begge forældre via iCloud. Ingen bank, intet kort og ingen reklamer
+
+### Tirelire – Pocket Money (en)
+
+https://baytechbv.github.io/privacy/en/tirelire-pocket-money/
+
+Chores, savings and goals. Each child's balance, chores to approve and their savings goal – shared between both parents through iCloud. No bank, no card and no ads
+
+### Tirelire – viikkoraha (fi)
+
+https://baytechbv.github.io/privacy/fi/tirelire-viikkoraha/
+
+Kotityöt, säästöt ja palkkiot. Jokaisen lapsen saldo, hyväksyttävät kotityöt ja säästötavoite – jaettuna molemmille vanhemmille iCloudissa. Ilman pankkia, korttia ja mainoksia
+
+### Tirelire – argent de poche (fr-CA)
+
+https://baytechbv.github.io/privacy/fr-ca/tirelire-argent-de-poche/
+
+Tâches, épargne, allocation. Le solde de chaque enfant, les tâches à valider et l’objectif d’épargne, partagés entre les deux parents par iCloud. Sans banque, sans carte, sans publicité
+
+### Tirelire – argent de poche (fr)
+
+https://baytechbv.github.io/privacy/fr/argent-de-poche-application/
+
+Tirelire tient les comptes de l'argent de poche de vos enfants, récompense les tâches et les aide à épargner. Aucune banque reliée, aucune carte.
+
+- Un solde par enfant: Tâches de la semaine, prochain argent de poche et objectif.
+- 109 idées de tâches: Classées par âge, avec une récompense suggérée.
+- Un objectif qui motive: 32 modèles d'objectifs et une date estimée.
+- Mode enfant simple: Son solde, son objectif et ses tâches du jour.
+- Partage entre parents: Invitez l'autre parent par iCloud.
+
+Q: Tirelire est-elle reliée à une banque ?
+A: Non, aucune banque reliée et aucune carte. L'app garde seulement les comptes, et les pièces restent dans la vraie tirelire.
+
+Q: Comment fonctionnent les tâches ?
+A: L'enfant coche, vous validez avec « Valider et payer » ou « Pas encore ». Fait à moitié ? Vous pouvez payer la moitié.
+
+Q: L'argent de poche est-il versé automatiquement ?
+A: Oui, il est ajouté tout seul le jour choisi, même si l'app est restée fermée.
+
+Q: Peut-on partager avec l'autre parent ?
+A: Oui, par le partage iCloud : mêmes soldes, et chacun valide depuis son iPhone.
+
+Q: Que puis-je utiliser sans achat ?
+A: L'app est utilisable sans achat avec un enfant.
+
+Q: Y a-t-il un abonnement ?
+A: Non. Un achat unique débloque les enfants illimités, le partage avec l'autre parent, le mode enfant et le widget.
+
+Q: Quelles devises sont disponibles ?
+A: Euros, couronnes, livres, francs suisses ou dollars.
+
+### Tirelire – lommepenger (nb)
+
+https://baytechbv.github.io/privacy/nb/tirelire-lommepenger/
+
+Gjøremål, sparing og mål. Saldoen til hvert barn, gjøremål som venter på godkjenning, og sparemålet – delt mellom begge foreldrene via iCloud. Ingen bank, ikke noe kort, ingen reklame
+
+### Tirelire – veckopeng (sv)
+
+https://baytechbv.github.io/privacy/sv/tirelire-veckopeng/
+
+Sysslor, sparande och mål. Varje barns saldo, sysslor att godkänna och sparmålet – delat mellan båda föräldrarna via iCloud. Ingen bank, inget kort och inga annonser
+
+## Traktorklar – klasse T
+
+App Store: https://apps.apple.com/app/id6824969827
+
+### Traktorklar – traktorkørekort (da)
+
+https://baytechbv.github.io/privacy/da/traktorklar-traktorkoerekort/
+
+Teori til kørekort til traktor. Øv teorien til traktorkørekort: spørgsmål med forklaring, øveprøve og regler for vægt, trailer og fart – på dansk og uden internet
+
+### Traktorklar – Führerschein F (de)
+
+https://baytechbv.github.io/privacy/de/traktorklar-fuhrerschein-f/
+
+Traktor-Theorie für Österreich. Übe die Theorie für den Führerschein F: Fragen mit Erklärung, Prüfungssimulation und Regeln zu Gewicht, Anhänger und Tempo – offline
+
+### Traktorklar – T-kortti (fi)
+
+https://baytechbv.github.io/privacy/fi/traktorklar-t-kortti/
+
+Traktorikortin teoriakoe. Harjoittele T-kortin teoriaa: kysymykset selityksineen, koeharjoitus sekä painon, perävaunun ja nopeuden säännöt – suomeksi ja ilman nettiä
+
+### Traktorklar – klasse T (nb)
+
+https://baytechbv.github.io/privacy/nb/traktorforerkort-teori/
+
+Traktorklar hjelper deg å øve teorien til førerkort klasse T, med traktorregler og ikke bilregler.
+
+- Spørsmål per emne: Med forklaring til hvert svar.
+- Prøvetest med tid: I prøveformat, med fremgang per emne.
+- Vekt, tilhenger og fart: Traktorreglene samlet på én side.
+- Prøvedag: Nedtelling, sjekkliste og påminnelse.
+- Fungerer uten internett: Øv på feilene dine, på norsk.
+
+Q: Hvilket førerkort øver jeg til?
+A: Teorien til førerkort klasse T.
+
+Q: Er det traktorregler eller bilregler?
+A: Traktorregler, ikke bilregler.
+
+Q: Finnes det prøvetester?
+A: Ja, prøvetester i prøveformat med tid.
+
+Q: Fungerer appen uten internett?
+A: Ja, den fungerer uten internett.
+
+Q: Hva kan jeg bruke uten kjøp?
+A: 20 spørsmål, ordlisten og sjekklisten.
+
+Q: Er det et abonnement?
+A: Nei. Fullversjonen er et engangskjøp som låser opp alle spørsmål, prøvetester og statistikk. Ingen abonnement.
+
+Q: Hvor tar jeg prøven?
+A: På trafikkstasjonen, ikke i appen.
+
+Q: Er appen tilknyttet Statens vegvesen?
+A: Nei, Traktorklar er uavhengig og ikke tilknyttet Statens vegvesen.
+
+### Traktorklar – traktorkort (sv)
+
+https://baytechbv.github.io/privacy/sv/traktorklar-traktorkort/
+
+Kunskapsprovet för traktor. Öva teorin för traktorkort: frågor med förklaring, övningsprov och regler för vikt, släp och fart – på svenska och utan internet
+
+## Työturva – TTK ja tulityö
+
+App Store: https://apps.apple.com/app/id6824628422
+
+### Työturva – TTK ja tulityö (en)
+
+https://baytechbv.github.io/privacy/en/tyoturva-ttk-ja-tulityo/
+
+Finnish safety card practice. Practise for the Finnish occupational safety card and hot work card tests: questions with explanations, mock exams and a reminder before your card expires
+
+### Työturva – TTK ja tulityö (fi)
+
+https://baytechbv.github.io/privacy/fi/tyoturvallisuuskortti-koe/
+
+Työturva auttaa valmistautumaan työturvallisuuskortin (TTK) ja tulityökortin kokeisiin suomeksi, ennen kurssia tai ennen kortin uusimista. Jokaisessa kysymyksessä on selitys.
+
+- Kaksi korttia yhdessä sovelluksessa: Valitse etusivulta TTK tai tulityökortti.
+- Koeharjoitus ajastimella: Tulos aiheittain ja valmiusaste jokaisessa aiheessa.
+- Kertaa virheet: Väärin menneet kysymykset ja heikot aiheet omana listanaan.
+- Kortin voimassaolomuistutus: Syötä kurssipäivä ja saat muistutuksen ennen vanhenemista.
+- Toimii ilman verkkoa: Ei tiliä, ja mukana sanasto ja koepäivän muistilista.
+
+Q: Mihin kokeisiin Työturva valmistaa?
+A: Työturvallisuuskortin (TTK) ja tulityökortin kokeisiin. Valitset kortin sovelluksen etusivulta.
+
+Q: Onko kysymyksissä selitykset?
+A: Kyllä, jokaisessa kysymyksessä on selitys ja aihe, johon se liittyy.
+
+Q: Voinko tehdä harjoituskokeen?
+A: Kyllä, koeharjoitus tehdään ajastimella ja tulos näytetään aiheittain.
+
+Q: Mitä sovelluksessa voi käyttää ilman ostoa?
+A: Osa kysymyksistä, yksi kokonainen koeharjoitus, 10 kysymyksen minikoe, sanasto ja voimassaolomuistutus.
+
+Q: Onko sovellus tilaus?
+A: Ei. Kertaosto avaa kaikki kysymykset, rajattomat koeharjoitukset, virheiden kertauksen ja tilastot.
+
+Q: Muistuttaako sovellus kortin uusimisesta?
+A: Kyllä. Syötä kurssipäivä, niin saat muistutuksen ennen kuin kortti vanhenee.
+
+Q: Saanko kortin sovelluksesta?
+A: Et. Työturva on itsenäinen harjoitussovellus eikä myönnä kortteja; kortin saa vain kouluttajan pitämältä kurssilta.
+
+### Heta arbeten – övningsprov (sv)
+
+https://baytechbv.github.io/privacy/sv/heta-arbeten-ovningsprov/
+
+Frågor inför certifikatet. Öva inför heta arbeten-provet på svenska: frågor med förklaringar, övningsprov med timer och en påminnelse innan ditt certifikat går ut
+
+## Tåla – histamine & fructose
+
+App Store: https://apps.apple.com/app/id6824513430
+
+### Tåle – histamin & fruktose (da)
+
+https://baytechbv.github.io/privacy/da/taale-histamin-fruktose/
+
+Madliste og maddagbog. Kan jeg spise det her? 300+ fødevarer vurderet for histamin, fruktose, laktose og sorbitol – på dansk, med nordisk mad, kilder og en dagbog for måltider og symptomer
+
+### Tåla – Histamin & Fructose (de)
+
+https://baytechbv.github.io/privacy/de/taala-histamin-fructose/
+
+Unverträglichkeiten & Tagebuch. Kann ich das essen? 300+ Lebensmittel bewertet für Histamin, Fructose, Laktose und Sorbit – mit Quellen, Rezepten und einem Tagebuch für Essen und Symptome
+
+### Tåla – histamine & fructose (en)
+
+https://baytechbv.github.io/privacy/en/taala-histamine-fructose/
+
+Food intolerance list & diary. Can I eat this? 300+ foods rated for histamine, fructose, lactose and sorbitol – Nordic foods, sources and a diary for meals and symptoms
+
+### Tåla – histamine & fructose (en-US)
+
+https://baytechbv.github.io/privacy/en-us/taala-histamine-fructose/
+
+Food intolerance list & diary. Can I eat this? 300+ foods rated for histamine, fructose, lactose and sorbitol – Nordic foods, sources and a diary for meals and symptoms
+
+### Sieto – histamiini & fruktoosi (fi)
+
+https://baytechbv.github.io/privacy/fi/sieto-histamiini-fruktoosi/
+
+Ruokalista ja ruokapäiväkirja. Voinko syödä tätä? Yli 300 ruokaa arvioituna histamiinin, fruktoosin, laktoosin ja sorbitolin kannalta – suomeksi, pohjoismaisin ruoin, lähteineen ja päiväkirjalla
+
+### Tåle – histamin & fruktose (nb)
+
+https://baytechbv.github.io/privacy/nb/taale-histamin-fruktose/
+
+Matliste og matdagbok. Kan jeg spise dette? 300+ matvarer vurdert for histamin, fruktose, laktose og sorbitol – på norsk, med nordisk mat, kilder og en dagbok for måltider og symptomer
+
+### Tåla – histamin & fruktos (sv)
+
+https://baytechbv.github.io/privacy/sv/histaminintolerans-livsmedelslista/
+
+Tåla ger svaret på svenska för histamin, fruktos, laktos och sorbitol. Över 300 livsmedel med betyg, källor och en dagbok för måltider och symtom.
+
+- 300+ livsmedel med betyg: Bra, Måttligt, Undvik eller Varierar för varje intolerans.
+- Nordisk mat: Knäckebröd, inlagd sill, gravlax, filmjölk, lingon och mycket mer.
+- Dagbok för måltider och symtom: Anteckna symtom med styrka 1–5 och se en veckoöversikt.
+- Mina säkra och Visa i butik: Spara det du tål och visa en stor lista för servitören.
+- Inget konto: Allt sparas i telefonen.
+
+Q: Vilka intoleranser täcker Tåla?
+A: Histamin, fruktos, laktos och sorbitol. Fruktos, laktos och sorbitol hör till FODMAP-grupperna, men Tåla visar inga portionsvärden.
+
+Q: Hur många livsmedel finns i listan?
+A: Över 300 livsmedel, bland annat nordisk mat, med betyg per intolerans och en kort förklaring.
+
+Q: Varför står det ibland Varierar?
+A: Där källorna är oeniga står det Varierar. Källor finns till varje livsmedel.
+
+Q: Kan jag föra dagbok över symtom?
+A: Ja, du antecknar måltider och symtom med styrka 1–5. Veckoöversikten beskriver dina anteckningar och är ingen diagnos.
+
+Q: Finns det en eliminationsplan?
+A: Ja, med faser för att utesluta och återintroducera, som du planerar med läkare eller dietist. Du kan också exportera dagbok och listor som PDF.
+
+Q: Vad ingår utan köp?
+A: En intolerans, sök, 50 livsmedel med alla detaljer och 7 dagars dagbok.
+
+Q: Hur fungerar Tåla Plus?
+A: Du väljer årsvis, med förnyelse automatiskt och uppsägning när som helst i App Store-inställningarna, eller livstid som engångsköp. Aktuellt pris ser du i App Store.
+
+Q: Ersätter appen läkare eller dietist?
+A: Nej. Tåla är en informationsapp och ställer inga diagnoser. Betygen är allmän vägledning och tålighet är individuell.
+
+## Vaarbewijs KVB 1 & 2 Practice
+
+App Store: https://apps.apple.com/app/id6824009558
+
+### Vaarbewijs KVB 1 & 2 Trainer (de)
+
+https://baytechbv.github.io/privacy/de/vaarbewijs-kvb-1-2-trainer/
+
+Bootsführerschein Niederlande. Übe 2026 für KVB 1 und 2: 616 eigene Fragen im CBR-Stil mit Erklärung. Probeprüfungen im Prüfungsformat, Lichter- und Schilderkarten, Schallsignale
+
+### Vaarbewijs KVB 1 & 2 Practice (en)
+
+https://baytechbv.github.io/privacy/en/vaarbewijs-kvb-1-2-practice/
+
+Vaarbewijs KVB 1 & 2 Practice is an independent iPhone and iPad app by Baytech BV for the Dutch CBR boating licence theory exams Klein Vaarbewijs 1 and 2. It has 616 original questions with explanations, timed mock exams with CBR-style scoring (KVB 1: 40 questions in 60 minutes; KVB 2: 27 questions in 90 minutes including open calculation questions) and chart reading and course plotting for KVB 2. It works offline, in Dutch, English and German, and one purchase of €9.99 unlocks everything, with no subscription.
+
+Q: Which exams can I practise for?
+A: Klein Vaarbewijs 1 and Klein Vaarbewijs 2, the Dutch small craft licences examined by the CBR.
+
+Q: Is the app in English?
+A: Yes, the app is available in Dutch, English and German. The real CBR exam is in Dutch.
+
+Q: Is there a subscription?
+A: No. One purchase unlocks everything for KVB 1 and KVB 2. Navigation rules (BPR/RPR) and one mock exam can be practised without buying.
+
+Q: Is the app from the CBR?
+A: No. We wrote the questions from the public regulations; the app is not affiliated with the CBR. Check the CBR website for current exam requirements.
+
+How it compares
+
+|  | Questions | Languages | Offline | Price |
+|---|---|---|---|---|
+| This app | 616 (KVB 1 and 2) | Dutch, English, German | Yes | €9.99, one purchase |
+| CBR sample exams KVB 1 and KVB 2 (cbr.nl) | 1 sample exam per licence | Dutch | PDF | €0 |
+| Vaarbewijs Pro | 40-question exams (mainly KVB 1) | Dutch, English vocabulary deck | Not stated | Subscription €29.99/month, €99.99/year |
+| Klein Vaarbewijs 1 & 2 Examen | KVB 1, KVB 2 and marine radio | Dutch | Not stated | €9.99 (KVB 1 + 2) |
+| We Vaarbewijs | 2,000+ (also other countries) | 7 languages | Yes | €9.99, one purchase |
+
+Source: app descriptions and prices on the Dutch App Store, checked 2 November 2026. Use the CBR sample exams as well; no app is from the CBR.
+
+### Vaarbewijs KVB 1 & 2 Oefenen (nl)
+
+https://baytechbv.github.io/privacy/nl/klein-vaarbewijs-oefenen/
+
+Vaarbewijs KVB 1 & 2 Oefenen is een onafhankelijke iPhone- en iPad-app van Baytech BV om te oefenen voor het CBR-examen Klein Vaarbewijs 1 en 2. Je oefent met 616 eigen vragen met uitleg, proefexamens met tijd en puntentelling (KVB 1: 40 vragen in 60 minuten, KVB 2: 27 vragen in 90 minuten met open rekenvragen) en kaartlezen en koersberekening voor KVB 2. De app werkt zonder internet en met één aankoop van € 9,99 open je alles, zonder abonnement.
+
+- 616 eigen oefenvragen: Over alle examenonderwerpen van KVB 1 en KVB 2.
+- Proefexamens in examenformat: KVB 1: 40 vragen in 60 minuten; KVB 2: 27 vragen in 90 minuten.
+- Lichten, borden en geluidsseinen: Lichtenkaarten, betonning (SIGNI en IALA) en seinen die je laat afspelen.
+- Foutenlijst: Een vraag gaat er pas af als je hem twee keer op rij goed hebt.
+- Examenklaar-percentage: Met examendatum en een dagelijkse herinnering.
+
+Q: Voor welke examens kan ik oefenen?
+A: Voor Klein Vaarbewijs 1 en Klein Vaarbewijs 2.
+
+Q: Hoeveel vragen zitten erin?
+A: 616 eigen oefenvragen over alle examenonderwerpen van KVB 1 en KVB 2, met uitleg bij elke vraag.
+
+Q: Hoe lang duren de proefexamens?
+A: KVB 1 heeft 40 vragen in 60 minuten, KVB 2 heeft 27 vragen in 90 minuten, inclusief open rekenvragen.
+
+Q: Is er iets voor kaartlezen en koersberekening?
+A: Ja, voor KVB 2 zijn er kaartlezen, getijden en koersberekening met oefenkaarten.
+
+Q: Werkt de app zonder internet?
+A: Ja. Geen account en geen advertenties.
+
+Q: Wat kan ik zonder aankoop doen?
+A: Vaarregels (BPR/RPR) en één proefexamen kun je zonder aankoop oefenen.
+
+Q: Is het een abonnement?
+A: Nee. Met één aankoop open je alles van KVB 1 én KVB 2. Geen abonnement.
+
+Q: Is de app van het CBR?
+A: Nee, de vragen zijn zelf geschreven op basis van de openbare reglementen en de app is niet verbonden aan het CBR. Kijk voor de actuele exameneisen op de website van het CBR.
+
+Vergelijking met andere manieren van oefenen
+
+|  | Vragen | Taal | Zonder internet | Prijs |
+|---|---|---|---|---|
+| Deze app | 616 (KVB 1 en 2) | Nederlands, Engels, Duits | Ja | € 9,99, één aankoop |
+| CBR voorbeeldexamens KVB 1 en KVB 2 (cbr.nl) | 1 voorbeeldexamen per examen | Nederlands | PDF | € 0 |
+| Vaarbewijs Pro | Examens van 40 vragen (vooral KVB 1) | Nederlands, Engelse woordenset | Niet vermeld | Abonnement € 29,99/mnd, € 99,99/jaar |
+| Klein Vaarbewijs 1 & 2 Examen | KVB 1, KVB 2 en marifonie | Nederlands | Niet vermeld | € 9,99 (KVB 1 + 2) |
+| We Vaarbewijs | 2.000+ (ook andere landen) | 7 talen | Ja | € 9,99, één aankoop |
+
+Bron: app-beschrijvingen en prijzen in de Nederlandse App Store, gecontroleerd op 2 november 2026. Gebruik ook de voorbeeldexamens van het CBR; geen enkele app is van het CBR.
+
+## Vaktplan – Shifts & Pay
+
+App Store: https://apps.apple.com/app/id6823286145
+
+### Vagtplan – vagter og løn (da)
+
+https://baytechbv.github.io/privacy/da/vagtplan-loenberegner/
+
+Vagtplan er lavet til dig, der arbejder i skiftende vagter. Planlæg vagterne, se dine timer og tjek, at lønsedlen passer.
+
+- Kalender og rulleplan: Egne vagttyper og rulleplan på 1–8 uger, op til to år frem.
+- Timer fordelt: Aften, nat, lørdag, søndag, helligdag og overarbejde.
+- Helligdage indbygget: Danmark, Norge og Finland beregnes i appen.
+- Lønskøn med Pro: Bruttoløn med tillæg, så du kan sammenligne med lønsedlen.
+- Ingen konto, virker offline: Alt gemmes på telefonen.
+
+Q: Hvem er Vagtplan lavet til?
+A: Til sygeplejersker, SOSU'er, politi, butik, hotel og restaurant, lager og studerende med studiejob.
+
+Q: Kan jeg lægge en rulleplan?
+A: Ja, rulleplaner på 1–8 uger, sat ind op til to år frem.
+
+Q: Regner appen aften-, nat- og helligdagstimer?
+A: Ja, timer pr. uge og måned fordelt på almindelige timer, aften, nat, lørdag, søndag, helligdag, overarbejde og rådighed.
+
+Q: Hvordan fungerer lønskønnet?
+A: Med Pro får du en anslået bruttoløn pr. måned med tillæg, du selv sætter op. Det er et skøn før skat, ikke en lønseddel.
+
+Q: Er overenskomstens satser med?
+A: Nej. Skabelonerne har navnene på tillæggene, men du indtaster tallene fra din egen overenskomst.
+
+Q: Hvad koster Pro?
+A: Pro fås som årsabonnement eller som engangskøb for altid.
+
+Q: Skal jeg oprette en konto?
+A: Nej, ingen konto og ingen reklamer. Alt gemmes på telefonen og virker uden internet.
+
+### Vaktplan – Shifts & Pay (en)
+
+https://baytechbv.github.io/privacy/en/shift-planner-pay-calculator/
+
+Plan your shifts, see your hours and check that your payslip adds up. Made for shift workers in Norway, Denmark and Finland.
+
+- Calendar and rotations: Own shift types, rotations of 1 to 8 weeks, placed two years ahead.
+- Hours split by type: Evening, night, Saturday, Sunday, public holiday and overtime.
+- Public holidays built in: Norway, Denmark and Finland, calculated in the app.
+- Pay estimate with Pro: Gross pay with supplements to compare with your payslip.
+- No account, works offline: Everything is stored on your phone.
+
+Q: Who is Vaktplan for?
+A: For shift workers in Norway, Denmark and Finland, such as nurses, care workers, police, retail, hotels and restaurants, warehouses and students with part-time jobs.
+
+Q: Can I plan a rotation?
+A: Yes, rotations of 1 to 8 weeks, placed up to two years ahead.
+
+Q: Does it calculate evening, night and holiday hours?
+A: Yes, hours per week and month for normal, evening, night, Saturday, Sunday, public holiday, overtime and on-call. Shifts past midnight and daylight-saving changes are counted correctly.
+
+Q: How does the pay estimate work?
+A: With Pro you get a monthly gross estimate with supplements you set up yourself. It is an estimate before tax, not a payslip.
+
+Q: Does it include agreement rates?
+A: No. Templates have the supplement names of common agreements, but you enter the numbers from your own agreement.
+
+Q: How much is Pro?
+A: Pro is a yearly subscription or a one-time lifetime purchase.
+
+Q: Which languages does it support?
+A: English, Norwegian, Danish, Finnish and Swedish.
+
+### Vaktplan – työvuorot ja palkka (fi)
+
+https://baytechbv.github.io/privacy/fi/vaktplan-tyovuorot-ja-palkka/
+
+Vuorot, lisät ja tunnit. Lisää vuorokiertosi sekunneissa ja näe tunnit jaettuna iltaan, yöhön, viikonloppuun ja pyhäpäiviin. Prolla: arvio bruttopalkasta lisineen palkkalaskelman tarkistamiseen
+
+### Vaktplan – turnus og lønn (nb)
+
+https://baytechbv.github.io/privacy/nb/vaktplan-turnus-og-loenn/
+
+Vakter, tillegg og timer. Legg inn turnusen på sekunder og se timene fordelt på kveld, natt, helg og helligdag. Med Pro: estimert bruttolønn med tillegg, så du kan sjekke lønnsslippen
+
+### Vaktplan – arbetspass och lön (sv)
+
+https://baytechbv.github.io/privacy/sv/vaktplan-arbetspass-och-lon/
+
+Pass, tillägg och timmar. Lägg in din turlista på sekunder och se timmarna fördelade på kväll, natt, helg och helgdag. Med Pro: beräknad bruttolön med tillägg, så du kan kontrollera lönespecen
+
+## Wishlist – Gift Lists
+
+App Store: https://apps.apple.com/app/id6824064449
+
+### Ønskeseddel – julegaver (da)
+
+https://baytechbv.github.io/privacy/da/oenskeseddel-julegaver/
+
+Hemmelig nisse og delt liste
+
+### Wunschzettel & Wichteln (de)
+
+https://baytechbv.github.io/privacy/de/wunschzettel-wichteln/
+
+Wunschliste für die Familie
+
+### Wishlist – Gift Lists (en)
+
+https://baytechbv.github.io/privacy/en/wishlist-gift-lists/
+
+Shared lists and Secret Santa
+
+### Toivelista – lahjalista (fi)
+
+https://baytechbv.github.io/privacy/fi/toivelista-lahjalista/
+
+Salainen joulupukki ja lahjat
+
+### Liste de souhaits – Noël (fr)
+
+https://baytechbv.github.io/privacy/fr/liste-de-souhaits-noel/
+
+Listes partagées, Secret Santa
+
+### Verlanglijstje & Lootjes (nl)
+
+https://baytechbv.github.io/privacy/nl/verlanglijstje-lootjes/
+
+Sinterklaas- en kerstlijstje
+
+### Önskelista – julklappar (sv)
+
+https://baytechbv.github.io/privacy/sv/onskelista-julklappar/
+
+Gör en lista per högtid, dela den med en länk och låt familjen reservera i hemlighet. Du som önskar ser aldrig vad som är köpt, så överraskningen finns kvar.
+
+- Lägg till önskningar snabbt: Klistra in en länk från vilken butik som helst, eller dela från Safari.
+- Reservera i hemlighet: Familjen trycker Jag köper, och den som önskar ser det inte.
+- Hemlig tomte: Lottning i telefonen med budget, datum och par som inte får dra varandra.
+- Att köpa på ett ställe: Reserverad, köpt, inslagen, given, med budget per person.
+- Listor åt barnen: Bara ett förnamn, inget konto för barnet.
+
+Q: Hur delar jag min önskelista?
+A: Du bjuder in via Meddelanden, WhatsApp eller e-post med iCloud-delning, och inget konto behövs. Utan appen kan du skicka listan som bild eller text.
+
+Q: Ser jag vad familjen har köpt?
+A: Nej. Den som önskar ser inte vad som är reserverat. Hinner två reservera samma sak går den till den som var först.
+
+Q: Hur fungerar hemlig tomte?
+A: Du lägger till deltagare, par som inte får dra varandra, budget och datum. Lottningen sker i telefonen och var och en får sitt resultat som en privat länk.
+
+Q: Kan jag lägga till önskningar från en butik?
+A: Ja, klistra in en länk så hämtas titel och bild en gång, eller dela direkt från Safari eller en butiksapp.
+
+Q: Finns det påminnelser?
+A: Ja, en påminnelse 14 dagar före en högtid, med hur många önskningar som är kvar.
+
+Q: Vad kan jag använda utan köp?
+A: 3 egna listor och allt som rör givande, samt lottning av hemlig tomte med upp till 5 personer.
+
+Q: Är det en prenumeration?
+A: Nej. Ett engångsköp ger full tillgång och gäller hela familjen via Familjedelning.
+
+Q: Kan barn ha egna listor?
+A: Ja, du gör listor åt barnen med bara ett förnamn och inget konto för barnet.
+
+## Żeglarz – Sternik motorowodny
+
+App Store: https://apps.apple.com/app/id6824971103
+
+### Żeglarz – Sternik motorowodny (en)
+
+https://baytechbv.github.io/privacy/en/zeglarz-sternik-motorowodny/
+
+Węzły, COLREG, locja i meteo. Theory practice for two Polish licences – yacht sailor (żeglarz jachtowy) and motorboat helmsman (sternik motorowodny): explained questions and mock exams, offline
+
+### Żeglarz Jachtowy Testy (pl)
+
+https://baytechbv.github.io/privacy/pl/patent-zeglarza-jachtowego-testy/
+
+Żeglarz Jachtowy Testy pomaga przygotować się do egzaminu teoretycznego na patent żeglarza jachtowego i sternika motorowodnego. Przy każdej odpowiedzi znajdziesz wyjaśnienie i źródło.
+
+- 151 pytań na każdy patent: Żeglarz jachtowy w 6 działach, sternik motorowodny z nowym działem o silnikach.
+- Egzamin próbny: 75 pytań, 90 minut, próg 65 poprawnych odpowiedzi.
+- Prawo drogi z ilustracjami: Halsy, światła, znaki i węzły na własnych ilustracjach.
+- Powtórka błędów: Źle odpowiedziane pytania wracają.
+- Bez internetu i konta: Dzień egzaminu: odliczanie, lista rzeczy i przypomnienie.
+
+Q: Na jakie patenty przygotowuje aplikacja?
+A: Na patent żeglarza jachtowego, a od wersji 1.1 także na patent sternika motorowodnego. Patent wybierasz na starcie i możesz go zmienić w Ustawieniach.
+
+Q: Ile jest pytań?
+A: Po 151 pytań na każdy patent. W dziale „Jacht motorowy i silnik” dla sternika jest 58 nowych pytań.
+
+Q: Jak wygląda egzamin próbny?
+A: To test w formie egzaminu: 75 pytań, 90 minut, próg 65 poprawnych odpowiedzi, tak samo dla obu patentów.
+
+Q: Co mogę robić bez zakupu?
+A: Możesz rozwiązać 1 pełny egzamin próbny i korzystać z 20 pytań wybranego patentu, słownika, prawa drogi w skrócie i listy rzeczy na egzamin.
+
+Q: Czy to subskrypcja?
+A: Nie. Pełna wersja to jednorazowy zakup, który odblokowuje wszystkie pytania obu patentów, egzaminy próbne bez limitu i powtórkę błędów.
+
+Q: Czy aplikacja działa bez internetu?
+A: Tak, działa bez internetu i bez konta.
+
+Q: Czy aplikacja jest oficjalna?
+A: Nie. Jest niezależna i nie jest powiązana z PZŻ ani komisjami egzaminacyjnymi. Egzamin zdajesz przed komisją.
+
