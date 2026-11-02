@@ -189,7 +189,7 @@ if APP_ID:
             "padding:10px 18px;border-radius:10px;font-weight:600}.shots{display:flex;gap:12px;overflow-x:auto;margin:24px 0}"
             ".shots img{width:200px;height:auto;border-radius:16px;flex:none}")
     head = (f"<meta name='description' content='{html.escape(p['promotionalText'])}'><meta name='apple-itunes-app' content='app-id={APP_ID}'>"
-            f"<link rel='canonical' href='https://baytechbv.github.io/privacy/{SLUG}/app/'><style>{lcss}</style>")
+            f"<link rel='canonical' href='https://apps.baytech.nl/{SLUG}/app/'><style>{lcss}</style>")
     open(f"{SLUG}/app/index.html", "w").write(page(title, "nb", "".join(lnav), "<hr>".join(secs), head))
 for f in (f"{SLUG}/index.html", f"{SLUG}/support/index.html"):
     s = open(f).read(); assert CONTACT in s and "Apple" in s and "iCloud" in s, f

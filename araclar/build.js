@@ -1,7 +1,7 @@
 // node araclar/build.js — writes the web tools to /<lang>/<slug>/index.html and lists their URLs in araclar/urls.txt.
 // Texts: araclar/metin.js. Logic: araclar/<tool>.js (checked by araclar/test.js). Sitemap is not touched.
 const fs = require('fs'), path = require('path');
-const BASE = process.env.SITE_BASE || 'https://baytechbv.github.io/privacy'; // domain switch = this line
+const BASE = process.env.SITE_BASE || 'https://apps.baytech.nl'; // domain switch = this line
 const ROOT = path.join(__dirname, '..');
 global.D = require('./ortak.js');
 const Burc = require('./falci.js'), M = require('./metin.js');
