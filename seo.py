@@ -4,7 +4,8 @@
 #   python3 seo.py indexnow <rev>   # ping IndexNow (Bing, Yandex, Seznam, Naver) with sitemap URLs changed since git <rev>
 # Base URL comes from landing.BASE (SITE_BASE env); pages are found by walking the repo, so new page types need no change here.
 # Not in the sitemap: noindex pages, pages whose canonical points elsewhere, the privacy-policy list (/) and per-app
-# privacy/support pages (<repo>/, <repo>/support/). .github/workflows/seo.yml runs this on every push/PR.
+# privacy/support pages (<repo>/, <repo>/support/), <repo>/app/ (redirect once the app is live, before that an app not on sale).
+# .github/workflows/seo.yml runs this on every push/PR.
 import collections, datetime, html.parser, json, os, re, subprocess, sys, urllib.parse, urllib.request
 from landing import BASE, LOC
 
@@ -59,7 +60,7 @@ class Page(html.parser.HTMLParser):
     @property
     def in_sitemap(self):
         parts = self.path.split("/")
-        utility = len(parts) == 1 or parts[0] not in LANGS and (len(parts) == 2 or parts[1:] == ["support", "index.html"])
+        utility = len(parts) == 1 or parts[0] not in LANGS and (len(parts) == 2 or parts[2:] == ["index.html"] and parts[1] in ("support", "app"))
         return self.indexable and not utility
 
 
