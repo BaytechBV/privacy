@@ -60,6 +60,124 @@
     "q": "Is de app van het CBR?",
     "a": "Nee, de vragen zijn zelf geschreven op basis van de openbare reglementen en de app is niet verbonden aan het CBR. Kijk voor de actuele exameneisen op de website van het CBR."
    }
+  ],
+  "definition": "Vaarbewijs KVB 1 & 2 Oefenen is een onafhankelijke iPhone- en iPad-app van Baytech BV om te oefenen voor het CBR-examen Klein Vaarbewijs 1 en 2. Je oefent met 616 eigen vragen met uitleg, proefexamens met tijd en puntentelling (KVB 1: 40 vragen in 60 minuten, KVB 2: 27 vragen in 90 minuten met open rekenvragen) en kaartlezen en koersberekening voor KVB 2. De app werkt zonder internet en met één aankoop van € 9,99 open je alles, zonder abonnement.",
+  "compare": {
+   "title": "Vergelijking met andere manieren van oefenen",
+   "head": [
+    "",
+    "Vragen",
+    "Taal",
+    "Zonder internet",
+    "Prijs"
+   ],
+   "rows": [
+    [
+     "Deze app",
+     "616 (KVB 1 en 2)",
+     "Nederlands, Engels, Duits",
+     "Ja",
+     "€ 9,99, één aankoop"
+    ],
+    [
+     "CBR voorbeeldexamens KVB 1 en KVB 2 (cbr.nl)",
+     "1 voorbeeldexamen per examen",
+     "Nederlands",
+     "PDF",
+     "€ 0"
+    ],
+    [
+     "Vaarbewijs Pro",
+     "Examens van 40 vragen (vooral KVB 1)",
+     "Nederlands, Engelse woordenset",
+     "Niet vermeld",
+     "Abonnement € 29,99/mnd, € 99,99/jaar"
+    ],
+    [
+     "Klein Vaarbewijs 1 & 2 Examen",
+     "KVB 1, KVB 2 en marifonie",
+     "Nederlands",
+     "Niet vermeld",
+     "€ 9,99 (KVB 1 + 2)"
+    ],
+    [
+     "We Vaarbewijs",
+     "2.000+ (ook andere landen)",
+     "7 talen",
+     "Ja",
+     "€ 9,99, één aankoop"
+    ]
+   ],
+   "note": "Bron: app-beschrijvingen en prijzen in de Nederlandse App Store, gecontroleerd op 2 november 2026. Gebruik ook de voorbeeldexamens van het CBR; geen enkele app is van het CBR."
+  }
+ },
+ "en-GB": {
+  "definition": "Vaarbewijs KVB 1 & 2 Practice is an independent iPhone and iPad app by Baytech BV for the Dutch CBR boating licence theory exams Klein Vaarbewijs 1 and 2. It has 616 original questions with explanations, timed mock exams with CBR-style scoring (KVB 1: 40 questions in 60 minutes; KVB 2: 27 questions in 90 minutes including open calculation questions) and chart reading and course plotting for KVB 2. It works offline, in Dutch, English and German, and one purchase of €9.99 unlocks everything, with no subscription.",
+  "compare": {
+   "title": "How it compares",
+   "head": [
+    "",
+    "Questions",
+    "Languages",
+    "Offline",
+    "Price"
+   ],
+   "rows": [
+    [
+     "This app",
+     "616 (KVB 1 and 2)",
+     "Dutch, English, German",
+     "Yes",
+     "€9.99, one purchase"
+    ],
+    [
+     "CBR sample exams KVB 1 and KVB 2 (cbr.nl)",
+     "1 sample exam per licence",
+     "Dutch",
+     "PDF",
+     "€0"
+    ],
+    [
+     "Vaarbewijs Pro",
+     "40-question exams (mainly KVB 1)",
+     "Dutch, English vocabulary deck",
+     "Not stated",
+     "Subscription €29.99/month, €99.99/year"
+    ],
+    [
+     "Klein Vaarbewijs 1 & 2 Examen",
+     "KVB 1, KVB 2 and marine radio",
+     "Dutch",
+     "Not stated",
+     "€9.99 (KVB 1 + 2)"
+    ],
+    [
+     "We Vaarbewijs",
+     "2,000+ (also other countries)",
+     "7 languages",
+     "Yes",
+     "€9.99, one purchase"
+    ]
+   ],
+   "note": "Source: app descriptions and prices on the Dutch App Store, checked 2 November 2026. Use the CBR sample exams as well; no app is from the CBR."
+  },
+  "faq": [
+   {
+    "q": "Which exams can I practise for?",
+    "a": "Klein Vaarbewijs 1 and Klein Vaarbewijs 2, the Dutch small craft licences examined by the CBR."
+   },
+   {
+    "q": "Is the app in English?",
+    "a": "Yes, the app is available in Dutch, English and German. The real CBR exam is in Dutch."
+   },
+   {
+    "q": "Is there a subscription?",
+    "a": "No. One purchase unlocks everything for KVB 1 and KVB 2. Navigation rules (BPR/RPR) and one mock exam can be practised without buying."
+   },
+   {
+    "q": "Is the app from the CBR?",
+    "a": "No. We wrote the questions from the public regulations; the app is not affiliated with the CBR. Check the CBR website for current exam requirements."
+   }
   ]
  }
 }

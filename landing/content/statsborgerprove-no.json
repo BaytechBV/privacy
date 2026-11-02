@@ -56,6 +56,124 @@
     "q": "Er appen offisiell?",
     "a": "Nei. Appen er uavhengig og ikke tilknyttet HK-dir, UDI eller staten. Spørsmålene er skrevet av oss ut fra de offentlige temaene i læreplanen."
    }
+  ],
+  "definition": "Statsborgerprøven 2026/2027 er en uavhengig iPhone- og iPad-app fra Baytech BV for å øve til statsborgerprøven og samfunnskunnskapsprøven. Den har 150+ spørsmål om de 8 temaene i samfunnskunnskap, en øvingsprøve med tid i samme format som prøven (36 spørsmål på 60 minutter) og forklaringer på norsk, engelsk, tysk, polsk og arabisk. Den virker uten internett, og alt låses opp med ett kjøp på 129 kr uten abonnement.",
+  "compare": {
+   "title": "Sammenligning med andre måter å øve på",
+   "head": [
+    "",
+    "Spørsmål",
+    "Språk",
+    "Uten internett",
+    "Pris"
+   ],
+   "rows": [
+    [
+     "Denne appen",
+     "150+",
+     "Norsk; forklaring på 5 språk",
+     "Ja",
+     "129 kr, ett kjøp"
+    ],
+    [
+     "samfunnskunnskap.no (HK-dir, fagstoff til læreplanen)",
+     "Fagstoff og oppgaver",
+     "Norsk",
+     "Nei, nettside",
+     "0 kr"
+    ],
+    [
+     "Samfunn & Statsborgerprøven",
+     "453 (127 uten kjøp)",
+     "Norsk og engelsk",
+     "Ikke oppgitt",
+     "99 kr, ett kjøp"
+    ],
+    [
+     "Bli Statsborger",
+     "Ikke oppgitt",
+     "Flere språk",
+     "Ikke oppgitt",
+     "Abonnement fra 135 kr/uke, 260 kr/md."
+    ],
+    [
+     "Norway Citizenship Test",
+     "200+",
+     "Grensesnitt på 14 språk",
+     "Ja",
+     "Ikke oppgitt"
+    ]
+   ],
+   "note": "Kilde: appbeskrivelser og priser i norsk App Store, sjekket 2. november 2026. Bruk også det offisielle fagstoffet på samfunnskunnskap.no; ingen app er offisiell."
+  }
+ },
+ "en-GB": {
+  "definition": "Norwegian Citizenship Test is an independent iPhone and iPad app by Baytech BV for the Norwegian citizenship test (statsborgerprøven) and the social studies test (samfunnskunnskapsprøven). It has 150+ questions on the 8 social studies themes, a timed mock test in the real format (36 questions in 60 minutes, pass at 75%) and explanations in English, Norwegian, German, Polish and Arabic. It works offline, and one purchase of 129 NOK unlocks everything, with no subscription.",
+  "compare": {
+   "title": "How it compares",
+   "head": [
+    "",
+    "Questions",
+    "Languages",
+    "Offline",
+    "Price"
+   ],
+   "rows": [
+    [
+     "This app",
+     "150+",
+     "Questions in Norwegian; explanations in 5 languages",
+     "Yes",
+     "129 NOK, one purchase"
+    ],
+    [
+     "samfunnskunnskap.no (HK-dir, official syllabus material)",
+     "Texts and exercises",
+     "Norwegian",
+     "No, website",
+     "0 NOK"
+    ],
+    [
+     "Samfunn & Statsborgerprøven",
+     "453 (127 without purchase)",
+     "Norwegian and English",
+     "Not stated",
+     "99 NOK, one purchase"
+    ],
+    [
+     "Bli Statsborger",
+     "Not stated",
+     "Several languages",
+     "Not stated",
+     "Subscription from 135 NOK/week, 260 NOK/month"
+    ],
+    [
+     "Norway Citizenship Test",
+     "200+",
+     "Interface in 14 languages",
+     "Yes",
+     "Not stated"
+    ]
+   ],
+   "note": "Source: app descriptions and prices on the Norwegian App Store, checked 2 November 2026. Use the official material on samfunnskunnskap.no as well; no app is official."
+  },
+  "faq": [
+   {
+    "q": "Are the questions in English?",
+    "a": "The questions are in Norwegian (Bokmål or Nynorsk), as the citizenship test is taken in Norwegian. The explanation after each answer can be read in English, German, Polish or Arabic."
+   },
+   {
+    "q": "What does the mock test look like?",
+    "a": "The same format as the test: 36 questions in 60 minutes, pass at 75%. It is practice; the real test can be different."
+   },
+   {
+    "q": "Is there a subscription?",
+    "a": "No, you pay once. With Family Sharing the purchase covers the whole family."
+   },
+   {
+    "q": "Is the app official?",
+    "a": "No. It is independent and not affiliated with HK-dir, UDI or the Norwegian state. We wrote the questions from the public syllabus themes."
+   }
   ]
  }
 }
