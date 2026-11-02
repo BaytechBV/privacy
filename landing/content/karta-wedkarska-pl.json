@@ -1,0 +1,57 @@
+{
+ "pl": {
+  "slug": "egzamin-na-karte-wedkarska-test",
+  "title": "Egzamin na kartę wędkarską – test | Karta Wędkarska Test",
+  "description": "Egzamin na kartę wędkarską: pytania z wyjaśnieniami, egzamin próbny z 20 pytań oraz wymiary i okresy ochronne ryb. Działa bez internetu.",
+  "h1": "Egzamin na kartę wędkarską – test i pytania do nauki",
+  "lead": "Karta Wędkarska Test pomaga przygotować się do egzaminu na kartę wędkarską. Pytania są po polsku, a każda odpowiedź ma wyjaśnienie.",
+  "benefits": [
+   {
+    "t": "Pytania z wyjaśnieniem",
+    "d": "Każda odpowiedź ma wyjaśnienie i źródło."
+   },
+   {
+    "t": "Wymiary i okresy ochronne",
+    "d": "Ryby i raki na jednym ekranie, z wyjątkami regionalnymi."
+   },
+   {
+    "t": "Egzamin próbny na czas",
+    "d": "20 pytań ze wszystkich działów."
+   },
+   {
+    "t": "Własne rysunki",
+    "d": "Jak zmierzyć rybę, haczyki i rozpoznawanie gatunków."
+   },
+   {
+    "t": "Dzień egzaminu",
+    "d": "Odliczanie, lista rzeczy i przypomnienie."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Co zawiera aplikacja?",
+    "a": "Pytania według działów z wyjaśnieniem, egzamin próbny, słownik pojęć wędkarskich, tabelę wymiarów i okresów ochronnych oraz listę na dzień egzaminu."
+   },
+   {
+    "q": "Ile pytań ma egzamin próbny?",
+    "a": "Egzamin próbny na czas ma 20 pytań ze wszystkich działów. Forma i próg prawdziwego egzaminu zależą od organizacji, która go prowadzi."
+   },
+   {
+    "q": "Czy aplikacja działa bez internetu?",
+    "a": "Tak, działa bez internetu."
+   },
+   {
+    "q": "Co mogę wypróbować bez zakupu?",
+    "a": "Bez zakupu masz 20 pytań, 1 pełny egzamin próbny, słownik, tabelę wymiarów i listę na dzień egzaminu."
+   },
+   {
+    "q": "Czy to subskrypcja?",
+    "a": "Nie. Pełna wersja to jednorazowy zakup, który odblokowuje wszystkie pytania, nielimitowane egzaminy próbne i statystyki."
+   },
+   {
+    "q": "Czy aplikacja jest powiązana z PZW?",
+    "a": "Nie, jest niezależna i nie jest powiązana z PZW ani starostwem. Egzamin zdajesz przed komisją egzaminacyjną."
+   }
+  ]
+ }
+}

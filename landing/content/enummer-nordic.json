@@ -1,0 +1,61 @@
+{
+ "sv": {
+  "slug": "e-nummer-tillsatser",
+  "title": "E-nummer och tillsatser – skanna etiketten | E-koll",
+  "description": "Skanna innehållsförteckningen och se vad varje E-nummer är. Alla 339 tillsatser på EU:s lista, med källor. Fungerar utan internet. Engångsköp.",
+  "h1": "E-nummer – vad betyder E-numren på etiketten?",
+  "lead": "E-koll läser innehållsförteckningen med kameran och förklarar varje tillsats, lugnt, kort och med källa. Du ser också om en tillsats kan vara av animaliskt ursprung.",
+  "benefits": [
+   {
+    "t": "Skanna med kameran",
+    "d": "Texten läses direkt på din iPhone, även utan internet."
+   },
+   {
+    "t": "339 tillsatser",
+    "d": "Alla E-nummer från EU:s förordning med namn på sex språk."
+   },
+   {
+    "t": "Sök och bläddra",
+    "d": "Sök på nummer eller namn och bläddra i sex grupper."
+   },
+   {
+    "t": "Egen undvik-lista",
+    "d": "Välj tillsatser du vill undvika, de markeras vid varje skanning."
+   },
+   {
+    "t": "Historik och jämförelse",
+    "d": "Spara skanningar och jämför två etiketter."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Vad är ett E-nummer?",
+    "a": "E-nummer är tillsatser från EU:s förordning om livsmedelstillsatser. Appen visar namn, grupp och om tillsatsen kan vara av animaliskt ursprung."
+   },
+   {
+    "q": "Hur många tillsatser finns i appen?",
+    "a": "Alla 339 E-nummer på EU:s lista, med källa där en myndighet säger något extra."
+   },
+   {
+    "q": "Hur skannar jag en etikett?",
+    "a": "Rikta kameran mot ingredienserna. E-koll hittar både E-nummer (E 330) och namn (citronsyra), även på norska, danska, finska, tyska och engelska."
+   },
+   {
+    "q": "Sparas eller skickas bilden?",
+    "a": "Nej, ingen bild sparas eller skickas."
+   },
+   {
+    "q": "Är E 120 veganskt?",
+    "a": "Appen visar om en tillsats kan vara av animaliskt ursprung, så du kan slå upp E 120 direkt i appen."
+   },
+   {
+    "q": "Fungerar appen utan internet?",
+    "a": "Ja, texten läses direkt på din iPhone, även utan internet."
+   },
+   {
+    "q": "Kostar den något per månad?",
+    "a": "Full version är ett engångsköp, ingen prenumeration. Utan köp får du 5 skanningar per dag samt sök och fakta om alla tillsatser, grupper och guider."
+   }
+  ]
+ }
+}

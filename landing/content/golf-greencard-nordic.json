@@ -1,0 +1,120 @@
+{
+ "en-GB": {
+  "slug": "golf-green-card-rules-test",
+  "title": "Golf Green Card Rules Test Practice | Golf Green Card",
+  "description": "Practise the golf rules and etiquette test: 249 questions, explanations after every answer, mock exams for Sweden, Finland and Austria. Pay once.",
+  "h1": "Golf Green Card rules test – practise the questions",
+  "lead": "Get ready for the golf rules and etiquette test beginners take: the Grönt kort test in Sweden, the Green Card in Finland or the Turnier-Lizenz test in Austria. Each answer comes with an explanation.",
+  "benefits": [
+   {
+    "t": "249 questions",
+    "d": "In 10 topics, from etiquette to scoring and handicap."
+   },
+   {
+    "t": "Picture questions",
+    "d": "Drawn course situations such as penalty areas and boundary stakes."
+   },
+   {
+    "t": "Mock exam per country",
+    "d": "Sweden, Finland, Austria and a Norway quiz format."
+   },
+   {
+    "t": "Mistakes come back",
+    "d": "Until you have answered them right twice in a row."
+   },
+   {
+    "t": "Rules lookup",
+    "d": "Plain-language answers with the rule number, plus a first-round checklist."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Which golf rules tests does the app cover?",
+    "a": "The Grönt kort knowledge test in Sweden, the Green Card test in Finland and the Turnier-Lizenz rules test in Austria. In Norway, where \"Veien til golf\" has replaced the test, it helps you learn the rules."
+   },
+   {
+    "q": "How many questions are there?",
+    "a": "249 questions in 10 topics."
+   },
+   {
+    "q": "What do the mock exams look like?",
+    "a": "Sweden 2 x 25 questions (at least 20 per part), Finland 15 rules plus 15 etiquette, Austria 31 questions (pass at 20 correct) and a 20-question quiz for Norway."
+   },
+   {
+    "q": "Which languages are the explanations in?",
+    "a": "English, Norwegian, Swedish, Finnish or German. Choose your country and the questions follow the language of its test."
+   },
+   {
+    "q": "Does it work offline?",
+    "a": "Yes, it works offline, with no account and no ads."
+   },
+   {
+    "q": "Is it a subscription?",
+    "a": "No. You unlock everything with a single purchase. Ten sample questions, one short mock exam, the rules lookup and the checklist are included without a purchase."
+   },
+   {
+    "q": "Are these the official test questions?",
+    "a": "No. All questions and rule summaries are written by us, and the app is not affiliated with any golf federation. Ask your club how the test is taken."
+   }
+  ]
+ },
+ "sv": {
+  "slug": "gront-kort-golf-teoriprov",
+  "title": "Grönt kort golf – öva inför teoriprovet | Grönt kort golf",
+  "description": "Öva inför kunskapstestet för Grönt kort: 249 frågor i 10 ämnen, förklaring efter varje svar och övningsprov med 2 x 25 frågor. Engångsköp.",
+  "h1": "Grönt kort golf – öva teoriprovet",
+  "lead": "Gör dig redo för kunskapstestet för Grönt kort, som du gör innan du får spela på en golfbana. Varje svar har en förklaring.",
+  "benefits": [
+   {
+    "t": "249 frågor",
+    "d": "I 10 ämnen, från etikett och säkerhet till spelformer och handicap."
+   },
+   {
+    "t": "Bildfrågor",
+    "d": "Ritade situationer från banan, som pliktområden och gränspinnar."
+   },
+   {
+    "t": "Övningsprov",
+    "d": "Två delar om 25 frågor, minst 20 rätt per del."
+   },
+   {
+    "t": "Fel kommer tillbaka",
+    "d": "Tills du har svarat rätt två gånger i rad."
+   },
+   {
+    "t": "Regeluppslag",
+    "d": "Korta svar på Vad gör jag när, med regelnummer."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Vad är Grönt kort i golf?",
+    "a": "Det är kunskapstestet du gör innan du får spela på en golfbana. Appen hjälper dig att öva inför det."
+   },
+   {
+    "q": "Hur många frågor finns det?",
+    "a": "249 frågor i 10 ämnen."
+   },
+   {
+    "q": "Hur ser övningsprovet ut?",
+    "a": "Två delar om 25 frågor (golfspelet och golfvett), minst 20 rätt per del."
+   },
+   {
+    "q": "Är frågorna officiella?",
+    "a": "Nej. Alla frågor och regelsammanfattningar är skrivna av oss, och appen är inte knuten till Svenska Golfförbundet. Det riktiga testet gör du i Min Golf."
+   },
+   {
+    "q": "Fungerar appen för Norge, Finland och Österrike?",
+    "a": "Ja, välj land så kommer frågorna på språket i det landets prov."
+   },
+   {
+    "q": "Är det en prenumeration?",
+    "a": "Nej, du låser upp allt med ett köp. Tio smakprovsfrågor, ett kort övningsprov, regeluppslaget och checklistan ingår utan köp."
+   },
+   {
+    "q": "Fungerar den utan internet?",
+    "a": "Ja, den fungerar utan internet, utan konto och utan reklam."
+   }
+  ]
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "no": {
+  "slug": "legetakst-normaltariffen",
+  "title": "Legetakst og normaltariffen – takstkoder | Takstklar",
+  "description": "Oppslagsverk for leger: søk i normaltariffen, se satser, ugyldige kombinasjoner og sett sammen takstene for en konsultasjon. Fungerer uten nett.",
+  "h1": "Legetakst – søk i normaltariffen",
+  "lead": "Takstklar er et oppslagsverk for leger i Norge. Søk på takstkode eller ord, se satser og regler, og sett sammen takstene for et besøk.",
+  "benefits": [
+   {
+    "t": "Søk uten nett",
+    "d": "Søk på takstkode eller ord, lagret på telefonen."
+   },
+   {
+    "t": "Honorar, refusjon og egenandel",
+    "d": "Satsene for hver takst på ett sted."
+   },
+   {
+    "t": "Ugyldige kombinasjoner",
+    "d": "Merknader fra forskriften og kombinasjonssjekk."
+   },
+   {
+    "t": "Konsultasjon med sum",
+    "d": "Sett sammen takstene for et besøk og få summen."
+   },
+   {
+    "t": "Favoritter og notater",
+    "d": "Favoritter for dagtid og legevakt, maler og egne notater."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hvem er appen for?",
+    "a": "Leger i Norge som trenger et oppslagsverk for takster."
+   },
+   {
+    "q": "Hvilken tariff bygger den på?",
+    "a": "Takstene i kapittel II i forskrift om stønad til dekning av utgifter til undersøkelse og behandling hos lege (FOR-2024-06-26-1322), med satser fra 1. juli 2026."
+   },
+   {
+    "q": "Fungerer den uten nett?",
+    "a": "Ja, du kan søke på takstkode eller ord uten nett."
+   },
+   {
+    "q": "Kan jeg se ugyldige takstkombinasjoner?",
+    "a": "Ja, appen viser ugyldige kombinasjoner og merknader fra forskriften."
+   },
+   {
+    "q": "Hva kan jeg bruke uten kjøp?",
+    "a": "Søk, takstdetaljer, 5 favoritter og de siste 10 oppslagene."
+   },
+   {
+    "q": "Er det et abonnement?",
+    "a": "Nei. Full versjon er et engangskjøp som låser opp konsultasjonen med sum, maler, notater, ubegrenset favoritter og hele historikken."
+   },
+   {
+    "q": "Kommer det varsel ved ny tariff?",
+    "a": "Ja, appen har nedtelling og varsel før ny tariff 1. juli."
+   },
+   {
+    "q": "Er appen offisiell?",
+    "a": "Nei, den er ikke tilknyttet Legeforeningen, Helfo eller Helse- og omsorgsdepartementet. Kontroller alltid satser og regler mot gjeldende tariff."
+   }
+  ]
+ }
+}

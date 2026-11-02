@@ -1,0 +1,61 @@
+{
+ "de-DE": {
+  "slug": "fischerpruefung-oesterreich-ueben",
+  "title": "Fischerprüfung Österreich üben – Fragen & Fischkarte",
+  "description": "Fischerprüfung Österreich üben: über 680 Fragen je Bundesland mit Quelle, Schonzeiten, Brittelmaße und Prüfungssimulation für Wien, NÖ und OÖ. Offline.",
+  "h1": "Fischerprüfung Österreich üben – Fragen für Wien, NÖ und OÖ",
+  "lead": "Bereite dich mit österreichischem Fischereirecht und den Fischen unserer Gewässer auf die Fischerprüfung in deinem Bundesland vor. Die App funktioniert offline.",
+  "benefits": [
+   {
+    "t": "Über 680 Fragen je Bundesland",
+    "d": "Mit Erklärung und Quellenlink zum Nachlesen."
+   },
+   {
+    "t": "Prüfungssimulation",
+    "d": "Im Format deines Bundeslandes, Auflösung erst am Ende."
+   },
+   {
+    "t": "Schonzeiten und Brittelmaße",
+    "d": "Mit Paragraph und Prüfdatum, Filter „Schonzeit jetzt“."
+   },
+   {
+    "t": "24 heimische Fischarten",
+    "d": "Mit Erkennungsmerkmalen, eigenen Zeichnungen und Fischarten-Quiz."
+   },
+   {
+    "t": "Meine Fehler und Prüfungstermin",
+    "d": "Falsche Fragen wiederholen und Tage bis zur Prüfung zählen."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Für welche Bundesländer ist die App?",
+    "a": "Aktuell für Wien, Niederösterreich und Oberösterreich. Weitere Bundesländer folgen, als Nächstes Steiermark, Tirol und Salzburg."
+   },
+   {
+    "q": "Ist die App für die Fischerprüfung in Deutschland geeignet?",
+    "a": "Nein, sie enthält nur österreichisches Fischereirecht."
+   },
+   {
+    "q": "Wie sieht die Prüfungssimulation aus?",
+    "a": "In Wien 50 Fragen in 120 Minuten, in Niederösterreich 20 Fragen in 30 Minuten, jeweils mit Mindestzahl pro Sachgebiet. In Oberösterreich sind es 27 Fragen, bestanden ab 60 %, angelehnt an das Prüfungsformat."
+   },
+   {
+    "q": "Woher stammen die Antworten?",
+    "a": "Jede Frage hat eine Erklärung und Quellenangabe, etwa Paragraphen aus dem RIS oder Links zu AGES und EU-Recht. Die Fragen sind eigene Formulierungen."
+   },
+   {
+    "q": "Funktioniert die App offline?",
+    "a": "Ja, die App funktioniert offline."
+   },
+   {
+    "q": "Muss ich ein Abo abschließen?",
+    "a": "Nein. 30 Fragen und eine Simulation kannst du ohne Kauf ausprobieren. Die Vollversion ist ein Einmalkauf, kein Abo, und schaltet alles für alle Bundesländer frei."
+   },
+   {
+    "q": "Gelten die Regeln meines Reviers?",
+    "a": "Die Regeln deines Reviers können strenger sein. Die App ist ein unabhängiges Lernangebot, Angaben ohne Gewähr."
+   }
+  ]
+ }
+}

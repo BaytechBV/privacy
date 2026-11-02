@@ -1,0 +1,61 @@
+{
+ "pl": {
+  "slug": "patent-zeglarza-jachtowego-testy",
+  "title": "Patent żeglarza jachtowego testy | Żeglarz Jachtowy Testy",
+  "description": "Ćwicz teorię na patent żeglarza jachtowego i sternika motorowodnego: 151 pytań na patent, egzamin próbny 75 pytań, działa bez internetu.",
+  "h1": "Patent żeglarza jachtowego – testy i egzamin próbny",
+  "lead": "Żeglarz Jachtowy Testy pomaga przygotować się do egzaminu teoretycznego na patent żeglarza jachtowego i sternika motorowodnego. Przy każdej odpowiedzi znajdziesz wyjaśnienie i źródło.",
+  "benefits": [
+   {
+    "t": "151 pytań na każdy patent",
+    "d": "Żeglarz jachtowy w 6 działach, sternik motorowodny z nowym działem o silnikach."
+   },
+   {
+    "t": "Egzamin próbny",
+    "d": "75 pytań, 90 minut, próg 65 poprawnych odpowiedzi."
+   },
+   {
+    "t": "Prawo drogi z ilustracjami",
+    "d": "Halsy, światła, znaki i węzły na własnych ilustracjach."
+   },
+   {
+    "t": "Powtórka błędów",
+    "d": "Źle odpowiedziane pytania wracają."
+   },
+   {
+    "t": "Bez internetu i konta",
+    "d": "Dzień egzaminu: odliczanie, lista rzeczy i przypomnienie."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Na jakie patenty przygotowuje aplikacja?",
+    "a": "Na patent żeglarza jachtowego, a od wersji 1.1 także na patent sternika motorowodnego. Patent wybierasz na starcie i możesz go zmienić w Ustawieniach."
+   },
+   {
+    "q": "Ile jest pytań?",
+    "a": "Po 151 pytań na każdy patent. W dziale „Jacht motorowy i silnik” dla sternika jest 58 nowych pytań."
+   },
+   {
+    "q": "Jak wygląda egzamin próbny?",
+    "a": "To test w formie egzaminu: 75 pytań, 90 minut, próg 65 poprawnych odpowiedzi, tak samo dla obu patentów."
+   },
+   {
+    "q": "Co mogę robić bez zakupu?",
+    "a": "Możesz rozwiązać 1 pełny egzamin próbny i korzystać z 20 pytań wybranego patentu, słownika, prawa drogi w skrócie i listy rzeczy na egzamin."
+   },
+   {
+    "q": "Czy to subskrypcja?",
+    "a": "Nie. Pełna wersja to jednorazowy zakup, który odblokowuje wszystkie pytania obu patentów, egzaminy próbne bez limitu i powtórkę błędów."
+   },
+   {
+    "q": "Czy aplikacja działa bez internetu?",
+    "a": "Tak, działa bez internetu i bez konta."
+   },
+   {
+    "q": "Czy aplikacja jest oficjalna?",
+    "a": "Nie. Jest niezależna i nie jest powiązana z PZŻ ani komisjami egzaminacyjnymi. Egzamin zdajesz przed komisją."
+   }
+  ]
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "no": {
+  "slug": "kirkeaaret-tekstrekker",
+  "title": "Kirkeåret – søndager, tekstrekker og liturgiske farger",
+  "description": "Alle søndager, tekster og liturgiske farger i Den norske kirke, med tre tekstrekker, notater og widgets. Engangskjøp, ingen abonnement.",
+  "h1": "Kirkeåret – søndager, tekstrekker og liturgiske farger",
+  "lead": "Kirkeåret viser hvilken søndag det er, hvilke tekster som gjelder og hvilken liturgisk farge. For prester, kantorer, organister, korledere, kirketjenere og alle som går i kirken.",
+  "benefits": [
+   {
+    "t": "Dagen i dag",
+    "d": "Neste søndag eller helligdag med navn, farge og tekstrekke."
+   },
+   {
+    "t": "Tre tekstrekker",
+    "d": "Se rekken som brukes i år, og de andre rekkene på hver dag."
+   },
+   {
+    "t": "Planlegg flere kirkeår",
+    "d": "Notater for hver søndag, som prekenutkast og korplaner."
+   },
+   {
+    "t": "Widgets og varsel",
+    "d": "Widget på Hjem-skjermen og låseskjermen, og varsel lørdag kveld."
+   },
+   {
+    "t": "Uten internett",
+    "d": "Bevegelige dager regnes ut på telefonen fra påskedatoen."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hva viser Kirkeåret?",
+    "a": "Alle søndager og helligdager fra første søndag i advent til siste søndag i kirkeåret, med navn, liturgisk farge og tekstrekke."
+   },
+   {
+    "q": "Hvilke tekstrekker finnes?",
+    "a": "Den norske kirkes tre tekstrekker, med rekken som brukes i år markert."
+   },
+   {
+    "q": "Viser appen bibelteksten?",
+    "a": "Nei, bare bibelhenvisninger. Du kan søke etter dag eller bibelbok og kopiere henvisningene."
+   },
+   {
+    "q": "Trenger jeg internett?",
+    "a": "Nei. Bevegelige dager regnes ut på telefonen fra påskedatoen."
+   },
+   {
+    "q": "Kan jeg lage notater?",
+    "a": "Ja, for hver søndag, for eksempel prekenutkast, korplaner og huskelapper. De lagres bare på telefonen."
+   },
+   {
+    "q": "Finnes det widgets og varsler?",
+    "a": "Ja, widgets for Hjem-skjermen og låseskjermen, og et varsel lørdag kveld med søndagens navn, farge og evangelium."
+   },
+   {
+    "q": "Hva kan jeg bruke uten kjøp?",
+    "a": "Dagens dag, kalenderen og tekstene for de neste 28 dagene. Den lille widgeten og varselet lørdag kveld krever ikke kjøp."
+   },
+   {
+    "q": "Er det et abonnement?",
+    "a": "Nei, et engangskjøp låser opp hele kirkeåret. Kjøpet kan deles med familien via Familiedeling. Appen er ikke laget av Den norske kirke."
+   }
+  ]
+ }
+}

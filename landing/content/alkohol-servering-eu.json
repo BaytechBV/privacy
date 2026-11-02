@@ -1,0 +1,57 @@
+{
+ "fi": {
+  "slug": "anniskelupassikoe-harjoitus",
+  "title": "Anniskelupassikoe harjoitus suomeksi | Serveringsklar",
+  "description": "Harjoittele anniskelupassikoetta suomeksi: kysymykset selityksineen, koeharjoitus ja ikärajat. 20 kysymystä ilman ostoa, toimii ilman nettiä.",
+  "h1": "Anniskelupassikoe – harjoittele kysymyksiä suomeksi",
+  "lead": "Serveringsklar auttaa harjoittelemaan anniskelupassikoetta aiheittain, ja jokaiseen kysymykseen on selitys. Sovellus toimii myös ilman nettiä.",
+  "benefits": [
+   {
+    "t": "Kysymykset aiheittain",
+    "d": "Jokaiseen vastaukseen on selitys, joten ymmärrät miksi vastaus on oikein."
+   },
+   {
+    "t": "Koeharjoitus ajan kanssa",
+    "d": "Kokeile koemuotoa ajan kanssa ennen oikeaa koetta."
+   },
+   {
+    "t": "Ikä, ajat ja vahvuus",
+    "d": "Henkilöllisyyden tarkistus ja rajat yhdellä sivulla."
+   },
+   {
+    "t": "Koepäivän laskuri",
+    "d": "Laskuri, tarkistuslista ja muistutus koepäivää varten."
+   },
+   {
+    "t": "Toimii ilman nettiä",
+    "d": "Harjoittele missä tahansa, myös ilman verkkoyhteyttä."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Mikä Serveringsklar on?",
+    "a": "Se on sovellus anniskelupassikokeen harjoitteluun suomeksi. Kysymykset on jaoteltu aiheittain ja jokaisella on selitys."
+   },
+   {
+    "q": "Voinko harjoitella ilman nettiä?",
+    "a": "Kyllä, sovellus toimii ilman nettiä."
+   },
+   {
+    "q": "Mitä aiheita sovelluksessa on?",
+    "a": "Mukana ovat kysymykset aiheittain, ikärajat, anniskeluajat ja vahvuudet sekä sanasto tärkeimmistä käsitteistä."
+   },
+   {
+    "q": "Voiko sovellusta kokeilla ennen ostoa?",
+    "a": "Voit harjoitella 20 kysymystä, sanastoa ja tarkistuslistaa ilman ostoa."
+   },
+   {
+    "q": "Onko kyseessä tilaus?",
+    "a": "Ei. Täysi versio on kertaosto, joka avaa kaikki kysymykset, koeharjoitukset ja tilastot. Tilausta ei ole."
+   },
+   {
+    "q": "Voinko tehdä kokeen sovelluksessa?",
+    "a": "Ei. Serveringsklar on itsenäinen eikä liity viranomaisiin tai kokeen järjestäjiin. Kokeen teet hyväksytyllä järjestäjällä."
+   }
+  ]
+ }
+}

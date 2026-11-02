@@ -1,0 +1,65 @@
+{
+ "it": {
+  "slug": "gioco-targhe-auto-viaggio",
+  "title": "Gioco delle targhe in auto per famiglie | Caccia alle Targhe",
+  "description": "Gioco per i viaggi in auto: trova le sigle delle province, le targhe speciali e quelle estere, colora la mappa e sfida la famiglia. Offline.",
+  "h1": "Gioco delle targhe per viaggi in auto",
+  "lead": "Caccia alle Targhe è il gioco per i passeggeri durante i viaggi in auto: raccogli le province italiane, le targhe speciali e i paesi stranieri.",
+  "benefits": [
+   {
+    "t": "Province e mappa",
+    "d": "Tutte le sigle per regione, con una mappa che si colora."
+   },
+   {
+    "t": "Targhe speciali ed estere",
+    "d": "CD, EE, VF, Polizia, Carabinieri e le sigle dei paesi."
+   },
+   {
+    "t": "Sfida in famiglia",
+    "d": "Più giocatori, punti e classifica; le targhe rare valgono di più."
+   },
+   {
+    "t": "Medaglie e quiz",
+    "d": "Medaglie per regioni, province e paesi, e quiz delle sigle."
+   },
+   {
+    "t": "Offline, senza pubblicità",
+    "d": "Senza account; si salvano solo le sigle, mai numeri di targa completi."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Come si gioca?",
+    "a": "Durante il viaggio digiti o scegli la sigla della targa che vedi e confermi con «Trovata!» in un tocco."
+   },
+   {
+    "q": "Quali targhe posso raccogliere?",
+    "a": "Le province italiane, le targhe speciali come CD, EE, VF, CRI, Polizia, Carabinieri ed Esercito e le sigle dei paesi esteri."
+   },
+   {
+    "q": "Si può giocare in più persone?",
+    "a": "Sì, con punti e classifica. Senza acquisto si può giocare in due; con l'acquisto fino a sei giocatori."
+   },
+   {
+    "q": "Chi deve giocare?",
+    "a": "Il gioco è per i passeggeri, non per chi guida."
+   },
+   {
+    "q": "Salva le targhe complete?",
+    "a": "No, si salvano solo sigle (provincia, paese, categoria), mai numeri di targa completi."
+   },
+   {
+    "q": "Funziona offline?",
+    "a": "Sì, funziona offline, senza account e senza pubblicità."
+   },
+   {
+    "q": "Cosa posso usare senza acquisto?",
+    "a": "Le province italiane, un viaggio e due giocatori."
+   },
+   {
+    "q": "Serve un abbonamento?",
+    "a": "No. Un acquisto unico sblocca targhe speciali, paesi esteri, viaggi illimitati, il quiz e i pacchetti con i cantoni svizzeri e i dipartimenti francesi. Nessun abbonamento."
+   }
+  ]
+ }
+}

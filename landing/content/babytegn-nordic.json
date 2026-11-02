@@ -1,0 +1,61 @@
+{
+ "no": {
+  "slug": "babytegn-app",
+  "title": "Babytegn app – 150 tegn for baby | Babyhender",
+  "description": "Lær babytegn med 150 tegn i 9 kategorier, ukeplan med fem tegn og dagbok for babyens første tegn. Engangskjøp, virker uten nett.",
+  "h1": "Babytegn – lær tegn til tale med babyen",
+  "lead": "Babyhender hjelper deg å bruke enkle tegn sammen med babyen før ordene kommer, ett lite tegn om gangen i hverdagen. Hvert tegn har en egen tegning med tre enkle trinn.",
+  "benefits": [
+   {
+    "t": "150 babytegn i 9 kategorier",
+    "d": "Mat, søvn, følelser, dyr og mer, ordnet etter alder fra 6 til 24 måneder."
+   },
+   {
+    "t": "Ukeplan med fem tegn",
+    "d": "Ett nytt tegn om dagen, så det blir lett å komme i gang."
+   },
+   {
+    "t": "Dagbok for første tegn",
+    "d": "Noter når babyen bruker de første tegnene sine."
+   },
+   {
+    "t": "Sanger og lek",
+    "d": "Bruk tegnene i sang og lek sammen med babyen."
+   },
+   {
+    "t": "Uten nett og uten konto",
+    "d": "Appen virker uten internett og krever ingen innlogging."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hva er babytegn?",
+    "a": "Babytegn er enkle hverdagsgester du bruker sammen med babyen før ordene kommer. Babyhender viser hvert tegn som en tegning med tre enkle trinn."
+   },
+   {
+    "q": "Hvor mange tegn er det i appen?",
+    "a": "Det er 150 babytegn fordelt på 9 kategorier, blant annet mat, søvn, følelser og dyr."
+   },
+   {
+    "q": "Fra hvilken alder passer appen?",
+    "a": "Tegnene er ordnet etter alder, fra 6 til 24 måneder. Appen har også tips til foreldre om når og hvordan dere kan starte."
+   },
+   {
+    "q": "Er babytegnene det samme som norsk tegnspråk?",
+    "a": "Tegnene er enkle hverdagsgester tegnet av oss, og mange ligner tegn i norsk tegnspråk. Appen lenker til Tegnordbok for det offisielle tegnet."
+   },
+   {
+    "q": "Hva kan jeg bruke uten kjøp?",
+    "a": "30 tegn i 3 kategorier, den første ukeplanen, dagboken og tipsene kan brukes uten kjøp."
+   },
+   {
+    "q": "Er det abonnement?",
+    "a": "Nei. Fullversjonen er et engangskjøp som låser opp alle 150 tegn, nye ukeplaner, sanger, lek og fremgang."
+   },
+   {
+    "q": "Virker appen uten nett?",
+    "a": "Ja, appen virker uten nett og du trenger ingen konto."
+   }
+  ]
+ }
+}

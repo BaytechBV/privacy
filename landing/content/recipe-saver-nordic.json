@@ -1,0 +1,61 @@
+{
+ "en-GB": {
+  "slug": "recipe-saver-app",
+  "title": "Recipe Saver App – Cookbook, Meal Plan & Shopping List",
+  "description": "Share a recipe from Safari, Instagram or TikTok and get a clean recipe card. Scale servings, cook step by step, plan your week and build a shopping list.",
+  "h1": "Recipe Saver App – save recipes, plan meals, shop",
+  "lead": "Share a recipe from any app or website and Recipe Saver turns it into a clean recipe card you can cook from. It also handles the meal plan and shopping list.",
+  "benefits": [
+   {
+    "t": "Save from any app",
+    "d": "Share from Safari, Instagram, TikTok and more."
+   },
+   {
+    "t": "Cooking mode",
+    "d": "Big text, one step at a time, and the screen stays on."
+   },
+   {
+    "t": "Smart shopping list",
+    "d": "Ticks ingredients and merges duplicates."
+   },
+   {
+    "t": "Weekly meal plan",
+    "d": "Drag recipes onto days and add the week to the list (Pro)."
+   },
+   {
+    "t": "Made for Nordic recipes",
+    "d": "Reads English, Swedish, Norwegian, Danish and Finnish."
+   }
+  ],
+  "faq": [
+   {
+    "q": "How do I save a recipe?",
+    "a": "Tap Share in Safari, Instagram, TikTok or any other app and choose Recipe Saver. You check the recipe before it is saved and can fix anything."
+   },
+   {
+    "q": "Does it read recipe websites automatically?",
+    "a": "Yes, links to recipe websites are read automatically: title, ingredients, steps, time, servings and photo."
+   },
+   {
+    "q": "Can I scale servings and convert units?",
+    "a": "Yes, you can scale servings up and down and convert cups and ounces to dl and grams."
+   },
+   {
+    "q": "How many recipes can I save without Pro?",
+    "a": "Up to 15 recipes, with cooking mode and the shopping list. Pro adds unlimited recipes, screenshot reading, smart import, the meal plan and collections."
+   },
+   {
+    "q": "Is it a subscription?",
+    "a": "You can choose a yearly subscription or a one-time purchase. The subscription renews automatically unless cancelled at least 24 hours before the period ends."
+   },
+   {
+    "q": "Do I need an account?",
+    "a": "No. There is no account and no ads, and your recipes stay on your phone."
+   },
+   {
+    "q": "Which languages are supported?",
+    "a": "The app reads recipes in English, Swedish, Norwegian, Danish and Finnish."
+   }
+  ]
+ }
+}

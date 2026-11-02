@@ -1,0 +1,61 @@
+{
+ "no": {
+  "slug": "dele-utgifter-app",
+  "title": "Dele utgifter – regn ut hvem som skylder hvem | Delt",
+  "description": "Del utgifter på hytteturen, i kollektivet eller på reisen. Delt viser hvem som skylder hvem og foreslår færrest mulig betalinger. Uten konto.",
+  "h1": "Dele utgifter – hvem skylder hvem?",
+  "lead": "Del utgiftene på hytteturen, i kollektivet eller på reisen, uten regneark og uten konto. Legg inn hvem som betalte hva, så viser Delt hvordan dere gjør opp med færrest mulig betalinger.",
+  "benefits": [
+   {
+    "t": "Utgifter på sekunder",
+    "d": "Beløp, hvem som betalte og hvem som deler."
+   },
+   {
+    "t": "Fleksibel deling",
+    "d": "Likt, i andeler, eksakte beløp eller prosent."
+   },
+   {
+    "t": "Oppgjør med færrest betalinger",
+    "d": "Del beløpet som tekst eller åpne Vipps."
+   },
+   {
+    "t": "Del gruppen via iCloud",
+    "d": "Gruppene ligger i din egen iCloud, ikke på våre servere."
+   },
+   {
+    "t": "Uten konto",
+    "d": "Virker også uten nett og uten reklame."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hvordan deler jeg utgifter på en tur?",
+    "a": "Lag en gruppe, legg til folk og legg inn hver utgift med beløp, hvem som betalte og hvem som deler. Saldoen viser hvem som skylder hvem."
+   },
+   {
+    "q": "Hvordan deler jeg på hytteturen eller i kollektivet?",
+    "a": "Lag en gruppe for turen, hytta eller kollektivet. De som ikke har appen, kan legges inn med bare navn."
+   },
+   {
+    "q": "Flytter Delt penger?",
+    "a": "Nei, Delt har ingen bankkobling. Dere betaler selv, for eksempel i Vipps eller nettbanken."
+   },
+   {
+    "q": "Trenger alle en konto?",
+    "a": "Nei. Ingen trenger konto hos oss. Inviter de andre med en iCloud-lenke."
+   },
+   {
+    "q": "Virker appen uten nett?",
+    "a": "Ja, endringene sendes når du er på nett igjen."
+   },
+   {
+    "q": "Hva får jeg uten kjøp, og hva er Delt Pluss?",
+    "a": "Grupper, utgifter, saldo og oppgjør kan brukes uten kjøp, uten grense per dag. Delt Pluss er et engangskjøp med kvitteringsskanning, flere valutaer, faste utgifter, statistikk og eksport."
+   },
+   {
+    "q": "Hvilke språk finnes?",
+    "a": "Norsk, dansk, finsk og engelsk."
+   }
+  ]
+ }
+}

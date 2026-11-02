@@ -1,0 +1,57 @@
+{
+ "no": {
+  "slug": "eu-kontroll-dekkskift-varsel",
+  "title": "EU-kontroll varsel og dekkskift – servicebok | Bilboka",
+  "description": "Bilboka varsler om neste EU-kontroll, dekkskift og service, og samler kostnader og historikk for bilen. Alt lagres på telefonen, uten konto.",
+  "h1": "EU-kontroll og dekkskift – varsel og servicebok for bilen",
+  "lead": "Bilboka regner ut neste EU-kontroll fra vognkortet og minner deg på dekkskift og service. Hele historikken følger med til du selger bilen.",
+  "benefits": [
+   {
+    "t": "Neste frist først",
+    "d": "EU-kontroll, service, dekkskift og forsikring på én skjerm."
+   },
+   {
+    "t": "Piggdekksesong der du bor",
+    "d": "Også Nordland, Troms og Finnmark, med påminnelse om dekkskift."
+   },
+   {
+    "t": "Drivstoff, lading og service",
+    "d": "Forbruk per 100 km eller mil og servicebok med kvitteringer."
+   },
+   {
+    "t": "Salgsrapport som PDF",
+    "d": "Full historikk til kjøperen, og du velger om priser vises."
+   },
+   {
+    "t": "Ingen konto",
+    "d": "Alt lagres på telefonen, og du legger inn bilen selv."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hvordan finner Bilboka datoen for neste EU-kontroll?",
+    "a": "Fristen regnes ut fra første registrering og regelen fra Statens vegvesen. Står det en annen dato i brevet, skriver du den inn, for brevet gjelder alltid."
+   },
+   {
+    "q": "Når kan jeg kjøre på piggdekk?",
+    "a": "Appen viser piggdekksesongen for der du bor, også for Nordland, Troms og Finnmark. Sjekk alltid gjeldende regler."
+   },
+   {
+    "q": "Kan jeg følge med på mønsterdybden?",
+    "a": "Ja, du legger inn mønsterdybde per hjul og får varsel når den er under kravet."
+   },
+   {
+    "q": "Kan jeg regne ut forbruket på elbil?",
+    "a": "Ja, du kan logge liter eller kWh med pris og kilometerstand, og få forbruk per 100 km eller per mil."
+   },
+   {
+    "q": "Trenger jeg konto, og hvor lagres dataene?",
+    "a": "Nei, det er ingen konto og ingen skiltoppslag. Alt lagres på telefonen."
+   },
+   {
+    "q": "Hva koster Bilboka?",
+    "a": "Én bil, logg, kvitteringer, EU-kontroll, dekkvarsel og sikkerhetskopi kan brukes uten kjøp. Flere biler, grafer, deling av salgsrapport, dokumenter og CSV låses opp med et engangskjøp. Ingen abonnement."
+   }
+  ]
+ }
+}

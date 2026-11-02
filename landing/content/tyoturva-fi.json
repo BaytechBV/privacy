@@ -1,0 +1,61 @@
+{
+ "fi": {
+  "slug": "tyoturvallisuuskortti-koe",
+  "title": "Työturvallisuuskortti koe ja tulityökortti | Työturva",
+  "description": "Harjoittele TTK- ja tulityökortin koetta suomeksi: kysymykset selityksineen, koeharjoitus ajastimella ja muistutus kortin vanhenemisesta. Ei tiliä.",
+  "h1": "Työturvallisuuskortti koe – harjoittele TTK ja tulityö",
+  "lead": "Työturva auttaa valmistautumaan työturvallisuuskortin (TTK) ja tulityökortin kokeisiin suomeksi, ennen kurssia tai ennen kortin uusimista. Jokaisessa kysymyksessä on selitys.",
+  "benefits": [
+   {
+    "t": "Kaksi korttia yhdessä sovelluksessa",
+    "d": "Valitse etusivulta TTK tai tulityökortti."
+   },
+   {
+    "t": "Koeharjoitus ajastimella",
+    "d": "Tulos aiheittain ja valmiusaste jokaisessa aiheessa."
+   },
+   {
+    "t": "Kertaa virheet",
+    "d": "Väärin menneet kysymykset ja heikot aiheet omana listanaan."
+   },
+   {
+    "t": "Kortin voimassaolomuistutus",
+    "d": "Syötä kurssipäivä ja saat muistutuksen ennen vanhenemista."
+   },
+   {
+    "t": "Toimii ilman verkkoa",
+    "d": "Ei tiliä, ja mukana sanasto ja koepäivän muistilista."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Mihin kokeisiin Työturva valmistaa?",
+    "a": "Työturvallisuuskortin (TTK) ja tulityökortin kokeisiin. Valitset kortin sovelluksen etusivulta."
+   },
+   {
+    "q": "Onko kysymyksissä selitykset?",
+    "a": "Kyllä, jokaisessa kysymyksessä on selitys ja aihe, johon se liittyy."
+   },
+   {
+    "q": "Voinko tehdä harjoituskokeen?",
+    "a": "Kyllä, koeharjoitus tehdään ajastimella ja tulos näytetään aiheittain."
+   },
+   {
+    "q": "Mitä sovelluksessa voi käyttää ilman ostoa?",
+    "a": "Osa kysymyksistä, yksi kokonainen koeharjoitus, 10 kysymyksen minikoe, sanasto ja voimassaolomuistutus."
+   },
+   {
+    "q": "Onko sovellus tilaus?",
+    "a": "Ei. Kertaosto avaa kaikki kysymykset, rajattomat koeharjoitukset, virheiden kertauksen ja tilastot."
+   },
+   {
+    "q": "Muistuttaako sovellus kortin uusimisesta?",
+    "a": "Kyllä. Syötä kurssipäivä, niin saat muistutuksen ennen kuin kortti vanhenee."
+   },
+   {
+    "q": "Saanko kortin sovelluksesta?",
+    "a": "Et. Työturva on itsenäinen harjoitussovellus eikä myönnä kortteja; kortin saa vain kouluttajan pitämältä kurssilta."
+   }
+  ]
+ }
+}

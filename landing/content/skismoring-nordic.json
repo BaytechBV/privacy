@@ -1,0 +1,65 @@
+{
+ "no": {
+  "slug": "skismoring-langrenn",
+  "title": "Skismøring langrenn – festevoks, klister og glid | Smørklar",
+  "description": "Legg inn snøtemperatur, lufttemperatur og snøtype og få smøreklasse for feste og glid. Smørekasse og logg, uten nett. Engangskjøp.",
+  "h1": "Skismøring langrenn – hvilken smøring skal jeg bruke?",
+  "lead": "Smørklar hjelper deg å velge smøring til langrenn. Du legger inn snøtemperatur, lufttemperatur og snøtype, og får forslag til smøreklasse for feste og glid.",
+  "benefits": [
+   {
+    "t": "Anbefaling etter føre",
+    "d": "Basert på snøtemperatur, lufttemperatur og snøtype."
+   },
+   {
+    "t": "Festevoks, klister eller glider",
+    "d": "Generelle smøreklasser, med guide: klister eller hardvoks?"
+   },
+   {
+    "t": "Din egen smørekasse",
+    "d": "Legg inn voksen du har og se hva som passer."
+   },
+   {
+    "t": "Smørelogg",
+    "d": "Noter karakter for feste og glid."
+   },
+   {
+    "t": "Virker uten nett",
+    "d": "Ingen posisjon og ingen værdata."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hvordan velger appen smøring?",
+    "a": "Du legger inn snøtemperatur, lufttemperatur og snøtype, og appen foreslår smøreklasse for feste og glid."
+   },
+   {
+    "q": "Hva er forskjellen på klister og hardvoks?",
+    "a": "Appen har en egen guide: klister eller hardvoks? Den hjelper deg å velge for føret du står i."
+   },
+   {
+    "q": "Hva gjør jeg uten termometer?",
+    "a": "Appen har tips for å velge smøring når du ikke har termometer."
+   },
+   {
+    "q": "Er anbefalingene knyttet til et merke?",
+    "a": "Nei. Smørklar gir generelle råd og er ikke tilknyttet noe smøremerke. Følg alltid produsentens anvisning."
+   },
+   {
+    "q": "Henter appen værdata eller posisjon?",
+    "a": "Nei, appen henter ikke værdata og bruker ikke posisjon. Du legger inn temperaturene selv."
+   },
+   {
+    "q": "Kan jeg bruke appen i løypa uten nett?",
+    "a": "Ja, den virker uten nett."
+   },
+   {
+    "q": "Hva kan jeg bruke uten kjøp?",
+    "a": "Anbefaling for kaldt føre, 5 voks i smørekassa og tips uten termometer."
+   },
+   {
+    "q": "Er det et abonnement?",
+    "a": "Nei. Full versjon er et engangskjøp som låser opp alle føretyper, klisterguide, ubegrenset logg og sesongsjekk."
+   }
+  ]
+ }
+}

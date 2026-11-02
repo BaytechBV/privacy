@@ -1,0 +1,61 @@
+{
+ "fi": {
+  "slug": "be-kortti-teoriakoe",
+  "title": "BE-kortti teoriakoe – harjoittele ja laske | Kärryklar",
+  "description": "Harjoittele BE-kortin teoriaa: kysymykset selityksineen, koeharjoitus ja laskuri B, B96 vai BE. Toimii ilman nettiä, kertaosto, ei tilausta.",
+  "h1": "BE-kortti teoriakoe – harjoittele perävaunukortin teoriaa",
+  "lead": "Kärryklar auttaa harjoittelemaan BE-kortin (auto + raskas perävaunu) teoriaa. Se myös laskee rekisteriotteen arvoista, riittääkö B, B96 vai tarvitaanko BE.",
+  "benefits": [
+   {
+    "t": "Kysymykset selityksineen",
+    "d": "Harjoittele aiheittain ja lue selitys jokaiseen vastaukseen."
+   },
+   {
+    "t": "Koeharjoitus ajan kanssa",
+    "d": "Oma harjoitusmuoto, jossa on aikaraja."
+   },
+   {
+    "t": "Saanko vetää? -laskuri",
+    "d": "B, B96 tai BE rekisteriotteen arvoista."
+   },
+   {
+    "t": "Koepäivä ja lähtötarkastus",
+    "d": "Laskuri, lista ja muistutus."
+   },
+   {
+    "t": "Virheiden kertaus",
+    "d": "Seuraa edistymistä aiheittain."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Mitä Kärryklar sisältää?",
+    "a": "Kysymykset aiheittain selityksineen, koeharjoituksen ajan kanssa, Saanko vetää? -laskurin, sanaston, tarkistuslistan ja virheiden kertauksen."
+   },
+   {
+    "q": "Miten Saanko vetää? -laskuri toimii?",
+    "a": "Se laskee rekisteriotteen arvoista, riittääkö B, B96 vai tarvitaanko BE. Tulos on harjoitusapu, joten tarkista aina rekisteriote."
+   },
+   {
+    "q": "Toimiiko sovellus ilman nettiä?",
+    "a": "Kyllä, sovellus toimii ilman nettiä."
+   },
+   {
+    "q": "Mitä voin käyttää ilman ostoa?",
+    "a": "Saanko vetää? -laskurin, sanaston, tarkistuslistan ja 20 kysymystä."
+   },
+   {
+    "q": "Onko sovellus tilaus?",
+    "a": "Ei. Täysi versio on kertaosto, joka avaa kaikki kysymykset, koeharjoitukset ja tilastot."
+   },
+   {
+    "q": "Onko sovellus viranomaisen tekemä?",
+    "a": "Ei. Kärryklar on itsenäinen eikä liity Traficomiin, Ajovarmaan tai poliisiin."
+   },
+   {
+    "q": "Onko mukana sanasto?",
+    "a": "Kyllä, sanasto tärkeimmistä käsitteistä."
+   }
+  ]
+ }
+}

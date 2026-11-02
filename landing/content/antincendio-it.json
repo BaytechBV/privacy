@@ -1,0 +1,65 @@
+{
+ "it": {
+  "slug": "quiz-antincendio-livello-3",
+  "title": "Quiz esame antincendio livello 2 e 3 | Antincendio Pronto",
+  "description": "Oltre 300 domande con spiegazione e simulazioni d'esame per addetto antincendio livello 2 e 3. Funziona senza internet. Acquisto unico.",
+  "h1": "Quiz esame addetto antincendio livello 2 e 3",
+  "lead": "Antincendio Pronto ti prepara all'esame di idoneità tecnica per addetto antincendio di livello 2 e 3 con oltre 300 domande, simulazioni a tempo e ripasso degli errori.",
+  "benefits": [
+   {
+    "t": "Oltre 300 domande",
+    "d": "In 6 argomenti, scritte sulle dispense VVF e sul D.M. 2 settembre 2021."
+   },
+   {
+    "t": "Spiegazione e fonte",
+    "d": "Ogni risposta è spiegata e indica la fonte."
+   },
+   {
+    "t": "Simulazione d'esame",
+    "d": "Prova in formato esame, a tempo, per arrivare pronto."
+   },
+   {
+    "t": "Classi di fuoco ed estintori",
+    "d": "Quale agente usare, a colpo d'occhio."
+   },
+   {
+    "t": "Funziona senza internet",
+    "d": "Studia ovunque e ripassa gli errori con i progressi per argomento."
+   }
+  ],
+  "faq": [
+   {
+    "q": "A quale esame serve l'app?",
+    "a": "Ti aiuta a prepararti all'esame di idoneità tecnica per addetto antincendio di livello 2 e 3."
+   },
+   {
+    "q": "Quante domande ci sono?",
+    "a": "Oltre 300 domande in 6 argomenti, scritte sulle dispense VVF e sul D.M. 2 settembre 2021."
+   },
+   {
+    "q": "Ogni risposta è spiegata?",
+    "a": "Sì, ogni risposta ha una spiegazione e la fonte."
+   },
+   {
+    "q": "C'è la simulazione d'esame?",
+    "a": "Sì, una simulazione in formato esame, a tempo. Senza acquisto puoi farne una completa."
+   },
+   {
+    "q": "Funziona senza internet?",
+    "a": "Sì, l'app funziona senza connessione."
+   },
+   {
+    "q": "Cosa posso usare senza acquisto?",
+    "a": "20 domande, una simulazione d'esame completa, il glossario e la checklist."
+   },
+   {
+    "q": "Serve un abbonamento?",
+    "a": "No. La versione completa è un acquisto unico che sblocca tutte le domande, le simulazioni e le statistiche. Nessun abbonamento."
+   },
+   {
+    "q": "L'app è collegata ai Vigili del Fuoco?",
+    "a": "No, è indipendente e non è collegata ai Vigili del Fuoco né ad enti di formazione. L'esame si sostiene presso il Comando VVF."
+   }
+  ]
+ }
+}

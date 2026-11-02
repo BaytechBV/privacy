@@ -1,0 +1,61 @@
+{
+ "no": {
+  "slug": "lese-app-for-barn",
+  "title": "Lær å lese – lesespill for barn 5–8 år | Lesestart",
+  "description": "Lesestart lærer barn å lese lyd for lyd: 29 bokstaver, 37 små lesebøker og 148 ord med bilder. Uten reklame. Engangskjøp, ingen abonnement.",
+  "h1": "Lær å lese – lesespill med bokstaver og lyder",
+  "lead": "Lesestart lærer barnet å lese slik mange lærere gjør det: først lyden til bokstaven, så lydene sammen til ord, så små bøker. Appen er for barn fra 5 til 8 år.",
+  "benefits": [
+   {
+    "t": "29 bokstaver på et eventyrkart",
+    "d": "Også Æ, Ø og Å, i en rekkefølge der ord kommer tidlig."
+   },
+   {
+    "t": "Fire steg per bokstav",
+    "d": "Bokstav og lyd, lydjakt, lydering og ord med bilde."
+   },
+   {
+    "t": "37 små lesebøker",
+    "d": "Bøkene bruker bare bokstaver barnet allerede kan."
+   },
+   {
+    "t": "Oversikt for foreldre",
+    "d": "Se hvilke bokstaver barnet kan, ukens minutter og vanskelige lyder."
+   },
+   {
+    "t": "Trygt for barn",
+    "d": "Ingen reklame, ingen innlogging og alt lagres på enheten."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hvilken alder passer Lesestart for?",
+    "a": "Appen er for barn fra 5 til 8 år."
+   },
+   {
+    "q": "Hvordan lærer barnet å lese i appen?",
+    "a": "Lyd for lyd: først lyden til bokstaven, så dras lydene sammen til ord, og så leser barnet små bøker. Alt blir lest høyt, så barnet trenger ikke kunne lese fra start."
+   },
+   {
+    "q": "Hvor mange bokstaver og ord er det?",
+    "a": "Det er 29 bokstaver, 148 ord med bilder og 103 vanlige ord å kjenne igjen, samt 37 små lesebøker."
+   },
+   {
+    "q": "Hva kan jeg bruke uten kjøp?",
+    "a": "De første fem bokstavene (S, O, L, I og M) kan brukes uten kjøp."
+   },
+   {
+    "q": "Er det abonnement?",
+    "a": "Nei. Ett engangskjøp åpner hele alfabetet, alle ordene og lesebøkene."
+   },
+   {
+    "q": "Kan jeg begrense skjermtiden?",
+    "a": "Ja, det finnes en daglig tidsgrense med en vennlig «vi fortsetter i morgen»-skjerm. Kjøp og innstillinger ligger bak en enkel voksenoppgave."
+   },
+   {
+    "q": "Virker appen uten nett?",
+    "a": "Ja, appen virker uten nett. Det er ingen reklame og ingen innlogging, og alt lagres på enheten."
+   }
+  ]
+ }
+}

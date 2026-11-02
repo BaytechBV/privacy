@@ -1,0 +1,61 @@
+{
+ "sv": {
+  "slug": "airfryer-tider-grader",
+  "title": "Airfryer tider och grader – tidstabell | Krispa",
+  "description": "Tid och grader för 170+ livsmedel i airfryern, ugn-till-airfryer-omvandlare och 68 recept. Fungerar utan internet, inget konto. Krispa för iPhone.",
+  "h1": "Airfryer tider och grader – tidstabell på svenska",
+  "lead": "Krispa visar hur länge och hur varmt du ska ställa airfryern för över 170 livsmedel, från frysta pommes till laxfilé. Sök på svenska och få timer som påminner dig när det är dags att skaka korgen.",
+  "benefits": [
+   {
+    "t": "Tidstabell för 170+ livsmedel",
+    "d": "Temperatur, tidsintervall och när du ska skaka eller vända."
+   },
+   {
+    "t": "Ugn till airfryer",
+    "d": "Ange ugnens temperatur och tid och få ett förslag, tydligt märkt som tumregel."
+   },
+   {
+    "t": "Timers på låsskärmen",
+    "d": "Nedräkningen syns på låsskärmen och i Dynamic Island."
+   },
+   {
+    "t": "68 egna recept",
+    "d": "Ändra portioner, följ lagaläget steg för steg och skapa inköpslista."
+   },
+   {
+    "t": "Inget konto, fungerar offline",
+    "d": "Appen fungerar utan internet och är inte knuten till något airfryer-märke."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hur länge ska pommes vara i airfryern?",
+    "a": "Krispa visar temperatur, tidsintervall och när du ska skaka för frysta pommes och många andra livsmedel. Tiderna är riktvärden eftersom modeller skiljer sig, så kolla alltid i tid."
+   },
+   {
+    "q": "Hur många livsmedel finns i tidstabellen?",
+    "a": "Tidstabellen täcker 170+ livsmedel, bland annat köttbullar, falukorv, laxfilé, kyckling, grönsaker, bröd och snacks."
+   },
+   {
+    "q": "Kan jag räkna om ett ugnsrecept till airfryer?",
+    "a": "Ja. Ange ugnens temperatur och tid så får du ett förslag för airfryern och när du ska kolla. Det är en tumregel och är markerat som det."
+   },
+   {
+    "q": "Fungerar Krispa utan internet och konto?",
+    "a": "Ja, appen fungerar utan internet och du behöver inget konto."
+   },
+   {
+    "q": "Vad ingår utan köp och vad ger Krispa Plus?",
+    "a": "Tidstabellen, omvandlaren, en timer och 10 recept ingår utan köp. Krispa Plus öppnar alla 68 recept, upp till fyra timers, lagaläget, egna tider och inköpslistan."
+   },
+   {
+    "q": "Hur köper jag Krispa Plus?",
+    "a": "Du väljer en årsprenumeration som förnyas automatiskt och kan avslutas i App Store-inställningarna, eller ett engångsköp. Nya prenumeranter börjar årsplanen med 7 dagars provperiod."
+   },
+   {
+    "q": "Vilken temperatur säger appen för kyckling och fläsk?",
+    "a": "Kyckling, fläsk och färs visar en lägsta kärntemperatur, det strängaste rådet bland de nordiska livsmedelsmyndigheterna. Kontrollera även att fisk är genomstekt."
+   }
+  ]
+ }
+}

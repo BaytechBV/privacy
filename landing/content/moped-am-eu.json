@@ -1,0 +1,65 @@
+{
+ "da": {
+  "slug": "knallertkoerekort-teori",
+  "title": "Knallertkørekort teori – øv til teoriprøven | AM-Klar",
+  "description": "Øv teorien til knallertkørekort med spørgsmål, forklaringer og prøveeksamen – lille og stor knallert. På dansk, virker uden internet.",
+  "h1": "Knallertkørekort teori – øv til teoriprøven",
+  "lead": "AM-Klar hjælper dig med at øve teorien til knallertkørekortet, med knallertregler og ikke bilregler. Du får forklaring til hvert svar.",
+  "benefits": [
+   {
+    "t": "Spørgsmål pr. emne",
+    "d": "Med forklaring til hvert svar."
+   },
+   {
+    "t": "Prøveeksamen med tid",
+    "d": "Resultat pr. emne, så du ser, hvad der skal øves."
+   },
+   {
+    "t": "Lille og stor knallert",
+    "d": "Alder, bevis, fart og cykelsti side om side."
+   },
+   {
+    "t": "Prøvedag",
+    "d": "Nedtælling, tjekliste og påmindelse."
+   },
+   {
+    "t": "Virker uden internet",
+    "d": "Øv dine fejl og følg fremskridt pr. emne."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Dækker appen både lille og stor knallert?",
+    "a": "Ja, lille og stor knallert vises side om side: alder, bevis, fart og cykelsti."
+   },
+   {
+    "q": "Er det knallertregler eller bilregler?",
+    "a": "Knallertregler, ikke bilregler."
+   },
+   {
+    "q": "Er der prøveeksamen?",
+    "a": "Ja, en prøveeksamen med tid og resultat pr. emne."
+   },
+   {
+    "q": "Virker appen uden internet?",
+    "a": "Ja, den virker uden internet."
+   },
+   {
+    "q": "Hvad kan jeg bruge uden køb?",
+    "a": "20 spørgsmål, én prøveeksamen, ordlisten og tjeklisten."
+   },
+   {
+    "q": "Er det et abonnement?",
+    "a": "Nej. Den fulde version er et engangskøb, der låser alle spørgsmål, prøveeksamener og statistik op. Intet abonnement."
+   },
+   {
+    "q": "Gælder familiedeling?",
+    "a": "Ja. Køber en voksen i familien appen, får du også den fulde version."
+   },
+   {
+    "q": "Kan appen udstede kørekort?",
+    "a": "Nej. AM-Klar er uafhængig, ikke tilknyttet Færdselsstyrelsen eller politiet, holder ikke prøver og udsteder ikke kørekort."
+   }
+  ]
+ }
+}

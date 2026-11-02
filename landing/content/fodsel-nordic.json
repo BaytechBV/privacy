@@ -1,0 +1,65 @@
+{
+ "no": {
+  "slug": "rieteller-fodsel",
+  "title": "Rieteller og rietimer – fødselsplan | Fødselsklar",
+  "description": "Rietimer med én stor knapp, sykehusbag, fødselsplan og partnerdeling via iCloud. Rietimeren og sykehusbagen kan brukes uten kjøp. Engangskjøp.",
+  "h1": "Rieteller – rietimer, fødselsplan og sykehusbag",
+  "lead": "Fødselsklar samler det du trenger på fødedagen: en rietimer med én stor knapp, sykehusbagen, fødselsplanen og numrene du skal ringe. Partneren din kan se det samme via iCloud.",
+  "benefits": [
+   {
+    "t": "Rietimer med én stor knapp",
+    "d": "Trykk når rien starter og slutter, og se snitt mellom riene og varighet."
+   },
+   {
+    "t": "Din regel fra jordmor",
+    "d": "Skriv inn regelen du fikk, og se når tallene dine er nådd."
+   },
+   {
+    "t": "Sykehusbag og fødselsplan",
+    "d": "Ferdig liste for Norge og en fødselsplan som PDF på norsk."
+   },
+   {
+    "t": "Partner via iCloud",
+    "d": "Del uten konto, og velg selv hva partneren ser."
+   },
+   {
+    "t": "Kontakter ved hånden",
+    "d": "Store knapper til fødeavdelingen, jordmor, partner og taxi."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hvordan fungerer rietimeren?",
+    "a": "Du trykker på én stor knapp når rien starter og når den er over. Appen viser snitt mellom riene, snitt varighet og antall rier den siste timen."
+   },
+   {
+    "q": "Virker rietimeren når telefonen er låst?",
+    "a": "Ja, den fortsetter riktig når telefonen er låst, appen lukkes eller skjermen slukker. Låseskjermen og Dynamic Island viser rien eller pausen."
+   },
+   {
+    "q": "Sier appen når jeg skal dra til fødeavdelingen?",
+    "a": "Nei. Du skriver inn regelen du har fått fra jordmor eller fødeavdelingen, og appen viser når tallene dine er nådd. Den foreslår ingen tall selv og gir ikke medisinske råd."
+   },
+   {
+    "q": "Hva er med i fødselsplanen?",
+    "a": "Sju deler, blant annet smertelindring, hvem som er med, stillinger, mating og stemning. Du kan lage en PDF på norsk som du kan skrive ut eller vise fram."
+   },
+   {
+    "q": "Hvordan ser partneren det samme?",
+    "a": "Du deler via iCloud, uten konto. Partneren ser status for riene, sykehusbagen, planen og kontaktene, og du velger selv hva som deles."
+   },
+   {
+    "q": "Hva kan jeg bruke uten kjøp?",
+    "a": "Rietimeren, historikken, sykehusbagen og kontaktene, også på fødedagen."
+   },
+   {
+    "q": "Er det et abonnement?",
+    "a": "Nei. Deling med partner, PDF av fødselsplanen, bevegelsesdagboken, de første ukene og eksport av historikken låses opp med et engangskjøp."
+   },
+   {
+    "q": "Gir appen medisinske råd?",
+    "a": "Nei. Fødselsklar fører logg og hjelper deg å huske. Følg rådene fra jordmor og fødeavdelingen."
+   }
+  ]
+ }
+}

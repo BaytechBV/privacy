@@ -1,0 +1,61 @@
+{
+ "no": {
+  "slug": "anhuker-teori",
+  "title": "Anhuker teori G11 – øv til anhukerkurset | Anhukerklar",
+  "description": "Øv teorien til anhukerkurs G11 og kran: spørsmål med forklaring, prøvetester og toppvinkel-tabell. Fungerer uten nett, engangskjøp.",
+  "h1": "Anhuker G11 teori – øv til anhukerkurset",
+  "lead": "Anhukerklar hjelper deg å øve teorien til anhukeropplæringen (G11) og fellesdelen for kran: stropping, løfteredskap, signaler og sikkerhet. Alt på norsk og uten nett.",
+  "benefits": [
+   {
+    "t": "Spørsmål med forklaring",
+    "d": "Øv per emne og les forklaringen til hvert svar."
+   },
+   {
+    "t": "Prøvetest med tid",
+    "d": "Prøv deg i appens eget øvingsformat med tidsgrense."
+   },
+   {
+    "t": "Toppvinkel og arbeidslast",
+    "d": "Faktorene for 1, 2 og 3–4 parter samlet i én tabell."
+   },
+   {
+    "t": "Øv på feilene dine",
+    "d": "Se fremgang per emne og ta de feilene du gjorde på nytt."
+   },
+   {
+    "t": "Prøvedag-sjekkliste",
+    "d": "Nedtelling, sjekkliste og påminnelse før kurset eller prøven."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hva dekker Anhukerklar?",
+    "a": "Teorien til anhukeropplæringen (G11) og fellesdelen for kran: stropping, løfteredskap, signaler og sikkerhet."
+   },
+   {
+    "q": "Hva er toppvinkel og arbeidslast?",
+    "a": "Appen har en tabell med faktorene for 1, 2 og 3–4 parter, slik at du ser sammenhengen mellom toppvinkel og arbeidslast på ett sted."
+   },
+   {
+    "q": "Fungerer appen uten internett?",
+    "a": "Ja, du kan øve uten nett."
+   },
+   {
+    "q": "Kan jeg prøve appen før jeg kjøper?",
+    "a": "Du kan øve på 20 spørsmål, ordlisten og sjekklisten uten kjøp."
+   },
+   {
+    "q": "Er det et abonnement?",
+    "a": "Nei. Fullversjonen er et engangskjøp som låser opp alle spørsmål, prøvetester og statistikk."
+   },
+   {
+    "q": "Får jeg kompetansebevis i appen?",
+    "a": "Nei. Appen er uavhengig og ikke tilknyttet Arbeidstilsynet eller noen kursleverandør. Kompetansebevis får du hos en godkjent opplæringsvirksomhet."
+   },
+   {
+    "q": "Finnes det en ordliste?",
+    "a": "Ja, en ordliste med de viktigste begrepene følger med."
+   }
+  ]
+ }
+}

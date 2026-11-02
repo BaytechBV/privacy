@@ -1,0 +1,61 @@
+{
+ "en-GB": {
+  "slug": "pressure-headache-forecast",
+  "title": "Air Pressure Headache Forecast | Pressure & Headache",
+  "description": "See air pressure drops hour by hour, log headaches with one tap and spot weather links. Pro adds alerts, a widget and a doctor report. No account.",
+  "h1": "Air pressure headache forecast and migraine diary",
+  "lead": "Many people report headaches or migraine when the air pressure falls quickly. The app shows pressure hour by hour, highlights big drops and helps you see whether the weather is linked to your headaches.",
+  "benefits": [
+   {
+    "t": "Hourly pressure chart",
+    "d": "24 hours ahead, 72 hours with Pro."
+   },
+   {
+    "t": "Drop zones highlighted",
+    "d": "At least 3 hPa in 3 hours or 6 hPa in 12 hours, adjustable."
+   },
+   {
+    "t": "One-tap headache diary",
+    "d": "Intensity, type, medicine, notes and possible triggers."
+   },
+   {
+    "t": "Heads-up alerts with Pro",
+    "d": "A notification before a big pressure drop."
+   },
+   {
+    "t": "Private by design",
+    "d": "Diary stays on your iPhone, no account, no ads."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Can air pressure cause headaches or migraine?",
+    "a": "Many people report headaches or migraine when the air pressure falls quickly. The app helps you check whether this applies to you, but gives no medical conclusion."
+   },
+   {
+    "q": "What counts as a big pressure drop?",
+    "a": "By default at least 3 hPa in 3 hours or 6 hPa in 12 hours. You can adjust the limits."
+   },
+   {
+    "q": "Can I get a warning before a drop?",
+    "a": "Yes, with Pro: a notification the evening before or a few hours before a big drop."
+   },
+   {
+    "q": "What does the headache diary record?",
+    "a": "Intensity 0 to 10, start and end, type, medicine and whether it helped, notes and triggers such as sleep, stress, alcohol, menstruation and screen time."
+   },
+   {
+    "q": "Where does the weather data come from?",
+    "a": "From Apple Weather. Your diary stays on your iPhone."
+   },
+   {
+    "q": "How does Pro work?",
+    "a": "Pro is a yearly subscription or a one-time lifetime purchase. Without Pro you keep the 24-hour chart and the diary."
+   },
+   {
+    "q": "Is it a medical device?",
+    "a": "No. It gives no medical advice or diagnosis. If your headaches change or are severe, contact a doctor."
+   }
+  ]
+ }
+}

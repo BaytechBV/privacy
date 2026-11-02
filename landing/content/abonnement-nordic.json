@@ -1,0 +1,128 @@
+{
+ "en-GB": {
+  "slug": "subscription-tracker-cancel",
+  "title": "Subscription Tracker & Cancel Guides | Abonnement",
+  "description": "Track subscriptions, get reminders before renewals and cancel with a ready letter. For Sweden, Norway, Denmark and Finland. No bank login.",
+  "h1": "Subscription tracker with renewal reminders",
+  "lead": "Abonnement shows what you pay every month, reminds you before each renewal or notice deadline, and helps you cancel with a ready-made letter. Everything stays on your iPhone.",
+  "benefits": [
+   {
+    "t": "See what you pay",
+    "d": "Total per month and per year, cost per category and your most expensive subscription."
+   },
+   {
+    "t": "Reminders on time",
+    "d": "Up to 30 days before a renewal, before a trial turns paid and before the last day to give notice."
+   },
+   {
+    "t": "Cancellation guides",
+    "d": "Per service and country, with a direct link, notice period, binding period and the date last checked."
+   },
+   {
+    "t": "Ready cancellation letter",
+    "d": "Available in Swedish, Norwegian, Danish, Finnish or English; you send it yourself."
+   },
+   {
+    "t": "Private by design",
+    "d": "No account, no bank login, no ads. Optional Face ID lock and CSV export."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Which countries does the app cover?",
+    "a": "It is made for Sweden, Norway, Denmark and Finland, with popular services from each country to pick from."
+   },
+   {
+    "q": "Does it cancel subscriptions for me?",
+    "a": "No. The app never cancels anything on your behalf. It gives you a guide with a direct link and a letter you send yourself."
+   },
+   {
+    "q": "Do I need to log in to my bank?",
+    "a": "No. There is no account and no bank login, and everything stays on your iPhone."
+   },
+   {
+    "q": "What can the cancellation letter include?",
+    "a": "Your name, customer number and a request for written confirmation. You can share it by Mail or Messages, copy it or save it as a PDF."
+   },
+   {
+    "q": "Which reminders can I get?",
+    "a": "Before every renewal up to 30 days ahead, before a trial becomes a paid subscription, before the last day to give notice and when a binding period ends."
+   },
+   {
+    "q": "What does Pro add?",
+    "a": "Without Pro you can track up to 5 subscriptions. Pro adds unlimited subscriptions, cancellation letters, cost per category, the widget and CSV export."
+   },
+   {
+    "q": "How do I pay for Pro?",
+    "a": "You can choose a yearly subscription or a one-time purchase. The yearly plan starts with a 7-day trial."
+   },
+   {
+    "q": "Is there a widget?",
+    "a": "Yes, a home screen and lock screen widget shows your monthly total and the next payment."
+   }
+  ]
+ },
+ "da": {
+  "slug": "abonnementer-opsigelse",
+  "title": "Abonnementer opsigelse og påmindelser | Abonnementer",
+  "description": "Overblik over dine abonnementer, påmindelse før fornyelse og færdigt opsigelsesbrev. Til Danmark, Sverige, Norge og Finland. Uden banklogin.",
+  "h1": "Abonnementer – opsigelse og påmindelse før fornyelse",
+  "lead": "Se, hvad du betaler hver måned, få en påmindelse før hver fornyelse, og opsig med et færdigt brev. Alt bliver på din iPhone.",
+  "benefits": [
+   {
+    "t": "Se, hvad du betaler",
+    "d": "Samlet pr. måned og pr. år, udgift pr. kategori og dit dyreste abonnement."
+   },
+   {
+    "t": "Påmindelser i tide",
+    "d": "Op til 30 dage før fornyelse, før en prøveperiode bliver betalt og før sidste frist for opsigelse."
+   },
+   {
+    "t": "Opsigelsesguider",
+    "d": "Pr. tjeneste og land med direkte link, opsigelsesvarsel, binding og dato for sidste tjek."
+   },
+   {
+    "t": "Færdigt opsigelsesbrev",
+    "d": "På dansk, svensk, norsk eller finsk; du sender det selv."
+   },
+   {
+    "t": "Privat og uden banklogin",
+    "d": "Ingen konto, ingen reklamer. Lås med Face ID og eksport som CSV, hvis du vil."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hvilke lande dækker appen?",
+    "a": "Danmark, Sverige, Norge og Finland. Du vælger blandt populære tjenester i de fire lande."
+   },
+   {
+    "q": "Opsiger appen abonnementer for mig?",
+    "a": "Nej, appen opsiger aldrig noget på dine vegne. Du får en guide med direkte link og et brev, som du selv sender."
+   },
+   {
+    "q": "Skal jeg logge ind på min bank?",
+    "a": "Nej. Der er ingen konto og intet banklogin, og alt bliver på din iPhone."
+   },
+   {
+    "q": "Hvad står der i opsigelsesbrevet?",
+    "a": "Dit navn, kundenummer og en anmodning om skriftlig bekræftelse. Du kan dele det via Mail eller Beskeder, kopiere det eller gemme det som PDF."
+   },
+   {
+    "q": "Hvilke påmindelser kan jeg få?",
+    "a": "Før hver fornyelse op til 30 dage i forvejen, før en prøveperiode bliver til et betalt abonnement, før sidste frist for opsigelse og når bindingsperioden er slut."
+   },
+   {
+    "q": "Hvor mange abonnementer kan jeg følge uden Pro?",
+    "a": "Op til 5 abonnementer med påmindelser og opsigelsesguider. Pro giver ubegrænset antal, opsigelsesbreve, udgift pr. kategori, widget og CSV-eksport."
+   },
+   {
+    "q": "Er Pro et abonnement?",
+    "a": "Du kan vælge årsabonnement eller et engangskøb. Årsabonnementet starter med en prøveperiode på 7 dage."
+   },
+   {
+    "q": "Er der en widget?",
+    "a": "Ja, en widget til hjemmeskærmen og låseskærmen viser månedens samlede beløb og næste betaling."
+   }
+  ]
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "no": {
+  "slug": "hestetrening-bakkearbeid-ovelser",
+  "title": "Hestetrening fra bakken – øvelser og ukeplan | Hestegym",
+  "description": "Hestegym gir øvelser fra bakken for hesten din: overlinje, bakpart, balanse og smidighet, med timer og ukeplan. 12 øvelser uten kjøp, virker uten nett.",
+  "h1": "Hestetrening fra bakken – øvelser, ukeplan og logg",
+  "lead": "Hestegym er treningsprogrammet for deg som jobber med hesten fra bakken. Øvelsesbibliotek, ukeplan, timer og logg ligger på ett sted.",
+  "benefits": [
+   {
+    "t": "Øvelser etter mål",
+    "d": "Overlinje, bakpart, balanse og smidighet."
+   },
+   {
+    "t": "Tegning og steg for steg",
+    "d": "Hver øvelse har tegning og antall repetisjoner."
+   },
+   {
+    "t": "Timer under økta",
+    "d": "Hold tiden på holdetid og repetisjoner."
+   },
+   {
+    "t": "Ukeplan og logg",
+    "d": "Planlegg økter og hviledager og logg hvordan hesten virket."
+   },
+   {
+    "t": "Virker uten nett",
+    "d": "Bruk appen i stallen selv uten dekning."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hva er Hestegym?",
+    "a": "En app med øvelser du gjør med hesten fra bakken, med ukeplan, timer og logg."
+   },
+   {
+    "q": "Hvilke mål kan jeg trene mot?",
+    "a": "Biblioteket er sortert etter mål som overlinje, bakpart, balanse og smidighet."
+   },
+   {
+    "q": "Kan jeg bruke appen i stallen uten nett?",
+    "a": "Ja, appen virker uten nett."
+   },
+   {
+    "q": "Kan jeg prøve appen uten kjøp?",
+    "a": "Ja, dagens økt med timer, 12 øvelser og loggen kan brukes uten kjøp."
+   },
+   {
+    "q": "Er det abonnement?",
+    "a": "Nei. Fullversjonen er et engangskjøp som låser opp hele biblioteket, ukeplaner, påminnelser, fremgang og flere hester."
+   },
+   {
+    "q": "Erstatter appen veterinær eller fysioterapeut?",
+    "a": "Nei. Er hesten skadet, halt eller under behandling, spør veterinæren før du starter."
+   }
+  ]
+ }
+}

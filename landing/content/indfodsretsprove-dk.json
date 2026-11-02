@@ -1,0 +1,61 @@
+{
+ "da": {
+  "slug": "indfodsretsproeven-oevespoergsmaal",
+  "title": "Indfødsretsprøven øv spørgsmål | Indfødsretsprøven 2026/2027",
+  "description": "Øv til indfødsretsprøven og medborgerskabsprøven: 244 spørgsmål med forklaring på 6 sprog og øveprøver med tid. Betal én gang, intet abonnement.",
+  "h1": "Indfødsretsprøven – øv spørgsmål og tag øveprøve",
+  "lead": "Appen forbereder dig til indfødsretsprøven og medborgerskabsprøven med 244 spørgsmål. Efter hvert svar kan du læse forklaringen på dansk, engelsk, tysk, polsk, tyrkisk eller arabisk.",
+  "benefits": [
+   {
+    "t": "244 spørgsmål til begge prøver",
+    "d": "148 plus 22 værdispørgsmål til indfødsretsprøven og 74 til medborgerskabsprøven."
+   },
+   {
+    "t": "Øveprøver med tid",
+    "d": "Samme format som de rigtige prøver: 45 spørgsmål på 45 minutter og 25 på 30 minutter."
+   },
+   {
+    "t": "Forklaring på 6 sprog",
+    "d": "Spørgsmålene er på dansk, forklaringen kan læses på dit eget sprog."
+   },
+   {
+    "t": "Dine fejl kommer igen",
+    "d": "Til du har svaret rigtigt 2 gange i træk."
+   },
+   {
+    "t": "Oplæsning og nedtælling",
+    "d": "Få spørgsmål læst højt på dansk og følg nedtællingen til din prøvedato."
+   }
+  ],
+  "faq": [
+   {
+    "q": "Hvad er forskellen på indfødsretsprøven og medborgerskabsprøven?",
+    "a": "Appen dækker begge. Indfødsretsprøven har 148 spørgsmål om bl.a. historie, grundlov og samfund samt 22 om danske værdier, medborgerskabsprøven har 74 om hverdagsliv, rettigheder og pligter samt arbejde, skat og uddannelse."
+   },
+   {
+    "q": "Hvordan er øveprøverne bygget op?",
+    "a": "Indfødsretsprøven øves med 45 spørgsmål på 45 minutter, bestået ved 36 rigtige og mindst 4 af 5 værdispørgsmål. Medborgerskabsprøven øves med 25 spørgsmål på 30 minutter, bestået ved 20 rigtige."
+   },
+   {
+    "q": "Kan jeg øve alle spørgsmål, som de kommer til prøven?",
+    "a": "Nej, 5 af spørgsmålene til indfødsretsprøven handler om aktuelle begivenheder og kan ikke forberedes. Øveprøven bruger i stedet spørgsmål fra pensum, og den rigtige prøve kan være anderledes."
+   },
+   {
+    "q": "Kan jeg få forklaringerne på mit eget sprog?",
+    "a": "Ja, forklaringerne findes på dansk, engelsk, tysk, polsk, tyrkisk og arabisk."
+   },
+   {
+    "q": "Er der abonnement?",
+    "a": "Du kan prøve ét emne og én øveprøve i hver prøve uden køb. Du låser alt op med ét køb, og der er intet abonnement."
+   },
+   {
+    "q": "Virker appen uden internet?",
+    "a": "Ja, appen virker uden internet, uden reklamer og uden konto."
+   },
+   {
+    "q": "Er appen officiel?",
+    "a": "Nej, den er uafhængig og ikke tilknyttet SIRI, Uddannelses- og Forskningsministeriet eller staten."
+   }
+  ]
+ }
+}
