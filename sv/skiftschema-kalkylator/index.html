@@ -1,0 +1,112 @@
+<!doctype html><html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Skiftschema-kalkylator – rullande schema i kalender</title><meta name="description" content="Skriv in ditt rullande schema (t.ex. 2-2-3), välj startdag och se vilket pass du har varje dag, med veckonummer, antal pass och snittid per vecka."><meta name="apple-itunes-app" content="app-id=6823286145">
+<link rel="canonical" href="https://baytechbv.github.io/privacy/sv/skiftschema-kalkylator/"><link rel="alternate" hreflang="nb" href="https://baytechbv.github.io/privacy/nb/turnuskalkulator/"><link rel="alternate" hreflang="sv" href="https://baytechbv.github.io/privacy/sv/skiftschema-kalkylator/"><link rel="alternate" hreflang="x-default" href="https://baytechbv.github.io/privacy/nb/turnuskalkulator/">
+<meta property="og:type" content="website"><meta property="og:title" content="Skiftschema-kalkylator – rullande schema i kalender"><meta property="og:description" content="Skriv in ditt rullande schema (t.ex. 2-2-3), välj startdag och se vilket pass du har varje dag, med veckonummer, antal pass och snittid per vecka."><meta property="og:url" content="https://baytechbv.github.io/privacy/sv/skiftschema-kalkylator/"><meta property="og:image" content="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/59/df/3259df2a-df0b-4037-eacb-8ccd96fcce8c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Skiftschema-kalkylator","description":"Skriv in ditt rullande schema (t.ex. 2-2-3), välj startdag och se vilket pass du har varje dag, med veckonummer, antal pass och snittid per vecka.","url":"https://baytechbv.github.io/privacy/sv/skiftschema-kalkylator/","inLanguage":"sv","applicationCategory":"BusinessApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","publisher":{"@type":"Organization","name":"Baytech BV"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Vad är ett 2-2-3-schema?","acceptedAnswer":{"@type":"Answer","text":"Kallas också Panama-schema: 2 dagar på, 2 lediga, 3 på, 2 lediga, 2 på och 3 lediga. Det rullar över 14 dagar och du jobbar varannan helg."}},{"@type":"Question","name":"Hur räknar jag ut snittiden per vecka i ett rullande schema?","acceptedAnswer":{"@type":"Answer","text":"Summera timmarna för hela schemaperioden och dela med antalet veckor. Exempel: 7 pass à 12 timmar på 14 dagar = 84 timmar / 2 veckor = 42 timmar per vecka. Kalkylatorn gör det för perioden som visas."}},{"@type":"Question","name":"Kan jag se vilket pass jag har ett visst datum?","acceptedAnswer":{"@type":"Answer","text":"Ja. Öka antalet veckor (upp till 104) och leta upp datumet i tabellen. Veckonumret står i första kolumnen."}},{"@type":"Question","name":"Kan jag använda egna passtyper?","acceptedAnswer":{"@type":"Answer","text":"Ja. Alla bokstäver eller korta koder fungerar, till exempel B för beredskap. Bara L räknas som ledig."}},{"@type":"Question","name":"Sparas mitt schema?","acceptedAnswer":{"@type":"Answer","text":"Nej. Allt räknas ut i din webbläsare och skickas ingenstans."}}]}</script><style>:root{--bg:#fff;--fg:#1c1c1e;--mu:#6b6b70;--ac:#0a66c2;--acfg:#fff;--card:#f4f4f6;--line:rgba(128,128,128,.35);--wbg:#fdecea;--wfg:#5c1710;--wb:#c0392b}
+@media (prefers-color-scheme:dark){:root{--bg:#111;--fg:#eee;--mu:#9a9aa0;--ac:#5aa9ff;--acfg:#0b1a2e;--card:#1d1d20;--wbg:#3a1512;--wfg:#ffd9d4;--wb:#ff7b6b}}
+[hidden]{display:none!important}*{box-sizing:border-box}body{background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:760px;margin:0 auto;padding:20px 16px 40px;overflow-wrap:anywhere}
+a{color:var(--ac)}h1{font-size:1.75em;line-height:1.2;margin:.1em 0 .3em}.lead{font-size:1.1em;color:var(--mu)}h2{font-size:1.25em;margin-top:1.8em}h3{font-size:1.05em;margin:1.2em 0 .2em}
+form{display:grid;gap:14px;background:var(--card);border-radius:14px;padding:16px;margin:18px 0}
+label{display:block;font-weight:600;margin-bottom:4px}.row{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+input,select,button{font:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-height:44px;width:100%}
+button{background:var(--ac);color:var(--acfg);border:0;font-weight:600;cursor:pointer;width:auto;justify-self:start}button.secondary{background:transparent;color:var(--ac);border:1px solid var(--ac)}
+:focus-visible{outline:3px solid var(--ac);outline-offset:2px}fieldset{border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:grid;gap:10px}legend{font-weight:600;padding:0 4px}
+#out{font-size:1.05em}#out:focus{outline:none}.warn{border:2px solid var(--wb);background:var(--wbg);color:var(--wfg);border-radius:12px;padding:12px 14px}
+.cta{display:flex;gap:14px;align-items:flex-start;background:var(--card);border-radius:14px;padding:14px;margin:18px 0}.cta img.i{border-radius:22%;flex:none}.cta p{margin:0 0 8px}.badge img{display:block}
+.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.9em}th,td{border:1px solid var(--line);padding:4px 3px;text-align:center}td small{display:block;color:var(--mu);font-size:.8em;line-height:1.2}
+tr.alt td{background:var(--card)}.today{outline:2px solid var(--ac);outline-offset:-2px}
+.c{display:inline-block;min-width:1.7em;border-radius:6px;font-weight:700;padding:0 3px;background:#d6e4ff;color:#0b1f4d}.c-D{background:#ffe08a;color:#3d2c00}.c-K{background:#ffb37a;color:#3d1a00}.c-N{background:#3b4f8f;color:#fff}.c-F,.c-L{background:rgba(128,128,128,.2);color:var(--fg)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.days{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 0}.days button[aria-pressed=true]{background:var(--ac);color:var(--acfg)}
+.signs{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));padding:0;list-style:none}.signs li{background:var(--card);border-radius:12px;padding:12px 14px}.signs h3{margin:0}.signs small,.mu{color:var(--mu)}
+.lucky{background:var(--card);border-radius:12px;padding:10px 14px}footer{margin-top:40px;font-size:.9em;color:var(--mu)}footer a{margin-right:10px}
+@media print{form,.cta,footer,.days,.lead,button{display:none}body{max-width:none}}</style></head><body>
+<main><h1>Skiftschema-kalkylator</h1><p class="lead">Skriv in ditt rullande schema en gång och se passen vecka för vecka. Använd D för dag, K för kväll, N för natt och L för ledig – eller egna bokstäver.</p>
+<form id="f"><div><label for="preset">Färdig mall</label><select id="preset" name="preset"><option value="">Välj en mall …</option>
+<option value="D D L L D D D L L D D L L L">2-2-3 (Panama)</option><option value="D D D D L L L L">4 på, 4 av</option><option value="D D D D D L L">Dag, måndag–fredag</option><option value="D D K K N N L L L L">Treskift (2-2-2-4)</option><option value="D D D D D L L D D D D D L L K K K L L K K">Kväll och helg var 3:e vecka</option></select></div>
+<div><label for="pattern">Schema (en bokstav per dag, med mellanslag)</label><input id="pattern" name="pattern" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" value="D D L L D D D L L D D L L L"></div>
+<div class="row"><div><label for="start">Första dagen i schemat</label><input id="start" name="start" type="date"></div><div><label for="weeks">Antal veckor som visas</label><input id="weeks" name="weeks" type="number" inputmode="numeric" min="1" max="104" value="8"></div><div><label for="hours">Timmar per pass</label><input id="hours" name="hours" type="number" inputmode="decimal" min="0" step="0.01" step="0.25" value="7.5"></div></div>
+<button>Visa schema</button></form><section id="out" tabindex="-1" aria-live="polite"></section>
+<aside id="cta" class="cta" hidden><img class="i" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/59/df/3259df2a-df0b-4037-eacb-8ccd96fcce8c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/128x128bb.jpg" alt="" width="64" height="64"><div><p><b>Vaktplan – arbetspass och lön</b><br>I Vaktplan lägger du in ett rullande schema på 1–8 veckor upp till två år framåt och ser timmarna fördelade på kväll, natt, helg och helgdag.</p>
+<a class="badge" href="https://apps.apple.com/app/id6823286145?pt=322891&ct=tool"><img src="../../landing/app-store-badge.svg" alt="Hämta i App Store" width="135" height="45"></a></div></aside>
+<h2>Vanliga frågor</h2><h3>Vad är ett 2-2-3-schema?</h3><p>Kallas också Panama-schema: 2 dagar på, 2 lediga, 3 på, 2 lediga, 2 på och 3 lediga. Det rullar över 14 dagar och du jobbar varannan helg.</p><h3>Hur räknar jag ut snittiden per vecka i ett rullande schema?</h3><p>Summera timmarna för hela schemaperioden och dela med antalet veckor. Exempel: 7 pass à 12 timmar på 14 dagar = 84 timmar / 2 veckor = 42 timmar per vecka. Kalkylatorn gör det för perioden som visas.</p><h3>Kan jag se vilket pass jag har ett visst datum?</h3><p>Ja. Öka antalet veckor (upp till 104) och leta upp datumet i tabellen. Veckonumret står i första kolumnen.</p><h3>Kan jag använda egna passtyper?</h3><p>Ja. Alla bokstäver eller korta koder fungerar, till exempel B för beredskap. Bara L räknas som ledig.</p><h3>Sparas mitt schema?</h3><p>Nej. Allt räknas ut i din webbläsare och skickas ingenstans.</p></main>
+<footer><a href="../../sv/vaktplan-arbetspass-och-lon/">Om appen</a><a href="../../vaktplan-nordic/">Integritet</a><br>
+Språk: <a href="../../nb/turnuskalkulator/" hreflang="nb">Norsk</a> <b>Svenska</b><br>© Baytech BV</footer>
+<script>var LANG="sv";var T={"off":"L","week":"V.","caption":"Schema per vecka","empty":"Skriv in schemat och en startdag.","summary":"Schemat rullar över {len} dagar. På {days} dagar har du \u003cb>{work} pass\u003c/b> och {hours} timmar – i snitt \u003cb>{avg} timmar per vecka\u003c/b>."};
+// Shared date helpers. Dates are UTC midnights so a DST switch never moves a day.
+var D = {
+  parse: function (s) { var p = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || ''); return p ? Date.UTC(+p[1], p[2] - 1, +p[3]) : NaN; },
+  iso: function (t) { return new Date(t).toISOString().slice(0, 10); },
+  addDays: function (t, n) { return t + n * 864e5; },
+  addMonths: function (t, n) {
+    var d = new Date(t), y = d.getUTCFullYear(), m = d.getUTCMonth() + n;
+    var last = new Date(Date.UTC(y, m + 1, 0)).getUTCDate();
+    return Date.UTC(y, m, Math.min(d.getUTCDate(), last));
+  },
+  days: function (a, b) { return Math.round((b - a) / 864e5); },
+  dow: function (t) { return (new Date(t).getUTCDay() + 6) % 7; }, // 0 = Monday
+  today: function () { var n = new Date(); return Date.UTC(n.getFullYear(), n.getMonth(), n.getDate()); },
+  fmt: function (t, lang, o) {
+    return new Intl.DateTimeFormat(lang, Object.assign({ timeZone: 'UTC' }, o || { day: 'numeric', month: 'long', year: 'numeric' })).format(t);
+  }
+};
+if (typeof module !== 'undefined') module.exports = D;
+// Rotation (turnus) maths: a pattern is a list of shift codes repeated from the start date.
+var Turnus = {
+  parse: function (s) { return String(s || '').toUpperCase().split(/[\s,;]+/).filter(Boolean); },
+  on: function (start, pattern, t) { var L = pattern.length, i = D.days(start, t) % L; return pattern[(i + L) % L]; },
+  isoWeek: function (t) {
+    var d = new Date(D.addDays(t, 3 - D.dow(t))), y = d.getUTCFullYear(); // Thursday of this week decides the year
+    return 1 + Math.floor(D.days(Date.UTC(y, 0, 1), d.getTime()) / 7);
+  },
+  // Rows of Monday–Sunday weeks covering n weeks from the week of start.
+  weeks: function (start, pattern, n) {
+    var mon = D.addDays(start, -D.dow(start)), rows = [];
+    for (var w = 0; w < n; w++) {
+      var days = [];
+      for (var i = 0; i < 7; i++) { var t = D.addDays(mon, 7 * w + i); days.push({ t: t, code: t < start ? '' : Turnus.on(start, pattern, t) }); }
+      rows.push({ week: Turnus.isoWeek(D.addDays(mon, 7 * w)), days: days });
+    }
+    return rows;
+  },
+  // Counts per code, worked shifts, hours and average hours per week over `days` days from start.
+  stats: function (start, pattern, days, off, hours) {
+    var count = {}, work = 0;
+    for (var i = 0; i < days; i++) { var c = Turnus.on(start, pattern, D.addDays(start, i)); count[c] = (count[c] || 0) + 1; if (c !== off) work++; }
+    return { count: count, work: work, hours: work * hours, perWeek: days ? work * hours * 7 / days : 0 };
+  }
+};
+
+if (typeof document !== 'undefined') (function () {
+  var f = document.getElementById('f'), out = document.getElementById('out'), cta = document.getElementById('cta');
+  var nf = new Intl.NumberFormat(LANG, { maximumFractionDigits: 1 });
+  var dayNames = [0, 1, 2, 3, 4, 5, 6].map(function (i) { return D.fmt(Date.UTC(2024, 0, 1 + i), LANG, { weekday: 'short' }); });
+  var esc = function (s) { return s.replace(/[&<>"]/g, function (c) { return '&#' + c.charCodeAt(0) + ';'; }); };
+  f.preset.addEventListener('change', function () { if (f.preset.value) { f.pattern.value = f.preset.value; run(); } });
+  function run() {
+    var pattern = Turnus.parse(f.pattern.value), start = D.parse(f.start.value);
+    var n = Math.min(Math.max(parseInt(f.weeks.value, 10) || 8, 1), 104), hours = parseFloat(String(f.hours.value).replace(',', '.')) || 0;
+    if (!pattern.length || isNaN(start)) { out.innerHTML = '<p>' + T.empty + '</p>'; cta.hidden = true; return; }
+    var rows = Turnus.weeks(start, pattern, n), s = Turnus.stats(start, pattern, n * 7, T.off, hours), today = D.today();
+    var h = '<p>' + T.summary.replace('{len}', pattern.length).replace('{work}', s.work).replace('{days}', n * 7)
+      .replace('{hours}', nf.format(s.hours)).replace('{avg}', nf.format(s.perWeek)) + '</p>';
+    h += '<p class="codes">' + Object.keys(s.count).map(function (c) { return '<span class="c c-' + esc(c) + '">' + esc(c) + '</span> ' + s.count[c]; }).join(' · ') + '</p>';
+    h += '<div class="scroll"><table><caption class="sr">' + T.caption + '</caption><thead><tr><th scope="col">' + T.week + '</th>' +
+      dayNames.map(function (d) { return '<th scope="col">' + d + '</th>'; }).join('') + '</tr></thead><tbody>';
+    rows.forEach(function (r, ri) {
+      h += '<tr><th scope="row">' + r.week + '</th>' + r.days.map(function (d, di) {
+        var first = new Date(d.t).getUTCDate() === 1 || (ri === 0 && di === 0);
+        var label = D.fmt(d.t, LANG, first ? { day: 'numeric', month: 'short' } : { day: 'numeric' });
+        return '<td' + (d.t === today ? ' class="today"' : '') + ' title="' + esc(D.fmt(d.t, LANG, { weekday: 'long', day: 'numeric', month: 'long' })) + '">' +
+          '<small>' + esc(label) + '</small>' + (d.code ? '<span class="c c-' + esc(d.code) + '">' + esc(d.code) + '</span>' : '') + '</td>';
+      }).join('') + '</tr>';
+    });
+    out.innerHTML = h + '</tbody></table></div>';
+    cta.hidden = false;
+  }
+  f.addEventListener('input', run);
+  f.addEventListener('submit', function (e) { e.preventDefault(); run(); out.focus(); });
+  if (!f.start.value) f.start.value = D.iso(D.today());
+  run();
+})();
+if (typeof module !== 'undefined') module.exports = Turnus;
+</script></body></html>
