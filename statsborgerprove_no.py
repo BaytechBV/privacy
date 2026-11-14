@@ -1,13 +1,14 @@
 # Privacy + support pages for Statsborgerprøven (statsborgerprove-no/). Separate from build.py because the wording is
 # app-specific. Since 1.1.1 the app sends anonymous usage statistics (Google Analytics for Firebase, FirebaseAnalyticsCore,
-# no IDFA) while the "Send usage statistics" switch in Settings is on (default on, opt-out). Texts follow
+# no IDFA) while the "Send usage statistics" switch in Settings is on. 1.1.1 default on; 1.1.2-1.1.8 opt-in; default on again
+# from 1.1.9 (Utku 2026-11-14; onboarding note, Art. 6(1)(f), objection via Settings). Texts follow
 # docs/privacy-page-draft-1.1.1.md in the app repo and match the App Store privacy label (usage data, identifier,
 # coarse location, purchases, diagnostics; analytics only, not linked, no tracking).
 import os
 
 CONTACT = "utqsall@gmail.com"
 OWNER = "Mustafa Utku Bayık"
-UPDATED = "2026-10-19"
+UPDATED = "2026-11-14"
 SLUG, NAME = "statsborgerprove-no", "Statsborgerprøven"
 M = f"<a href='mailto:{CONTACT}'>{CONTACT}</a>"
 REFUND = "<a href='https://reportaproblem.apple.com'>reportaproblem.apple.com</a>"
@@ -35,7 +36,7 @@ P = {
             "Navn, e-postadresse, spørsmåls- eller svartekster og annet innhold sendes ikke. Dataene kobles ikke til identiteten din. "
             "Appen bruker ikke reklame-ID-en (IDFA), viser ingen reklame og sporer deg ikke på tvers av apper eller nettsteder. "
             "Rettslig grunnlag: vår berettigede interesse i å forbedre appen (GDPR art. 6 nr. 1 bokstav f). Google kan behandle data i USA; "
-            "Google LLC er sertifisert under EU-US Data Privacy Framework. Hendelsesdata slettes etter 2 måneder. "
+            "Google LLC er sertifisert under EU-US Data Privacy Framework. Hendelsesdata slettes etter 2 måneder. Fra versjon 1.1.9 er bruksstatistikken slått på som standard, og skjermen ved første oppstart sier det; du kan slå den av når som helst i Innstillinger («Send bruksstatistikk»), og da slutter appen å sende og husker valget ditt. I versjon 1.1.2–1.1.8 var den av med mindre du slo den på; et valg du gjorde i en tidligere versjon, beholdes. "
             f"Se {GP('Googles personvernerklæring')} og «{FB('Privacy and Security in Firebase')}»."),
            ("Kjøp", "Engangskjøpet i appen håndteres helt av Apple via App Store. Vi får ikke betalingsopplysningene dine. "
             "Se <a href='https://www.apple.com/no/legal/privacy/'>Apples personvernerklæring</a>."),
@@ -58,7 +59,7 @@ P = {
             "No name, e-mail address, question or answer text, exam date or other content is sent. The data is not linked to your identity. "
             "The app does not use the advertising identifier (IDFA), shows no ads and does not track you across apps or websites. "
             "Legal basis: our legitimate interest in improving the app (Art. 6(1)(f) GDPR). Google may process data in the USA; "
-            "Google LLC is certified under the EU-US Data Privacy Framework. Event data is deleted after 2 months. "
+            "Google LLC is certified under the EU-US Data Privacy Framework. Event data is deleted after 2 months. From version 1.1.9 usage statistics are on by default and the first-launch screen says so; you can switch them off at any time in Settings (“Send usage statistics”), and the app then stops sending and remembers your choice. In versions 1.1.2–1.1.8 they were off unless you switched them on; a choice you made in an earlier version is kept. "
             f"See {GP('Google&#39;s Privacy Policy')} and “{FB('Privacy and Security in Firebase')}”."),
            ("Purchases", "The one-time in-app purchase is handled entirely by Apple via the App Store. We do not receive your payment details. "
             "See <a href='https://www.apple.com/legal/privacy/'>Apple's Privacy Policy</a>."),
@@ -81,7 +82,7 @@ P = {
             "Imię, adres e-mail, treść pytań i odpowiedzi ani inne treści nie są wysyłane. Dane nie są powiązane z Twoją tożsamością. "
             "Aplikacja nie używa identyfikatora reklamowego (IDFA), nie wyświetla reklam i nie śledzi Cię w innych aplikacjach ani witrynach. "
             "Podstawa prawna: nasz prawnie uzasadniony interes w ulepszaniu aplikacji (art. 6 ust. 1 lit. f RODO). Google może przetwarzać dane w USA; "
-            "Google LLC ma certyfikat EU-US Data Privacy Framework. Dane zdarzeń są usuwane po 2 miesiącach. "
+            "Google LLC ma certyfikat EU-US Data Privacy Framework. Dane zdarzeń są usuwane po 2 miesiącach. Od wersji 1.1.9 statystyki użycia są domyślnie włączone, o czym informuje ekran przy pierwszym uruchomieniu; w każdej chwili możesz je wyłączyć w Ustawieniach („Wysyłaj statystyki użycia”), a aplikacja przestanie wysyłać dane i zapamięta Twój wybór. W wersjach 1.1.2–1.1.8 były wyłączone, dopóki ich nie włączyłeś; wybór dokonany we wcześniejszej wersji zostaje zachowany. "
             f"Zobacz {GP('Politykę prywatności Google')} oraz „{FB('Privacy and Security in Firebase')}”."),
            ("Zakupy", "Jednorazowy zakup w aplikacji w całości obsługuje Apple przez App Store. Nie otrzymujemy Twoich danych płatniczych. "
             "Zobacz <a href='https://www.apple.com/pl/legal/privacy/'>Politykę prywatności Apple</a>."),
@@ -104,7 +105,7 @@ P = {
             "لا يُرسل الاسم أو البريد الإلكتروني أو نصوص الأسئلة والإجابات أو تاريخ الاختبار أو أي محتوى آخر. لا ترتبط البيانات بهويتك. "
             "لا يستخدم التطبيق معرّف الإعلانات (IDFA) ولا يعرض إعلانات ولا يتتبّعك عبر التطبيقات أو المواقع. "
             "الأساس القانوني: مصلحتنا المشروعة في تحسين التطبيق (المادة 6(1)(f) من اللائحة العامة لحماية البيانات). قد تعالج Google البيانات في الولايات المتحدة؛ "
-            "وGoogle LLC معتمدة ضمن EU-US Data Privacy Framework. تُحذف بيانات الأحداث بعد شهرين. "
+            "وGoogle LLC معتمدة ضمن EU-US Data Privacy Framework. تُحذف بيانات الأحداث بعد شهرين. منذ الإصدار 1.1.9 تكون إحصاءات الاستخدام مفعّلة افتراضيًا، وتذكر ذلك شاشة التشغيل الأول؛ يمكنك إيقافها في أي وقت من الإعدادات («إرسال إحصاءات الاستخدام»)، فيتوقف التطبيق عن الإرسال ويتذكر اختيارك. في الإصدارات 1.1.2–1.1.8 كانت متوقفة ما لم تفعّلها؛ ويُحتفظ بالاختيار الذي اتخذته في إصدار سابق. "
             f"راجع {GP('سياسة خصوصية Google')} و«{FB('Privacy and Security in Firebase')}»."),
            ("المشتريات", "تتولى Apple عملية الشراء الواحدة داخل التطبيق بالكامل عبر App Store. لا نحصل على بيانات الدفع الخاصة بك. "
             "راجع <a href='https://www.apple.com/legal/privacy/'>سياسة خصوصية Apple</a>."),
@@ -127,7 +128,7 @@ P = {
             "Name, E-Mail-Adresse, Frage- oder Antworttexte, Prüfungsdatum und andere Inhalte werden nicht übertragen. Die Daten werden nicht mit deiner Identität verknüpft. "
             "Die App nutzt keine Werbe-ID (IDFA), zeigt keine Werbung und verfolgt dich nicht über Apps oder Websites hinweg. "
             "Rechtsgrundlage: unser berechtigtes Interesse an der Verbesserung der App (Art. 6 Abs. 1 lit. f DSGVO). Google kann Daten in den USA verarbeiten; "
-            "Google LLC ist nach dem EU-US Data Privacy Framework zertifiziert. Ereignisdaten werden nach 2 Monaten gelöscht. "
+            "Google LLC ist nach dem EU-US Data Privacy Framework zertifiziert. Ereignisdaten werden nach 2 Monaten gelöscht. Ab Version 1.1.9 ist die Nutzungsstatistik standardmäßig eingeschaltet, und der Bildschirm beim ersten Start weist darauf hin; du kannst sie jederzeit in den Einstellungen ausschalten („Nutzungsstatistik senden“), dann sendet die App nichts mehr und merkt sich deine Wahl. In den Versionen 1.1.2–1.1.8 war sie ausgeschaltet, sofern du sie nicht eingeschaltet hast; eine in einer früheren Version getroffene Wahl bleibt erhalten. "
             f"Siehe {GP('Datenschutzerklärung von Google')} und „{FB('Datenschutz und Sicherheit in Firebase')}“."),
            ("Käufe", "Der einmalige In-App-Kauf wird vollständig von Apple über den App Store abgewickelt. Wir erhalten keine Zahlungsdaten. "
             "Siehe <a href='https://www.apple.com/de/legal/privacy/'>Datenschutzrichtlinie von Apple</a>."),
