@@ -20,6 +20,9 @@ h1{font-size:28px;margin:0 0 4px}
 .btn{display:block;width:100%;box-sizing:border-box;border:0;border-radius:14px;padding:14px 18px;margin:12px 0;font:600 17px -apple-system,system-ui,sans-serif;text-decoration:none;cursor:pointer;background:var(--accent);color:#fff}
 .btn.secondary{background:transparent;color:var(--accent);border:2px solid var(--accent)}
 [hidden]{display:none!important}
+#tips{text-align:left;margin-top:16px}
+.tipshead{font-weight:600}
+#tiplist{margin:6px 0 0;padding-left:22px}
 footer{margin-top:32px;font-size:13px}
 footer a{color:var(--muted)}
 </style>
@@ -35,6 +38,7 @@ footer a{color:var(--muted)}
       <div class="name" id="receiver"></div>
       <div id="budget"></div>
       <div class="muted" id="date"></div>
+      <div id="tips" hidden><div class="tipshead" id="tipshead"></div><ul id="tiplist"></ul></div>
     </div>
     <a class="btn secondary" id="list" hidden></a>
   </div>
@@ -50,22 +54,25 @@ footer a{color:var(--muted)}
 var T = {
   sv: {hi: "Hej %s!", show: "Visa mitt resultat", youare: "Du är hemlig tomte för", budget: "Budget %s", list: "Öppna %ss önskelista",
        bad: "Länken fungerar inte", badtext: "Be arrangören skicka länken igen.", about: "Gör din egen önskelista så vet din tomte vad du vill ha – familjen reserverar i hemlighet.",
-       store: "Hämta Önskelista i App Store", open: "Öppna i appen"},
+       store: "Hämta Önskelista i App Store", tips: "Önsketips från %s", open: "Öppna i appen"},
   fi: {hi: "Hei %s!", show: "Näytä tulokseni", youare: "Olet salainen joulupukki henkilölle", budget: "Budjetti %s", list: "Avaa toivelista: %s",
        bad: "Linkki ei toimi", badtext: "Pyydä järjestäjää lähettämään linkki uudelleen.", about: "Tee oma toivelistasi, niin joulupukkisi tietää, mitä toivot – perhe varaa lahjat salaa.",
-       store: "Lataa Toivelista App Storesta", open: "Avaa sovelluksessa"},
+       store: "Lataa Toivelista App Storesta", tips: "Toivevinkit: %s", open: "Avaa sovelluksessa"},
   nl: {hi: "Hoi %s!", show: "Laat mijn lootje zien", youare: "Jij hebt het lootje van", budget: "Budget %s", list: "Open de verlanglijst van %s",
        bad: "De link werkt niet", badtext: "Vraag de organisator de link opnieuw te sturen.", about: "Maak je eigen verlanglijstje, dan weet wie jouw lootje heeft wat je wilt – de familie reserveert in het geheim.",
-       store: "Download Verlanglijstje in de App Store", open: "Openen in de app"},
+       store: "Download Verlanglijstje in de App Store", tips: "Wenstips van %s", open: "Openen in de app"},
   da: {hi: "Hej %s!", show: "Vis mit resultat", youare: "Du er hemmelig nisse for", budget: "Budget %s", list: "Åbn %ss ønskeseddel",
        bad: "Linket virker ikke", badtext: "Bed arrangøren om at sende linket igen.", about: "Lav din egen ønskeseddel, så ved din nisse, hvad du ønsker dig – familien reserverer i hemmelighed.",
-       store: "Hent Ønskeseddel i App Store", open: "Åbn i appen"},
+       store: "Hent Ønskeseddel i App Store", tips: "Ønsketips fra %s", open: "Åbn i appen"},
   de: {hi: "Hallo %s!", show: "Mein Ergebnis zeigen", youare: "Du bist Wichtel für", budget: "Budget %s", list: "Wunschzettel von %s öffnen",
        bad: "Der Link funktioniert nicht", badtext: "Bitte die Person, die gelost hat, den Link noch einmal zu schicken.", about: "Schreib deinen eigenen Wunschzettel, dann weiß dein Wichtel, was du dir wünschst – die Familie reserviert heimlich.",
-       store: "Wunschzettel im App Store laden", open: "In der App öffnen"},
+       store: "Wunschzettel im App Store laden", tips: "Wunschtipps von %s", open: "In der App öffnen"},
+  fr: {hi: "Bonjour %s !", show: "Voir mon résultat", youare: "Tu es le Secret Santa de", budget: "Budget %s", list: "Ouvrir la liste de %s",
+       bad: "Ce lien ne fonctionne pas", badtext: "Demande à l’organisateur de renvoyer le lien.", about: "Fais ta propre liste de souhaits pour que ton Secret Santa sache ce qui te ferait plaisir – la famille réserve en secret.",
+       store: "Télécharger Wishlist sur l’App Store", tips: "Idées de %s", open: "Ouvrir dans l’app"},
   en: {hi: "Hi %s!", show: "Show my result", youare: "You are Secret Santa for", budget: "Budget %s", list: "Open %s's wish list",
        bad: "This link doesn't work", badtext: "Ask the organiser to send the link again.", about: "Make your own wish list so your Secret Santa knows what you'd like – the family reserves in secret.",
-       store: "Get Wishlist on the App Store", open: "Open in the app"}
+       store: "Get Wishlist on the App Store", tips: "Wish tips from %s", open: "Open in the app"}
 };
 var lang = (navigator.languages || [navigator.language || "en"]).map(function (l) { return l.slice(0, 2).toLowerCase(); })
   .map(function (l) { return l === "nb" || l === "no" ? "da" : l; }).filter(function (l) { return T[l]; })[0] || "en";
@@ -97,6 +104,11 @@ if (r) {
   }
   // Swift's JSONEncoder writes dates as seconds since 2001-01-01.
   if (typeof r.date === "number") $("date").textContent = new Date((978307200 + r.date) * 1000).toLocaleDateString(lang, {day: "numeric", month: "long"});
+  if (Array.isArray(r.hints) && r.hints.length) {
+    $("tipshead").textContent = fill(t.tips, r.receiver);
+    r.hints.slice(0, 3).forEach(function (h) { var li = document.createElement("li"); li.textContent = String(h); $("tiplist").appendChild(li); });
+    $("tips").hidden = false;
+  }
   if (r.receiverListURL && /^https:\/\//.test(r.receiverListURL)) { $("list").href = r.receiverListURL; $("list").textContent = fill(t.list, r.receiver); }
   $("show").onclick = function () { $("show").hidden = true; $("result").hidden = false; $("list").hidden = !r.receiverListURL || !$("list").href; };
   $("open").href = "onskelista://santa?d=" + encodeURIComponent(b64);
