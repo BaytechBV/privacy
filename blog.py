@@ -127,7 +127,7 @@ def index(d, groups):
     names = ", ".join(c["app"] for _, c in groups)
     desc = {"nl": f"Artikelen en uitleg bij examens en regels: {names}.", "da": f"Artikler og forklaringer om prøver og regler: {names}."}[d][:155]
     os.makedirs(f"{d}/blog", exist_ok=True)
-    open(f"{d}/blog/index.html", "w").write(page(d, f"{t[0]} – Baytech apps", desc, url, "".join(body)))
+    open(f"{d}/blog/index.html", "w").write(page(d, {"nl": "Blog – uitleg en examentips | Baytech apps", "da": "Blog – guides og prøvetips | Baytech apps"}[d], desc, url, "".join(body)))
 
 
 if __name__ == "__main__":
