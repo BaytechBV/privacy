@@ -46,6 +46,7 @@ footer a{color:var(--muted)}
   <div class="card">
     <p id="about"></p>
     <a class="btn" id="store" href="https://apps.apple.com/app/id6824064449"></a>
+    <a class="btn" id="play" href="https://play.google.com/store/apps/details?id=com.baytechbv.onskelista"></a>
     <a class="btn secondary" id="open" hidden></a>
   </div>
   <footer><a href="../">Önskelista · Privacy</a></footer>
@@ -54,25 +55,25 @@ footer a{color:var(--muted)}
 var T = {
   sv: {hi: "Hej %s!", show: "Visa mitt resultat", youare: "Du är hemlig tomte för", budget: "Budget %s", list: "Öppna %ss önskelista",
        bad: "Länken fungerar inte", badtext: "Be arrangören skicka länken igen.", about: "Gör din egen önskelista så vet din tomte vad du vill ha – familjen reserverar i hemlighet.",
-       store: "Hämta Önskelista i App Store", tips: "Önsketips från %s", open: "Öppna i appen"},
+       store: "Hämta Önskelista i App Store", play: "Ladda ned Önskelista på Google Play", tips: "Önsketips från %s", open: "Öppna i appen"},
   fi: {hi: "Hei %s!", show: "Näytä tulokseni", youare: "Olet salainen joulupukki henkilölle", budget: "Budjetti %s", list: "Avaa toivelista: %s",
        bad: "Linkki ei toimi", badtext: "Pyydä järjestäjää lähettämään linkki uudelleen.", about: "Tee oma toivelistasi, niin joulupukkisi tietää, mitä toivot – perhe varaa lahjat salaa.",
-       store: "Lataa Toivelista App Storesta", tips: "Toivevinkit: %s", open: "Avaa sovelluksessa"},
+       store: "Lataa Toivelista App Storesta", play: "Lataa Toivelista Google Playsta", tips: "Toivevinkit: %s", open: "Avaa sovelluksessa"},
   nl: {hi: "Hoi %s!", show: "Laat mijn lootje zien", youare: "Jij hebt het lootje van", budget: "Budget %s", list: "Open de verlanglijst van %s",
        bad: "De link werkt niet", badtext: "Vraag de organisator de link opnieuw te sturen.", about: "Maak je eigen verlanglijstje, dan weet wie jouw lootje heeft wat je wilt – de familie reserveert in het geheim.",
-       store: "Download Verlanglijstje in de App Store", tips: "Wenstips van %s", open: "Openen in de app"},
+       store: "Download Verlanglijstje in de App Store", play: "Download Verlanglijstje op Google Play", tips: "Wenstips van %s", open: "Openen in de app"},
   da: {hi: "Hej %s!", show: "Vis mit resultat", youare: "Du er hemmelig nisse for", budget: "Budget %s", list: "Åbn %ss ønskeseddel",
        bad: "Linket virker ikke", badtext: "Bed arrangøren om at sende linket igen.", about: "Lav din egen ønskeseddel, så ved din nisse, hvad du ønsker dig – familien reserverer i hemmelighed.",
-       store: "Hent Ønskeseddel i App Store", tips: "Ønsketips fra %s", open: "Åbn i appen"},
+       store: "Hent Ønskeseddel i App Store", play: "Hent Ønskeseddel på Google Play", tips: "Ønsketips fra %s", open: "Åbn i appen"},
   de: {hi: "Hallo %s!", show: "Mein Ergebnis zeigen", youare: "Du bist Wichtel für", budget: "Budget %s", list: "Wunschzettel von %s öffnen",
        bad: "Der Link funktioniert nicht", badtext: "Bitte die Person, die gelost hat, den Link noch einmal zu schicken.", about: "Schreib deinen eigenen Wunschzettel, dann weiß dein Wichtel, was du dir wünschst – die Familie reserviert heimlich.",
-       store: "Wunschzettel im App Store laden", tips: "Wunschtipps von %s", open: "In der App öffnen"},
+       store: "Wunschzettel im App Store laden", play: "Wunschzettel bei Google Play laden", tips: "Wunschtipps von %s", open: "In der App öffnen"},
   fr: {hi: "Bonjour %s !", show: "Voir mon résultat", youare: "Tu es le Secret Santa de", budget: "Budget %s", list: "Ouvrir la liste de %s",
        bad: "Ce lien ne fonctionne pas", badtext: "Demande à l’organisateur de renvoyer le lien.", about: "Fais ta propre liste de souhaits pour que ton Secret Santa sache ce qui te ferait plaisir – la famille réserve en secret.",
-       store: "Télécharger Wishlist sur l’App Store", tips: "Idées de %s", open: "Ouvrir dans l’app"},
+       store: "Télécharger Wishlist sur l’App Store", play: "Télécharger Wishlist sur Google Play", tips: "Idées de %s", open: "Ouvrir dans l’app"},
   en: {hi: "Hi %s!", show: "Show my result", youare: "You are Secret Santa for", budget: "Budget %s", list: "Open %s's wish list",
        bad: "This link doesn't work", badtext: "Ask the organiser to send the link again.", about: "Make your own wish list so your Secret Santa knows what you'd like – the family reserves in secret.",
-       store: "Get Wishlist on the App Store", tips: "Wish tips from %s", open: "Open in the app"}
+       store: "Get Wishlist on the App Store", play: "Get Wishlist on Google Play", tips: "Wish tips from %s", open: "Open in the app"}
 };
 var lang = (navigator.languages || [navigator.language || "en"]).map(function (l) { return l.slice(0, 2).toLowerCase(); })
   .map(function (l) { return l === "nb" || l === "no" ? "da" : l; }).filter(function (l) { return T[l]; })[0] || "en";
@@ -80,7 +81,7 @@ var t = T[lang];
 document.documentElement.lang = lang;
 function $(id) { return document.getElementById(id); }
 function fill(s, v) { return s.replace("%s", v); }
-$("about").textContent = t.about; $("store").textContent = t.store;
+$("about").textContent = t.about; $("store").textContent = t.store; $("play").textContent = t.play;
 
 var r = null, d = (location.hash.match(/[#&]d=([A-Za-z0-9_\-+\/=]+)/) || [])[1];
 try {

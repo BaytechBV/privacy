@@ -4,6 +4,8 @@
 # New app: add an entry to TESTS (and a UI dict to UI if the language is new). Only text questions are used (no image/input).
 import html, json, random, subprocess, sys
 
+import android_privacy  # Google Play package per app (PLAY) and button label
+
 SRC = sys.argv[1] if len(sys.argv) > 1 else "../baytech"
 from landing import BASE  # single base URL (SITE_BASE env)
 N = 25
@@ -67,6 +69,7 @@ button:disabled{cursor:default}.ok{border-color:var(--ok);background:var(--okb)}
 .x{color:var(--mu);margin:8px 0 0}.bar{position:sticky;top:0;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--bd);font-weight:600}
 #res{border:2px solid var(--ac);border-radius:14px;padding:16px;margin:24px 0}#res .big{font-size:1.3em;font-weight:700;margin:0}
 .badge{display:inline-block;margin:8px 0}.badge img{display:block;height:54px;width:auto}.retry{width:auto;display:inline-block}
+.play{display:inline-block;margin:8px 0 8px 8px;padding:14px 16px;border-radius:12px;background:var(--fg);color:var(--bg);font-weight:600;text-decoration:none;vertical-align:top}
 small{color:var(--mu)}"""
 
 JS = """const L=document.querySelectorAll('li.q'),T=L.length,U=JSON.parse(document.getElementById('ui').textContent);let n=0,c=0;
@@ -119,6 +122,8 @@ def page(key, t):
     url = f"{BASE}/{t['lang']}/{t['slug']}/"
     store = f"https://apps.apple.com/app/id{t['app_id']}?pt=322891&ct=web-test"
     badge = (f"<a class='badge' href='{store}'><img src='https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg' alt='{e(u['badge'])}' width='162' height='54'></a>")
+    if t["repo"] in android_privacy.PLAY:  # Google Play text button next to the App Store badge
+        badge += f"<a class='play' href='{android_privacy.play_url(t['repo'])}'>{e(android_privacy.PLAY_LABEL[t['lang']])}</a>"
     items = "".join(
         f"<li class='q' data-k='{q['k']}'><p>{e(q['prompt'])}</p>"
         + "".join(f"<button type='button' data-i='{i}'>{e(o)}</button>" for i, o in enumerate(q["options"]))

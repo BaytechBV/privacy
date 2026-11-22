@@ -14,7 +14,7 @@ const NAME = { fr: 'Français', en: 'English', da: 'Dansk', nb: 'Norsk', sv: 'Sv
 const LOCALE = { fr: 'fr-FR', en: 'en-GB', da: 'da', nb: 'no', sv: 'sv', fi: 'fi', de: 'de-DE', nl: 'nl-NL' };
 const icon = u => u.replace('512x512bb', '128x128bb');
 const APP = {
-  tirelire: { key: 'tirelire', cat: 'FinanceApplication' },
+  tirelire: { key: 'tirelire', cat: 'FinanceApplication', play: 'com.baytechbv.tirelire' }, // play: live on Google Play (android_privacy.py PLAY)
   vaktplan: { key: 'vaktplan-nordic', cat: 'BusinessApplication' },
   glp1: { key: 'glp1-companion-eu', cat: 'HealthApplication' },
   falci: { id: '685867301', cat: 'LifestyleApplication', name: { en: 'Falci: Coffee Cup Reading', ar: 'Falci' },
@@ -33,7 +33,7 @@ input,select,button{font:inherit;color:var(--fg);background:var(--bg);border:1px
 button{background:var(--ac);color:var(--acfg);border:0;font-weight:600;cursor:pointer;width:auto;justify-self:start}button.secondary{background:transparent;color:var(--ac);border:1px solid var(--ac)}
 :focus-visible{outline:3px solid var(--ac);outline-offset:2px}fieldset{border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:grid;gap:10px}legend{font-weight:600;padding:0 4px}
 #out{font-size:1.05em}#out:focus{outline:none}.warn{border:2px solid var(--wb);background:var(--wbg);color:var(--wfg);border-radius:12px;padding:12px 14px}
-.cta{display:flex;gap:14px;align-items:flex-start;background:var(--card);border-radius:14px;padding:14px;margin:18px 0}.cta img.i{border-radius:22%;flex:none}.cta p{margin:0 0 8px}.badge img{display:block}
+.cta{display:flex;gap:14px;align-items:flex-start;background:var(--card);border-radius:14px;padding:14px;margin:18px 0}.cta img.i{border-radius:22%;flex:none}.cta p{margin:0 0 8px}.badge img{display:block}.play{display:inline-block;margin:8px 0 0;padding:8px 14px;border-radius:10px;background:var(--fg);color:var(--bg);font-weight:600;text-decoration:none}
 .scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.9em}th,td{border:1px solid var(--line);padding:4px 3px;text-align:center}td small{display:block;color:var(--mu);font-size:.8em;line-height:1.2}
 tr.alt td{background:var(--card)}.today{outline:2px solid var(--ac);outline-offset:-2px}
 .c{display:inline-block;min-width:1.7em;border-radius:6px;font-weight:700;padding:0 3px;background:#d6e4ff;color:#0b1f4d}.c-D{background:#ffe08a;color:#3d2c00}.c-K{background:#ffb37a;color:#3d1a00}.c-N{background:#3b4f8f;color:#fff}.c-F,.c-L{background:rgba(128,128,128,.2);color:var(--fg)}
@@ -59,7 +59,7 @@ ${ld.map(x => `<script type="application/ld+json">${json(x)}</script>`).join('')
 <main><h1>${esc(o.h1)}</h1>${o.warn ? `<p class="warn" role="note">${o.warn}</p>` : ''}<p class="lead">${esc(o.lead)}</p>
 ${o.main}
 <aside id="cta" class="cta"${o.ctaHidden ? ' hidden' : ''}><img class="i" src="${app.icon}" alt="" width="64" height="64"><div><p><b>${esc(appName(o.tool, o.lang))}</b><br>${esc(o.cta)}</p>
-<a class="badge" href="${store}"><img src="${up}landing/app-store-badge.svg" alt="${esc(ui.badge)}" width="135" height="45"></a></div></aside>
+<a class="badge" href="${store}"><img src="${up}landing/app-store-badge.svg" alt="${esc(ui.badge)}" width="135" height="45"></a>${app.play ? `<a class="play" href="https://play.google.com/store/apps/details?id=${app.play}">${esc(ui.play)}</a>` : ''}</div></aside>
 <h2>${ui.faq}</h2>${o.faq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}${o.after || ''}</main>
 <footer>${landing ? `<a href="${up}${o.lang}/${landing}/">${ui.about}</a>` : ''}${app.key ? `<a href="${up}${app.key}/">${ui.privacy}</a>` : ''}<br>
 ${ui.lang}: ${alts.map(([l, p]) => l === o.lang ? `<b>${NAME[l]}</b>` : `<a href="${up}${p}" hreflang="${l}">${NAME[l]}</a>`).join(' ')}<br>© Baytech BV</footer>

@@ -4,6 +4,8 @@
 # Section bodies are hand-written HTML; FAQ answers are plain text (they go into JSON-LD too).
 # Refresh schedule: baytech/_drafts/rehber/TAKVIM.md. Re-run landing.py build first if a web test page was added.
 import json, os, re, sys
+
+import android_privacy  # Google Play package per app (PLAY) and button label
 from landing import BASE, CSS, FREE, TESTS, UI, e
 
 APPS = json.load(open("landing/apps.json"))
@@ -32,6 +34,8 @@ def build(rs):
                {"@type": "Question", "name": q["q"], "acceptedAnswer": {"@type": "Answer", "text": q["a"]}} for q in c["faq"]]}]
     jsonld = "".join("<script type='application/ld+json'>" + json.dumps(x, ensure_ascii=False).replace("</", "<\\/") + "</script>" for x in lds)
     badge = f"<a class='badge' href='{store}'><img src='../../landing/app-store-badge.svg' alt='{e(u[0])}' width='162' height='54'></a>"
+    if rs in android_privacy.PLAY:  # text button next to the App Store badge (no Google badge image)
+        badge += f"<a class='play' href='{android_privacy.play_url(rs)}'>{e(android_privacy.PLAY_LABEL[d])}</a>"
     cta = (f"<div class='cta'><b>{e(t[2])}: {e(c['app'])}</b><br>{e(c['cta'])}"
            + (f"<p><a class='test' href='../../{test}'>{e(u[3])} →</a></p>" if test else "")
            + f"{badge}<a href='{landing}'>{e(t[3])} →</a></div>")

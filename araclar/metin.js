@@ -1,14 +1,14 @@
 // Page texts per tool and language. No "free/gratis" wording (store copy rule).
 module.exports = {
   ui: {
-    fr: { badge: "Télécharger dans l'App Store", lang: 'Langue', privacy: 'Confidentialité', about: "À propos de l'app", faq: 'Questions fréquentes' },
-    en: { badge: 'Download on the App Store', lang: 'Language', privacy: 'Privacy', about: 'About the app', faq: 'Frequently asked questions' },
-    da: { badge: 'Hent i App Store', lang: 'Sprog', privacy: 'Privatliv', about: 'Om appen', faq: 'Ofte stillede spørgsmål' },
-    nb: { badge: 'Last ned fra App Store', lang: 'Språk', privacy: 'Personvern', about: 'Om appen', faq: 'Ofte stilte spørsmål' },
-    sv: { badge: 'Hämta i App Store', lang: 'Språk', privacy: 'Integritet', about: 'Om appen', faq: 'Vanliga frågor' },
-    fi: { badge: 'Lataa App Storesta', lang: 'Kieli', privacy: 'Tietosuoja', about: 'Tietoa sovelluksesta', faq: 'Usein kysytyt kysymykset' },
-    de: { badge: 'Laden im App Store', lang: 'Sprache', privacy: 'Datenschutz', about: 'Über die App', faq: 'Häufige Fragen' },
-    nl: { badge: 'Download in de App Store', lang: 'Taal', privacy: 'Privacy', about: 'Over de app', faq: 'Veelgestelde vragen' },
+    fr: { badge: "Télécharger dans l'App Store", play: 'Disponible sur Google Play', lang: 'Langue', privacy: 'Confidentialité', about: "À propos de l'app", faq: 'Questions fréquentes' },
+    en: { badge: 'Download on the App Store', play: 'Get it on Google Play', lang: 'Language', privacy: 'Privacy', about: 'About the app', faq: 'Frequently asked questions' },
+    da: { badge: 'Hent i App Store', play: 'Hent på Google Play', lang: 'Sprog', privacy: 'Privatliv', about: 'Om appen', faq: 'Ofte stillede spørgsmål' },
+    nb: { badge: 'Last ned fra App Store', play: 'Last ned på Google Play', lang: 'Språk', privacy: 'Personvern', about: 'Om appen', faq: 'Ofte stilte spørsmål' },
+    sv: { badge: 'Hämta i App Store', play: 'Ladda ned på Google Play', lang: 'Språk', privacy: 'Integritet', about: 'Om appen', faq: 'Vanliga frågor' },
+    fi: { badge: 'Lataa App Storesta', play: 'Lataa Google Playsta', lang: 'Kieli', privacy: 'Tietosuoja', about: 'Tietoa sovelluksesta', faq: 'Usein kysytyt kysymykset' },
+    de: { badge: 'Laden im App Store', play: 'Jetzt bei Google Play', lang: 'Sprache', privacy: 'Datenschutz', about: 'Über die App', faq: 'Häufige Fragen' },
+    nl: { badge: 'Download in de App Store', play: 'Download op Google Play', lang: 'Taal', privacy: 'Privacy', about: 'Over de app', faq: 'Veelgestelde vragen' },
     ar: { badge: 'تنزيل من App Store', lang: 'اللغة', privacy: 'الخصوصية', about: 'عن التطبيق', faq: 'أسئلة شائعة' }
   },
 
