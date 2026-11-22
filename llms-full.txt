@@ -1346,6 +1346,64 @@ A: Nej, du låser upp allt med ett köp. Tio smakprovsfrågor, ett kort övnings
 Q: Fungerar den utan internet?
 A: Ja, den fungerar utan internet, utan konto och utan reklam.
 
+## Gusjournal – saunagus
+
+App Store: https://apps.apple.com/app/id6824971263
+
+### Gusjournal – saunagus (da)
+
+https://apps.baytech.nl/da/saunagus-dufte-gusplan/
+
+Gusjournal er notesbogen til dig, der laver saunagus: dufte, blandinger, gusplaner og logbog samlet ét sted – også uden internet i saunaen.
+
+- Duftbibliotek med eget lager: 21 dufte med noter, dit eget lager og din egen dosering.
+- Blandinger i dråber: Gem blandinger til runde 1, 2 eller afslutning.
+- Gusplan med timer: Planlæg runder, tid og noter, og følg næste trin under gusen.
+- Logbog over hver gus: Gæster, tid og vurdering – og statistik over dine mest brugte dufte.
+- Delekort til klubben: Del din gus på opslagstavlen eller i klubbens chat.
+
+Q: Hvad er Gusjournal?
+A: En notesbog til saunagus med duftbibliotek, blandinger, gusplaner, timer og logbog.
+
+Q: Virker appen uden internet?
+A: Ja, Gusjournal virker uden internet, så den kan bruges i saunaen.
+
+Q: Hvor mange dufte er der?
+A: Duftbiblioteket har 21 dufte med noter, og du kan føre dit eget lager og din egen dosering.
+
+Q: Hvad kan bruges uden køb?
+A: Logbogen, 10 dufte og 3 blandinger kan bruges uden køb.
+
+Q: Er det et abonnement?
+A: Nej. Fuld version er et engangskøb, der låser alle dufte, gusplaner med timer, statistik og delekort op.
+
+Q: Giver appen sundhedsråd?
+A: Nej, Gusjournal er en notesbog. Følg altid producentens anvisning for æteriske olier.
+
+### Gusjournal – Aufguss (de)
+
+https://apps.baytech.nl/de/gusjournal-aufguss/
+
+Düfte, Mischungen, Aufgussplan. Die Saunasaison läuft: 21 Düfte mit Notizen, eigene Mischungen, Aufgussrunden mit Timer planen und jeden Aufguss festhalten – auch ohne Internet
+
+### Gusjournal – löylyhetki (fi)
+
+https://apps.baytech.nl/fi/gusjournal-loylyhetki/
+
+Tuoksut, sekoitukset, ohjelma. Saunakausi on täällä: 21 tuoksua muistiinpanoineen, omat sekoitukset, kierrokset ajastimella ja jokainen löylyhetki kirjattuna – myös ilman nettiä
+
+### Gusjournal – opgieting (nl)
+
+https://apps.baytech.nl/nl/gusjournal-opgieting/
+
+Geuren, mengsels en planning. Het saunaseizoen is begonnen: 21 geuren met notities, eigen mengsels, rondes plannen met een timer en elke opgieting bijhouden – ook zonder internet
+
+### Gusjournal – bastuceremoni (sv)
+
+https://apps.baytech.nl/sv/gusjournal-bastuceremoni/
+
+Dofter, blandningar, plan. Bastusäsongen är här: 21 dofter med noter, egna blandningar, planera omgångarna med timer och logga varje ceremoni – även utan internet i bastun
+
 ## Hestegym – Horse Groundwork
 
 App Store: https://apps.apple.com/app/id6826536530
@@ -1554,6 +1612,301 @@ A: Nie. Pełna wersja to jednorazowy zakup, który odblokowuje wszystkie pytania
 
 Q: Czy aplikacja jest powiązana z PZW?
 A: Nie, jest niezależna i nie jest powiązana z PZW ani starostwem. Egzamin zdajesz przed komisją egzaminacyjną.
+
+## Kids Guitar Lessons: Tıngır
+
+App Store: https://apps.apple.com/app/id6816174717
+
+### جيتار للأطفال: Tıngır (ar)
+
+https://apps.baytech.nl/ar/tingir/
+
+دروس وأغاني وضبط الأوتار. أمسك غيتارًا حقيقيًا وTıngır يستمع! أغاني الميلاد 7 ديسمبر–6 يناير، ثم 3 أغانٍ شتوية جديدة 7 يناير–28 فبراير للجميع. بلا إعلانات ولا اشتراك
+
+### শিশুদের গিটার: Tıngır (bn)
+
+https://apps.baytech.nl/bn/tingir/
+
+পাঠ, গান আর টিউনার. আসল গিটার হাতে নাও, Tıngır শুনবে! প্রতিটি সঠিক সুরে হাততালি, প্রতিটি লেভেলের শেষে কনফেটি। প্রথম সুর থেকে প্রথম গান পর্যন্ত ৫০০-র বেশি লেভেল।
+
+### Guitarra per a nens: Tıngır (ca)
+
+https://apps.baytech.nl/ca/guitarra-per-a-nens-tingir/
+
+Classes, cançons i afinador. Agafa una guitarra de debò i Tıngır t'escolta! Nadales del 7/12 al 6/1 i 3 cançons d'hivern noves del 7/1 al 28/2, per a tothom. Sense anuncis ni subscripció
+
+### Kytara pro děti: Tıngır (cs)
+
+https://apps.baytech.nl/cs/kytara-pro-deti-tingir/
+
+Lekce, písničky a ladička. Vezmi opravdovou kytaru a Tıngır poslouchá! Vánoční koledy 7. 12.–6. 1., pak 3 nové zimní písničky 7. 1.–28. 2. pro všechny. Bez reklam a bez předplatného
+
+### Guitar for børn: Tıngır (da)
+
+https://apps.baytech.nl/da/guitar-for-boern-tingir/
+
+Lær sange med stemmeapparat. Tag en rigtig guitar, så lytter Tıngır! Julesange 7. dec–6. jan, derefter 3 nye vintersange 7. jan–28. feb, åbne for alle. Ingen reklamer, intet abonnement
+
+### Gitarre für Kinder: Tıngır (de)
+
+https://apps.baytech.nl/de/gitarre-fur-kinder-tingir/
+
+Lernen, Lieder & Stimmgerät. Echte Gitarre nehmen, Tıngır hört zu! Weihnachtslieder 7.12.–6.1., dann 3 neue Winterlieder 7.1.–28.2., für alle offen. Keine Werbung, kein Abo
+
+### Κιθάρα για παιδιά: Tıngır (el)
+
+https://apps.baytech.nl/el/tingir/
+
+Μαθήματα, τραγούδια, κούρδισμα. Πιάσε μια αληθινή κιθάρα και το Tıngır σε ακούει! Χριστουγεννιάτικα τραγούδια 7/12–6/1, μετά 3 νέα χειμωνιάτικα 7/1–28/2, για όλους. Χωρίς διαφημίσεις και συνδρομή
+
+### Kids Guitar Lessons: Tıngır (en-AU)
+
+https://apps.baytech.nl/en-au/kids-guitar-lessons-tingir/
+
+Learn songs, notes & tuner. Grab a real guitar and Tıngır listens! Christmas songs 7 Dec–6 Jan, then 3 new winter songs 7 Jan–28 Feb, open to everyone. No ads, no subscription
+
+### Kids Guitar Lessons: Tıngır (en-CA)
+
+https://apps.baytech.nl/en-ca/kids-guitar-lessons-tingir/
+
+Learn songs, notes & tuner. Grab a real guitar and Tıngır listens! Christmas songs 7 Dec–6 Jan, then 3 new winter songs 7 Jan–28 Feb, open to everyone. No ads, no subscription
+
+### Kids Guitar Lessons: Tıngır (en)
+
+https://apps.baytech.nl/en/kids-guitar-lessons-tingir/
+
+Learn songs, notes & tuner. Grab a real guitar and Tıngır listens! Christmas songs 7 Dec–6 Jan, then 3 new winter songs 7 Jan–28 Feb, open to everyone. No ads, no subscription
+
+### Kids Guitar Lessons: Tıngır (en-US)
+
+https://apps.baytech.nl/en-us/kids-guitar-lessons-tingir/
+
+Learn songs, notes & tuner. Grab a real guitar and Tıngır listens! Christmas songs 7 Dec–6 Jan, then 3 new winter songs 7 Jan–28 Feb, open to everyone. No ads, no subscription
+
+### Guitarra para niños: Tıngır (es)
+
+https://apps.baytech.nl/es/guitarra-para-ninos-tingir/
+
+Aprende canciones y afinador. ¡Toma una guitarra de verdad y Tıngır te escucha! Villancicos del 7/12 al 6/1 y 3 canciones de invierno nuevas del 7/1 al 28/2. Sin anuncios ni suscripción
+
+### Guitarra para niños: Tıngır (es-MX)
+
+https://apps.baytech.nl/es-mx/guitarra-para-ninos-tingir/
+
+Aprende canciones y afinador. ¡Toma una guitarra de verdad y Tıngır te escucha! Villancicos del 7/12 al 6/1 y 3 canciones de invierno nuevas del 7/1 al 28/2. Sin anuncios ni suscripción
+
+### Kitara lapsille: Tıngır (fi)
+
+https://apps.baytech.nl/fi/kitara-lapsille-tingir/
+
+Opi lauluja ja viritin. Ota oikea kitara, niin Tıngır kuuntelee! Joululauluja 7.12.–6.1., sitten 3 uutta talvilaulua 7.1.–28.2., kaikille avoinna. Ei mainoksia, ei tilausta
+
+### Guitare pour enfants: Tıngır (fr)
+
+https://apps.baytech.nl/fr/guitare-pour-enfants-tingir/
+
+Cours, chansons et accordeur. Prends une vraie guitare, Tıngır t'écoute ! Chants de Noël du 7/12 au 6/1, puis 3 nouvelles chansons d'hiver du 7/1 au 28/2, pour tous. Sans pub ni abonnement
+
+### גיטרה לילדים: Tıngır (he)
+
+https://apps.baytech.nl/he/tingir/
+
+שיעורים, שירים ומכוון. קחו גיטרה אמיתית ו-Tıngır מקשיב! מחיאות כפיים על כל צליל נכון וקונפטי בסוף כל שלב. יותר מ-500 שלבים מהצליל הראשון ועד השיר הראשון
+
+### बच्चों के लिए गिटार: Tıngır (hi)
+
+https://apps.baytech.nl/hi/tingir/
+
+सबक, गाने और ट्यूनर. असली गिटार उठाओ, Tıngır सुनेगा! हर सही सुर पर तालियाँ, हर लेवल के बाद कंफ़ेटी। पहले सुर से पहले गाने तक 500 से ज़्यादा लेवल।
+
+### Gitara za djecu: Tıngır (hr)
+
+https://apps.baytech.nl/hr/gitara-za-djecu-tingir/
+
+Lekcije, pjesme i štimer. Uzmi pravu gitaru i Tıngır sluša! Božićne pjesme 7. 12.–6. 1., zatim 3 nove zimske pjesme 7. 1.–28. 2., za sve. Bez reklama i bez pretplate
+
+### Gitár gyerekeknek: Tıngır (hu)
+
+https://apps.baytech.nl/hu/gitar-gyerekeknek-tingir/
+
+Tanulj dalokat, hangolóval. Fogj egy igazi gitárt, és a Tıngır figyel! Karácsonyi dalok dec. 7.–jan. 6., majd 3 új téli dal jan. 7.–febr. 28., mindenkinek. Reklám és előfizetés nélkül
+
+### Gitar untuk Anak: Tıngır (id)
+
+https://apps.baytech.nl/id/gitar-untuk-anak-tingir/
+
+Belajar lagu, nada & penyetem. Ambil gitar sungguhan, Tıngır akan mendengarkan! Tepuk tangan di setiap nada yang benar, konfeti di setiap level. Lebih dari 500 level dari nada pertama ke lagu pertama
+
+### Chitarra per bambini: Tıngır (it)
+
+https://apps.baytech.nl/it/chitarra-per-bambini-tingir/
+
+Lezioni, canzoni, accordatore. Prendi una vera chitarra, Tıngır ti ascolta! Canzoni di Natale dal 7/12 al 6/1, poi 3 nuove canzoni d'inverno dal 7/1 al 28/2, per tutti. Senza pubblicità né abbonamento
+
+### 子どものギター教室: Tıngır (ja)
+
+https://apps.baytech.nl/ja/tingir/
+
+レッスン・曲・チューナー. 本物のギターを持てば、Tıngırがきいてくれる！ 正しい音には拍手、ステージクリアで紙ふぶき。 最初の音から最初の曲まで500以上のステージ。 広告なし・サブスクなし・データ収集なし。
+
+### 어린이 기타 레슨: Tıngır (ko)
+
+https://apps.baytech.nl/ko/tingir/
+
+레슨, 노래, 튜너. 진짜 기타를 들면 Tıngır가 들어요! 맞는 음마다 박수, 단계마다 색종이 축하. 첫 음부터 첫 노래까지 500개가 넘는 단계. 광고 없음 · 구독 없음 · 데이터 수집 없음
+
+### मुलांसाठी गिटार: Tıngır (mr)
+
+https://apps.baytech.nl/mr/tingir/
+
+धडे, गाणी आणि ट्यूनर. खरा गिटार हातात घ्या, Tıngır ऐकेल! प्रत्येक बरोबर सुरावर टाळ्या, प्रत्येक लेव्हलनंतर रंगीत कागद. पहिल्या सुरापासून पहिल्या गाण्यापर्यंत 500 हून अधिक लेव्हल
+
+### Gitar Kanak-kanak: Tıngır (ms)
+
+https://apps.baytech.nl/ms/gitar-kanak-kanak-tingir/
+
+Belajar lagu, not & penala. Ambil gitar sebenar, Tıngır akan mendengar! Tepukan untuk setiap not yang betul, konfeti selepas setiap tahap. Lebih 500 tahap dari not pertama ke lagu pertama
+
+### Gitaar voor kinderen: Tıngır (nl)
+
+https://apps.baytech.nl/nl/gitaar-voor-kinderen-tingir/
+
+Les, liedjes en stemapparaat. Pak een echte gitaar en Tıngır luistert mee! Kerstliedjes 7 dec–6 jan, daarna 3 nieuwe winterliedjes 7 jan–28 feb, voor iedereen. Geen reclame, geen abonnement
+
+### Gitar for barn: Tıngır (nb)
+
+https://apps.baytech.nl/nb/gitar-for-barn-tingir/
+
+Lær sanger og stemmeapparat. Ta en ekte gitar, så lytter Tıngır! Julesanger 7. des–6. jan, så 3 nye vintersanger 7. jan–28. feb, åpne for alle. Ingen reklame, ingen abonnement
+
+### Gitara dla dzieci: Tıngır (pl)
+
+https://apps.baytech.nl/pl/gitara-dla-dzieci-tingir/
+
+Lekcje, piosenki i stroik. Weź prawdziwą gitarę, a Tıngır posłucha! Kolędy 7.12–6.01, potem 3 nowe zimowe piosenki 7.01–28.02, dla wszystkich. Bez reklam i bez subskrypcji
+
+### Violão para crianças: Tıngır (pt-BR)
+
+https://apps.baytech.nl/pt-br/violao-para-criancas-tingir/
+
+Aulas, músicas e afinador. Pegue um violão de verdade e o Tıngır escuta! Músicas de Natal de 7/12 a 6/1 e 3 novas de inverno de 7/1 a 28/2, para todos. Sem anúncios, sem assinatura
+
+### Guitarra p/ crianças: Tıngır (pt)
+
+https://apps.baytech.nl/pt/guitarra-p-criancas-tingir/
+
+Aulas, canções e afinador. Pega numa guitarra a sério e o Tıngır ouve-te! Canções de Natal de 7/12 a 6/1 e 3 novas de inverno de 7/1 a 28/2, para todos. Sem anúncios nem assinatura
+
+### Chitară pentru copii: Tıngır (ro)
+
+https://apps.baytech.nl/ro/chitara-pentru-copii-tingir/
+
+Lecții, cântece și acordor. Ia o chitară adevărată, iar Tıngır te ascultă! Colinde 7.12–6.01, apoi 3 cântece noi de iarnă 7.01–28.02, pentru toți. Fără reclame, fără abonament
+
+### Гитара для детей: Tıngır (ru)
+
+https://apps.baytech.nl/ru/tingir/
+
+Уроки, песни и тюнер. Возьми настоящую гитару, Tıngır слушает! Новогодние песни 7.12–6.01, затем 3 новые зимние песни 7.01–28.02 для всех. Без рекламы и подписки
+
+### Gitara pre deti: Tıngır (sk)
+
+https://apps.baytech.nl/sk/gitara-pre-deti-tingir/
+
+Lekcie, pesničky a ladička. Vezmi skutočnú gitaru a Tıngır počúva! Vianočné koledy 7. 12.–6. 1., potom 3 nové zimné pesničky 7. 1.–28. 2. pre všetkých. Bez reklám a bez predplatného
+
+### Kitara za otroke: Tıngır (sl)
+
+https://apps.baytech.nl/sl/kitara-za-otroke-tingir/
+
+Učenje, pesmi, uglaševalec. Primi pravo kitaro in Tıngır posluša! Božične pesmi 7. 12.–6. 1., nato 3 nove zimske pesmi 7. 1.–28. 2., za vse. Brez oglasov in brez naročnine
+
+### Gitarr för barn: Tıngır (sv)
+
+https://apps.baytech.nl/sv/gitarr-for-barn-tingir/
+
+Lektioner, låtar, stämapparat. Ta en riktig gitarr så lyssnar Tıngır! Julsånger 7 dec–6 jan, sedan 3 nya vintersånger 7 jan–28 feb, öppna för alla. Ingen reklam, ingen prenumeration
+
+### குழந்தைகள் கிட்டார்: Tıngır (ta)
+
+https://apps.baytech.nl/ta/tingir/
+
+பாடம், பாடல்கள், ட்யூனர். உண்மையான கிட்டாரை எடு, Tıngır கேட்கும்! ஒவ்வொரு சரியான ஸ்வரத்துக்கும் கைதட்டல், ஒவ்வொரு நிலைக்குப் பிறகும் வண்ணக் காகிதம். 500-க்கும் மேற்பட்ட நிலைகள்
+
+### పిల్లల గిటార్: Tıngır (te)
+
+https://apps.baytech.nl/te/tingir/
+
+పాఠాలు, పాటలు, ట్యూనర్. నిజమైన గిటార్ తీసుకో, Tıngır వింటుంది! ప్రతి సరైన స్వరానికి చప్పట్లు, ప్రతి లెవెల్ తర్వాత రంగు కాగితాలు. మొదటి స్వరం నుండి మొదటి పాట వరకు 500+ లెవెల్స్
+
+### กีตาร์สำหรับเด็ก: Tıngır (th)
+
+https://apps.baytech.nl/th/tingir/
+
+บทเรียน เพลง และตั้งสาย. หยิบกีตาร์จริงมา Tıngır ฟังอยู่! เพลงคริสต์มาส 7 ธ.ค.–6 ม.ค. ต่อด้วยเพลงฤดูหนาวใหม่ 3 เพลง 7 ม.ค.–28 ก.พ. เปิดให้ทุกคน ไม่มีโฆษณา ไม่มีสมาชิกรายเดือน
+
+### Çocuklar İçin Gitar: Tıngır (tr)
+
+https://apps.baytech.nl/tr/cocuklar-icin-gitar-dersi/
+
+Tıngır, çocukların gerçek bir gitarla oynayarak gitar öğrendiği bir oyun. Ekrana dokunmak yok: çocuk tele vurur, Tıngır mikrofondan dinler ve hangi notayı çaldığını anlar.
+
+- Gitar kumanda olur: iPad ya da iPhone önde durur, çocuk tellere vurarak oyunu ilerletir.
+- Boş tellerden şarkılara: Önce boş teller, sonra basılan notalar, ardından parça parça ve ezberden şarkılar gelir.
+- 532 bölüm, 34 şarkı: Parla Parla Küçük Yıldız, Ali Baba'nın Çiftliği, İyi ki Doğdun ve Für Elise gibi şarkılar.
+- Cezasız motivasyon: Doğru notada övgü, bölüm sonunda yıldız ve konfeti; yanlışta sadece "Bir daha dene!".
+- Akort aleti dahil: Hangi telin çalındığını ve ne kadar pes ya da tiz olduğunu gösterir.
+
+Q: Tıngır nasıl çalışır?
+A: Cihaz gitarın önüne konur. Çocuk tele vurduğunda Tıngır mikrofondan dinler ve hangi teli ya da notayı çaldığını anlar; ekrana dokunmak gerekmez.
+
+Q: Hangi gitarlarla kullanılır?
+A: Akustik, elektro ya da klasik gitarla çalışır.
+
+Q: Kaç bölüm ve şarkı var?
+A: 532 bölüm ve 34 şarkı var. Şarkılar kalın tellerde ve farklı tonlarda da çalınır.
+
+Q: Mikrofon kayıt yapıyor mu?
+A: Hayır. Mikrofon yalnızca cihaz üzerinde notayı anlamak için kullanılır; ses kaydedilmez ve hiçbir yere gönderilmez.
+
+Q: Reklam ya da hesap var mı?
+A: Hesap yok, reklam yok, veri toplama yok.
+
+Q: Satın alma nasıl işliyor?
+A: Tek seferlik bir satın alım 532 bölümün ve 34 şarkının hepsini açar. Abonelik yok ve satın alma ekranı ebeveyn kapısının arkasındadır.
+
+Q: Gitarı akort etmeyi de öğretiyor mu?
+A: Evet, dahili akort aleti hangi teli çaldığınızı ve ne kadar pes ya da tiz olduğunu gösterir.
+
+### Гітара для дітей: Tıngır (uk)
+
+https://apps.baytech.nl/uk/tingir/
+
+Уроки, пісні та тюнер. Візьми справжню гітару — Tıngır слухає! Різдвяні пісні 7.12–6.01, потім 3 нові зимові пісні 7.01–28.02 для всіх. Без реклами й підписки
+
+### بچوں کے لیے گٹار: Tıngır (ur)
+
+https://apps.baytech.nl/ur/tingir/
+
+سبق، گانے اور ٹیونر. اصلی گٹار اٹھاؤ، Tıngır سنے گا! ہر درست سُر پر تالیاں، ہر لیول کے بعد رنگین کاغذ۔ پہلے سُر سے پہلے گانے تک 500 سے زیادہ لیول۔
+
+### Học đàn guitar cho bé: Tıngır (vi)
+
+https://apps.baytech.nl/vi/hoc-an-guitar-cho-be-tingir/
+
+Bài học, bài hát, chỉnh dây. Cầm cây đàn thật, Tıngır sẽ lắng nghe! Nhạc Giáng sinh 7/12–6/1, rồi 3 bài mùa đông mới 7/1–28/2 cho mọi người. Không quảng cáo, không thuê bao
+
+### 儿童吉他课: Tıngır (zh-Hans)
+
+https://apps.baytech.nl/zh-hans/tingir/
+
+课程、歌曲和调音器. 拿起一把真吉他，让 Tıngır 来听！ 每弹对一个音都有掌声，每过一关都有彩纸。 从第一个音到第一首歌，500 多个关卡。 无广告、无订阅、不收集任何数据。
+
+### 兒童吉他課: Tıngır (zh-Hant)
+
+https://apps.baytech.nl/zh-hant/tingir/
+
+課程、歌曲和調音器. 拿起一把真吉他，讓 Tıngır 來聽！ 每彈對一個音都有掌聲，每過一關都有彩紙。 從第一個音到第一首歌，500 多個關卡。 無廣告、無訂閱、不收集任何資料。
 
 ## Kirkeåret – Nordic Church Year
 
@@ -2005,6 +2358,91 @@ A: Kyllä, Metsästysajat-taulukko lähteineen. Ajat muuttuvat asetuksilla, jote
 https://apps.baytech.nl/sv/jagarexamen-finland-2026-2027/
 
 Artkännedom och övningsprov
+
+## Nomira – woorden oefenen
+
+App Store: https://apps.apple.com/app/id6829719213
+
+### Nomira – cvičení slov (cs)
+
+https://apps.baytech.nl/cs/nomira-cviceni-slov/
+
+Uvidíš obrázek, řekneš slovo. Novinka na svátky: 16 slov o rodině a společném čase, dostupná bez nákupu. Uvidíš obrázek, řekneš slovo a cvičíš spolu s rodinou nebo pečujícím
+
+### Nomira – Wörter üben (de)
+
+https://apps.baytech.nl/de/nomira-worter-uben/
+
+Bild sehen, Wort sagen. Neu zu den Feiertagen: 16 Wörter über Familie und Zusammensein, ohne Kauf offen. Bild sehen, Wort sagen und gemeinsam mit Familie oder Angehörigen üben
+
+### Nomira – practicar palabras (es)
+
+https://apps.baytech.nl/es/nomira-practicar-palabras/
+
+Mira la imagen, di la palabra. Novedad para las fiestas: 16 palabras sobre la familia y estar juntos, abiertas sin compra. Mira la imagen, di la palabra y practica con tu familia o cuidador
+
+### Nomira – exercices de mots (fr)
+
+https://apps.baytech.nl/fr/nomira-exercices-de-mots/
+
+Vois l’image, dis le mot. Nouveau pour les fêtes : 16 mots sur la famille et le temps passé ensemble, ouverts sans achat. Regarde l’image, dis le mot et entraîne-toi avec ta famille ou ton aidant
+
+### Nomira – esercizi di parole (it)
+
+https://apps.baytech.nl/it/nomira-esercizi-di-parole/
+
+Vedi l’immagine, dì la parola. Novità per le feste: 16 parole su famiglia e stare insieme, aperte senza acquisto. Guarda l’immagine, dì la parola ed esercitati con la famiglia o il caregiver
+
+### Nomira – woorden oefenen (nl)
+
+https://apps.baytech.nl/nl/afasie-woorden-oefenen/
+
+Nomira helpt mensen met afasie om elke dag woorden te oefenen. Je ziet een plaatje, zegt het woord hardop en Nomira laat zien of het woord gehoord is.
+
+- Plaatje zien, woord zeggen: Je telefoon luistert mee en laat zien of het woord gehoord is.
+- Hints in drie stappen: Eerst de eerste klank, dan een zin om af te maken, dan drie woorden om uit te kiezen.
+- 144 woorden in 10 sets: Met duidelijke plaatjes, ook werkwoorden en een set Feestdagen en familie.
+- Groot en met één hand: Grote letters en knoppen, te bedienen met één hand.
+- Weekrapport als PDF: Stuur het zelf naar familie of logopedist.
+
+Q: Voor wie is Nomira?
+A: Voor mensen met afasie die elke dag woorden willen oefenen, samen met familie of mantelzorger.
+
+Q: Vervangt Nomira logopedie?
+A: Nee. Nomira is een oefenapp: een aanvulling op logopedie, geen vervanging. Nomira stelt geen diagnose en behandelt niets.
+
+Q: Hoe helpen de hints?
+A: Lukt een woord niet, dan volgt eerst de eerste klank, dan een zin om af te maken en dan drie woorden om uit te kiezen.
+
+Q: Wordt mijn stem opgenomen?
+A: Nee. Woorden worden op je telefoon herkend; er wordt geen geluid opgeslagen of verstuurd.
+
+Q: Wat als de herkenning zich vergist?
+A: Jij beslist altijd zelf: met één tik geef je aan dat het toch goed was. Zonder microfoon geef je zelf aan of het goed ging.
+
+Q: Wat kan zonder aankoop?
+A: De set Keuken met 15 woorden, luisteren, alle drie de hints, reactietijd en de voortgang van deze week, plus de set Feestdagen en familie.
+
+Q: Wat krijg je met Nomira Plus?
+A: Een eenmalige aankoop: alle 10 sets, ook werkwoorden, de voortgang van eerdere weken en het weekrapport als PDF. Geen abonnement, geen reclame.
+
+### Nomira – ćwiczenie słów (pl)
+
+https://apps.baytech.nl/pl/nomira-cwiczenie-slow/
+
+Zobacz obrazek, powiedz słowo. Nowość na święta: 16 słów o rodzinie i byciu razem, dostępne bez zakupu. Zobacz obrazek, powiedz słowo i ćwicz razem z rodziną lub opiekunem
+
+### Nomira – treino de palavras (pt)
+
+https://apps.baytech.nl/pt/nomira-treino-de-palavras/
+
+Vê a imagem, diz a palavra. Novidade para as festas: 16 palavras sobre família e estar juntos, abertas sem compra. Vê a imagem, diz a palavra e treina com a família ou o cuidador
+
+### Nomira – öva på ord (sv)
+
+https://apps.baytech.nl/sv/nomira-ova-paa-ord/
+
+Se bilden, säg ordet. Nytt till helgerna: 16 ord om familj och att vara tillsammans, öppna utan köp. Se bilden, säg ordet och öva tillsammans med familj eller anhörig
 
 ## Norwegian Citizenship Test
 
@@ -2760,6 +3198,271 @@ A: Nei. Full versjon er et engangskjøp som låser opp alle føretyper, klisterg
 https://apps.baytech.nl/sv/vallaklar-vallaguide-langd/
 
 Fästvalla, klister och glid. Ange snötemperatur och före och få rätt vallaklass – fästvalla eller klister. Med vallalåda och vallalogg, även utan nät i spåret
+
+## Sohbet: Social Skills Practice
+
+App Store: https://apps.apple.com/app/id6804053550
+
+### Sohbet — تدريب اجتماعي (ar)
+
+https://apps.baytech.nl/ar/sohbet/
+
+تدرّب على طريقة حديثك مع الناس. محادثتان دون اشتراك — المحادثة الحية، والوضع الصوتي، والتقييم الكامل. لا يلزم حساب أو بريد إلكتروني. متوفر بـ 41 لغة، ويبدأ Pro بأسبوع تجريبي
+
+### Sohbet — Pràctica social (ca)
+
+https://apps.baytech.nl/ca/sohbet-practica-social/
+
+Entrena com parlar amb la gent. Dues converses sense subscripció, amb diàleg en directe, mode veu i avaluació completa. Sense compte ni correu. Ara en 41 idiomes, i Pro comença amb una setmana de prova
+
+### Sohbet — Trénink komunikace (cs)
+
+https://apps.baytech.nl/cs/sohbet-trenink-komunikace/
+
+Procvičte si mluvení s lidmi. Dvě konverzace bez předplatného — živý rozhovor, hlasový režim a kompletní vyhodnocení. Bez účtu a e-mailu. Nyní ve 41 jazycích a Pro začíná zkušebním týdnem
+
+### Sohbet — Social træning (da)
+
+https://apps.baytech.nl/da/sohbet-social-traening/
+
+Træn måden du taler med folk. To samtaler uden abonnement — med den levende samtale, stemmetilstand og den fulde evaluering. Ingen konto, ingen e-mail. Nu på 41 sprog, og Pro starter med en prøveuge
+
+### Sohbet — Sozialtraining (de)
+
+https://apps.baytech.nl/de/sohbet-sozialtraining/
+
+Übe, wie du mit Leuten redest. Weihnachtsfeier, Firmenessen, Familientisch: übe Smalltalk, bevor du hingehst. Zwei Gespräche ohne Abo; kein Konto, keine E-Mail. 41 Sprachen, Pro eine Woche testen
+
+### Sohbet — Κοινωνική εξάσκηση (el)
+
+https://apps.baytech.nl/el/sohbet/
+
+Μάθε να μιλάς με αυτοπεποίθηση. Δύο συνομιλίες χωρίς συνδρομή — ζωντανή συζήτηση, φωνή και πλήρης αξιολόγηση. Χωρίς λογαριασμό ή email. Τώρα σε 41 γλώσσες· το Pro ξεκινά με δοκιμαστική εβδομάδα
+
+### Sohbet: Social Skills Practice (en-AU)
+
+https://apps.baytech.nl/en-au/sohbet-social-skills-practice/
+
+Small talk & confidence coach. Two conversations without a subscription — live conversation, voice mode and full assessment. No account, no email. Now in 41 languages; Pro starts with a one-week trial
+
+### Sohbet: Social Skills Practice (en-CA)
+
+https://apps.baytech.nl/en-ca/sohbet-social-skills-practice/
+
+Small talk & confidence coach. Two conversations without a subscription — live conversation, voice mode and full assessment. No account, no email. Now in 41 languages; Pro starts with a one-week trial
+
+### Sohbet: Social Skills Practice (en)
+
+https://apps.baytech.nl/en/sohbet-social-skills-practice/
+
+Small talk & confidence coach. Two conversations without a subscription — live conversation, voice mode and full assessment. No account, no email. Now in 41 languages; Pro starts with a one-week trial
+
+### Sohbet: Social Skills Practice (en-US)
+
+https://apps.baytech.nl/en-us/sohbet-social-skills-practice/
+
+Small talk & confidence coach. Holiday party, work dinner, family table: rehearse small talk first. Two conversations without a subscription; no account, no email. 41 languages, 1-week Pro trial
+
+### Sohbet — Práctica social (es)
+
+https://apps.baytech.nl/es/sohbet-practica-social/
+
+Entrena cómo hablas con gente. Dos conversaciones sin suscripción: conversación en directo, voz y evaluación completa. Sin cuenta ni correo. Ahora en 41 idiomas y Pro empieza con una semana de prueba
+
+### Sohbet — Práctica social (es-MX)
+
+https://apps.baytech.nl/es-mx/sohbet-practica-social/
+
+Entrena cómo hablas con gente. Dos conversaciones sin suscripción: conversación en directo, voz y evaluación completa. Sin cuenta ni correo. Ahora en 41 idiomas y Pro empieza con una semana de prueba
+
+### Sohbet — Sosiaaliset taidot (fi)
+
+https://apps.baytech.nl/fi/sohbet-sosiaaliset-taidot/
+
+Keskusteluharjoitus tekoälyllä. Kaksi keskustelua ilman tilausta — elävä keskustelu, äänitila ja täysi arviointi. Ei tiliä, ei sähköpostia. Nyt 41 kielellä, ja Pro alkaa viikon kokeilujaksolla
+
+### Sohbet — Entraînement social (fr-CA)
+
+https://apps.baytech.nl/fr-ca/sohbet-entrainement-social/
+
+Entraîne ta façon de parler. Deux conversations sans abonnement — conversation en direct, mode vocal et bilan complet. Sans compte ni e-mail. En 41 langues. Pro commence par une semaine d'essai
+
+### Sohbet — Entraînement social (fr)
+
+https://apps.baytech.nl/fr/sohbet-entrainement-social/
+
+Entraîne ta façon de parler. Deux conversations sans abonnement — conversation en direct, mode vocal et bilan complet. Sans compte ni e-mail. En 41 langues. Pro commence par une semaine d'essai
+
+### Sohbet — אימון חברתי (he)
+
+https://apps.baytech.nl/he/sohbet/
+
+שיפור כישורי תקשורת וביטחון. שתי שיחות ללא מנוי — השיחה החיה, מצב קולי והערכה מלאה. ללא חשבון, ללא דוא"ל. עכשיו ב-41 שפות, ו-Pro מתחיל בשבוע ניסיון
+
+### Sohbet — सामाजिक कौशल (hi)
+
+https://apps.baytech.nl/hi/sohbet/
+
+बातचीत और आत्मविश्वास सुधारें. बिना सब्सक्रिप्शन के दो बातचीत — लाइव बातचीत, वॉइस मोड और पूरा मूल्यांकन। कोई अकाउंट नहीं, कोई ईमेल नहीं। अब 41 भाषाओं में, और Pro एक सप्ताह के ट्रायल से शुरू होता है।
+
+### Sohbet — Društvene vještine (hr)
+
+https://apps.baytech.nl/hr/sohbet-drustvene-vjestine/
+
+Vježbajte razgovor s ljudima. Dva razgovora bez pretplate — živi razgovor, glasovni način i potpuna procjena. Bez računa, bez e-pošte. Sada na 41 jeziku, a Pro počinje probnim tjednom
+
+### Sohbet — Társas gyakorlás (hu)
+
+https://apps.baytech.nl/hu/sohbet-tarsas-gyakorlas/
+
+Csevegj és flörtölj AI-val. Két beszélgetés előfizetés nélkül — élő beszélgetés, hangmód és teljes értékelés. Fiók és e-mail nélkül. Már 41 nyelven, a Pro pedig egy próbahéttel indul
+
+### Sohbet — Latihan Sosial (id)
+
+https://apps.baytech.nl/id/sohbet-latihan-sosial/
+
+Obrolan AI untuk percaya diri. Dua percakapan tanpa langganan — percakapan langsung, mode suara, dan evaluasi lengkap. Tanpa akun, tanpa email. Kini 41 bahasa, dan Pro dimulai dengan seminggu uji coba
+
+### Sohbet — Allenamento sociale (it)
+
+https://apps.baytech.nl/it/sohbet-allenamento-sociale/
+
+Allena come parli con la gente. Due conversazioni senza abbonamento: conversazione dal vivo, voce e valutazione completa. Senza account o email. Ora in 41 lingue e Pro inizia con una settimana di prova
+
+### Sohbet — 会話トレーニング (ja)
+
+https://apps.baytech.nl/ja/sohbet/
+
+反応してくる相手で会話を練習. サブスクリプションなしで2回の会話を体験：リアルタイムの対話、音声モード、詳細な評価分析。 アカウント作成もメールアドレスも不要。 41言語に対応し、Proは1週間のお試し期間から始まります。
+
+### Sohbet — 대화 실전 연습 (ko)
+
+https://apps.baytech.nl/ko/sohbet/
+
+AI 채팅으로 키우는 대인관계 자신감과 소통 능력. 실시간 대화, 음성 모드, 상세 평가를 포함한 대화 2회를 구독 없이 이용할 수 있습니다. 계정이나 이메일 등록이 필요 없습니다. 이제 41개 언어로 지원되며, Pro는 1주일 체험으로 시작됩니다
+
+### Sohbet — Latihan Sosial (ms)
+
+https://apps.baytech.nl/ms/sohbet-latihan-sosial/
+
+Tingkatkan keyakinan berbual. Dua perbualan tanpa langganan — perbualan langsung, mod suara dan penilaian penuh. Tanpa akaun, tanpa e-mel. Kini 41 bahasa, dan Pro bermula dengan seminggu percubaan
+
+### Sohbet — Sociale training (nl)
+
+https://apps.baytech.nl/nl/sohbet-sociale-training/
+
+Oefen hoe je met mensen praat. Twee gesprekken zonder abonnement — live gesprek, spraakmodus en volledige evaluatie. Geen account, geen e-mail. Nu in 41 talen, en Pro begint met een proefweek
+
+### Sohbet — Sosial trening (nb)
+
+https://apps.baytech.nl/nb/sohbet-sosial-trening/
+
+Bygg selvtillit i samtaler. To samtaler uten abonnement — levende samtale, talemodus og full vurdering. Ingen konto, ingen e-post. Nå på 41 språk, og Pro starter med en prøveuke
+
+### Sohbet — Trening rozmowy (pl)
+
+https://apps.baytech.nl/pl/sohbet-trening-rozmowy/
+
+Buduj pewność siebie dzięki AI. Dwie rozmowy bez subskrypcji — rozmowa na żywo, tryb głosowy i pełna ocena. Bez konta i e-maila. Teraz w 41 językach, a Pro zaczyna się od tygodnia próbnego
+
+### Sohbet: Habilidades Sociais (pt-BR)
+
+https://apps.baytech.nl/pt-br/sohbet-habilidades-sociais/
+
+Treino para conversar com IA. Festa de fim de ano, jantar da firma, almoço em família: ensaie o papo antes. Duas conversas sem assinatura; sem conta, sem e-mail. 41 idiomas, Pro com 1 semana de teste
+
+### Sohbet — Treino Social (pt)
+
+https://apps.baytech.nl/pt/sohbet-treino-social/
+
+Treine a falar com pessoas. Duas conversas sem subscrição — conversa ao vivo, modo de voz e avaliação completa. Sem conta nem e-mail. Agora em 41 línguas; o Pro começa com uma semana experimental
+
+### Sohbet — Practică Socială (ro)
+
+https://apps.baytech.nl/ro/sohbet-practica-sociala/
+
+Cum să vorbești cu oamenii. Două conversații fără abonament — conversație live, mod vocal și evaluare completă. Fără cont, fără email. Acum în 41 de limbi, iar Pro începe cu o săptămână de probă
+
+### Sohbet — тренажёр общения (ru)
+
+https://apps.baytech.nl/ru/sohbet/
+
+ИИ собеседник для уверенности. Новогодняя вечеринка, корпоратив, семейное застолье: отрепетируйте small talk заранее. Два разговора без подписки; без аккаунта и почты. 41 язык, неделя Pro на пробу
+
+### Sohbet — Tréning komunikácie (sk)
+
+https://apps.baytech.nl/sk/sohbet-trening-komunikacie/
+
+Naučte sa lepšie komunikovať. Dva rozhovory bez predplatného — živý rozhovor, hlasový režim a plné hodnotenie. Bez účtu, bez e-mailu. Teraz v 41 jazykoch a Pro začína skúšobným týždňom
+
+### Sohbet — Social träning (sv)
+
+https://apps.baytech.nl/sv/sohbet-social-traning/
+
+Träna på att prata med folk. Två samtal utan prenumeration — levande samtal, röstläge och fullständig utvärdering. Inget konto, ingen e-post. Nu på 41 språk, och Pro börjar med en provvecka
+
+### Sohbet — ฝึกทักษะเข้าสังคม (th)
+
+https://apps.baytech.nl/th/sohbet/
+
+ฝึกวิธีพูดคุยกับผู้คน. สนทนาได้ 2 ครั้งโดยไม่ต้องสมัครสมาชิก พร้อมการสนทนาสด โหมดเสียง และการประเมินแบบเต็ม ไม่ต้องใช้บัญชีหรืออีเมล รองรับ 41 ภาษา และ Pro เริ่มด้วยการทดลองใช้ 1 สัปดาห์
+
+### Sohbet — Sosyal Antrenman (tr)
+
+https://apps.baytech.nl/tr/sosyal-kaygi-sohbet-pratigi/
+
+Sohbet, sosyal kaygısı olanların gerçek konuşmaları yapay zekâyla prova ettiği bir uygulama. Partide tanımadığınız biriyle konuşmayı ya da bir teklifi geri çevirmeyi önce burada deneyin.
+
+- Gerçekten tepki veren karakter: Karşınızdaki kişi yardımsever olmaya çalışmıyor; ilgi çubuğu sohbetin gidişini anlık gösteriyor.
+- Tur tur değerlendirme: Her yorum bir tur numarasına ve bir cümlenize bağlı, yerine ne diyebileceğiniz de yazılıyor.
+- Sesli konuşma: Yazmak yerine konuşabilirsiniz; hızınız ve duraklamalarınız da değerlendirmeye giriyor.
+- 16 senaryo: Kafede yan masa, ev daveti, iş yemeği, birinin sözünü kibarca kesmek ve daha fazlası.
+- Eksiğinize göre senaryo: Geride kalan beceriyi hedefleyen yeni bir senaryo tek tuşla üretiliyor.
+
+Q: Sohbet kimler için?
+A: Sosyal kaygısı olan ve zor konuşmaları gerçek hayattan önce prova etmek isteyenler için.
+
+Q: Hangi durumları prova edebilirim?
+A: 16 senaryo var: kafede yan masa, ev daveti, iş yemeği, tanımadığınız birinin yanına oturmak, birinin sözünü kibarca kesmek, bir teklifi geri çevirmek. Kolaydan zora açılıyorlar.
+
+Q: Puanlama nasıl?
+A: Puanlama sert: ortalama bir sohbet 50-60 alır, 80 üstü gerçekten iyi demektir. Değerlendirme hangi turda ne yaptığınızı ve yerine ne diyebileceğinizi gösterir.
+
+Q: Konuşarak kullanabilir miyim?
+A: Evet. Sesli konuşmada karakterin sesi senaryoya göre kadın ya da erkek olur.
+
+Q: Hesap açmam gerekiyor mu?
+A: Hayır, hesap ve e-posta yok. Transkriptler ve değerlendirmeler telefonunuzda saklanıyor.
+
+Q: Sohbetlerim nereye gidiyor?
+A: Sohbet sırasında metin, yapay zekâ modeline sunucumuz üzerinden gidiyor ve sunucu metni saklamıyor; hata veren istekler 7 gün tutuluyor. Ses hiçbir zaman dosya olarak kaydedilmiyor.
+
+Q: Abonelik gerekiyor mu?
+A: Abonelik olmadan iki sohbet yapabilirsiniz. Sohbet Pro aylık ya da yıllık abonelik olarak sunuluyor.
+
+### Sohbet — Практика спілкування (uk)
+
+https://apps.baytech.nl/uk/sohbet/
+
+Тренуйте розмову з ботом ШІ. Дві розмови без підписки — жива розмова, голосовий режим та повний аналіз. Без акаунта й email. Тепер 41 мовою, а Pro починається з пробного тижня
+
+### Sohbet: Kỹ năng giao tiếp AI (vi)
+
+https://apps.baytech.nl/vi/sohbet-ky-nang-giao-tiep-ai/
+
+Luyện trò chuyện, bớt rụt rè. Tiệc cuối năm, liên hoan công ty, cơm gia đình: tập nói xã giao trước. 2 cuộc trò chuyện không cần đăng ký gói; không cần tài khoản, email. 41 ngôn ngữ, thử Pro 1 tuần
+
+### Sohbet — 社交实战 (zh-Hans)
+
+https://apps.baytech.nl/zh-hans/sohbet/
+
+练习日常对话 提升沟通技巧. 无需订阅即可体验两次完整对话，包含实时对话、语音模式与详细评估。 无需注册账号，无需邮箱。 现已支持41种语言，Pro会员首周为试用期。
+
+### Sohbet — 社交技巧演練 (zh-Hant)
+
+https://apps.baytech.nl/zh-hant/sohbet/
+
+訓練與他人溝通交談的方式. 無需訂閱即可體驗兩次對話，包含即時對話、語音模式與完整評估報告。 無需註冊帳號，無需電子郵件。 現已支援 41 種語言，Pro 版首週為試用期。
 
 ## Sägeschein – Motorsägenkurs
 
@@ -3595,6 +4298,103 @@ A: Nej. Ett engångsköp ger full tillgång och gäller hela familjen via Familj
 
 Q: Kan barn ha egna listor?
 A: Ja, du gör listor åt barnen med bara ett förnamn och inget konto för barnet.
+
+## Zoemwoord – word party game
+
+App Store: https://apps.apple.com/app/id6829587918
+
+### Zoemwoord – slovní párty (cs)
+
+https://apps.baytech.nl/cs/zoemwoord-slovni-party/
+
+Popisuj slova, tým hádá. Novinka na Vánoce a Silvestr: 100 karet od betléma po lití olova. Popiš slovo bez zakázaných, soupeři mačkají bzučák a telefon počítá čas a skóre
+
+### Zoemwoord – ordleg til fest (da)
+
+https://apps.baytech.nl/da/zoemwoord-ordleg-til-fest/
+
+Mobilen hører forbudte ord. Nyt til jul og nytår: 100 festkort, fra mandelgave til nytårstalen. Beskriv ordet uden de forbudte ord, mens mobilen lytter og summer
+
+### Zoemwoord – Wörter-Partyspiel (de)
+
+https://apps.baytech.nl/de/zoemwoord-worter-partyspiel/
+
+Handy hört verbotene Wörter. Neu zu Weihnachten und Silvester: 100 Festkarten, vom Christkind bis zum Bleigießen. Erkläre das Wort ohne die verbotenen, das Handy hört mit und summt
+
+### Zoemwoord – word party game (en)
+
+https://apps.baytech.nl/en/zoemwoord-word-party-game/
+
+Your phone hears banned words. New for Christmas and New Year: 100 festive cards, from mince pies to Auld Lang Syne. Describe the word without the banned ones while your phone listens and buzzes
+
+### Zoemwoord – juego de palabras (es)
+
+https://apps.baytech.nl/es/zoemwoord-juego-de-palabras/
+
+El móvil oye la palabra. Novedad para Navidad y Nochevieja: 100 cartas de fiesta, del belén a las campanadas. Describe la palabra sin decir las prohibidas, el móvil escucha y zumba
+
+### Zoemwoord – jeu de mots (fr)
+
+https://apps.baytech.nl/fr/zoemwoord-jeu-de-mots/
+
+Le téléphone entend les mots. Nouveau pour Noël et le Nouvel An : 100 cartes de fête, du sapin à la fève. Fais deviner le mot sans dire les interdits, le téléphone écoute et buzze
+
+### Zoemwoord – partyspel (nl)
+
+https://apps.baytech.nl/nl/woorden-raadspel-partyspel/
+
+Zoemwoord is het woorden-raadspel waarbij je telefoon de scheidsrechter is. Zeg je een verboden woord, of een vorm ervan, dan zoemt Zoemwoord meteen.
+
+- Telefoon als scheidsrechter: Je telefoon luistert mee tijdens de ronde en zoemt bij een verboden woord.
+- Ook vormen tellen: Fiets, fietsen, fietser: elke vorm van een verboden woord telt.
+- Kaarten voor Nederland & België: Eigen kaarten, door ons geschreven, plus 100 feestkaarten voor kerst en oud en nieuw.
+- Twee tot zes teams: Met timer, scores en de beste beschrijver van de avond.
+- Fout gezoemd? Terugdraaien: Elke zoem draai je met één tik terug.
+
+Q: Hoe werkt Zoemwoord?
+A: Wie beschrijft houdt de telefoon vast en praat. Zegt hij een verboden woord, dan zoemt de telefoon; roept iemand uit het team het goede woord, dan telt de kaart vanzelf.
+
+Q: Met hoeveel mensen speel je?
+A: Met twee tot zes teams. Zonder aankoop speel je met twee teams.
+
+Q: Wordt er iets opgenomen?
+A: Nee. Zoemwoord luistert alleen tijdens een ronde en herkent woorden op je telefoon; er wordt geen geluid of tekst opgeslagen of verstuurd.
+
+Q: Wat zit er in het spel zonder aankoop?
+A: De stapel Basis met 150 kaarten, twee teams en automatisch zoemen.
+
+Q: Wat krijg je met Zoemwoord Plus?
+A: Een eenmalige aankoop: alle stapels, eigen kaarten maken en delen, tot zes teams en de historie van je spelavonden. Geen abonnement, geen reclame.
+
+Q: Kan ik eigen kaarten maken?
+A: Ja, met Zoemwoord Plus maak je eigen kaarten met jullie grapjes en stuur je de stapel naar vrienden.
+
+Q: Werkt het zonder microfoon?
+A: Ja, zonder microfoon speel je met de zoemknop.
+
+### Zoemwoord – ordlek for fest (nb)
+
+https://apps.baytech.nl/nb/zoemwoord-ordlek-for-fest/
+
+Mobilen hører forbudte ord. Nytt til jul og nyttår: 100 festkort, fra julenek til nyttårsforsett. Beskriv ordet uten de forbudte ordene mens mobilen lytter og summer
+
+### Zoemwoord – gra w słowa (pl)
+
+https://apps.baytech.nl/pl/zoemwoord-gra-w-slowa/
+
+Opisuj słowa, drużyna zgaduje. Nowość na święta i sylwestra: 100 kart od opłatka po odliczanie. Opisz słowo bez zakazanych, rywale wciskają brzęczyk, a telefon liczy czas i punkty
+
+### Zoemwoord – jogo de palavras (pt)
+
+https://apps.baytech.nl/pt/zoemwoord-jogo-de-palavras/
+
+O telemóvel ouve a palavra. Novidade para o Natal e a Passagem de Ano: 100 cartas de festa, do presépio às passas. Descreve a palavra sem dizer as proibidas, o telemóvel ouve e apita
+
+### Zoemwoord – ordlek för fest (sv)
+
+https://apps.baytech.nl/sv/zoemwoord-ordlek-for-fest/
+
+Mobilen hör förbjudna ord. Nytt till jul och nyår: 100 festkort, från lussekatt till tolvslaget. Beskriv ordet utan de förbjudna orden medan mobilen lyssnar och surrar
 
 ## Żeglarz – Sternik motorowodny
 

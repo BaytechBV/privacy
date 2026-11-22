@@ -1,0 +1,22 @@
+{"tr": {
+ "slug": "sosyal-kaygi-sohbet-pratigi",
+ "title": "Sosyal kaygı için sohbet pratiği – yapay zekâ | Sohbet",
+ "description": "Zor konuşmaları yapay zekâ karakterle prova edin: 16 senaryo, sesli konuşma ve tur tur değerlendirme. Hesap yok, e-posta yok.",
+ "h1": "Sosyal kaygı için sohbet pratiği",
+ "lead": "Sohbet, sosyal kaygısı olanların gerçek konuşmaları yapay zekâyla prova ettiği bir uygulama. Partide tanımadığınız biriyle konuşmayı ya da bir teklifi geri çevirmeyi önce burada deneyin.",
+ "benefits": [
+  {"t": "Gerçekten tepki veren karakter", "d": "Karşınızdaki kişi yardımsever olmaya çalışmıyor; ilgi çubuğu sohbetin gidişini anlık gösteriyor."},
+  {"t": "Tur tur değerlendirme", "d": "Her yorum bir tur numarasına ve bir cümlenize bağlı, yerine ne diyebileceğiniz de yazılıyor."},
+  {"t": "Sesli konuşma", "d": "Yazmak yerine konuşabilirsiniz; hızınız ve duraklamalarınız da değerlendirmeye giriyor."},
+  {"t": "16 senaryo", "d": "Kafede yan masa, ev daveti, iş yemeği, birinin sözünü kibarca kesmek ve daha fazlası."},
+  {"t": "Eksiğinize göre senaryo", "d": "Geride kalan beceriyi hedefleyen yeni bir senaryo tek tuşla üretiliyor."}
+ ],
+ "faq": [
+  {"q": "Sohbet kimler için?", "a": "Sosyal kaygısı olan ve zor konuşmaları gerçek hayattan önce prova etmek isteyenler için."},
+  {"q": "Hangi durumları prova edebilirim?", "a": "16 senaryo var: kafede yan masa, ev daveti, iş yemeği, tanımadığınız birinin yanına oturmak, birinin sözünü kibarca kesmek, bir teklifi geri çevirmek. Kolaydan zora açılıyorlar."},
+  {"q": "Puanlama nasıl?", "a": "Puanlama sert: ortalama bir sohbet 50-60 alır, 80 üstü gerçekten iyi demektir. Değerlendirme hangi turda ne yaptığınızı ve yerine ne diyebileceğinizi gösterir."},
+  {"q": "Konuşarak kullanabilir miyim?", "a": "Evet. Sesli konuşmada karakterin sesi senaryoya göre kadın ya da erkek olur."},
+  {"q": "Hesap açmam gerekiyor mu?", "a": "Hayır, hesap ve e-posta yok. Transkriptler ve değerlendirmeler telefonunuzda saklanıyor."},
+  {"q": "Sohbetlerim nereye gidiyor?", "a": "Sohbet sırasında metin, yapay zekâ modeline sunucumuz üzerinden gidiyor ve sunucu metni saklamıyor; hata veren istekler 7 gün tutuluyor. Ses hiçbir zaman dosya olarak kaydedilmiyor."},
+  {"q": "Abonelik gerekiyor mu?", "a": "Abonelik olmadan iki sohbet yapabilirsiniz. Sohbet Pro aylık ya da yıllık abonelik olarak sunuluyor."}
+ ]}}

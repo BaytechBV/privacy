@@ -18,7 +18,19 @@ LOC = {"da": ("da", "da", "dk"), "no": ("nb", "nb", "no"), "sv": ("sv", "sv", "s
        "fi": ("fi", "fi", "fi"), "de-DE": ("de", "de", "de"), "nl-NL": ("nl", "nl", "nl"),
        "pl": ("pl", "pl", "pl"), "it": ("it", "it", "it"), "fr-FR": ("fr", "fr", "fr"),
        "fr-CA": ("fr-ca", "fr-CA", "ca"), "en-GB": ("en", "en", "gb"), "en-US": ("en-us", "en-US", "us"),
-       "ar-SA": ("ar", "ar", "sa"), "tr": ("tr", "tr", "tr")}
+       "ar-SA": ("ar", "ar", "sa"), "tr": ("tr", "tr", "tr"),
+       "en-AU": ("en-au", "en-AU", "au"), "en-CA": ("en-ca", "en-CA", "ca"), "es-ES": ("es", "es", "es"), "es-MX": ("es-mx", "es-MX", "mx"),
+       "pt-PT": ("pt", "pt", "pt"), "pt-BR": ("pt-br", "pt-BR", "br"), "cs": ("cs", "cs", "cz"), "sk": ("sk", "sk", "sk"),
+       "hu": ("hu", "hu", "hu"), "ro": ("ro", "ro", "ro"), "hr": ("hr", "hr", "hr"), "sl-SI": ("sl", "sl", "si"), "el": ("el", "el", "gr"),
+       "ru": ("ru", "ru", "ru"), "uk": ("uk", "uk", "ua"), "ca": ("ca", "ca", "es"), "he": ("he", "he", "il"), "ja": ("ja", "ja", "jp"),
+       "ko": ("ko", "ko", "kr"), "zh-Hans": ("zh-hans", "zh-Hans", "cn"), "zh-Hant": ("zh-hant", "zh-Hant", "tw"), "th": ("th", "th", "th"),
+       "vi": ("vi", "vi", "vn"), "id": ("id", "id", "id"), "ms": ("ms", "ms", "my"), "hi": ("hi", "hi", "in"), "bn-BD": ("bn", "bn", "bd"),
+       "mr-IN": ("mr", "mr", "in"), "ta-IN": ("ta", "ta", "in"), "te-IN": ("te", "te", "in"), "ur-PK": ("ur", "ur", "pk")}
+RTL = {"ar", "he", "ur"}
+# Apps with their own website (no <slug>/ privacy dir here): App Store id → (repo slug, privacy URL, support URL)
+OWN = {"6816174717": ("tingir", "https://utque.github.io/tingir/privacy.html", "https://utque.github.io/tingir/"),
+       "6804053550": ("sohbet", "https://sohbet-trainer.web.app/privacy.html", "https://sohbet-trainer.web.app/support.html")}
+KIDS = {"tingir", "lesestart-nordic"}  # Kids category: no script at all on the page
 COUNTRY = {"fischerpruefung-at": "at", "jagdpruefung-at": "at", "lkw-theorie-at": "at"}  # home store differs from locale
 # Exam apps with a web practice test (quiztest.py): repo slug → path from site root.
 TESTS = {"indfodsretsprove-dk": "da/indfodsretsprove-gratis-test/", "statsborgerprove-no": "nb/statsborgerproven-gratis-test/",
@@ -41,10 +53,45 @@ UI = {"da": ("Hent i App Store", "Ofte stillede spørgsmål", "Om appen", "Prøv
       "en": ("Download on the App Store", "Frequently asked questions", "About the app", "Try a practice test in your browser", "Support", "Privacy", "Language"),
       "ar": ("التنزيل من App Store", "الأسئلة الشائعة", "عن التطبيق", "جرّب اختبارًا في المتصفح", "الدعم", "الخصوصية", "اللغة"),
       "tr": ("App Store'dan indir", "Sık sorulan sorular", "Uygulama hakkında", "Tarayıcıda deneme testi çöz", "Destek", "Gizlilik", "Dil")}
-UI["fr-ca"], UI["en-us"] = UI["fr"], UI["en"]
+UI.update({"es": ("Descargar en el App Store", "Preguntas frecuentes", "Sobre la app", "Prueba un test en el navegador", "Soporte", "Privacidad", "Idioma"),
+      "pt": ("Descarregar na App Store", "Perguntas frequentes", "Sobre a app", "Experimente um teste no navegador", "Suporte", "Privacidade", "Idioma"),
+      "pt-br": ("Baixar na App Store", "Perguntas frequentes", "Sobre o app", "Faça um teste no navegador", "Suporte", "Privacidade", "Idioma"),
+      "cs": ("Stáhnout z App Store", "Časté otázky", "O aplikaci", "Vyzkoušejte test v prohlížeči", "Podpora", "Soukromí", "Jazyk"),
+      "sk": ("Stiahnuť z App Store", "Časté otázky", "O aplikácii", "Vyskúšajte test v prehliadači", "Podpora", "Súkromie", "Jazyk"),
+      "hu": ("Letöltés az App Store-ból", "Gyakori kérdések", "Az alkalmazásról", "Próbáljon ki egy tesztet a böngészőben", "Támogatás", "Adatvédelem", "Nyelv"),
+      "ro": ("Descarcă din App Store", "Întrebări frecvente", "Despre aplicație", "Încearcă un test în browser", "Asistență", "Confidențialitate", "Limbă"),
+      "hr": ("Preuzmi na App Storeu", "Česta pitanja", "O aplikaciji", "Isprobajte test u pregledniku", "Podrška", "Privatnost", "Jezik"),
+      "sl": ("Prenesi iz App Store", "Pogosta vprašanja", "O aplikaciji", "Preizkusite test v brskalniku", "Podpora", "Zasebnost", "Jezik"),
+      "el": ("Λήψη από το App Store", "Συχνές ερωτήσεις", "Σχετικά με την εφαρμογή", "Δοκιμάστε ένα τεστ στον browser", "Υποστήριξη", "Απόρρητο", "Γλώσσα"),
+      "ru": ("Загрузить в App Store", "Частые вопросы", "О приложении", "Пройдите тест в браузере", "Поддержка", "Конфиденциальность", "Язык"),
+      "uk": ("Завантажити в App Store", "Поширені запитання", "Про застосунок", "Пройдіть тест у браузері", "Підтримка", "Конфіденційність", "Мова"),
+      "ca": ("Baixa-la a l'App Store", "Preguntes freqüents", "Sobre l'app", "Prova un test al navegador", "Suport", "Privadesa", "Idioma"),
+      "he": ("הורדה מ-App Store", "שאלות נפוצות", "על האפליקציה", "נסו מבחן בדפדפן", "תמיכה", "פרטיות", "שפה"),
+      "ja": ("App Storeでダウンロード", "よくある質問", "アプリについて", "ブラウザでテストを試す", "サポート", "プライバシー", "言語"),
+      "ko": ("App Store에서 다운로드", "자주 묻는 질문", "앱 소개", "브라우저에서 테스트하기", "지원", "개인정보", "언어"),
+      "zh-hans": ("在 App Store 下载", "常见问题", "关于应用", "在浏览器中试做测试", "支持", "隐私", "语言"),
+      "zh-hant": ("在 App Store 下載", "常見問題", "關於 App", "在瀏覽器中試做測驗", "支援", "隱私權", "語言"),
+      "th": ("ดาวน์โหลดบน App Store", "คำถามที่พบบ่อย", "เกี่ยวกับแอป", "ลองทำแบบทดสอบในเบราว์เซอร์", "ฝ่ายสนับสนุน", "ความเป็นส่วนตัว", "ภาษา"),
+      "vi": ("Tải về trên App Store", "Câu hỏi thường gặp", "Về ứng dụng", "Thử bài kiểm tra trên trình duyệt", "Hỗ trợ", "Quyền riêng tư", "Ngôn ngữ"),
+      "id": ("Unduh di App Store", "Pertanyaan umum", "Tentang aplikasi", "Coba tes di browser", "Dukungan", "Privasi", "Bahasa"),
+      "ms": ("Muat turun di App Store", "Soalan lazim", "Tentang aplikasi", "Cuba ujian dalam pelayar", "Sokongan", "Privasi", "Bahasa"),
+      "hi": ("App Store से डाउनलोड करें", "अक्सर पूछे जाने वाले प्रश्न", "ऐप के बारे में", "ब्राउज़र में टेस्ट आज़माएँ", "सहायता", "गोपनीयता", "भाषा"),
+      "bn": ("App Store থেকে ডাউনলোড করুন", "সাধারণ প্রশ্ন", "অ্যাপ সম্পর্কে", "ব্রাউজারে একটি পরীক্ষা দিন", "সহায়তা", "গোপনীয়তা", "ভাষা"),
+      "mr": ("App Store वरून डाउनलोड करा", "वारंवार विचारले जाणारे प्रश्न", "ॲपबद्दल", "ब्राउझरमध्ये चाचणी करून पहा", "सहाय्य", "गोपनीयता", "भाषा"),
+      "ta": ("App Store-இல் பதிவிறக்கவும்", "அடிக்கடி கேட்கப்படும் கேள்விகள்", "ஆப் பற்றி", "உலாவியில் ஒரு தேர்வை முயற்சிக்கவும்", "ஆதரவு", "தனியுரிமை", "மொழி"),
+      "te": ("App Store నుండి డౌన్‌లోడ్ చేయండి", "తరచుగా అడిగే ప్రశ్నలు", "యాప్ గురించి", "బ్రౌజర్‌లో టెస్ట్ ప్రయత్నించండి", "సహాయం", "గోప్యత", "భాష"),
+      "ur": ("App Store سے ڈاؤن لوڈ کریں", "عام سوالات", "ایپ کے بارے میں", "براؤزر میں ٹیسٹ آزمائیں", "مدد", "رازداری", "زبان")})
+UI["fr-ca"], UI["en-us"], UI["en-au"], UI["en-ca"], UI["es-mx"] = UI["fr"], UI["en"], UI["en"], UI["en"], UI["es"]
 NAME = {"da": "Dansk", "nb": "Norsk", "sv": "Svenska", "fi": "Suomi", "de": "Deutsch", "nl": "Nederlands", "pl": "Polski", "it": "Italiano",
-        "fr": "Français", "fr-ca": "Français (CA)", "en": "English", "en-us": "English (US)", "ar": "العربية", "tr": "Türkçe"}
-FREE = re.compile(r"\b(free|gratis|gratuit\w*|kostenlos\w*|ilmai\w*|maksuton\w*|darmow\w*|bezpłatn\w*|ücretsiz|مجان\w*)\b", re.I)
+        "fr": "Français", "fr-ca": "Français (CA)", "en": "English", "en-us": "English (US)", "ar": "العربية", "tr": "Türkçe",
+        "en-au": "English (AU)", "en-ca": "English (CA)", "es": "Español", "es-mx": "Español (MX)", "pt": "Português", "pt-br": "Português (BR)",
+        "cs": "Čeština", "sk": "Slovenčina", "hu": "Magyar", "ro": "Română", "hr": "Hrvatski", "sl": "Slovenščina", "el": "Ελληνικά",
+        "ru": "Русский", "uk": "Українська", "ca": "Català", "he": "עברית", "ja": "日本語", "ko": "한국어", "zh-hans": "简体中文",
+        "zh-hant": "繁體中文", "th": "ไทย", "vi": "Tiếng Việt", "id": "Bahasa Indonesia", "ms": "Bahasa Melayu", "hi": "हिन्दी",
+        "bn": "বাংলা", "mr": "मराठी", "ta": "தமிழ்", "te": "తెలుగు", "ur": "اردو"}
+FREE = re.compile(r"\b(free|gratis|gratuit\w*|kostenlos\w*|ilmai\w*|maksuton\w*|darmow\w*|bezpłatn\w*|ücretsiz|مجان\w*|grátis|zdarma|zadarmo"
+                  r"|ingyen\w*|besplatn\w*|brezplačn\w*|бесплатн\w*|безкоштовн\w*|δωρεάν|gratuït\w*|percuma|miễn phí)\b"
+                  r"|無料|免费|免費|무료|ฟรี|חינם|मुफ़्त|मुफ्त|मोफत|مفت|বিনামূল্যে|இலவச|ఉచిత", re.I)
 # Campaign from the incoming link (app share card sends ?ct=share) replaces the page's own ct on the store buttons.
 CT_JS = ("<script>var c=new URLSearchParams(location.search).get('ct');if(c&&/^[\\w-]{1,40}$/.test(c))"
          "document.querySelectorAll(\"a[href*='apps.apple.com']\").forEach(function(a){a.href=a.href.replace(/ct=[^&]*/,'ct='+c)})</script>")
@@ -78,23 +125,27 @@ def get(url):
         return r.read()
 
 
-def fetch(src):
+def fetch(src, ids=None):
+    """All live apps, or only the given App Store ids merged into the existing landing/apps.json."""
     sys.path.insert(0, f"{src}/tools")
     import asc_pub
-    apps = {}
+    apps = json.load(open("landing/apps.json")) if ids else {}
     for a in asc_pub.get("/apps?limit=200&fields[apps]=name,primaryLocale")["data"]:
+        if ids and a["id"] not in ids:
+            continue
         v = asc_pub.get(f"/apps/{a['id']}/appStoreVersions?filter[platform]=IOS&filter[appStoreState]=READY_FOR_SALE&limit=1")["data"]
         if not v:
             continue
-        info = asc_pub.get(f"/apps/{a['id']}/appInfos?include=appInfoLocalizations")
-        names = {}
-        for l in info.get("included", []):
-            names.setdefault(l["attributes"]["locale"], l["attributes"])
+        names = {}  # live appInfo first; include= caps at 10 localizations, so list them per appInfo
+        infos = sorted(asc_pub.get(f"/apps/{a['id']}/appInfos")["data"], key=lambda i: i["attributes"].get("state") != "READY_FOR_DISTRIBUTION")
+        for i in infos:
+            for l in asc_pub.get(f"/appInfos/{i['id']}/appInfoLocalizations?limit=50")["data"]:
+                names.setdefault(l["attributes"]["locale"], l["attributes"])
         pl = a["attributes"]["primaryLocale"]
-        m = re.search(r"github\.io/privacy/([^/]+)/", (names.get(pl) or {}).get("privacyPolicyUrl") or "")
-        if not m:  # own website (Falcı, Sohbet, Transcribe, Tıngır)
+        m = re.search(r"(?:github\.io/privacy|apps\.baytech\.nl)/([^/]+)/", (names.get(pl) or {}).get("privacyPolicyUrl") or "")
+        if not m and a["id"] not in OWN:  # own website, no landing (Falcı, Transcribe)
             continue
-        slug, locs = m.group(1), {}
+        slug, locs = m.group(1) if m else OWN[a["id"]][0], {}
         for l in asc_pub.get(f"/appStoreVersions/{v[0]['id']}/appStoreVersionLocalizations?limit=50")["data"]:
             loc, at = l["attributes"]["locale"], l["attributes"]
             if loc not in LOC or not at.get("description"):
@@ -113,6 +164,8 @@ def fetch(src):
         apps[slug] = {"id": a["id"], "primary": pl, "country": country, "genre": r.get("primaryGenreName", ""),
                       "price": r.get("price", 0), "currency": r.get("currency", ""), "icon": r.get("artworkUrl512", ""),
                       "rating": round(r.get("averageUserRating", 0), 2), "ratings": r.get("userRatingCount", 0), "locales": locs}
+        if a["id"] in OWN:
+            apps[slug]["privacy"], apps[slug]["support"] = OWN[a["id"]][1:]
         print(slug, len(locs), file=sys.stderr)
     json.dump(apps, open("landing/apps.json", "w"), ensure_ascii=False, indent=1, sort_keys=True)
     print(len(apps), "apps")
@@ -134,7 +187,7 @@ def desc_html(text):
 
 def clean(text):
     """Store texts may say "free" (description only); the web copy drops those sentences."""
-    return "\n".join(" ".join(s for s in re.split(r"(?<=[.!?])\s+", line) if not FREE.search(s)) for line in text.split("\n"))
+    return "\n".join(" ".join(s for s in re.split(r"(?<=[.!?])\s+|(?<=[。！？])", line) if not FREE.search(s)) for line in text.split("\n"))
 
 
 def bullets(text):
@@ -214,7 +267,7 @@ def build(only=None):
             btn = (f"<a class='badge' href='{store}'><img src='../../landing/app-store-badge.svg'"
                    f" alt='{e(u[0])}' width='162' height='54'></a>")
             if play:  # text button next to the App Store badge (no Google badge image)
-                btn += f"<a class='play' href='{play}'>{e(android_privacy.PLAY_LABEL[d])}</a>"
+                btn += f"<a class='play' href='{play}'>{e(android_privacy.PLAY_LABEL.get(d, android_privacy.PLAY_LABEL['en']))}</a>"
             body = [f"<header>{icon}<div><h1>{e(h1)}</h1></div></header><p class='lead'>{e(lead)}</p>{btn}<div class='shots'>{imgs}</div>"]
             if c.get("definition"):
                 body.append(f"<p class='def'>{e(c['definition'])}</p>")
@@ -234,16 +287,16 @@ def build(only=None):
             body.append(f"<h2>{e(u[2])}</h2><div class='desc'>{desc_html(m['description'])}</div>{btn}")
             langs = " ".join(f"<a href='../../{p}' hreflang='{LOC[l][1]}'>{NAME[LOC[l][0]]}</a>" for l, p in
                              ((l, pages[LOC[l][0]]) for l in a["locales"]) if LOC[l][0] != d)
-            body.append(f"<footer><a href='../../{rs}/support/'>{e(u[4])}</a><a href='../../{rs}/'>{e(u[5])}</a>"
+            body.append(f"<footer><a href='{a.get('support', f'../../{rs}/support/')}'>{e(u[4])}</a><a href='{a.get('privacy', f'../../{rs}/')}'>{e(u[5])}</a>"
                         f"{'<br>' + e(u[6]) + ': ' + langs if langs else ''}<br>© Baytech BV</footer>")
-            page = (f"<!doctype html><html lang='{hl}'{' dir=rtl' if d == 'ar' else ''}><head><meta charset='utf-8'>"
+            page = (f"<!doctype html><html lang='{hl}'{' dir=rtl' if d in RTL else ''}><head><meta charset='utf-8'>"
                     f"<meta name='viewport' content='width=device-width,initial-scale=1'><title>{e(title)}</title>"
                     f"<meta name='description' content='{e(meta)}'><meta name='apple-itunes-app' content='app-id={a['id']}'>"
                     f"<link rel='canonical' href='{url}'>{alts}<meta property='og:type' content='website'>"
                     f"<meta property='og:title' content='{e(title)}'><meta property='og:description' content='{e(meta)}'>"
                     f"<meta property='og:url' content='{url}'>" + (f"<meta property='og:image' content='{img}'>" if img else "") +
                     f"<meta name='twitter:card' content='summary_large_image'>{jsonld}<style>{CSS}</style></head>"
-                    f"<body>{''.join(body)}{CT_JS}</body></html>")
+                    f"<body>{''.join(body)}{'' if rs in KIDS else CT_JS}</body></html>")
             hand = " ".join([title, meta, h1, lead, c.get("definition", ""), json.dumps([bens, faq, cmp], ensure_ascii=False)])
             seen = FREE.search(hand + re.sub(r"href='[^']*'", "", page))  # test-page URLs may say "gratis"; visible text may not
             assert not seen, (rs, loc, seen and seen.group(0))  # PUBLISH-PLAN §3.4: no "free" in sales copy
@@ -302,6 +355,6 @@ def llms(apps, slugs):
 
 if __name__ == "__main__":
     if sys.argv[1] == "fetch":
-        fetch(sys.argv[2])
+        fetch(sys.argv[2], set(sys.argv[3:]) or None)
     else:
         build(sys.argv[2] if len(sys.argv) > 2 else None)
