@@ -8,6 +8,8 @@
 # <repo-slug>/app/ (old marketing URL) becomes a redirect to the primary-language page.
 import html, json, os, re, sys, unicodedata, urllib.request
 
+import android_privacy  # Google Play package per app (PLAY) and the text-button label per language
+
 BASE = os.environ.get("SITE_BASE", "https://apps.baytech.nl")  # domain switch = this line
 SHOTS = 3
 MIN_RATINGS = 5  # aggregateRating only with at least this many real App Store ratings
@@ -61,7 +63,7 @@ h2{font-size:1.25em;margin-top:1.8em}h3{font-size:1em;margin:1.2em 0 .2em}.badge
 .cmp th,.cmp td{border-bottom:1px solid rgba(128,128,128,.3);padding:6px 8px;text-align:left;vertical-align:top}.cmp small{color:var(--mu)}
 @media (max-width:600px){.cmp table{min-width:0}.cmp thead{display:none}.cmp tr{display:block;background:var(--card);border-radius:12px;
 padding:8px 12px;margin-bottom:10px}.cmp td{display:flex;gap:10px;border:0;padding:3px 0}.cmp td:first-child{font-weight:600}
-.cmp td[data-l]:before{content:attr(data-l);flex:0 0 40%;color:var(--mu)}}footer{margin-top:40px;font-size:.9em;color:var(--mu)}footer a{margin-right:10px}"""
+.cmp td[data-l]:before{content:attr(data-l);flex:0 0 40%;color:var(--mu)}}.play{display:inline-block;margin:0 0 18px;padding:10px 16px;border-radius:12px;background:var(--fg);color:var(--bg);font-weight:600;text-decoration:none}footer{margin-top:40px;font-size:.9em;color:var(--mu)}footer a{margin-right:10px}"""
 e = html.escape
 
 
@@ -178,6 +180,7 @@ def build(only=None):
             out, c, u = pages[d], content.get(loc, {}), UI[d]
             os.makedirs(out, exist_ok=True)
             store = f"https://apps.apple.com/app/id{a['id']}?pt=322891&ct=landing-{d}"
+            play = android_privacy.play_url(rs) if rs in android_privacy.PLAY else None  # live on Google Play too
             shots = m["shots"] or a["locales"].get(a["primary"], {}).get("shots", [])
             for i, url in enumerate(shots, 1):
                 save_img(url, f"{out}{i}.jpg", 450, 978)
@@ -192,8 +195,8 @@ def build(only=None):
             url = f"{BASE}/{out}"
             img = f"{url}1.jpg" if shots else ""
             ld = {"@context": "https://schema.org", "@type": "SoftwareApplication", "name": m["name"], "description": meta,
-                  "operatingSystem": "iOS", "applicationCategory": GENRE.get(a["genre"], "MobileApplication"), "inLanguage": hl,
-                  "url": url, "downloadUrl": f"https://apps.apple.com/app/id{a['id']}", "image": img or None,
+                  "operatingSystem": "iOS, Android" if play else "iOS", "applicationCategory": GENRE.get(a["genre"], "MobileApplication"), "inLanguage": hl,
+                  "url": url, "downloadUrl": f"https://apps.apple.com/app/id{a['id']}", "sameAs": [play] if play else None, "image": img or None,
                   "publisher": {"@type": "Organization", "name": "Baytech BV"},
                   "offers": {"@type": "Offer", "price": f"{a['price']:g}", "priceCurrency": a["currency"]} if a["currency"] else None}
             if a["ratings"] >= MIN_RATINGS and a["rating"]:
@@ -210,6 +213,8 @@ def build(only=None):
                            for i in range(1, len(shots) + 1))
             btn = (f"<a class='badge' href='{store}'><img src='../../landing/app-store-badge.svg'"
                    f" alt='{e(u[0])}' width='162' height='54'></a>")
+            if play:  # text button next to the App Store badge (no Google badge image)
+                btn += f"<a class='play' href='{play}'>{e(android_privacy.PLAY_LABEL[d])}</a>"
             body = [f"<header>{icon}<div><h1>{e(h1)}</h1></div></header><p class='lead'>{e(lead)}</p>{btn}<div class='shots'>{imgs}</div>"]
             if c.get("definition"):
                 body.append(f"<p class='def'>{e(c['definition'])}</p>")
@@ -272,7 +277,8 @@ def llms(apps, slugs):
         url = f"{BASE}/{LOC[loc][0]}/{slugs[rs][LOC[loc][0]]}/"
         line = c.get("definition") or m["subtitle"] or ""
         short.append(f"- [{m['name']}]({url}): {line}".rstrip(": "))
-        full.append(f"## {m['name']}\n\nApp Store: https://apps.apple.com/app/id{a['id']}\n")
+        full.append(f"## {m['name']}\n\nApp Store: https://apps.apple.com/app/id{a['id']}\n"
+                    + (f"Google Play: {android_privacy.play_url(rs)}\n" if rs in android_privacy.PLAY else ""))
         for l in a["locales"]:
             mm, cc = a["locales"][l], content.get(l, {})
             full.append(f"### {mm['name']} ({LOC[l][1]})\n\n{BASE}/{LOC[l][0]}/{slugs[rs][LOC[l][0]]}/\n")

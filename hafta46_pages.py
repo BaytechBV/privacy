@@ -4,6 +4,8 @@
 # Firebase (FirebaseAnalyticsCore, switchable). Update together with PrivacyInfo + ASC App Privacy when the build changes (PP §3.3).
 import html, os, re
 
+import android_privacy  # Android (Google Play) section for apps that are live on Play (android_privacy.PLAY)
+
 CONTACT = "utqsall@gmail.com"
 UPDATED = "2026-10-19"
 CSS = ("body{font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;color:#111827;background:#f3f5f8}"
@@ -1060,7 +1062,7 @@ for slug, a in APPS.items():
         t = T[l]
         name = a["name"] if isinstance(a["name"], str) else a["name"][l]
         stored, funnel, never = a["data"][l]
-        p = [f"<section id='{l}' lang='{l}'><h1>{t['h']} – {html.escape(name)}</h1><p><em>{t['upd']}: {a.get('updated', UPDATED)}</em></p>",
+        p = [f"<section id='{l}' lang='{l}'><h1>{t['h']} – {html.escape(name)}</h1><p><em>{t['upd']}: {android_privacy.UPDATED if slug in android_privacy.PLAY else a.get('updated', UPDATED)}</em></p>",
              f"<h2>{t['sum']}</h2><p>{t['sum_t'].format(name=html.escape(name))}</p>",
              f"<h2>{t['data']}</h2><p>{stored}</p>"]
         if "icloud" in a:
@@ -1070,6 +1072,8 @@ for slug, a in APPS.items():
         else:
             p.append(f"<h2>{NOSTATS[l][0]}</h2><p>{NOSTATS[l][1]}</p>")
         p.append(f"<h2>{t['buy']}</h2><p>{t['buy_t']}</p>")
+        if slug in android_privacy.PLAY:
+            p.append(f"<h2>{android_privacy.HEAD}</h2><p>{android_privacy.android_html(slug, l)}</p>")
         if "notif" in a:
             p.append(f"<h2>{t['notif']}</h2><p>{t['notif_t']} {a['notif'][l]}</p>")
         rights = t['rights_t'].format(c=CONTACT)

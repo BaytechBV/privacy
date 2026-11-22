@@ -6,6 +6,8 @@
 # coarse location, purchases, diagnostics; analytics only, not linked, no tracking).
 import os
 
+import android_privacy  # Android (Google Play) section after Purchases (android_privacy.PLAY)
+
 CONTACT = "utqsall@gmail.com"
 OWNER = "Mustafa Utku Bayık"
 UPDATED = "2026-11-14"
@@ -237,7 +239,9 @@ def sec(l, inner):
     return f"<section id='{l}' lang='{l}'{' dir=rtl' if l == 'ar' else ''}>{inner}</section>"
 
 
-privacy = [sec(l, f"<h1>{p[0][0]} – {NAME}</h1><p class='mu'>{p[0][1]}: {UPDATED}</p>" + "".join(f"<h2>{h}</h2><p>{t}</p>" for h, t in p[1:]))
+ANDROID = {l: (android_privacy.HEAD, android_privacy.android_html(SLUG, l)) for l in P}  # inserted after Purchases (p[4])
+privacy = [sec(l, f"<h1>{p[0][0]} – {NAME}</h1><p class='mu'>{p[0][1]}: {android_privacy.UPDATED}</p>"
+               + "".join(f"<h2>{h}</h2><p>{t}</p>" for h, t in p[1:5] + [ANDROID[l]] + p[5:]))
            for l, p in P.items()]
 support = [sec(l, f"<h1>{h} – {NAME}</h1><p>{c}</p><h2>{faq}</h2>" + "".join(f"<h3>{q}</h3><p>{a}</p>" for q, a in qa) + f"<p><a href='../'>{priv}</a></p>")
            for l, (h, c, faq, qa, priv) in S.items()]
@@ -253,6 +257,6 @@ for f in (f"{SLUG}/index.html", f"{SLUG}/support/index.html"):
         assert f"<a href='#{l}'>{l.upper()}</a>" in s and f"<section id='{l}' lang='{l}'" in s, (f, l)
     assert s.count(" dir=rtl") == 1 and "<section id='ar' lang='ar' dir=rtl>" in s, f
 p = open(f"{SLUG}/index.html").read()
-assert p.count("https://policies.google.com/privacy") == len(P) and p.count("https://firebase.google.com/support/privacy") == len(P)
-assert p.count("<h2>") == 8 * len(P)
+assert p.count("https://policies.google.com/privacy") == 2 * len(P) and p.count("https://firebase.google.com/support/privacy") == len(P)
+assert p.count("<h2>") == 9 * len(P)
 print("ok", SLUG)

@@ -1,6 +1,8 @@
 # Generates one static privacy page per app. Edit the APPS texts and re-run; each app's page is independent.
 import os
 
+import android_privacy  # Android (Google Play) section for apps that are live on Play (android_privacy.PLAY)
+
 CONTACT = "utqsall@gmail.com"
 OWNER = "Mustafa Utku Bayık"
 UPDATED = "2026-10-14"
@@ -206,11 +208,14 @@ h1{font-size:1.6em;margin-bottom:.2em}h2{font-size:1.15em;margin-top:1.6em}a{col
 .mu{color:var(--mu)}nav a{margin-right:12px}hr{border:0;border-top:1px solid var(--mu);opacity:.3;margin:40px 0}"""
 
 
-def section(lang, name, extra):
+def section(lang, name, extra, slug=None):
     t = T[lang]
-    parts = [f"<section id='{lang}' lang='{lang}'><h1>{t['h']} – {name}</h1><p class='mu'>{t['upd']}: {UPDATED}</p>"]
+    android = slug in android_privacy.PLAY
+    parts = [f"<section id='{lang}' lang='{lang}'><h1>{t['h']} – {name}</h1><p class='mu'>{t['upd']}: {android_privacy.UPDATED if android else UPDATED}</p>"]
     for k in ("who", "data", "no", "buy", "rate"):
         parts.append(f"<h2>{t[k]}</h2><p>{t[k + '_t']}</p>")
+        if k == "buy" and android:
+            parts.append(f"<h2>{android_privacy.HEAD}</h2><p>{android_privacy.android_html(slug, lang)}</p>")
     if lang in extra:
         parts.append(f"<h2>{extra[lang][0]}</h2><p>{extra[lang][1]}</p>")
     for k in ("del_", "rights", "chg"):
@@ -221,7 +226,7 @@ def section(lang, name, extra):
 for slug, (name, langs, extra) in APPS.items():
     os.makedirs(slug, exist_ok=True)
     nav = "".join(f"<a href='#{l}'>{l.upper()}</a>" for l in langs)
-    body = "<hr>".join(section(l, name, extra) for l in langs)
+    body = "<hr>".join(section(l, name, extra, slug) for l in langs)
     with open(f"{slug}/index.html", "w") as f:
         f.write(f"<!doctype html><html lang='{langs[0]}'><head><meta charset='utf-8'>"
                 f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
