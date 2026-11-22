@@ -5,6 +5,7 @@
 ## AM-Klar – Moped AM theory
 
 App Store: https://apps.apple.com/app/id6824960240
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.amklar
 
 ### AM-Klar – knallertkørekort (da)
 
@@ -81,6 +82,7 @@ Moped körkort – teori klass I. Öva teorin för mopedkörkort: frågor med f�
 ## Abonnement – Subscriptions
 
 App Store: https://apps.apple.com/app/id6823286010
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.abonnement
 
 ### Abonnementer – opsig nemt (da)
 
@@ -175,6 +177,7 @@ Påminnelse före förnyelse. Se vad du betalar varje månad, få en påminnelse
 ## Ajokortti – Driving Theory B
 
 App Store: https://apps.apple.com/app/id6823285978
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.ajokortti
 
 ### Ajokortti – Driving Theory B (en)
 
@@ -224,6 +227,7 @@ Teoriprov B – på svenska. Öva teoriprovet i Traficoms tredelade format: 15 t
 ## Anhukerklar – anhuker G11
 
 App Store: https://apps.apple.com/app/id6825875056
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.anhukerklar
 
 ### Lyftklar – anhuggerkursus (da)
 
@@ -285,6 +289,7 @@ Stroppning, lyft och kran. Öva teorin för lyftkort och stroppning: frågor med
 ## Antincendio Pronto – Quiz
 
 App Store: https://apps.apple.com/app/id6825875073
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.antincendiopronto
 
 ### Antincendio Pronto – Quiz (en)
 
@@ -331,6 +336,7 @@ A: No, è indipendente e non è collegata ai Vigili del Fuoco né ad enti di for
 ## BHV Klaar – Herhaling en toets
 
 App Store: https://apps.apple.com/app/id6824971613
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.bhvklaar
 
 ### BHV Klaar – Herhaling en toets (en)
 
@@ -374,6 +380,7 @@ A: Nee. Het certificaat haal je bij je cursus. De app is onafhankelijk en niet v
 ## Babyhender: Baby Sign Language
 
 App Store: https://apps.apple.com/app/id6826536448
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.babyhender
 
 ### Tegnbaby – babytegn (da)
 
@@ -505,6 +512,7 @@ Servicebok, tankning, laddning. Vinterdäck krävs från 1 december vid vinterv�
 ## Bloedmaatje – donorlogboek
 
 App Store: https://apps.apple.com/app/id6824629681
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.bloedmaatje
 
 ### Bloedmaatje – bloddonor (da)
 
@@ -612,6 +620,7 @@ A: 20 Fragen, die Begriffe und die Checkliste kannst du ohne Kauf nutzen.
 ## Båtkörkort – Boat Licence SE
 
 App Store: https://apps.apple.com/app/id6824002373
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.forarintyg
 
 ### Båtkörkort – Boat Licence SE (en)
 
@@ -722,6 +731,7 @@ Gra w tablice w podróży. Gra na podróż samochodem: zbieraj włoskie prowincj
 ## Danish Citizenship Test Prep
 
 App Store: https://apps.apple.com/app/id6823126416
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.indfodsret
 
 ### اختبار الجنسية الدنماركية (ar)
 
@@ -733,7 +743,7 @@ Indfødsretsprøven والإقامة. 244 سؤالًا تدريبيًا للاخ
 
 https://apps.baytech.nl/da/indfodsretsproeven-oevespoergsmaal/
 
-Indfødsretsprøven 2026/2027 er en uafhængig iPhone- og iPad-app fra Baytech BV til at øve indfødsretsprøven og medborgerskabsprøven. Den har 244 spørgsmål (148 plus 22 værdispørgsmål til indfødsretsprøven, 74 til medborgerskabsprøven), øveprøver med tid i samme format som de rigtige prøver og forklaringer på dansk, engelsk, tysk, polsk, tyrkisk og arabisk. Den virker uden internet, og alt låses op med ét køb på 129 kr uden abonnement.
+Indfødsretsprøven 2026/2027 er en uafhængig app til iPhone, iPad og Android fra Baytech BV til at øve indfødsretsprøven og medborgerskabsprøven. Den har 244 spørgsmål (148 plus 22 værdispørgsmål til indfødsretsprøven, 74 til medborgerskabsprøven), øveprøver med tid i samme format som de rigtige prøver og forklaringer på dansk, engelsk, tysk, polsk, tyrkisk og arabisk. Den virker uden internet, og alt låses op med ét køb på 129 kr uden abonnement.
 
 - 244 spørgsmål til begge prøver: 148 plus 22 værdispørgsmål til indfødsretsprøven og 74 til medborgerskabsprøven.
 - Øveprøver med tid: Samme format som de rigtige prøver: 45 spørgsmål på 45 minutter og 25 på 30 minutter.
@@ -784,7 +794,7 @@ Indfødsret & Daueraufenthalt. 244 Übungsfragen für beide dänischen Tests. Fr
 
 https://apps.baytech.nl/en/danish-citizenship-test-prep/
 
-Danish Citizenship Test Prep is an independent iPhone and iPad app by Baytech BV for the Danish citizenship test (indfødsretsprøven) and the permanent residence test (medborgerskabsprøven). It has 244 questions (148 plus 22 values questions for the citizenship test, 74 for the residence test), timed mock tests in the real format, and explanations in English, Danish, German, Polish, Turkish and Arabic. It works offline, and one purchase of 129 DKK unlocks everything, with no subscription.
+Danish Citizenship Test Prep is an independent app for iPhone, iPad and Android by Baytech BV for the Danish citizenship test (indfødsretsprøven) and the permanent residence test (medborgerskabsprøven). It has 244 questions (148 plus 22 values questions for the citizenship test, 74 for the residence test), timed mock tests in the real format, and explanations in English, Danish, German, Polish, Turkish and Arabic. It works offline, and one purchase of 129 DKK unlocks everything, with no subscription.
 
 Q: Which tests does the app cover?
 A: Both: indfødsretsprøven (citizenship, 45 questions in 45 minutes, pass with 36 correct and at least 4 of 5 values questions) and medborgerskabsprøven (permanent residence, 25 questions in 30 minutes, pass with 20 correct).
@@ -889,6 +899,7 @@ Resor, stuga och kollektiv. Vem betalade vad, och vem är skyldig vem? Lägg in 
 ## Dosisklar – Drug Calculations
 
 App Store: https://apps.apple.com/app/id6825874936
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.dosisklar
 
 ### Dosisklar – medicinregning (da)
 
@@ -965,6 +976,7 @@ https://apps.baytech.nl/sv/dosisklar-lakemedelsberakning/
 ## Duelighedsbevis: Boat Licence
 
 App Store: https://apps.apple.com/app/id6824009361
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.duelighedsbevis
 
 ### Duelighedsbevis – Teori & Test (da)
 
@@ -1014,6 +1026,7 @@ Danish boating theory test. Winter theory course? Practise 385 questions with ex
 ## E-numbers – E-koll
 
 App Store: https://apps.apple.com/app/id6824513618
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.enummer
 
 ### E-numre – E-tjek (da)
 
@@ -1081,6 +1094,7 @@ A: Full version är ett engångsköp, ingen prenumeration. Utan köp får du 5 s
 ## Fischerprüfung Österreich
 
 App Store: https://apps.apple.com/app/id6824187501
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.fischerpruefungat
 
 ### Fischerprüfung Österreich (de)
 
@@ -1246,6 +1260,7 @@ Injektion, vikt & biverkningar. En lugn och privat dagbok för dina GLP-1-injekt
 ## Golf Green Card: Rules Test
 
 App Store: https://apps.apple.com/app/id6823284458
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.greencard
 
 ### Green Card – Golf Österreich (de)
 
@@ -1334,6 +1349,7 @@ A: Ja, den fungerar utan internet, utan konto och utan reklam.
 ## Hestegym – Horse Groundwork
 
 App Store: https://apps.apple.com/app/id6826536530
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.hestegym
 
 ### Hestegym – Øvelser fra jorden (da)
 
@@ -1404,6 +1420,7 @@ Töjning, styrka och veckoplan. Övningar från marken för din häst: töjning,
 ## Hygieniapassi Treeni
 
 App Store: https://apps.apple.com/app/id6824628825
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.hygieniapassi
 
 ### Hygieniapassi Treeni (en)
 
@@ -1456,6 +1473,7 @@ https://apps.baytech.nl/sv/hygieniapassi-hygienpass/
 ## Jagdprüfung Österreich
 
 App Store: https://apps.apple.com/app/id6824084421
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.jagdpruefungat
 
 ### Jagdprüfung Österreich 2027 (de)
 
@@ -1499,6 +1517,7 @@ Jungjägerprüfung & Jagdkurs. Austrian hunting exam: practise the oral exam wit
 ## Karta Wędkarska Test – Atlas
 
 App Store: https://apps.apple.com/app/id6824970442
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.kartawedkarska
 
 ### Karta Wędkarska Test – Atlas (en)
 
@@ -1597,6 +1616,7 @@ A: Nei, et engangskjøp låser opp hele kirkeåret. Kjøpet kan deles med famili
 ## Krispa – air fryer & recipes
 
 App Store: https://apps.apple.com/app/id6824512615
+Google Play: https://play.google.com/store/apps/details?id=com.baytech.airfryer
 
 ### Krispa – airfryer & opskrifter (da)
 
@@ -1670,6 +1690,7 @@ A: Kyckling, fläsk och färs visar en lägsta kärntemperatur, det strängaste 
 ## Kärryklar – BE-teoriakoe
 
 App Store: https://apps.apple.com/app/id6826792127
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.trailerklar
 
 ### Trailerklar – kørekort B/E (da)
 
@@ -1725,6 +1746,7 @@ Släpvagn, vikter och koppling. Öva teorin för BE-körkort: frågor med förkl
 ## Körbok – övningsköra & körprov
 
 App Store: https://apps.apple.com/app/id6824513659
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.ovningskorning
 
 ### Kørelog – kørekort som 17-årig (da)
 
@@ -1890,6 +1912,7 @@ A: Nej, Ledigplan är fristående och beräkningen är vägledande. Ansökan gö
 ## Lesestart – lær å lese
 
 App Store: https://apps.apple.com/app/id6824002314
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.lesestart
 
 ### Læsestart – lær at læse (da)
 
@@ -1933,6 +1956,7 @@ A: Ja, appen virker uten nett. Det er ingen reklame og ingen innlogging, og alt 
 ## Metsästäjätutkinto/Jägarexamen
 
 App Store: https://apps.apple.com/app/id6824063739
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.metsastajatutkinto
 
 ### Metsästäjätutkinto/Jägarexamen (en)
 
@@ -1985,6 +2009,7 @@ Artkännedom och övningsprov
 ## Norwegian Citizenship Test
 
 App Store: https://apps.apple.com/app/id6823126983
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.statsborger
 
 ### اختبار الجنسية النرويجية 2026 (ar)
 
@@ -2002,7 +2027,7 @@ Statsborgerprøven üben. 150+ Übungsfragen auf Norwegisch mit Erklärungen auf
 
 https://apps.baytech.nl/en/norwegian-citizenship-test/
 
-Norwegian Citizenship Test is an independent iPhone and iPad app by Baytech BV for the Norwegian citizenship test (statsborgerprøven) and the social studies test (samfunnskunnskapsprøven). It has 150+ questions on the 8 social studies themes, a timed mock test in the real format (36 questions in 60 minutes, pass at 75%) and explanations in English, Norwegian, German, Polish and Arabic. It works offline, and one purchase of 129 NOK unlocks everything, with no subscription.
+Norwegian Citizenship Test is an independent app for iPhone, iPad and Android by Baytech BV for the Norwegian citizenship test (statsborgerprøven) and the social studies test (samfunnskunnskapsprøven). It has 150+ questions on the 8 social studies themes, a timed mock test in the real format (36 questions in 60 minutes, pass at 75%) and explanations in English, Norwegian, German, Polish and Arabic. It works offline, and one purchase of 129 NOK unlocks everything, with no subscription.
 
 Q: Are the questions in English?
 A: The questions are in Norwegian (Bokmål or Nynorsk), as the citizenship test is taken in Norwegian. The explanation after each answer can be read in English, German, Polish or Arabic.
@@ -2038,7 +2063,7 @@ Mock exam & practice, Norway. 150+ practice questions in Norwegian, with explana
 
 https://apps.baytech.nl/nb/statsborgerproven-oving/
 
-Statsborgerprøven 2026/2027 er en uavhengig iPhone- og iPad-app fra Baytech BV for å øve til statsborgerprøven og samfunnskunnskapsprøven. Den har 150+ spørsmål om de 8 temaene i samfunnskunnskap, en øvingsprøve med tid i samme format som prøven (36 spørsmål på 60 minutter) og forklaringer på norsk, engelsk, tysk, polsk og arabisk. Den virker uten internett, og alt låses opp med ett kjøp på 129 kr uten abonnement.
+Statsborgerprøven 2026/2027 er en uavhengig app for iPhone, iPad og Android fra Baytech BV for å øve til statsborgerprøven og samfunnskunnskapsprøven. Den har 150+ spørsmål om de 8 temaene i samfunnskunnskap, en øvingsprøve med tid i samme format som prøven (36 spørsmål på 60 minutter) og forklaringer på norsk, engelsk, tysk, polsk og arabisk. Den virker uten internett, og alt låses opp med ett kjøp på 129 kr uten abonnement.
 
 - 150+ spørsmål på enkelt norsk: Fordelt på de 8 temaene i samfunnskunnskap.
 - Øvingsprøve med tid: 36 spørsmål på 60 minutter, bestått ved 75 %.
@@ -2161,6 +2186,7 @@ Tryckprognos och dagbok. Höstens stormar ger snabba tryckfall. Se dem komma tim
 ## Provklar – Citizenship Test
 
 App Store: https://apps.apple.com/app/id6824513587
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.medborgarskap
 
 ### Provklar – Citizenship Test (en)
 
@@ -2204,6 +2230,7 @@ A: Nej, Provklar är oberoende och har ingen koppling till Universitets- och hö
 ## Radheld – Fahrradprüfung
 
 App Store: https://apps.apple.com/app/id6824971055
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.verkeersheld
 
 ### Cykelhelt – cyklistprøven (da)
 
@@ -2366,6 +2393,7 @@ Matsedel och inköpslista. Dela ett recept från en app eller webbplats och få 
 ## Rekkaklar – C-luokan teoriakoe
 
 App Store: https://apps.apple.com/app/id6826536593
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.rekkaklar
 
 ### Tungbilklar – teoriprøve C (da)
 
@@ -2500,6 +2528,7 @@ Mata surdegen, planera baket. Brödet klart kl. 8? Riseplan räknar baklänges n
 ## SRC Klar – VHF-certifikat
 
 App Store: https://apps.apple.com/app/id6824970189
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.srcklar
 
 ### SRC Klar – VHF-certifikat (da)
 
@@ -2564,6 +2593,7 @@ A: Provet gör du hos en kursarrangör. SRC Klar är fristående och inte koppla
 ## Serveringsklar – Alcohol Test
 
 App Store: https://apps.apple.com/app/id6824970576
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.serveringsklar
 
 ### Serveringsklar – Alcohol Test (en)
 
@@ -2622,6 +2652,7 @@ Kunskapsprov alkoholservering. Öva ansvarsfull alkoholservering och kunskapspro
 ## Skoterklar – förarbevis skoter
 
 App Store: https://apps.apple.com/app/id6824970204
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.skoterklar
 
 ### Skoterklar – moottorikelkka (fi)
 
@@ -2674,6 +2705,7 @@ A: Nej, provet gör du hos en utbildare. Appen är fristående och inte kopplad 
 ## Smørklar – XC ski wax guide
 
 App Store: https://apps.apple.com/app/id6825875087
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.smorklar
 
 ### Smørklar – XC ski wax guide (en)
 
@@ -2732,6 +2764,7 @@ Fästvalla, klister och glid. Ange snötemperatur och före och få rätt vallak
 ## Sägeschein – Motorsägenkurs
 
 App Store: https://apps.apple.com/app/id6825264068
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.saegeschein
 
 ### Sägeschein – Motorsägenkurs (de)
 
@@ -2864,6 +2897,7 @@ A: Nei, den er ikke tilknyttet Legeforeningen, Helfo eller Helse- og omsorgsdepa
 ## Taxiklar – Swedish taxi test
 
 App Store: https://apps.apple.com/app/id6824969988
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.taxiklar
 
 ### Taxiklar – taxikørekort (da)
 
@@ -2931,6 +2965,7 @@ A: Hos Trafikverket. Taxiklar är fristående och inte kopplad till Transportsty
 ## Teoriklar – driving theory
 
 App Store: https://apps.apple.com/app/id6825874939
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.teoriklar
 
 ### Teoriklar – teoriprøven (da)
 
@@ -3047,6 +3082,7 @@ https://apps.baytech.nl/sv/vagklar-arbete-paa-vag-apv/
 ## Tirelire – Pocket Money
 
 App Store: https://apps.apple.com/app/id6823956407
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.tirelire
 
 ### Tirelire – lommepenge (da)
 
@@ -3120,6 +3156,7 @@ Sysslor, sparande och mål. Varje barns saldo, sysslor att godkänna och sparmå
 ## Traktorklar – klasse T
 
 App Store: https://apps.apple.com/app/id6824969827
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.traktorklar
 
 ### Traktorklar – traktorkørekort (da)
 
@@ -3485,6 +3522,7 @@ Pass, tillägg och timmar. Lägg in din turlista på sekunder och se timmarna f�
 ## Wishlist – Gift Lists
 
 App Store: https://apps.apple.com/app/id6824064449
+Google Play: https://play.google.com/store/apps/details?id=com.baytechbv.onskelista
 
 ### Ønskeseddel – julegaver (da)
 
