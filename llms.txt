@@ -27,10 +27,12 @@ Full text with facts and FAQ per app: https://apps.baytech.nl/llms-full.txt
 - [Fødselsklar: Contraction Timer](https://apps.baytech.nl/en/foedselsklar-contraction-timer/): Birth plan & hospital bag
 - [GLP-1 Diary – Injection Log](https://apps.baytech.nl/en/glp-1-injection-diary/): Shots, weight & doctor report
 - [Golf Green Card: Rules Test](https://apps.baytech.nl/en/golf-green-card-rules-test/): Golf rules & etiquette quiz
+- [Gusjournal – saunagus](https://apps.baytech.nl/da/saunagus-dufte-gusplan/): Dufte, blandinger og gusplan
 - [Hestegym – Horse Groundwork](https://apps.baytech.nl/en/hestegym-horse-groundwork/): Horse stretching & week plan
 - [Hygieniapassi Treeni](https://apps.baytech.nl/en/hygieniapassi-treeni/): Food safety & hygiene test
 - [Jagdprüfung Österreich](https://apps.baytech.nl/en/jagdprufung-osterreich/): Jungjägerprüfung & Jagdkurs
 - [Karta Wędkarska Test – Atlas](https://apps.baytech.nl/en/karta-wedkarska-test-atlas/): Wędkowanie i rozpoznawanie
+- [Kids Guitar Lessons: Tıngır](https://apps.baytech.nl/en/kids-guitar-lessons-tingir/): Learn songs, notes & tuner
 - [Kirkeåret – Nordic Church Year](https://apps.baytech.nl/en/kirkeaaret-nordic-church-year/): Lectionary, colours, Sundays
 - [Krispa – air fryer & recipes](https://apps.baytech.nl/en/krispa-air-fryer-recipes/): Cooking times & shake timer
 - [Kärryklar – BE-teoriakoe](https://apps.baytech.nl/fi/be-kortti-teoriakoe/): Perävaunu, massat ja kytkentä
@@ -39,6 +41,7 @@ Full text with facts and FAQ per app: https://apps.baytech.nl/llms-full.txt
 - [Ledigplan – föräldraledighet](https://apps.baytech.nl/en/ledigplan-foraldraledighet/): Forældreorlov, pappapermisjon
 - [Lesestart – lær å lese](https://apps.baytech.nl/nb/lese-app-for-barn/): Lesespill: bokstaver og lyder
 - [Metsästäjätutkinto/Jägarexamen](https://apps.baytech.nl/en/metsastajatutkinto-jagarexamen/): Finnish hunting exam practice
+- [Nomira – woorden oefenen](https://apps.baytech.nl/nl/afasie-woorden-oefenen/): Plaatje zien, woord zeggen
 - [Norwegian Citizenship Test](https://apps.baytech.nl/en/norwegian-citizenship-test/): Norwegian Citizenship Test is an independent app for iPhone, iPad and Android by Baytech BV for the Norwegian citizenship test (statsborgerprøven) and the social studies test (samfunnskunnskapsprøven). It has 150+ questions on the 8 social studies themes, a timed mock test in the real format (36 questions in 60 minutes, pass at 75%) and explanations in English, Norwegian, German, Polish and Arabic. It works offline, and one purchase of 129 NOK unlocks everything, with no subscription.
 - [Pressure & Headache Forecast](https://apps.baytech.nl/en/pressure-headache-forecast/): Barometer alerts and diary
 - [Provklar – Citizenship Test](https://apps.baytech.nl/en/provklar-citizenship-test/): Swedish society exam practice
@@ -51,6 +54,7 @@ Full text with facts and FAQ per app: https://apps.baytech.nl/llms-full.txt
 - [Serveringsklar – Alcohol Test](https://apps.baytech.nl/en/serveringsklar-alcohol-test/): Serving licence exam practice
 - [Skoterklar – förarbevis skoter](https://apps.baytech.nl/sv/snoskoter-forarbevis-teori/): Teori för snöskoter på svenska
 - [Smørklar – XC ski wax guide](https://apps.baytech.nl/en/smoerklar-xc-ski-wax-guide/): Grip wax & glide for skiing
+- [Sohbet: Social Skills Practice](https://apps.baytech.nl/en/sohbet-social-skills-practice/): Small talk & confidence coach
 - [Sägeschein – Motorsägenkurs](https://apps.baytech.nl/de/motorsaegenkurs-theorie/): Theorie für AS Baum I und II
 - [Sågklar – motorsågskörkort](https://apps.baytech.nl/en/saagklar-motorsaagskorkort/): Swedish chainsaw licence test
 - [Takstklar – normaltariffen](https://apps.baytech.nl/en/takstklar-normaltariffen/): Norwegian GP tariff look-up
@@ -64,4 +68,5 @@ Full text with facts and FAQ per app: https://apps.baytech.nl/llms-full.txt
 - [Vaarbewijs KVB 1 & 2 Practice](https://apps.baytech.nl/en/vaarbewijs-kvb-1-2-practice/): Vaarbewijs KVB 1 & 2 Practice is an independent iPhone and iPad app by Baytech BV for the Dutch CBR boating licence theory exams Klein Vaarbewijs 1 and 2. It has 616 original questions with explanations, timed mock exams with CBR-style scoring (KVB 1: 40 questions in 60 minutes; KVB 2: 27 questions in 90 minutes including open calculation questions) and chart reading and course plotting for KVB 2. It works offline, in Dutch, English and German, and one purchase of €9.99 unlocks everything, with no subscription.
 - [Vaktplan – Shifts & Pay](https://apps.baytech.nl/en/shift-planner-pay-calculator/): Shifts, supplements, hours
 - [Wishlist – Gift Lists](https://apps.baytech.nl/en/wishlist-gift-lists/): Shared lists and Secret Santa
+- [Zoemwoord – word party game](https://apps.baytech.nl/en/zoemwoord-word-party-game/): Your phone hears banned words
 - [Żeglarz – Sternik motorowodny](https://apps.baytech.nl/en/zeglarz-sternik-motorowodny/): Węzły, COLREG, locja i meteo
