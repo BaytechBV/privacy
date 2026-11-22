@@ -231,6 +231,10 @@ def build(only=None):
                 body.append(f"<p><a class='test' href='../../{TESTS[rs]}'>{e(u[3])} →</a></p>")
             if faq:
                 body.append(f"<h2>{e(u[1])}</h2>" + "".join(f"<h3>{e(q['q'])}</h3><p>{e(q['a'])}</p>" for q in faq))
+            blog = json.load(open(f"blog/{rs}.json")) if os.path.exists(f"blog/{rs}.json") else {}
+            if blog.get("dir") == d:  # blog.py articles in this language
+                body.append(f"<h2>Blog</h2><ul>" + "".join(f"<li><a href='../blog/{x['slug']}/'>{e(x['h1'])}</a></li>"
+                                                         for x in blog["articles"]) + "</ul>")
             body.append(f"<h2>{e(u[2])}</h2><div class='desc'>{desc_html(m['description'])}</div>{btn}")
             langs = " ".join(f"<a href='../../{p}' hreflang='{LOC[l][1]}'>{NAME[LOC[l][0]]}</a>" for l, p in
                              ((l, pages[LOC[l][0]]) for l in a["locales"]) if LOC[l][0] != d)
@@ -295,6 +299,10 @@ def llms(apps, slugs):
             " Europe: citizenship tests, boating, hunting, driving and trade licences. Each app has a page per App Store language."
             " The apps are not official and not affiliated with the exam authorities.\n\n"
             f"Full text with facts and FAQ per app: {BASE}/llms-full.txt\n\n## Apps\n\n")
+    for f in sorted(os.listdir("blog")) if os.path.isdir("blog") else []:  # blog.py articles, one line each
+        b = json.load(open(f"blog/{f}"))
+        short.append(f"\n## Blog: {b['app']} ({b['dir']})\n")
+        short += [f"- [{x['h1']}]({BASE}/{b['dir']}/blog/{x['slug']}/): {x['description']}" for x in b["articles"]]
     open("llms.txt", "w").write(head + "\n".join(short) + "\n")
     open("llms-full.txt", "w").write(head.split("Full text")[0] + "\n".join(full) + "\n")
     print("llms.txt", len(short), "apps")
