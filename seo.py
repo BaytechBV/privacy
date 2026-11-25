@@ -12,6 +12,7 @@ from landing import BASE, LOC
 LANGS = {v[0] for v in LOC.values()}
 MAX_HTML = 150_000  # bytes; flag heavier HTML (images are counted separately)
 MAX_IMG = 400_000
+OLD_BASE = "baytechbv.github.io/privacy"  # pre-2026-11-02 domain; hand-written pages copy it from store texts/old pages
 
 
 class Page(html.parser.HTMLParser):
@@ -123,6 +124,8 @@ def audit(out="DENETIM.md"):
                 issues["Kırık iç link"].append(f"`{p.path}` → `{h}`")
         if not p.title:
             issues["Title yok"].append(f"`{p.path}`")
+        if OLD_BASE in open(p.path, encoding="utf-8").read():
+            issues["Eski alan adı (baytechbv.github.io)"].append(f"`{p.path}` → {BASE}/ kullan")
         if p.canonical and not p.canonical.startswith(BASE + "/"):
             issues["Canonical başka alan adında"].append(f"`{p.path}` → {p.canonical}")
         elif p.canonical and p.canonical != p.url and "noindex" not in p.robots:
